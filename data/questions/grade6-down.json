@@ -1,0 +1,851 @@
+{
+  "version": "1.0.0",
+  "book": "grade6-down",
+  "bookName": "六年级下册",
+  "grade": 6,
+  "term": "down",
+  "count": 16,
+  "typeStat": {
+    "choice": 4,
+    "figure-interactive": 1,
+    "calculation": 3,
+    "application": 4,
+    "judge": 1,
+    "reading": 2,
+    "draw": 1
+  },
+  "questions": [
+    {
+      "id": "g6d-Q001",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-01",
+      "knowledgeName": "负数",
+      "point": "g6d-NA-01-01",
+      "pointName": "负数的认识与意义",
+      "topics": [
+        "g6d-NA-01-01"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "零上 5℃ 记作 +5℃，那么零下 3℃ 应记作（　　）。",
+      "options": [
+        "3℃",
+        "-3℃",
+        "+3℃",
+        "0℃"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "零上温度记为正，零下温度记为负，所以零下 3℃ 记作 -3℃。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "负数",
+        "负数的认识与意义"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q002",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-01",
+      "knowledgeName": "负数",
+      "point": "g6d-NA-01-02",
+      "pointName": "在数轴上表示正数与负数",
+      "topics": [
+        "g6d-NA-01-02"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "figure-interactive",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "下面的数轴上有一个点 A 表示 -2。请在数轴上点击出表示 -2 的点。",
+      "options": null,
+      "answer": {
+        "regions": [
+          "p-2"
+        ]
+      },
+      "analysis": "在数轴上，0 左边的第一个、第二个刻度分别表示 -1、-2，所以点 A 在 0 左边第 2 格。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "负数",
+        "在数轴上表示正数与负数"
+      ],
+      "media": {
+        "type": "svg-interactive",
+        "width": 620,
+        "height": 150,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 150\" width=\"620\" height=\"150\" style=\"max-width:100%;height:auto\"><line x1=\"40\" y1=\"96\" x2=\"590\" y2=\"96\" stroke=\"#1e293b\" stroke-width=\"2\"/><polygon points=\"592,96 581,91 581,101\" fill=\"#1e293b\"/><line x1=\"40\" y1=\"90\" x2=\"40\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"40\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">-5</text><line x1=\"94\" y1=\"90\" x2=\"94\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"94\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">-4</text><line x1=\"148\" y1=\"90\" x2=\"148\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"148\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">-3</text><line x1=\"202\" y1=\"90\" x2=\"202\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"202\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">-2</text><line x1=\"256\" y1=\"90\" x2=\"256\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"256\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">-1</text><line x1=\"310\" y1=\"90\" x2=\"310\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"310\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">0</text><line x1=\"364\" y1=\"90\" x2=\"364\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"364\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">1</text><line x1=\"418\" y1=\"90\" x2=\"418\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"418\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">2</text><line x1=\"472\" y1=\"90\" x2=\"472\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"472\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">3</text><line x1=\"526\" y1=\"90\" x2=\"526\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"526\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">4</text><line x1=\"580\" y1=\"90\" x2=\"580\" y2=\"102\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"580\" y=\"122\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">5</text><text x=\"310\" y=\"34\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#94a3b8\" font-family=\"system-ui\">请点击正确的点</text><circle cx=\"40\" cy=\"62\" r=\"11\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><circle cx=\"94\" cy=\"62\" r=\"11\" fill=\"undefined\" stroke=\"undefined\" stroke-width=\"2.5\"/><circle cx=\"148\" cy=\"62\" r=\"11\" fill=\"undefined\" stroke=\"undefined\" stroke-width=\"2.5\"/><circle cx=\"202\" cy=\"62\" r=\"11\" fill=\"undefined\" stroke=\"undefined\" stroke-width=\"2.5\"/><circle cx=\"256\" cy=\"62\" r=\"11\" fill=\"undefined\" stroke=\"undefined\" stroke-width=\"2.5\"/><circle cx=\"310\" cy=\"62\" r=\"11\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><circle cx=\"364\" cy=\"62\" r=\"11\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><circle cx=\"418\" cy=\"62\" r=\"11\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2.5\"/><circle cx=\"472\" cy=\"62\" r=\"11\" fill=\"#fce7f3\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><circle cx=\"526\" cy=\"62\" r=\"11\" fill=\"#f3e8ff\" stroke=\"#a855f7\" stroke-width=\"2.5\"/><circle cx=\"580\" cy=\"62\" r=\"11\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/></svg>",
+        "regions": [
+          {
+            "id": "p-5",
+            "kind": "circle",
+            "cx": 40,
+            "cy": 62,
+            "r": 19,
+            "label": "p-5"
+          },
+          {
+            "id": "p-4",
+            "kind": "circle",
+            "cx": 94,
+            "cy": 62,
+            "r": 19,
+            "label": "p-4"
+          },
+          {
+            "id": "p-3",
+            "kind": "circle",
+            "cx": 148,
+            "cy": 62,
+            "r": 19,
+            "label": "p-3"
+          },
+          {
+            "id": "p-2",
+            "kind": "circle",
+            "cx": 202,
+            "cy": 62,
+            "r": 19,
+            "label": "p-2"
+          },
+          {
+            "id": "p-1",
+            "kind": "circle",
+            "cx": 256,
+            "cy": 62,
+            "r": 19,
+            "label": "p-1"
+          },
+          {
+            "id": "p0",
+            "kind": "circle",
+            "cx": 310,
+            "cy": 62,
+            "r": 19,
+            "label": "p0"
+          },
+          {
+            "id": "p1",
+            "kind": "circle",
+            "cx": 364,
+            "cy": 62,
+            "r": 19,
+            "label": "p1"
+          },
+          {
+            "id": "p2",
+            "kind": "circle",
+            "cx": 418,
+            "cy": 62,
+            "r": 19,
+            "label": "p2"
+          },
+          {
+            "id": "p3",
+            "kind": "circle",
+            "cx": 472,
+            "cy": 62,
+            "r": 19,
+            "label": "p3"
+          },
+          {
+            "id": "p4",
+            "kind": "circle",
+            "cx": 526,
+            "cy": 62,
+            "r": 19,
+            "label": "p4"
+          },
+          {
+            "id": "p5",
+            "kind": "circle",
+            "cx": 580,
+            "cy": 62,
+            "r": 19,
+            "label": "p5"
+          }
+        ]
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q003",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-03",
+      "knowledgeName": "比例",
+      "point": "g6d-NA-03-07",
+      "pointName": "比例尺",
+      "topics": [
+        "g6d-NA-03-07"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "在一幅比例尺是 1:5000000 的地图上，量得甲、乙两地的距离是 6 厘米。甲、乙两地的实际距离是多少千米？",
+      "options": null,
+      "answer": {
+        "value": 300,
+        "unit": "千米"
+      },
+      "analysis": "实际距离 = 图上距离 ÷ 比例尺 = 6 × 5000000 = 30000000（厘米）= 300（千米）。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "比例",
+        "比例尺"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q004",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-03",
+      "knowledgeName": "比例",
+      "point": "g6d-NA-03-02",
+      "pointName": "解比例",
+      "topics": [
+        "g6d-NA-03-02"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "解比例：$x:6=4:3$，$x=\\underline{\\quad}$",
+      "options": null,
+      "answer": {
+        "value": 8
+      },
+      "analysis": "根据比例的基本性质：3x = 6×4 = 24，x = 8。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "比例",
+        "解比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q005",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-02",
+      "knowledgeName": "百分数（二）",
+      "point": "g6d-NA-02-04",
+      "pointName": "利率与本金、利息问题",
+      "topics": [
+        "g6d-NA-02-04"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "小明的爸爸把 20000 元存入银行，定期三年，年利率是 2.75%。到期时一共可以取回多少钱？",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 21650,
+            "unit": "元"
+          }
+        ]
+      },
+      "analysis": "利息 = 本金 × 利率 × 时间 = 20000 × 2.75% × 3 = 1650（元）；一共取回 20000 + 1650 = 21650（元）。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "百分数（二）",
+        "利率与本金、利息问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q006",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-03",
+      "knowledgeName": "比例",
+      "point": "g6d-NA-03-04",
+      "pointName": "反比例",
+      "topics": [
+        "g6d-NA-03-04"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "长方形的面积一定，它的长和宽成反比例。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "长 × 宽 = 面积（一定），乘积一定，所以长和宽成反比例。说法正确。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "比例",
+        "反比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q007",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-03",
+      "knowledgeName": "比例",
+      "point": "g6d-NA-03-03",
+      "pointName": "正比例",
+      "topics": [
+        "g6d-NA-03-03"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "下面各题中，两种量成正比例的是（　　）。",
+      "options": [
+        "圆的周长和它的直径",
+        "面积一定时长方形的长和宽",
+        "路程一定时速度和时间",
+        "底一定时三角形的面积和高"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "圆的周长 ÷ 直径 = π（一定），比值一定，成正比例。其余三项都是乘积一定，成反比例（或含反比例关系）。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "比例",
+        "正比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q008",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g6d-GG-04",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "g6d-GG-04-02",
+      "pointName": "圆柱的体积",
+      "topics": [
+        "g6d-GG-04-02"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个圆柱的底面积是 12 平方厘米，高是 8 厘米。它的体积是多少立方厘米？",
+      "options": null,
+      "answer": {
+        "value": 96,
+        "unit": "立方厘米"
+      },
+      "analysis": "圆柱体积 = 底面积 × 高 = 12 × 8 = 96（立方厘米）。",
+      "tags": [
+        "六年级下册",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q009",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g6d-GG-04",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "g6d-GG-04-03",
+      "pointName": "圆锥的认识与体积",
+      "topics": [
+        "g6d-GG-04-03"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "一个圆锥的底面半径是 3 分米，高是 4 分米。它的体积是多少立方分米？（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 37.68,
+            "tolerance": 0.05,
+            "unit": "立方分米"
+          }
+        ]
+      },
+      "analysis": "V = 1/3 × πr²h = 1/3 × 3.14 × 9 × 4 = 37.68（立方分米）。",
+      "tags": [
+        "六年级下册",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆锥的认识与体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q010",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g6d-GG-04",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "g6d-GG-04-01",
+      "pointName": "圆柱的认识与表面积",
+      "topics": [
+        "g6d-GG-04-01"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "一个圆柱形茶叶罐，底面直径是 10 厘米，高是 15 厘米。回答下面各题（π 取 3.14）。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "它的侧面积是多少平方厘米？",
+            "answer": {
+              "value": 471,
+              "tolerance": 0.5,
+              "unit": "平方厘米"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "做这样一个茶叶罐至少需要多少平方厘米铁皮？（得数保留整数）",
+            "answer": {
+              "value": 628,
+              "tolerance": 0.5,
+              "unit": "平方厘米"
+            }
+          }
+        ]
+      },
+      "analysis": "(1) 侧面积 = πdh = 3.14×10×15 = 471（平方厘米）；(2) 表面积 = 侧面积 + 2 个底面积 = 471 + 2×3.14×5² = 471 + 157 = 628（平方厘米）。",
+      "tags": [
+        "六年级下册",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的认识与表面积"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 180,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" width=\"240\" height=\"180\" style=\"max-width:100%;height:auto\"><rect x=\"80\" y=\"50\" width=\"80\" height=\"80\" fill=\"#dbeafe\" stroke=\"none\"/>\n    <line x1=\"80\" y1=\"50\" x2=\"80\" y2=\"130\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n    <line x1=\"160\" y1=\"50\" x2=\"160\" y2=\"130\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n    <ellipse cx=\"120\" cy=\"130\" rx=\"40\" ry=\"15\" fill=\"#dbeafe\" stroke=\"#1e293b\" stroke-width=\"2.5\"/>\n    <ellipse cx=\"120\" cy=\"50\" rx=\"40\" ry=\"15\" fill=\"#dcfce7\" stroke=\"#1e293b\" stroke-width=\"2.5\"/></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q011",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-g6d-SP-07",
+      "knowledgeName": "整理和复习·统计与概率",
+      "point": "g6d-SP-07-02",
+      "pointName": "平均数、中位数与众数",
+      "topics": [
+        "g6d-SP-07-02"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "10 名同学的身高数据如下（单位：厘米）：142，138，145，150，138，140，138，152，146，141。回答下面各题。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "这组数据的众数是多少？",
+            "answer": {
+              "value": 138,
+              "unit": "厘米"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "这组数据的中位数是多少？",
+            "answer": {
+              "value": 141.5,
+              "unit": "厘米"
+            }
+          },
+          {
+            "label": "(3)",
+            "text": "这组数据的平均数是多少？（得数保留整数）",
+            "answer": {
+              "value": 143,
+              "tolerance": 0.5,
+              "unit": "厘米"
+            }
+          }
+        ]
+      },
+      "analysis": "(1) 138 出现 3 次，次数最多，众数是 138；(2) 从小到大排列后中间两个数是 141 和 142，中位数 =(141+142)÷2 = 141.5；(3) 总和 1430，1430÷10 = 143（厘米）。",
+      "tags": [
+        "六年级下册",
+        "统计与概率",
+        "整理和复习·统计与概率",
+        "平均数、中位数与众数"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q012",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-g6d-CP-08",
+      "knowledgeName": "整理和复习·综合与实践",
+      "point": "g6d-CP-08-02",
+      "pointName": "鸽巢问题（抽屉原理）",
+      "topics": [
+        "g6d-CP-08-02"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "把 5 个苹果放进 3 个抽屉里，不管怎么放，总有一个抽屉里至少放进几个苹果？",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 2,
+            "unit": "个"
+          }
+        ]
+      },
+      "analysis": "这是鸽巢问题：5÷3 = 1……2，至少数 = 商 + 1 = 2（个）。",
+      "tags": [
+        "六年级下册",
+        "综合与实践",
+        "整理和复习·综合与实践",
+        "鸽巢问题（抽屉原理）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q013",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-g6d-CP-08",
+      "knowledgeName": "整理和复习·综合与实践",
+      "point": "g6d-CP-08-01",
+      "pointName": "数学思考（逻辑推理）",
+      "topics": [
+        "g6d-CP-08-01"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "甲、乙、丙三人中，只有一人说了真话。甲说：“乙说的是假话。”乙说：“丙说的是假话。”丙说：“甲和乙都在说假话。”说真话的是（　　）。",
+      "options": [
+        "甲",
+        "乙",
+        "丙",
+        "无法确定"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "逐一假设：若乙说真话，则丙说假话，此时甲确实在说假话，与“只有一人说真话”吻合。所以乙说真话。",
+      "tags": [
+        "六年级下册",
+        "综合与实践",
+        "整理和复习·综合与实践",
+        "数学思考（逻辑推理）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q014",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-02",
+      "knowledgeName": "百分数（二）",
+      "point": "g6d-NA-02-01",
+      "pointName": "折扣的实际应用",
+      "topics": [
+        "g6d-NA-02-01"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "一件商品打七五折出售，现价是原价的（　　）。",
+      "options": [
+        "75%",
+        "25%",
+        "7.5%",
+        "105%"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "“七五折”就是按原价的 75% 出售。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "百分数（二）",
+        "折扣的实际应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q015",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g6d-NA-02",
+      "knowledgeName": "百分数（二）",
+      "point": "g6d-NA-02-05",
+      "pointName": "购物中的最优方案比较",
+      "topics": [
+        "g6d-NA-02-05"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "一种商品原价 120 元。A 超市“打八折”出售，B 超市“满 100 元减 20 元”出售。到哪家超市买更便宜？请填“A”或“B”。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "A",
+            "alts": [
+              "a",
+              "A 超市",
+              "A超市"
+            ]
+          }
+        ]
+      },
+      "analysis": "A 超市：120×80% = 96（元）；B 超市：120-20 = 100（元）。96 < 100，所以 A 超市更便宜。",
+      "tags": [
+        "六年级下册",
+        "数与代数",
+        "百分数（二）",
+        "购物中的最优方案比较"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g6d-Q016",
+      "grade": 6,
+      "book": "grade6-down",
+      "bookName": "六年级下册",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-g6d-CP-08",
+      "knowledgeName": "整理和复习·综合与实践",
+      "point": "g6d-CP-08-03",
+      "pointName": "平面图形的周长与面积综合",
+      "topics": [
+        "g6d-CP-08-03"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "draw",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "在方格纸上画一个长 4 厘米、宽 2 厘米的长方形，再按 2:1 画出放大后的图形。",
+      "options": null,
+      "answer": {
+        "manual": true,
+        "rubric": "放大后长 8 厘米、宽 4 厘米；对应边成比例，图形形状不变、大小改变。"
+      },
+      "analysis": "按 2:1 放大，就是把每条边都扩大到原来的 2 倍。",
+      "tags": [
+        "六年级下册",
+        "综合与实践",
+        "整理和复习·综合与实践",
+        "平面图形的周长与面积综合"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 448,
+        "height": 268,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 268\" width=\"448\" height=\"268\" style=\"max-width:100%;height:auto\"><rect x=\"14\" y=\"14\" width=\"420\" height=\"240\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"74\" y1=\"14\" x2=\"74\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"104\" y1=\"14\" x2=\"104\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"134\" y1=\"14\" x2=\"134\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"164\" y1=\"14\" x2=\"164\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"194\" y1=\"14\" x2=\"194\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"224\" y1=\"14\" x2=\"224\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"254\" y1=\"14\" x2=\"254\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"284\" y1=\"14\" x2=\"284\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"314\" y1=\"14\" x2=\"314\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"344\" y1=\"14\" x2=\"344\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"374\" y1=\"14\" x2=\"374\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"14\" x2=\"404\" y2=\"254\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"44\" x2=\"434\" y2=\"44\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"74\" x2=\"434\" y2=\"74\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"104\" x2=\"434\" y2=\"104\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"134\" x2=\"434\" y2=\"134\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"164\" x2=\"434\" y2=\"164\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"194\" x2=\"434\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"224\" x2=\"434\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/></svg>",
+        "grid": {
+          "cols": 14,
+          "rows": 8,
+          "cell": 30,
+          "pad": 14
+        }
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": false,
+        "tolerance": 0
+      }
+    }
+  ]
+}

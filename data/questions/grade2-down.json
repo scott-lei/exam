@@ -1,0 +1,627 @@
+{
+  "version": "1.0.0",
+  "book": "grade2-down",
+  "bookName": "二年级下册",
+  "grade": 2,
+  "term": "down",
+  "count": 12,
+  "typeStat": {
+    "calculation": 3,
+    "fill": 1,
+    "judge": 1,
+    "choice": 2,
+    "application": 1,
+    "figure": 1,
+    "reading": 1,
+    "figure-interactive": 1,
+    "draw": 1
+  },
+  "questions": [
+    {
+      "id": "g2d-Q001",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-01",
+      "knowledgeName": "表内除法（一）",
+      "point": "g2d-NA-01-03",
+      "pointName": "用2~6的乘法口诀求商",
+      "topics": [
+        "g2d-NA-01-03"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "计算：$24\\div6=\\underline{\\quad}$",
+      "options": null,
+      "answer": {
+        "value": 4
+      },
+      "analysis": "口诀：四六二十四。所以 24÷6=4。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "表内除法（一）",
+        "用2~6的乘法口诀求商"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q002",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-02",
+      "knowledgeName": "表内除法（二）",
+      "point": "g2d-NA-02-01",
+      "pointName": "用7、8、9的乘法口诀求商",
+      "topics": [
+        "g2d-NA-02-01"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "计算：$72\\div9=\\underline{\\quad}$",
+      "options": null,
+      "answer": {
+        "value": 8
+      },
+      "analysis": "口诀：八九七十二。所以 72÷9=8。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "表内除法（二）",
+        "用7、8、9的乘法口诀求商"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q003",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-04",
+      "knowledgeName": "有余数的除法",
+      "point": "g2d-NA-04-02",
+      "pointName": "余数与除数的关系",
+      "topics": [
+        "g2d-NA-04-02"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个数除以 7，余数最大是 $\\underline{\\quad}$。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          "6"
+        ]
+      },
+      "analysis": "余数一定要比除数小，除数是 7，余数最大是 6。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "有余数的除法",
+        "余数与除数的关系"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q004",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-04",
+      "knowledgeName": "有余数的除法",
+      "point": "g2d-NA-04-01",
+      "pointName": "余数的认识与有余数除法的意义",
+      "topics": [
+        "g2d-NA-04-01"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "在有余数的除法中，余数一定比除数小。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "如果余数不小于除数，就还能再分一次。所以余数一定比除数小。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "有余数的除法",
+        "余数的认识与有余数除法的意义"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q005",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-03",
+      "knowledgeName": "混合运算",
+      "point": "g2d-NA-03-02",
+      "pointName": "含两级运算的运算顺序",
+      "topics": [
+        "g2d-NA-03-02"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "计算 $12+3\\times4$ 时，应该先算（　　）。",
+      "options": [
+        "12+3",
+        "3×4",
+        "从左到右依次算",
+        "都可以"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "有乘法和加法时，要先算乘法：3×4=12，再算 12+12=24。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "混合运算",
+        "含两级运算的运算顺序"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q006",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-03",
+      "knowledgeName": "混合运算",
+      "point": "g2d-NA-03-03",
+      "pointName": "含小括号的混合运算",
+      "topics": [
+        "g2d-NA-03-03"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "计算：$(28+8)\\div6=\\underline{\\quad}$",
+      "options": null,
+      "answer": {
+        "value": 6
+      },
+      "analysis": "先算小括号：28+8=36；再算 36÷6=6。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "混合运算",
+        "含小括号的混合运算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q007",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-05",
+      "knowledgeName": "万以内数的认识",
+      "point": "g2d-NA-05-01",
+      "pointName": "1000以内数的认识",
+      "topics": [
+        "g2d-NA-05-01"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "由 5 个百、3 个十和 7 个一组成的数是（　　）。",
+      "options": [
+        "537",
+        "573",
+        "5037",
+        "357"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "5 个百是 500，3 个十是 30，7 个一是 7，合起来是 537。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "万以内数的认识",
+        "1000以内数的认识"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q008",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g2d-NA-04",
+      "knowledgeName": "有余数的除法",
+      "point": "g2d-NA-04-04",
+      "pointName": "用有余数的除法解决问题",
+      "topics": [
+        "g2d-NA-04-04"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "有 38 个苹果，每 5 个装一袋。最多可以装满多少袋？还剩多少个苹果？",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 7,
+            "unit": "袋"
+          },
+          {
+            "value": 3,
+            "unit": "个"
+          }
+        ]
+      },
+      "analysis": "38÷5=7（袋）……3（个）。答：最多装满 7 袋，还剩 3 个。",
+      "tags": [
+        "二年级下册",
+        "数与代数",
+        "有余数的除法",
+        "用有余数的除法解决问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q009",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g2d-GG-07",
+      "knowledgeName": "图形的运动（一）",
+      "point": "g2d-GG-07-01",
+      "pointName": "认识轴对称图形",
+      "topics": [
+        "g2d-GG-07-01"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "figure",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "一个长方形有（　　）条对称轴。",
+      "options": null,
+      "answer": {
+        "value": 2
+      },
+      "analysis": "长方形沿对边中点连线对折可以完全重合，这样的折痕有 2 条，所以有 2 条对称轴。",
+      "tags": [
+        "二年级下册",
+        "图形与几何",
+        "图形的运动（一）",
+        "认识轴对称图形"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 280,
+        "height": 190,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 190\" width=\"280\" height=\"190\" style=\"max-width:100%;height:auto\"><path d=\"M51.8,144.0 L228.2,144.0 L228.2,46.0 L51.8,46.0 Z\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"140\" y1=\"24\" x2=\"140\" y2=\"166\" stroke=\"#ec4899\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"34\" y1=\"95\" x2=\"246\" y2=\"95\" stroke=\"#ec4899\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q010",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-g2d-SP-08",
+      "knowledgeName": "数据收集整理",
+      "point": "g2d-SP-08-02",
+      "pointName": "统计表与条形统计图",
+      "topics": [
+        "g2d-SP-08-02"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "二（1）班同学最喜欢的课外书统计如下：故事书 18 本，科技书 12 本，漫画书 15 本，其他 5 本。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "最喜欢故事书的有多少本？",
+            "answer": {
+              "value": 18,
+              "unit": "本"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "最喜欢漫画书的比最喜欢科技书的多多少本？",
+            "answer": {
+              "value": 3,
+              "unit": "本"
+            }
+          },
+          {
+            "label": "(3)",
+            "text": "一共统计了多少本？",
+            "answer": {
+              "value": 50,
+              "unit": "本"
+            }
+          }
+        ]
+      },
+      "analysis": "(1) 18 本；(2) 15-12=3（本）；(3) 18+12+15+5=50（本）。",
+      "tags": [
+        "二年级下册",
+        "统计与概率",
+        "数据收集整理",
+        "统计表与条形统计图"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 380,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 200\" width=\"380\" height=\"200\" style=\"max-width:100%;height:auto\"><line x1=\"38\" y1=\"162\" x2=\"361\" y2=\"162\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"38\" y1=\"19\" x2=\"38\" y2=\"162\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><rect x=\"53.2\" y=\"38\" width=\"45.6\" height=\"124\" rx=\"5\" fill=\"#3b82f6\" fill-opacity=\"0.85\"/><text x=\"76\" y=\"32\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">18本</text><text x=\"76\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">故事书</text><rect x=\"129.2\" y=\"79.33333333333333\" width=\"45.6\" height=\"82.66666666666667\" rx=\"5\" fill=\"#3b82f6\" fill-opacity=\"0.85\"/><text x=\"152\" y=\"73.33333333333333\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">12本</text><text x=\"152\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">科技书</text><rect x=\"205.2\" y=\"58.66666666666667\" width=\"45.6\" height=\"103.33333333333333\" rx=\"5\" fill=\"#3b82f6\" fill-opacity=\"0.85\"/><text x=\"228\" y=\"52.66666666666667\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">15本</text><text x=\"228\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">漫画书</text><rect x=\"281.2\" y=\"127.55555555555556\" width=\"45.6\" height=\"34.44444444444444\" rx=\"5\" fill=\"#3b82f6\" fill-opacity=\"0.85\"/><text x=\"304\" y=\"121.55555555555556\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">5本</text><text x=\"304\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">其他</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q011",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g2d-GG-07",
+      "knowledgeName": "图形的运动（一）",
+      "point": "g2d-GG-07-03",
+      "pointName": "图形的平移与旋转操作",
+      "topics": [
+        "g2d-GG-07-03"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "figure-interactive",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "图中 ▲ 在第 1 格。把它向右平移 5 格，平移后的图形在第几格？请点击对应的方格。",
+      "options": null,
+      "answer": {
+        "regions": [
+          "c6"
+        ]
+      },
+      "analysis": "第 1 格向右平移 5 格，1+5=6，落在第 6 格。",
+      "tags": [
+        "二年级下册",
+        "图形与几何",
+        "图形的运动（一）",
+        "图形的平移与旋转操作"
+      ],
+      "media": {
+        "type": "svg-interactive",
+        "width": 500,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 200\" width=\"500\" height=\"200\" style=\"max-width:100%;height:auto\"><rect x=\"24\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><rect x=\"82\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><rect x=\"140\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2.5\"/><rect x=\"198\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#fce7f3\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><rect x=\"256\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#f3e8ff\" stroke=\"#a855f7\" stroke-width=\"2.5\"/><rect x=\"314\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><rect x=\"372\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><rect x=\"430\" y=\"78\" width=\"44\" height=\"44\" rx=\"5\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2.5\"/></svg>",
+        "regions": [
+          {
+            "id": "c1",
+            "kind": "rect",
+            "cx": 46,
+            "cy": 100,
+            "r": 30,
+            "label": "c1"
+          },
+          {
+            "id": "c2",
+            "kind": "rect",
+            "cx": 104,
+            "cy": 100,
+            "r": 30,
+            "label": "c2"
+          },
+          {
+            "id": "c3",
+            "kind": "rect",
+            "cx": 162,
+            "cy": 100,
+            "r": 30,
+            "label": "c3"
+          },
+          {
+            "id": "c4",
+            "kind": "rect",
+            "cx": 220,
+            "cy": 100,
+            "r": 30,
+            "label": "c4"
+          },
+          {
+            "id": "c5",
+            "kind": "rect",
+            "cx": 278,
+            "cy": 100,
+            "r": 30,
+            "label": "c5"
+          },
+          {
+            "id": "c6",
+            "kind": "rect",
+            "cx": 336,
+            "cy": 100,
+            "r": 30,
+            "label": "c6"
+          },
+          {
+            "id": "c7",
+            "kind": "rect",
+            "cx": 394,
+            "cy": 100,
+            "r": 30,
+            "label": "c7"
+          },
+          {
+            "id": "c8",
+            "kind": "rect",
+            "cx": 452,
+            "cy": 100,
+            "r": 30,
+            "label": "c8"
+          }
+        ],
+        "extraSvg": "<text x=\"46\" y=\"42\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"700\" fill=\"#3b82f6\" font-family=\"system-ui\">▲</text>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g2d-Q012",
+      "grade": 2,
+      "book": "grade2-down",
+      "bookName": "二年级下册",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-g2d-CP-09",
+      "knowledgeName": "综合与实践",
+      "point": "g2d-CP-09-04",
+      "pointName": "实践活动：小小设计师",
+      "topics": [
+        "g2d-CP-09-04"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "draw",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "在方格纸上先画一个你喜欢的图形，再把它向右平移 4 格，画出平移后的图形。",
+      "options": null,
+      "answer": {
+        "manual": true,
+        "rubric": "平移后图形与原图形形状、大小完全相同，方向不变，只改变位置，且恰好向右移 4 格。"
+      },
+      "analysis": "考查平移的表征与作图，由老师人工评阅。",
+      "tags": [
+        "二年级下册",
+        "综合与实践",
+        "综合与实践",
+        "实践活动：小小设计师"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 388,
+        "height": 208,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 388 208\" width=\"388\" height=\"208\" style=\"max-width:100%;height:auto\"><rect x=\"14\" y=\"14\" width=\"360\" height=\"180\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"74\" y1=\"14\" x2=\"74\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"104\" y1=\"14\" x2=\"104\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"134\" y1=\"14\" x2=\"134\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"164\" y1=\"14\" x2=\"164\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"194\" y1=\"14\" x2=\"194\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"224\" y1=\"14\" x2=\"224\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"254\" y1=\"14\" x2=\"254\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"284\" y1=\"14\" x2=\"284\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"314\" y1=\"14\" x2=\"314\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"344\" y1=\"14\" x2=\"344\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"44\" x2=\"374\" y2=\"44\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"74\" x2=\"374\" y2=\"74\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"104\" x2=\"374\" y2=\"104\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"134\" x2=\"374\" y2=\"134\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"164\" x2=\"374\" y2=\"164\" stroke=\"#e2e8f0\" stroke-width=\"1\"/></svg>",
+        "grid": {
+          "cols": 12,
+          "rows": 6,
+          "cell": 30,
+          "pad": 14
+        }
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": false,
+        "tolerance": 0
+      }
+    }
+  ]
+}

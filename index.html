@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小学数学在线考试平台 · 首页</title>
+<meta name="description" content="纯前端小学数学在线考试平台：12 册知识标签体系、378 个微知识点、8 大题型、自动阅卷、成绩报告与错题本。">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+
+<header class="app-header" id="app-header"></header>
+
+<section class="page-head" id="page-head"></section>
+
+<main class="page-body">
+  <div class="container" id="page-root"></div>
+</main>
+
+<footer class="app-footer" id="app-footer"></footer>
+
+<!-- 依赖：本地 vendor（离线可用） -->
+<script src="vendor/katex/katex.min.js"></script>
+<script src="vendor/echarts/echarts.min.js"></script>
+<!-- 数据：tags.json 的 file:// 兜底副本 -->
+<script src="data/tags.js"></script>
+<!-- 核心逻辑 -->
+<script src="js/core/loader.js"></script>
+<script src="js/core/storage.js"></script>
+<script src="js/core/tags.js"></script>
+<script src="js/core/bank.js"></script>
+<script src="js/core/grader.js"></script>
+<script src="js/core/plugins.js"></script>
+<script src="js/core/builder.js"></script>
+<script src="js/core/media.js"></script>
+<script src="js/core/ai.js"></script>
+<!-- UI -->
+<script src="js/ui/math.js"></script>
+<script src="js/ui/toast.js"></script>
+<script src="js/ui/charts.js"></script>
+<script src="js/ui/render.js"></script>
+<script src="js/ui/shell.js"></script>
+<!-- 页面 -->
+<script src="js/pages/page-index.js"></script>
+</body>
+</html>

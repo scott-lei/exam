@@ -1,0 +1,641 @@
+{
+  "version": "1.0.0",
+  "book": "grade4-up",
+  "bookName": "四年级上册",
+  "grade": 4,
+  "term": "up",
+  "count": 13,
+  "typeStat": {
+    "choice": 3,
+    "fill": 1,
+    "calculation": 2,
+    "application": 1,
+    "judge": 1,
+    "figure": 2,
+    "reading": 1,
+    "figure-interactive": 1,
+    "draw": 1
+  },
+  "questions": [
+    {
+      "id": "g4u-Q001",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g4u-NA-01",
+      "knowledgeName": "大数的认识",
+      "point": "g4u-NA-01-02",
+      "pointName": "亿以内数的读法和写法",
+      "topics": [
+        "g4u-NA-01-02"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "下面各数中，一个零也不读出来的是（　　）。",
+      "options": [
+        "4050000",
+        "4005000",
+        "4000500",
+        "4500000"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "4500000 读作“四百五十万”，中间的零都在数级末尾，不读出来。",
+      "tags": [
+        "四年级上册",
+        "数与代数",
+        "大数的认识",
+        "亿以内数的读法和写法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q002",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g4u-NA-01",
+      "knowledgeName": "大数的认识",
+      "point": "g4u-NA-01-06",
+      "pointName": "求近似数（四舍五入法）",
+      "topics": [
+        "g4u-NA-01-06"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "省略万位后面的尾数，$386400\\approx\\underline{\\quad}$ 万。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          "39"
+        ]
+      },
+      "analysis": "386400 的万位是 8，千位是 6，满 5 要向前一位进 1，所以 386400 ≈ 39 万。",
+      "tags": [
+        "四年级上册",
+        "数与代数",
+        "大数的认识",
+        "求近似数（四舍五入法）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q003",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g4u-NA-03",
+      "knowledgeName": "三位数乘两位数",
+      "point": "g4u-NA-03-01",
+      "pointName": "三位数乘两位数的笔算",
+      "topics": [
+        "g4u-NA-03-01"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "笔算：$208\\times45=\\underline{\\quad}$",
+      "options": null,
+      "answer": {
+        "value": 9360
+      },
+      "analysis": "208×45=208×40+208×5=8320+1040=9360。",
+      "tags": [
+        "四年级上册",
+        "数与代数",
+        "三位数乘两位数",
+        "三位数乘两位数的笔算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q004",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g4u-NA-04",
+      "knowledgeName": "除数是两位数的除法",
+      "point": "g4u-NA-04-03",
+      "pointName": "除数是两位数的笔算（商两位数）",
+      "topics": [
+        "g4u-NA-04-03"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "笔算：$858\\div26=\\underline{\\quad}$",
+      "options": null,
+      "answer": {
+        "value": 33
+      },
+      "analysis": "先把 26 看作 30 试商：858÷26=33。验算：26×33=858。",
+      "tags": [
+        "四年级上册",
+        "数与代数",
+        "除数是两位数的除法",
+        "除数是两位数的笔算（商两位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q005",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g4u-NA-03",
+      "knowledgeName": "三位数乘两位数",
+      "point": "g4u-NA-03-05",
+      "pointName": "速度、时间与路程的数量关系",
+      "topics": [
+        "g4u-NA-03-05"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "一列火车每小时行驶 160 千米，从甲地到乙地需要 4 小时。甲、乙两地相距多少千米？",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 640,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "路程 = 速度 × 时间 = 160 × 4 = 640（千米）。",
+      "tags": [
+        "四年级上册",
+        "数与代数",
+        "三位数乘两位数",
+        "速度、时间与路程的数量关系"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q006",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-g4u-NA-03",
+      "knowledgeName": "三位数乘两位数",
+      "point": "g4u-NA-03-03",
+      "pointName": "积的变化规律",
+      "topics": [
+        "g4u-NA-03-03"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "两个数相乘，一个因数不变，另一个因数扩大到原来的 10 倍，积也扩大到原来的 10 倍。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "这是积的变化规律：一个因数不变，另一个因数乘几，积就乘几。说法正确。",
+      "tags": [
+        "四年级上册",
+        "数与代数",
+        "三位数乘两位数",
+        "积的变化规律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q007",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g4u-GG-05",
+      "knowledgeName": "角的度量",
+      "point": "g4u-GG-05-02",
+      "pointName": "角的度量与量角器",
+      "topics": [
+        "g4u-GG-05-02"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "figure",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "用量角器量出下面这个角的度数，填在括号里（只填数字）。",
+      "options": null,
+      "answer": {
+        "value": 60,
+        "unit": "°"
+      },
+      "analysis": "角的一边对准 0° 刻度线，另一边落在 60° 刻度上，所以这个角是 60°。",
+      "tags": [
+        "四年级上册",
+        "图形与几何",
+        "角的度量",
+        "角的度量与量角器"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 300,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" width=\"300\" height=\"200\" style=\"max-width:100%;height:auto\"><path d=\"M150.0,100.0 Z\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><line x1=\"60\" y1=\"160\" x2=\"210\" y2=\"160\" stroke=\"#1e293b\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"60\" y1=\"160\" x2=\"135\" y2=\"30.0961894323342\" stroke=\"#1e293b\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M110,160 A50,50 0 0 0 85,116.69872981077808\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"160\" r=\"4.5\" fill=\"#ec4899\"/></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q008",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g4u-GG-05",
+      "knowledgeName": "角的度量",
+      "point": "g4u-GG-05-03",
+      "pointName": "角的分类（锐角、直角、钝角、平角、周角）",
+      "topics": [
+        "g4u-GG-05-03"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "一个角的度数是 89°，它是（　　）。",
+      "options": [
+        "锐角",
+        "直角",
+        "钝角",
+        "平角"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "小于 90° 的角叫锐角。89° < 90°，是锐角。",
+      "tags": [
+        "四年级上册",
+        "图形与几何",
+        "角的度量",
+        "角的分类（锐角、直角、钝角、平角、周角）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q009",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g4u-GG-06",
+      "knowledgeName": "平行四边形和梯形",
+      "point": "g4u-GG-06-01",
+      "pointName": "垂直与平行",
+      "topics": [
+        "g4u-GG-06-01"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "在同一平面内，两条直线如果不相交，那么这两条直线（　　）。",
+      "options": [
+        "一定互相平行",
+        "一定互相垂直",
+        "可能平行也可能垂直",
+        "无法确定"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "在同一平面内不相交的两条直线互相平行，这是平行的定义。",
+      "tags": [
+        "四年级上册",
+        "图形与几何",
+        "平行四边形和梯形",
+        "垂直与平行"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q010",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-g4u-SP-07",
+      "knowledgeName": "统计",
+      "point": "g4u-SP-07-02",
+      "pointName": "平均数与统计应用",
+      "topics": [
+        "g4u-SP-07-02"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "下面是 4 名同学一分钟跳绳的成绩，他们平均每分钟跳（　　）个。",
+      "options": null,
+      "answer": {
+        "value": 125,
+        "unit": "个"
+      },
+      "analysis": "(120+140+100+140)÷4 = 500÷4 = 125（个）。",
+      "tags": [
+        "四年级上册",
+        "统计与概率",
+        "统计",
+        "平均数与统计应用"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 380,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 200\" width=\"380\" height=\"200\" style=\"max-width:100%;height:auto\"><line x1=\"38\" y1=\"162\" x2=\"361\" y2=\"162\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"38\" y1=\"19\" x2=\"38\" y2=\"162\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><rect x=\"53.2\" y=\"55.71428571428571\" width=\"45.6\" height=\"106.28571428571429\" rx=\"5\" fill=\"#22c55e\" fill-opacity=\"0.85\"/><text x=\"76\" y=\"49.71428571428571\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">120</text><text x=\"76\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">小明</text><rect x=\"129.2\" y=\"38\" width=\"45.6\" height=\"124\" rx=\"5\" fill=\"#22c55e\" fill-opacity=\"0.85\"/><text x=\"152\" y=\"32\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">140</text><text x=\"152\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">小红</text><rect x=\"205.2\" y=\"73.42857142857143\" width=\"45.6\" height=\"88.57142857142857\" rx=\"5\" fill=\"#22c55e\" fill-opacity=\"0.85\"/><text x=\"228\" y=\"67.42857142857143\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">100</text><text x=\"228\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">小刚</text><rect x=\"281.2\" y=\"38\" width=\"45.6\" height=\"124\" rx=\"5\" fill=\"#22c55e\" fill-opacity=\"0.85\"/><text x=\"304\" y=\"32\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">140</text><text x=\"304\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">小丽</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q011",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-g4u-SP-07",
+      "knowledgeName": "统计",
+      "point": "g4u-SP-07-01",
+      "pointName": "条形统计图（一）",
+      "topics": [
+        "g4u-SP-07-01"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "水果店一天卖出四种水果的数量如下：苹果 120 千克，香蕉 90 千克，橘子 150 千克，葡萄 60 千克。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "一共卖出多少千克水果？",
+            "answer": {
+              "value": 420,
+              "unit": "千克"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "卖出的苹果比葡萄多多少千克？",
+            "answer": {
+              "value": 60,
+              "unit": "千克"
+            }
+          },
+          {
+            "label": "(3)",
+            "text": "平均每种水果卖出多少千克？",
+            "answer": {
+              "value": 105,
+              "unit": "千克"
+            }
+          }
+        ]
+      },
+      "analysis": "(1) 120+90+150+60=420（千克）；(2) 120-60=60（千克）；(3) 420÷4=105（千克）。",
+      "tags": [
+        "四年级上册",
+        "统计与概率",
+        "统计",
+        "条形统计图（一）"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 440,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 200\" width=\"440\" height=\"200\" style=\"max-width:100%;height:auto\"><line x1=\"38\" y1=\"162\" x2=\"421\" y2=\"162\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"38\" y1=\"19\" x2=\"38\" y2=\"162\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><rect x=\"56.2\" y=\"62.8\" width=\"54.6\" height=\"99.2\" rx=\"5\" fill=\"#f59e0b\" fill-opacity=\"0.85\"/><text x=\"83.5\" y=\"56.8\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">120千克</text><text x=\"83.5\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">苹果</text><rect x=\"147.2\" y=\"87.6\" width=\"54.6\" height=\"74.4\" rx=\"5\" fill=\"#f59e0b\" fill-opacity=\"0.85\"/><text x=\"174.5\" y=\"81.6\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">90千克</text><text x=\"174.5\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">香蕉</text><rect x=\"238.2\" y=\"38\" width=\"54.6\" height=\"124\" rx=\"5\" fill=\"#f59e0b\" fill-opacity=\"0.85\"/><text x=\"265.5\" y=\"32\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">150千克</text><text x=\"265.5\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">橘子</text><rect x=\"329.2\" y=\"112.4\" width=\"54.6\" height=\"49.6\" rx=\"5\" fill=\"#f59e0b\" fill-opacity=\"0.85\"/><text x=\"356.5\" y=\"106.4\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1e293b\" font-family=\"system-ui\">60千克</text><text x=\"356.5\" y=\"179\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"600\" fill=\"#1e293b\" font-family=\"system-ui\">葡萄</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q012",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g4u-GG-05",
+      "knowledgeName": "角的度量",
+      "point": "g4u-GG-05-03",
+      "pointName": "角的分类（锐角、直角、钝角、平角、周角）",
+      "topics": [
+        "g4u-GG-05-03"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "figure-interactive",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "下面的 4 个角中，哪些是钝角？请依次点击（可多选），再点击“确认选择”。",
+      "options": null,
+      "answer": {
+        "regions": [
+          "a3"
+        ]
+      },
+      "analysis": "钝角要大于 90° 且小于 180°。a1 是 50°（锐角），a2 是 90°（直角），a3 是 130°（钝角），a4 是 180°（平角）。",
+      "tags": [
+        "四年级上册",
+        "图形与几何",
+        "角的度量",
+        "角的分类（锐角、直角、钝角、平角、周角）"
+      ],
+      "media": {
+        "type": "svg-interactive",
+        "width": 560,
+        "height": 210,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 210\" width=\"560\" height=\"210\" style=\"max-width:100%;height:auto\"><line x1=\"40\" y1=\"140\" x2=\"86\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"40\" y1=\"140\" x2=\"69.5682300455808\" y2=\"104.76195561652702\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M66,140 A26,26 0 0 0,0 56.712477851850025,120.08284447890657\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"180\" y1=\"140\" x2=\"226\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"140\" x2=\"180\" y2=\"94\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M206,140 A26,26 0 0 0,0 180,114\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2\"/><line x1=\"320\" y1=\"140\" x2=\"366\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"320\" y1=\"140\" x2=\"290.43176995441917\" y2=\"104.76195561652702\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M346,140 A26,26 0 0 0,0 303.28752214814995,120.08284447890657\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"470\" y1=\"140\" x2=\"516\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"470\" y1=\"140\" x2=\"424\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M496,140 A26,26 0 0 0,0 444,140\" fill=\"none\" stroke=\"#ec4899\" stroke-width=\"2\"/></svg>",
+        "regions": [
+          {
+            "id": "a1",
+            "kind": "custom",
+            "cx": 70,
+            "cy": 110,
+            "r": 48,
+            "label": "a1"
+          },
+          {
+            "id": "a2",
+            "kind": "custom",
+            "cx": 210,
+            "cy": 110,
+            "r": 48,
+            "label": "a2"
+          },
+          {
+            "id": "a3",
+            "kind": "custom",
+            "cx": 350,
+            "cy": 110,
+            "r": 52,
+            "label": "a3"
+          },
+          {
+            "id": "a4",
+            "kind": "custom",
+            "cx": 500,
+            "cy": 110,
+            "r": 52,
+            "label": "a4"
+          }
+        ]
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "g4u-Q013",
+      "grade": 4,
+      "book": "grade4-up",
+      "bookName": "四年级上册",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-g4u-GG-05",
+      "knowledgeName": "角的度量",
+      "point": "g4u-GG-05-04",
+      "pointName": "画角",
+      "topics": [
+        "g4u-GG-05-04"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "draw",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "用量角器在方格纸上画一个 75° 的角，并标出顶点和度数。",
+      "options": null,
+      "answer": {
+        "manual": true,
+        "rubric": "以一点为顶点，画出两条射线，角的度数与 75° 的误差在 ±2° 之内并正确标注。"
+      },
+      "analysis": "考查量角器的使用与画角，由老师人工评阅。",
+      "tags": [
+        "四年级上册",
+        "图形与几何",
+        "角的度量",
+        "画角"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 388,
+        "height": 238,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 388 238\" width=\"388\" height=\"238\" style=\"max-width:100%;height:auto\"><rect x=\"14\" y=\"14\" width=\"360\" height=\"210\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"74\" y1=\"14\" x2=\"74\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"104\" y1=\"14\" x2=\"104\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"134\" y1=\"14\" x2=\"134\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"164\" y1=\"14\" x2=\"164\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"194\" y1=\"14\" x2=\"194\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"224\" y1=\"14\" x2=\"224\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"254\" y1=\"14\" x2=\"254\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"284\" y1=\"14\" x2=\"284\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"314\" y1=\"14\" x2=\"314\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"344\" y1=\"14\" x2=\"344\" y2=\"224\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"44\" x2=\"374\" y2=\"44\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"74\" x2=\"374\" y2=\"74\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"104\" x2=\"374\" y2=\"104\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"134\" x2=\"374\" y2=\"134\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"164\" x2=\"374\" y2=\"164\" stroke=\"#e2e8f0\" stroke-width=\"1\"/><line x1=\"14\" y1=\"194\" x2=\"374\" y2=\"194\" stroke=\"#e2e8f0\" stroke-width=\"1\"/></svg>",
+        "grid": {
+          "cols": 12,
+          "rows": 7,
+          "cell": 30,
+          "pad": 14
+        }
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": false,
+        "tolerance": 0
+      }
+    }
+  ]
+}

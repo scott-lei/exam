@@ -1,0 +1,74 @@
+/* ============================================================
+ * print.css —— 打印支持（试卷 / 报告 可打印为 PDF）
+ * ============================================================ */
+@media print {
+  @page { size: A4; margin: 14mm 12mm; }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 12pt;
+  }
+  body.big-font { font-size: 14pt; }
+
+  .app-header, .app-footer, .no-print,
+  .sticky-bar, .toast-root, .modal-mask, .drawer-mask,
+  .loading-mask, .q-toggle-analysis, .nav-toggle,
+  .pager, .draw-toolbar, .btn { display: none !important; }
+
+  .container { max-width: none; padding: 0; }
+  .page-head { padding: 0 0 6px; }
+  .page-body { padding: 0; }
+
+  .card, .q-card, .wrong-item, .acc, .stat-card {
+    border: 1px solid #b8c4d4 !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    background: #fff !important;
+  }
+  .q-card { margin-bottom: 10mm; padding: 4mm; }
+  .q-card + .q-card { break-before: auto; }
+  /* 单题 / 分页模式下的隐藏卡片，打印时全部展开 */
+  .q-card { display: block !important; }
+  .tree-body, .chart { page-break-inside: avoid; }
+
+  .hero {
+    background: #fff !important; color: #000 !important;
+    border: 1px solid #b8c4d4; box-shadow: none;
+  }
+  .hero h1, .hero p { color: #000 !important; }
+
+  .q-analysis { background: #fff !important; border: 1px dashed #94a3b8 !important; }
+  .q-analysis.analysis-hidden { display: none; }
+
+  .media { background: #fff !important; border: 1px solid #cbd5e1 !important; }
+  .blank-input, input, textarea {
+    border: 0 !important; border-bottom: 1px solid #333 !important;
+    background: #fff !important; box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+  .opt { border: 1px solid #cbd5e1 !important; box-shadow: none !important; background: #fff !important; }
+  .opt.picked { background: #eef2ff !important; }
+  .judge-btn { border: 1px solid #cbd5e1 !important; }
+
+  .q-card.graded.correct, .q-card.graded.wrong, .q-card.graded.manual { box-shadow: none !important; }
+  .q-result { border: 1px solid #94a3b8; color: #000 !important; background: #fff !important; }
+
+  .bar > i { background: #475569 !important; }
+  .chart { min-height: 200px !important; }
+
+  a { color: #000 !important; text-decoration: none; }
+  .badge, .tag, .chip { border: 1px solid #94a3b8 !important; background: #fff !important; color: #000 !important; }
+
+  /* 打印页眉 */
+  .print-only { display: block !important; }
+}
+.print-only { display: none; }
+
+/* 打印时展示的分析区 */
+@media print {
+  .revealed .q-analysis { display: block !important; }
+  .analysis-hidden { display: none !important; }
+}
