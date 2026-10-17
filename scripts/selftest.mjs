@@ -216,10 +216,14 @@ section('3. 组卷四种模式');
 const p1 = tags.points.find((p) => p.id === 'rj-g3u-GG-cfxhzfxdzc');
 const p2 = tags.points.find((p) => p.id === 'rj-g4u-NA-swsclwsdbs');
 
+// 注：该考点仅 1 题，count < 5 触发「练习卷」降级（卡 5.3），不再按请求总分折算
 const r1 = await MX.Builder.build({ mode: 'single', books: ['grade3-up'], points: ['rj-g3u-GG-cfxhzfxdzc'], count: 3, totalScore: 30 });
 ok(r1.ok, '模式一：单考点组题', r1.message);
 ok(r1.ok && r1.paper.questions.every((q) => q.point === 'rj-g3u-GG-cfxhzfxdzc'), '单考点题目的考点唯一');
-ok(r1.ok && Math.abs(r1.paper.totalScore - 30) < 0.01, '单考点总分对齐 30', r1.ok ? r1.paper.totalScore : '');
+ok(r1.ok && r1.paper.practice === true, '题量 < 5 自动降级为练习卷（卡 5.3）');
+ok(r1.ok && r1.paper.questions.length === 1, '候选不足时如实产出 1 题（不静默凑数）');
+ok(r1.ok && Math.abs(r1.paper.totalScore - r1.paper.questions[0].paperScore) < 0.01, '练习卷：单题即整卷总分');
+ok(r1.ok && r1.paper.totalScore < 30, '练习卷不再产出请求的 30 分', r1.ok ? r1.paper.totalScore : '');
 
 const r2 = await MX.Builder.build({ mode: 'multi', books: ['grade3-up', 'grade4-up'], points: ['rj-g3u-GG-zcdrs', 'rj-g4u-NA-swsclwsdbs'], count: 4, totalScore: 40 });
 ok(r2.ok, '模式二：多考点组题', r2.message);
@@ -256,6 +260,82 @@ ok(r6.ok && r6.paper.questions.every((q) => q.difficulty === 3), '难度过滤�
 // 无可用题目
 const r7 = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], types: ['draw'], count: 5 });
 ok(r7.ok === false, '无匹配题型时应给出明确失败提示', r7.message);
+
+/* ============================================================
+ * 5b. 组卷内核 API（卡 5）
+ * ============================================================ */
+section('5b. 组卷内核 API（卡 5）');
+await MX.Tags.load();
+const ALL_BOOKS = MX.Tags.books.map((b) => b.id);
+
+// 5.1 previewCount：只算不抽
+const pc = await MX.Builder.previewCount({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 10 });
+ok(pc.count === 1, 'previewCount：单考点仅 1 题时如实返回 1', JSON.stringify(pc));
+ok(pc.shortage > 0, 'previewCount：候选不足时 shortage > 0', 'shortage=' + pc.shortage);
+ok(pc.byType.choice && pc.byType.choice.available === 1, 'previewCount：byType 报告该题型可用 1 题');
+
+// 5.2 autoRelax：候选不足时四级放宽
+const ar = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 8, autoRelax: true });
+ok(ar.ok, 'autoRelax：组卷成功', ar.message);
+ok(ar.ok && ar.paper.relaxLevel >= 1, 'autoRelax：确实触发了放宽', 'relaxLevel=' + ar.paper.relaxLevel);
+ok(ar.ok && ar.paper.questions.length >= 6, 'autoRelax：把 1 题放宽到 ≥6 题', ar.paper.questions.length);
+// 对照组：无 autoRelax 时仍只产出 1 题（不静默凑数）
+const noRelax = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 8 });
+ok(noRelax.ok && noRelax.paper.questions.length === 1, '对照：无 autoRelax 时如实产出 1 题');
+
+// 5.3 分值表 + 配分规则
+const ST = MX.Builder.SCORE_TABLE;
+ok(ST.choice === 2 && ST.fill === 2 && ST.judge === 1 && ST.calculation === 4 &&
+   ST.application === 5 && ST.figure === 3 && ST.reading === 6 && ST.draw === 4 &&
+   ST['figure-interactive'] === 3, 'SCORE_TABLE 题型分值正确');
+// 单题 ≤ 0.4×总分，且总分精确对齐
+const capRes = MX.Builder.assignScores(
+  [{ type: 'reading' }, { type: 'judge' }, { type: 'judge' }, { type: 'judge' }, { type: 'judge' }], 50, false);
+ok(Math.abs(capRes.total - 50) < 0.01, 'assignScores：总分精确对齐 50', capRes.total);
+ok(capRes.scores.every((s) => s <= 50 * 0.4 + 1e-9), 'assignScores：任意单题 ≤ 0.4×总分（20）', JSON.stringify(capRes.scores));
+ok(capRes.scores[0] === 20, 'assignScores：超分题被压到上限 20', capRes.scores[0]);
+// 练习卷：直接用题型基准分，不折算
+const pracRes = MX.Builder.assignScores([{ type: 'choice' }], 0, true);
+ok(pracRes.scores[0] === 2 && pracRes.total === 2, 'assignScores：练习卷用基准分（choice=2）');
+
+// 5.3 验收：1 题不再产出 100 分（题量<5 降级练习卷）
+const oneQ = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 1 });
+ok(oneQ.ok && oneQ.paper.practice === true, '1 题：标记为练习卷');
+ok(oneQ.ok && oneQ.paper.totalScore < 100, '1 题：不再产出 100 分', oneQ.paper.totalScore);
+ok(oneQ.ok && Math.abs(oneQ.paper.totalScore - oneQ.paper.questions[0].paperScore) < 0.01, '1 题：单题即整卷总分');
+
+// 5.4 swapOne / lockQuestion：保持总分不变替换单题
+const sw = await MX.Builder.build({ mode: 'type', books: ALL_BOOKS, types: ['calculation'], count: 8, totalScore: 80 });
+ok(sw.ok, 'swapOne 准备卷', sw.message);
+if (sw.ok) {
+  const before = sw.paper.totalScore;
+  const sr = await MX.Builder.swapOne(sw.paper, 0);
+  ok(sr.ok, 'swapOne：替换成功', sr.message);
+  ok(sr.ok && Math.abs(sw.paper.totalScore - before) < 0.01, 'swapOne：替换后总分不变', before + '→' + sw.paper.totalScore);
+  ok(sr.ok && sr.oldId !== sr.newId, 'swapOne：换成了不同题目', sr.oldId + '→' + sr.newId);
+}
+const lk = await MX.Builder.build({ mode: 'type', books: ALL_BOOKS, types: ['calculation'], count: 8, totalScore: 80 });
+if (lk.ok) {
+  ok(MX.Builder.lockQuestion(lk.paper, 0) === true, 'lockQuestion：锁定成功');
+  const lr = await MX.Builder.swapOne(lk.paper, 0);
+  ok(lr.ok === false, 'lockQuestion：锁定题不可被替换', lr.message);
+  ok(MX.Builder.lockQuestion(lk.paper, 0) === false, 'lockQuestion：再次切换即解锁');
+}
+
+// 5.5 groupBy:'type'：按题型分大题（固定序、组内重编号）
+const gs = await MX.Builder.build({ mode: 'type', books: ALL_BOOKS, types: ['choice', 'fill', 'calculation', 'application'], count: 12, totalScore: 120, groupBy: 'type' });
+ok(gs.ok, 'groupBy 分大题组卷', gs.message);
+if (gs.ok) {
+  ok(Array.isArray(gs.paper.sections) && gs.paper.sections.length === 4, '分 4 个大题', gs.paper.sections && gs.paper.sections.length);
+  const order = gs.paper.sections.map((s) => s.type);
+  ok(JSON.stringify(order) === JSON.stringify(['choice', 'fill', 'calculation', 'application']), '大题顺序固定（choice→fill→calculation→application）', order.join(','));
+  ok(gs.paper.sections.every((s) => s.questions[0].paperIndex === 1), '每个大题首题题号均从 1 重编号');
+  ok(gs.paper.sections.every((s) => s.scorePer > 0), '每个大题都有平均分 scorePer');
+  // 全卷题号：所有 section 的 paperIndex 在各自组内连续从 1 起
+  let contiguous = true;
+  gs.paper.sections.forEach((s) => s.questions.forEach((q, i) => { if (q.paperIndex !== i + 1) contiguous = false; }));
+  ok(contiguous, '组内题号连续重编号');
+}
 
 /* ============================================================
  * 4. 存储层
