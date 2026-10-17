@@ -1,0 +1,4 @@
+# 生成产物与脚本统一使用 LF 换行，确保「连跑两次构建 git diff 为空」
+* text=auto
+data/ text eol=lf
+scripts/ text eol=lf
