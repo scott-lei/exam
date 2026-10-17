@@ -16,6 +16,8 @@
   "questions": [
     {
       "id": "g3d-Q001",
+      "slug": "rj-g3d-NA-swscyywsdbs-001",
+      "contentHash": "1bc4ca37",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -55,6 +57,8 @@
     },
     {
       "id": "g3d-Q002",
+      "slug": "rj-g3d-NA-szjhmwy0dcf-002",
+      "contentHash": "721a8459",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -94,6 +98,8 @@
     },
     {
       "id": "g3d-Q003",
+      "slug": "rj-g3d-NA-lwsclwsdbsjw-003",
+      "contentHash": "9e377fcf",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -133,6 +139,8 @@
     },
     {
       "id": "g3d-Q004",
+      "slug": "rj-g3d-NA-jddxsjjf-004",
+      "contentHash": "719db481",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -175,6 +183,8 @@
     },
     {
       "id": "g3d-Q005",
+      "slug": "rj-g3d-NA-pnhrn-005",
+      "contentHash": "0c3116f2",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -221,6 +231,8 @@
     },
     {
       "id": "g3d-Q006",
+      "slug": "rj-g3d-NA-24sjsf-006",
+      "contentHash": "42c779dc",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -263,6 +275,8 @@
     },
     {
       "id": "g3d-Q007",
+      "slug": "rj-g3d-NA-jgsjdjs-007",
+      "contentHash": "be37c002",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -311,6 +325,8 @@
     },
     {
       "id": "g3d-Q008",
+      "slug": "rj-g3d-GG-cfxzfxmjdjs-008",
+      "contentHash": "a4bbd04e",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -354,6 +370,8 @@
     },
     {
       "id": "g3d-Q009",
+      "slug": "rj-g3d-GG-zhtxmjdjs-009",
+      "contentHash": "b09cd890",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -413,6 +431,8 @@
     },
     {
       "id": "g3d-Q010",
+      "slug": "rj-g3d-GG-rsdnxb-010",
+      "contentHash": "4631681e",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -459,6 +479,8 @@
     },
     {
       "id": "g3d-Q011",
+      "slug": "rj-g3d-SP-fstjb-011",
+      "contentHash": "e3da068b",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",
@@ -529,6 +551,8 @@
     },
     {
       "id": "g3d-Q012",
+      "slug": "rj-g3d-GG-cfxzfxmjdjs-012",
+      "contentHash": "c9517dec",
       "grade": 3,
       "book": "grade3-down",
       "bookName": "三年级下册",

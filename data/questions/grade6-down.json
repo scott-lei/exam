@@ -17,6 +17,8 @@
   "questions": [
     {
       "id": "g6d-Q001",
+      "slug": "rj-g6d-NA-fsdrsyyy-001",
+      "contentHash": "3cf0077a",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -63,6 +65,8 @@
     },
     {
       "id": "g6d-Q002",
+      "slug": "rj-g6d-NA-zszsbszsyfs-002",
+      "contentHash": "72a1eeb1",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -197,6 +201,8 @@
     },
     {
       "id": "g6d-Q003",
+      "slug": "rj-g6d-NA-blc-003",
+      "contentHash": "edc24e1e",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -237,6 +243,8 @@
     },
     {
       "id": "g6d-Q004",
+      "slug": "rj-g6d-NA-jbl-004",
+      "contentHash": "568bd976",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -276,6 +284,8 @@
     },
     {
       "id": "g6d-Q005",
+      "slug": "rj-g6d-NA-llybjlxwt-005",
+      "contentHash": "e1b86902",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -320,6 +330,8 @@
     },
     {
       "id": "g6d-Q006",
+      "slug": "rj-g6d-NA-fbl-006",
+      "contentHash": "6913303a",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -359,6 +371,8 @@
     },
     {
       "id": "g6d-Q007",
+      "slug": "rj-g6d-NA-zbl-007",
+      "contentHash": "dc099ca1",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -405,6 +419,8 @@
     },
     {
       "id": "g6d-Q008",
+      "slug": "rj-g6d-GG-yzdtj-008",
+      "contentHash": "86ff481f",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -445,6 +461,8 @@
     },
     {
       "id": "g6d-Q009",
+      "slug": "rj-g6d-GG-yzdrsytj-009",
+      "contentHash": "9c28ac27",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -490,6 +508,8 @@
     },
     {
       "id": "g6d-Q010",
+      "slug": "rj-g6d-GG-yzdrsybmj-010",
+      "contentHash": "1461a66e",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -551,6 +571,8 @@
     },
     {
       "id": "g6d-Q011",
+      "slug": "rj-g6d-SP-pjszwsyzs-011",
+      "contentHash": "f2477574",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -616,6 +638,8 @@
     },
     {
       "id": "g6d-Q012",
+      "slug": "rj-g6d-CP-gcwtctyl-012",
+      "contentHash": "64938a9c",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -660,6 +684,8 @@
     },
     {
       "id": "g6d-Q013",
+      "slug": "rj-g6d-CP-sxskljtl-013",
+      "contentHash": "51878d4a",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -706,6 +732,8 @@
     },
     {
       "id": "g6d-Q014",
+      "slug": "rj-g6d-NA-zkdsjyy-014",
+      "contentHash": "59f634b7",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -752,6 +780,8 @@
     },
     {
       "id": "g6d-Q015",
+      "slug": "rj-g6d-NA-gwzdzyfabj-015",
+      "contentHash": "b8f5bbdb",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",
@@ -800,6 +830,8 @@
     },
     {
       "id": "g6d-Q016",
+      "slug": "rj-g6d-CP-pmtxdzcymjzh-016",
+      "contentHash": "48069c51",
       "grade": 6,
       "book": "grade6-down",
       "bookName": "六年级下册",

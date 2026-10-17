@@ -18,6 +18,8 @@
   "questions": [
     {
       "id": "g5d-Q001",
+      "slug": "rj-g5d-NA-25dbsdtz-001",
+      "contentHash": "5c883b6a",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -64,6 +66,8 @@
     },
     {
       "id": "g5d-Q002",
+      "slug": "rj-g5d-NA-zshhs-002",
+      "contentHash": "f7d8f8a0",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -112,6 +116,8 @@
     },
     {
       "id": "g5d-Q003",
+      "slug": "rj-g5d-NA-yfzdgys-003",
+      "contentHash": "ae668644",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -151,6 +157,8 @@
     },
     {
       "id": "g5d-Q004",
+      "slug": "rj-g5d-NA-fsyxsdhh-004",
+      "contentHash": "07759aa7",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -197,6 +205,8 @@
     },
     {
       "id": "g5d-Q005",
+      "slug": "rj-g5d-NA-yfmfsjjf-005",
+      "contentHash": "d258582d",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -236,6 +246,8 @@
     },
     {
       "id": "g5d-Q006",
+      "slug": "rj-g5d-NA-yfsjjfjjwt-006",
+      "contentHash": "2a72467f",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -279,6 +291,8 @@
     },
     {
       "id": "g5d-Q007",
+      "slug": "rj-g5d-NA-yshbsdyy-007",
+      "contentHash": "ba094b4d",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -318,6 +332,8 @@
     },
     {
       "id": "g5d-Q008",
+      "slug": "rj-g5d-GG-cfthzftdtj-008",
+      "contentHash": "87933dcb",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -361,6 +377,8 @@
     },
     {
       "id": "g5d-Q009",
+      "slug": "rj-g5d-GG-cfthzftdbmj-009",
+      "contentHash": "4f59c1fc",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -405,6 +423,8 @@
     },
     {
       "id": "g5d-Q010",
+      "slug": "rj-g5d-GG-bgzwtdtjpsf-010",
+      "contentHash": "24506cc0",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -464,6 +484,8 @@
     },
     {
       "id": "g5d-Q011",
+      "slug": "rj-g5d-GG-cbtfxgclttxs-011",
+      "contentHash": "07115c81",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -510,6 +532,8 @@
     },
     {
       "id": "g5d-Q012",
+      "slug": "rj-g5d-SP-zxtjte-012",
+      "contentHash": "be2a2a10",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",
@@ -579,6 +603,8 @@
     },
     {
       "id": "g5d-Q013",
+      "slug": "rj-g5d-GG-xzdxzyhf-013",
+      "contentHash": "d356e5d3",
       "grade": 5,
       "book": "grade5-down",
       "bookName": "五年级下册",

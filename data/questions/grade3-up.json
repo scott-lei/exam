@@ -18,6 +18,8 @@
   "questions": [
     {
       "id": "g3u-Q001",
+      "slug": "rj-g3u-NA-mdrs-001",
+      "contentHash": "ac38f9c0",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -64,6 +66,8 @@
     },
     {
       "id": "g3u-Q002",
+      "slug": "rj-g3u-NA-jbjsjjjbjsbs-002",
+      "contentHash": "fc3e7486",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -103,6 +107,8 @@
     },
     {
       "id": "g3u-Q003",
+      "slug": "rj-g3u-NA-cddwyzldwdhs-003",
+      "contentHash": "67fc7e04",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -145,6 +151,8 @@
     },
     {
       "id": "g3u-Q004",
+      "slug": "rj-g3u-NA-bjszjhmwy0djf-004",
+      "contentHash": "d512113c",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -184,6 +192,8 @@
     },
     {
       "id": "g3u-Q005",
+      "slug": "rj-g3u-NA-dwscywsdbsjw-005",
+      "contentHash": "ad59ffb3",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -223,6 +233,8 @@
     },
     {
       "id": "g3u-Q006",
+      "slug": "rj-g3u-NA-yccfjjsjwt-006",
+      "contentHash": "77fe7781",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -267,6 +279,8 @@
     },
     {
       "id": "g3u-Q007",
+      "slug": "rj-g3u-NA-bjfsddx-007",
+      "contentHash": "8f3cc3a7",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -306,6 +320,8 @@
     },
     {
       "id": "g3u-Q008",
+      "slug": "rj-g3u-NA-fsdjdjstfm-008",
+      "contentHash": "41880cdc",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -345,6 +361,8 @@
     },
     {
       "id": "g3u-Q009",
+      "slug": "rj-g3u-GG-cfxhzfxdzc-009",
+      "contentHash": "829163e2",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -388,6 +406,8 @@
     },
     {
       "id": "g3u-Q010",
+      "slug": "rj-g3u-GG-zcdsjwtpz-010",
+      "contentHash": "3ab90913",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -461,6 +481,8 @@
     },
     {
       "id": "g3u-Q011",
+      "slug": "rj-g3u-CP-sxgjjhzdwt-011",
+      "contentHash": "0fae56c9",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",
@@ -505,6 +527,8 @@
     },
     {
       "id": "g3u-Q012",
+      "slug": "rj-g3u-GG-zcdrs-012",
+      "contentHash": "b4c6648e",
       "grade": 3,
       "book": "grade3-up",
       "bookName": "三年级上册",

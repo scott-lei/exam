@@ -8,6 +8,16 @@ import { UPPER } from './data/questions-upper.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
+
+// 确定性工具：FNV-1a 32 位哈希（与 build-tags.mjs 保持一致）
+function fnv1a(str) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return (h >>> 0).toString(16).padStart(8, '0');
+}
 const tags = JSON.parse(fs.readFileSync(path.join(root, 'data/tags.json'), 'utf8'));
 
 const ALL = { ...LOWER, ...MIDDLE, ...UPPER };
@@ -31,6 +41,7 @@ for (const book of tags.books) {
   const list = raw.map((q, i) => {
     const pt = pointById.get(q.p);
     if (!pt) { errors.push(`${book.id} 第 ${i + 1} 题引用了不存在的考点 ${q.p}`); return null; }
+    const pSlug = pt.slug || pt.id; // 防御：tags 未含 slug 时回退到原 id
     const kn = knowledgeById.get(pt.knowledge);
     const dm = domainById.get(pt.domain);
     if (!AUTO_TYPES.has(q.type) && q.type !== 'draw') {
@@ -43,6 +54,8 @@ for (const book of tags.books) {
     }
     return {
       id: `${book.code}-Q${String(i + 1).padStart(3, '0')}`,
+      slug: `${pSlug}-${String(i + 1).padStart(3, '0')}`,
+      contentHash: fnv1a(q.stem + JSON.stringify(q.answer)),
       grade: book.grade,
       book: book.id,
       bookName: book.name,

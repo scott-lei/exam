@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2026-10-06T08:01:48.645Z",
+  "buildHash": "83e8b6ab",
   "stats": {
     "books": 12,
     "domains": 4,
@@ -266,6 +266,7 @@
   "knowledge": [
     {
       "id": "k-g1u-NA-01",
+      "slug": "rj-g1u-NA-01-zbk",
       "name": "准备课",
       "domain": "NA",
       "book": "grade1-up",
@@ -276,6 +277,7 @@
     },
     {
       "id": "k-g1u-NA-02",
+      "slug": "rj-g1u-NA-02-15drshjjf",
       "name": "1~5的认识和加减法",
       "domain": "NA",
       "book": "grade1-up",
@@ -286,6 +288,7 @@
     },
     {
       "id": "k-g1u-NA-03",
+      "slug": "rj-g1u-NA-03-610drshjjf",
       "name": "6~10的认识和加减法",
       "domain": "NA",
       "book": "grade1-up",
@@ -296,6 +299,7 @@
     },
     {
       "id": "k-g1u-NA-04",
+      "slug": "rj-g1u-NA-04-1120gsdrs",
       "name": "11~20各数的认识",
       "domain": "NA",
       "book": "grade1-up",
@@ -306,6 +310,7 @@
     },
     {
       "id": "k-g1u-NA-05",
+      "slug": "rj-g1u-NA-05-20yndjwjf",
       "name": "20以内的进位加法",
       "domain": "NA",
       "book": "grade1-up",
@@ -316,6 +321,7 @@
     },
     {
       "id": "k-g1u-NA-06",
+      "slug": "rj-g1u-NA-06-rszb",
       "name": "认识钟表",
       "domain": "NA",
       "book": "grade1-up",
@@ -326,6 +332,7 @@
     },
     {
       "id": "k-g1u-GG-07",
+      "slug": "rj-g1u-GG-07-rstxy",
       "name": "认识图形（一）",
       "domain": "GG",
       "book": "grade1-up",
@@ -336,6 +343,7 @@
     },
     {
       "id": "k-g1u-GG-08",
+      "slug": "rj-g1u-GG-08-wz",
       "name": "位置",
       "domain": "GG",
       "book": "grade1-up",
@@ -346,6 +354,7 @@
     },
     {
       "id": "k-g1u-CP-09",
+      "slug": "rj-g1u-CP-09-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade1-up",
@@ -356,6 +365,7 @@
     },
     {
       "id": "k-g1d-NA-01",
+      "slug": "rj-g1d-NA-01-20yndtwjf",
       "name": "20以内的退位减法",
       "domain": "NA",
       "book": "grade1-down",
@@ -366,6 +376,7 @@
     },
     {
       "id": "k-g1d-NA-02",
+      "slug": "rj-g1d-NA-02-100ynsdrs",
       "name": "100以内数的认识",
       "domain": "NA",
       "book": "grade1-down",
@@ -376,6 +387,7 @@
     },
     {
       "id": "k-g1d-NA-03",
+      "slug": "rj-g1d-NA-03-100yndjfhjfy",
       "name": "100以内的加法和减法（一）",
       "domain": "NA",
       "book": "grade1-down",
@@ -386,6 +398,7 @@
     },
     {
       "id": "k-g1d-NA-04",
+      "slug": "rj-g1d-NA-04-rsrmb",
       "name": "认识人民币",
       "domain": "NA",
       "book": "grade1-down",
@@ -396,6 +409,7 @@
     },
     {
       "id": "k-g1d-GG-05",
+      "slug": "rj-g1d-GG-05-rstxe",
       "name": "认识图形（二）",
       "domain": "GG",
       "book": "grade1-down",
@@ -406,6 +420,7 @@
     },
     {
       "id": "k-g1d-SP-06",
+      "slug": "rj-g1d-SP-06-flyzl",
       "name": "分类与整理",
       "domain": "SP",
       "book": "grade1-down",
@@ -416,6 +431,7 @@
     },
     {
       "id": "k-g1d-NA-07",
+      "slug": "rj-g1d-NA-07-zgl",
       "name": "找规律",
       "domain": "NA",
       "book": "grade1-down",
@@ -426,6 +442,7 @@
     },
     {
       "id": "k-g1d-CP-08",
+      "slug": "rj-g1d-CP-08-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade1-down",
@@ -436,6 +453,7 @@
     },
     {
       "id": "k-g2u-NA-01",
+      "slug": "rj-g2u-NA-01-cddw",
       "name": "长度单位",
       "domain": "NA",
       "book": "grade2-up",
@@ -446,6 +464,7 @@
     },
     {
       "id": "k-g2u-NA-02",
+      "slug": "rj-g2u-NA-02-100yndjfhjfe",
       "name": "100以内的加法和减法（二）",
       "domain": "NA",
       "book": "grade2-up",
@@ -456,6 +475,7 @@
     },
     {
       "id": "k-g2u-NA-03",
+      "slug": "rj-g2u-NA-03-bncfy",
       "name": "表内乘法（一）",
       "domain": "NA",
       "book": "grade2-up",
@@ -466,6 +486,7 @@
     },
     {
       "id": "k-g2u-NA-04",
+      "slug": "rj-g2u-NA-04-bncfe",
       "name": "表内乘法（二）",
       "domain": "NA",
       "book": "grade2-up",
@@ -476,6 +497,7 @@
     },
     {
       "id": "k-g2u-GG-05",
+      "slug": "rj-g2u-GG-05-jdcbrs",
       "name": "角的初步认识",
       "domain": "GG",
       "book": "grade2-up",
@@ -486,6 +508,7 @@
     },
     {
       "id": "k-g2u-GG-06",
+      "slug": "rj-g2u-GG-06-gcwty",
       "name": "观察物体（一）",
       "domain": "GG",
       "book": "grade2-up",
@@ -496,6 +519,7 @@
     },
     {
       "id": "k-g2u-NA-07",
+      "slug": "rj-g2u-NA-07-rssj",
       "name": "认识时间",
       "domain": "NA",
       "book": "grade2-up",
@@ -506,6 +530,7 @@
     },
     {
       "id": "k-g2u-SP-08",
+      "slug": "rj-g2u-SP-08-tj",
       "name": "统计",
       "domain": "SP",
       "book": "grade2-up",
@@ -516,6 +541,7 @@
     },
     {
       "id": "k-g2u-CP-09",
+      "slug": "rj-g2u-CP-09-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade2-up",
@@ -526,6 +552,7 @@
     },
     {
       "id": "k-g2d-NA-01",
+      "slug": "rj-g2d-NA-01-bncfy",
       "name": "表内除法（一）",
       "domain": "NA",
       "book": "grade2-down",
@@ -536,6 +563,7 @@
     },
     {
       "id": "k-g2d-NA-02",
+      "slug": "rj-g2d-NA-02-bncfe",
       "name": "表内除法（二）",
       "domain": "NA",
       "book": "grade2-down",
@@ -546,6 +574,7 @@
     },
     {
       "id": "k-g2d-NA-03",
+      "slug": "rj-g2d-NA-03-hhys",
       "name": "混合运算",
       "domain": "NA",
       "book": "grade2-down",
@@ -556,6 +585,7 @@
     },
     {
       "id": "k-g2d-NA-04",
+      "slug": "rj-g2d-NA-04-yysdcf",
       "name": "有余数的除法",
       "domain": "NA",
       "book": "grade2-down",
@@ -566,6 +596,7 @@
     },
     {
       "id": "k-g2d-NA-05",
+      "slug": "rj-g2d-NA-05-wynsdrs",
       "name": "万以内数的认识",
       "domain": "NA",
       "book": "grade2-down",
@@ -576,6 +607,7 @@
     },
     {
       "id": "k-g2d-NA-06",
+      "slug": "rj-g2d-NA-06-khqk",
       "name": "克和千克",
       "domain": "NA",
       "book": "grade2-down",
@@ -586,6 +618,7 @@
     },
     {
       "id": "k-g2d-GG-07",
+      "slug": "rj-g2d-GG-07-txdydy",
       "name": "图形的运动（一）",
       "domain": "GG",
       "book": "grade2-down",
@@ -596,6 +629,7 @@
     },
     {
       "id": "k-g2d-SP-08",
+      "slug": "rj-g2d-SP-08-sjsjzl",
       "name": "数据收集整理",
       "domain": "SP",
       "book": "grade2-down",
@@ -606,6 +640,7 @@
     },
     {
       "id": "k-g2d-CP-09",
+      "slug": "rj-g2d-CP-09-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade2-down",
@@ -616,6 +651,7 @@
     },
     {
       "id": "k-g3u-NA-01",
+      "slug": "rj-g3u-NA-01-sfm",
       "name": "时、分、秒",
       "domain": "NA",
       "book": "grade3-up",
@@ -626,6 +662,7 @@
     },
     {
       "id": "k-g3u-NA-02",
+      "slug": "rj-g3u-NA-02-wyndjfhjfy",
       "name": "万以内的加法和减法（一）",
       "domain": "NA",
       "book": "grade3-up",
@@ -636,6 +673,7 @@
     },
     {
       "id": "k-g3u-NA-03",
+      "slug": "rj-g3u-NA-03-cl",
       "name": "测量",
       "domain": "NA",
       "book": "grade3-up",
@@ -646,6 +684,7 @@
     },
     {
       "id": "k-g3u-NA-04",
+      "slug": "rj-g3u-NA-04-wyndjfhjfe",
       "name": "万以内的加法和减法（二）",
       "domain": "NA",
       "book": "grade3-up",
@@ -656,6 +695,7 @@
     },
     {
       "id": "k-g3u-NA-05",
+      "slug": "rj-g3u-NA-05-dwscyws",
       "name": "多位数乘一位数",
       "domain": "NA",
       "book": "grade3-up",
@@ -666,6 +706,7 @@
     },
     {
       "id": "k-g3u-NA-06",
+      "slug": "rj-g3u-NA-06-fsdcbrs",
       "name": "分数的初步认识",
       "domain": "NA",
       "book": "grade3-up",
@@ -676,6 +717,7 @@
     },
     {
       "id": "k-g3u-GG-07",
+      "slug": "rj-g3u-GG-07-cfxhzfx",
       "name": "长方形和正方形",
       "domain": "GG",
       "book": "grade3-up",
@@ -686,6 +728,7 @@
     },
     {
       "id": "k-g3u-SP-08",
+      "slug": "rj-g3u-SP-08-szbm",
       "name": "数字编码",
       "domain": "SP",
       "book": "grade3-up",
@@ -696,6 +739,7 @@
     },
     {
       "id": "k-g3u-CP-09",
+      "slug": "rj-g3u-CP-09-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade3-up",
@@ -706,6 +750,7 @@
     },
     {
       "id": "k-g3d-NA-01",
+      "slug": "rj-g3d-NA-01-cssywsdcf",
       "name": "除数是一位数的除法",
       "domain": "NA",
       "book": "grade3-down",
@@ -716,6 +761,7 @@
     },
     {
       "id": "k-g3d-NA-02",
+      "slug": "rj-g3d-NA-02-lwsclws",
       "name": "两位数乘两位数",
       "domain": "NA",
       "book": "grade3-down",
@@ -726,6 +772,7 @@
     },
     {
       "id": "k-g3d-NA-03",
+      "slug": "rj-g3d-NA-03-xsdcbrs",
       "name": "小数的初步认识",
       "domain": "NA",
       "book": "grade3-down",
@@ -736,6 +783,7 @@
     },
     {
       "id": "k-g3d-NA-04",
+      "slug": "rj-g3d-NA-04-nyr",
       "name": "年、月、日",
       "domain": "NA",
       "book": "grade3-down",
@@ -746,6 +794,7 @@
     },
     {
       "id": "k-g3d-GG-05",
+      "slug": "rj-g3d-GG-05-wzyfxy",
       "name": "位置与方向（一）",
       "domain": "GG",
       "book": "grade3-down",
@@ -756,6 +805,7 @@
     },
     {
       "id": "k-g3d-GG-06",
+      "slug": "rj-g3d-GG-06-mj",
       "name": "面积",
       "domain": "GG",
       "book": "grade3-down",
@@ -766,6 +816,7 @@
     },
     {
       "id": "k-g3d-SP-07",
+      "slug": "rj-g3d-SP-07-fstjb",
       "name": "复式统计表",
       "domain": "SP",
       "book": "grade3-down",
@@ -776,6 +827,7 @@
     },
     {
       "id": "k-g3d-CP-08",
+      "slug": "rj-g3d-CP-08-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade3-down",
@@ -786,6 +838,7 @@
     },
     {
       "id": "k-g4u-NA-01",
+      "slug": "rj-g4u-NA-01-dsdrs",
       "name": "大数的认识",
       "domain": "NA",
       "book": "grade4-up",
@@ -796,6 +849,7 @@
     },
     {
       "id": "k-g4u-NA-02",
+      "slug": "rj-g4u-NA-02-gqhpfqm",
       "name": "公顷和平方千米",
       "domain": "NA",
       "book": "grade4-up",
@@ -806,6 +860,7 @@
     },
     {
       "id": "k-g4u-NA-03",
+      "slug": "rj-g4u-NA-03-swsclws",
       "name": "三位数乘两位数",
       "domain": "NA",
       "book": "grade4-up",
@@ -816,6 +871,7 @@
     },
     {
       "id": "k-g4u-NA-04",
+      "slug": "rj-g4u-NA-04-csslwsdcf",
       "name": "除数是两位数的除法",
       "domain": "NA",
       "book": "grade4-up",
@@ -826,6 +882,7 @@
     },
     {
       "id": "k-g4u-GG-05",
+      "slug": "rj-g4u-GG-05-jddl",
       "name": "角的度量",
       "domain": "GG",
       "book": "grade4-up",
@@ -836,6 +893,7 @@
     },
     {
       "id": "k-g4u-GG-06",
+      "slug": "rj-g4u-GG-06-pxsbxhtx",
       "name": "平行四边形和梯形",
       "domain": "GG",
       "book": "grade4-up",
@@ -846,6 +904,7 @@
     },
     {
       "id": "k-g4u-SP-07",
+      "slug": "rj-g4u-SP-07-tj",
       "name": "统计",
       "domain": "SP",
       "book": "grade4-up",
@@ -856,6 +915,7 @@
     },
     {
       "id": "k-g4u-CP-08",
+      "slug": "rj-g4u-CP-08-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade4-up",
@@ -866,6 +926,7 @@
     },
     {
       "id": "k-g4d-NA-01",
+      "slug": "rj-g4d-NA-01-szys",
       "name": "四则运算",
       "domain": "NA",
       "book": "grade4-down",
@@ -876,6 +937,7 @@
     },
     {
       "id": "k-g4d-NA-02",
+      "slug": "rj-g4d-NA-02-ysdl",
       "name": "运算定律",
       "domain": "NA",
       "book": "grade4-down",
@@ -886,6 +948,7 @@
     },
     {
       "id": "k-g4d-NA-03",
+      "slug": "rj-g4d-NA-03-xsdyyhxz",
       "name": "小数的意义和性质",
       "domain": "NA",
       "book": "grade4-down",
@@ -896,6 +959,7 @@
     },
     {
       "id": "k-g4d-NA-04",
+      "slug": "rj-g4d-NA-04-xsdjfhjf",
       "name": "小数的加法和减法",
       "domain": "NA",
       "book": "grade4-down",
@@ -906,6 +970,7 @@
     },
     {
       "id": "k-g4d-GG-05",
+      "slug": "rj-g4d-GG-05-sjx",
       "name": "三角形",
       "domain": "GG",
       "book": "grade4-down",
@@ -916,6 +981,7 @@
     },
     {
       "id": "k-g4d-GG-06",
+      "slug": "rj-g4d-GG-06-txdyde",
       "name": "图形的运动（二）",
       "domain": "GG",
       "book": "grade4-down",
@@ -926,6 +992,7 @@
     },
     {
       "id": "k-g4d-GG-07",
+      "slug": "rj-g4d-GG-07-gcwte",
       "name": "观察物体（二）",
       "domain": "GG",
       "book": "grade4-down",
@@ -936,6 +1003,7 @@
     },
     {
       "id": "k-g4d-SP-08",
+      "slug": "rj-g4d-SP-08-tj",
       "name": "统计",
       "domain": "SP",
       "book": "grade4-down",
@@ -946,6 +1014,7 @@
     },
     {
       "id": "k-g4d-CP-09",
+      "slug": "rj-g4d-CP-09-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade4-down",
@@ -956,6 +1025,7 @@
     },
     {
       "id": "k-g5u-NA-01",
+      "slug": "rj-g5u-NA-01-xscf",
       "name": "小数乘法",
       "domain": "NA",
       "book": "grade5-up",
@@ -966,6 +1036,7 @@
     },
     {
       "id": "k-g5u-NA-02",
+      "slug": "rj-g5u-NA-02-xscf",
       "name": "小数除法",
       "domain": "NA",
       "book": "grade5-up",
@@ -976,6 +1047,7 @@
     },
     {
       "id": "k-g5u-NA-03",
+      "slug": "rj-g5u-NA-03-jyfc",
       "name": "简易方程",
       "domain": "NA",
       "book": "grade5-up",
@@ -986,6 +1058,7 @@
     },
     {
       "id": "k-g5u-GG-04",
+      "slug": "rj-g5u-GG-04-wz",
       "name": "位置",
       "domain": "GG",
       "book": "grade5-up",
@@ -996,6 +1069,7 @@
     },
     {
       "id": "k-g5u-GG-05",
+      "slug": "rj-g5u-GG-05-dbxdmj",
       "name": "多边形的面积",
       "domain": "GG",
       "book": "grade5-up",
@@ -1006,6 +1080,7 @@
     },
     {
       "id": "k-g5u-SP-06",
+      "slug": "rj-g5u-SP-06-knx",
       "name": "可能性",
       "domain": "SP",
       "book": "grade5-up",
@@ -1016,6 +1091,7 @@
     },
     {
       "id": "k-g5u-CP-07",
+      "slug": "rj-g5u-CP-07-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade5-up",
@@ -1026,6 +1102,7 @@
     },
     {
       "id": "k-g5d-NA-01",
+      "slug": "rj-g5d-NA-01-ysybs",
       "name": "因数与倍数",
       "domain": "NA",
       "book": "grade5-down",
@@ -1036,6 +1113,7 @@
     },
     {
       "id": "k-g5d-NA-02",
+      "slug": "rj-g5d-NA-02-fsdyyhxz",
       "name": "分数的意义和性质",
       "domain": "NA",
       "book": "grade5-down",
@@ -1046,6 +1124,7 @@
     },
     {
       "id": "k-g5d-NA-03",
+      "slug": "rj-g5d-NA-03-fsdjfhjf",
       "name": "分数的加法和减法",
       "domain": "NA",
       "book": "grade5-down",
@@ -1056,6 +1135,7 @@
     },
     {
       "id": "k-g5d-GG-04",
+      "slug": "rj-g5d-GG-04-cfthzft",
       "name": "长方体和正方体",
       "domain": "GG",
       "book": "grade5-down",
@@ -1066,6 +1146,7 @@
     },
     {
       "id": "k-g5d-GG-05",
+      "slug": "rj-g5d-GG-05-txdyds",
       "name": "图形的运动（三）",
       "domain": "GG",
       "book": "grade5-down",
@@ -1076,6 +1157,7 @@
     },
     {
       "id": "k-g5d-GG-06",
+      "slug": "rj-g5d-GG-06-gcwts",
       "name": "观察物体（三）",
       "domain": "GG",
       "book": "grade5-down",
@@ -1086,6 +1168,7 @@
     },
     {
       "id": "k-g5d-SP-07",
+      "slug": "rj-g5d-SP-07-zxtjt",
       "name": "折线统计图",
       "domain": "SP",
       "book": "grade5-down",
@@ -1096,6 +1179,7 @@
     },
     {
       "id": "k-g5d-CP-08",
+      "slug": "rj-g5d-CP-08-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade5-down",
@@ -1106,6 +1190,7 @@
     },
     {
       "id": "k-g6u-NA-01",
+      "slug": "rj-g6u-NA-01-fscf",
       "name": "分数乘法",
       "domain": "NA",
       "book": "grade6-up",
@@ -1116,6 +1201,7 @@
     },
     {
       "id": "k-g6u-NA-02",
+      "slug": "rj-g6u-NA-02-fscf",
       "name": "分数除法",
       "domain": "NA",
       "book": "grade6-up",
@@ -1126,6 +1212,7 @@
     },
     {
       "id": "k-g6u-NA-03",
+      "slug": "rj-g6u-NA-03-b",
       "name": "比",
       "domain": "NA",
       "book": "grade6-up",
@@ -1136,6 +1223,7 @@
     },
     {
       "id": "k-g6u-NA-04",
+      "slug": "rj-g6u-NA-04-bfsy",
       "name": "百分数（一）",
       "domain": "NA",
       "book": "grade6-up",
@@ -1146,6 +1234,7 @@
     },
     {
       "id": "k-g6u-GG-05",
+      "slug": "rj-g6u-GG-05-y",
       "name": "圆",
       "domain": "GG",
       "book": "grade6-up",
@@ -1156,6 +1245,7 @@
     },
     {
       "id": "k-g6u-GG-06",
+      "slug": "rj-g6u-GG-06-wzyfxe",
       "name": "位置与方向（二）",
       "domain": "GG",
       "book": "grade6-up",
@@ -1166,6 +1256,7 @@
     },
     {
       "id": "k-g6u-SP-07",
+      "slug": "rj-g6u-SP-07-tj",
       "name": "统计",
       "domain": "SP",
       "book": "grade6-up",
@@ -1176,6 +1267,7 @@
     },
     {
       "id": "k-g6u-CP-08",
+      "slug": "rj-g6u-CP-08-zhysj",
       "name": "综合与实践",
       "domain": "CP",
       "book": "grade6-up",
@@ -1186,6 +1278,7 @@
     },
     {
       "id": "k-g6d-NA-01",
+      "slug": "rj-g6d-NA-01-fs",
       "name": "负数",
       "domain": "NA",
       "book": "grade6-down",
@@ -1196,6 +1289,7 @@
     },
     {
       "id": "k-g6d-NA-02",
+      "slug": "rj-g6d-NA-02-bfse",
       "name": "百分数（二）",
       "domain": "NA",
       "book": "grade6-down",
@@ -1206,6 +1300,7 @@
     },
     {
       "id": "k-g6d-NA-03",
+      "slug": "rj-g6d-NA-03-bl",
       "name": "比例",
       "domain": "NA",
       "book": "grade6-down",
@@ -1216,6 +1311,7 @@
     },
     {
       "id": "k-g6d-GG-04",
+      "slug": "rj-g6d-GG-04-yzyyz",
       "name": "圆柱与圆锥",
       "domain": "GG",
       "book": "grade6-down",
@@ -1226,6 +1322,7 @@
     },
     {
       "id": "k-g6d-GG-05",
+      "slug": "rj-g6d-GG-05-zlhfxtxyjh",
       "name": "整理和复习·图形与几何",
       "domain": "GG",
       "book": "grade6-down",
@@ -1236,6 +1333,7 @@
     },
     {
       "id": "k-g6d-NA-06",
+      "slug": "rj-g6d-NA-06-zlhfxsyds",
       "name": "整理和复习·数与代数",
       "domain": "NA",
       "book": "grade6-down",
@@ -1246,6 +1344,7 @@
     },
     {
       "id": "k-g6d-SP-07",
+      "slug": "rj-g6d-SP-07-zlhfxtjygl",
       "name": "整理和复习·统计与概率",
       "domain": "SP",
       "book": "grade6-down",
@@ -1256,6 +1355,7 @@
     },
     {
       "id": "k-g6d-CP-08",
+      "slug": "rj-g6d-CP-08-zlhfxzhysj",
       "name": "整理和复习·综合与实践",
       "domain": "CP",
       "book": "grade6-down",
@@ -1268,6 +1368,7 @@
   "points": [
     {
       "id": "g1u-NA-01-01",
+      "slug": "rj-g1u-NA-sys110gs",
       "name": "数一数（1~10各数）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -1300,6 +1401,7 @@
     },
     {
       "id": "g1u-NA-01-02",
+      "slug": "rj-g1u-NA-bdsyydy",
       "name": "比多少（一一对应）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -1332,6 +1434,7 @@
     },
     {
       "id": "g1u-NA-02-01",
+      "slug": "rj-g1u-NA-15gsdrs",
       "name": "1~5各数的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -1363,6 +1466,7 @@
     },
     {
       "id": "g1u-NA-02-02",
+      "slug": "rj-g1u-NA-bdx",
       "name": "比大小（>、<、=）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -1394,6 +1498,7 @@
     },
     {
       "id": "g1u-NA-02-03",
+      "slug": "rj-g1u-NA-djxshy",
       "name": "第几（序数含义）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -1426,6 +1531,7 @@
     },
     {
       "id": "g1u-NA-02-04",
+      "slug": "rj-g1u-NA-sdfyh25",
       "name": "数的分与合（2~5）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -1456,6 +1562,7 @@
     },
     {
       "id": "g1u-NA-02-05",
+      "slug": "rj-g1u-NA-5yndjf",
       "name": "5以内的加法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1487,6 +1594,7 @@
     },
     {
       "id": "g1u-NA-02-06",
+      "slug": "rj-g1u-NA-5yndjf-2",
       "name": "5以内的减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1518,6 +1626,7 @@
     },
     {
       "id": "g1u-NA-02-07",
+      "slug": "rj-g1u-NA-0drshjjf",
       "name": "0的认识和加减法",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -1549,6 +1658,7 @@
     },
     {
       "id": "g1u-NA-03-01",
+      "slug": "rj-g1u-NA-6h7drs",
       "name": "6和7的认识",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -1580,6 +1690,7 @@
     },
     {
       "id": "g1u-NA-03-02",
+      "slug": "rj-g1u-NA-6h7djjf",
       "name": "6和7的加减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1611,6 +1722,7 @@
     },
     {
       "id": "g1u-NA-03-03",
+      "slug": "rj-g1u-NA-8h9drs",
       "name": "8和9的认识",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -1642,6 +1754,7 @@
     },
     {
       "id": "g1u-NA-03-04",
+      "slug": "rj-g1u-NA-8h9djjf",
       "name": "8和9的加减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1673,6 +1786,7 @@
     },
     {
       "id": "g1u-NA-03-05",
+      "slug": "rj-g1u-NA-10drshzc",
       "name": "10的认识和组成",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -1703,6 +1817,7 @@
     },
     {
       "id": "g1u-NA-03-06",
+      "slug": "rj-g1u-NA-10djjf",
       "name": "10的加减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1734,6 +1849,7 @@
     },
     {
       "id": "g1u-NA-03-07",
+      "slug": "rj-g1u-NA-ljlj",
       "name": "连加、连减",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1766,6 +1882,7 @@
     },
     {
       "id": "g1u-NA-03-08",
+      "slug": "rj-g1u-NA-jjhhys20yn",
       "name": "加减混合运算（20以内）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1798,6 +1915,7 @@
     },
     {
       "id": "g1u-NA-04-01",
+      "slug": "rj-g1u-NA-1120gsdrs",
       "name": "11~20各数的认识",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -1830,6 +1948,7 @@
     },
     {
       "id": "g1u-NA-04-02",
+      "slug": "rj-g1u-NA-10jjhxydjf",
       "name": "10加几和相应的减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1860,6 +1979,7 @@
     },
     {
       "id": "g1u-NA-04-03",
+      "slug": "rj-g1u-NA-sjjjjxydjfbjwbtw",
       "name": "十几加几及相应的减法（不进位不退位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1891,6 +2011,7 @@
     },
     {
       "id": "g1u-NA-05-01",
+      "slug": "rj-g1u-NA-9jj",
       "name": "9加几",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1922,6 +2043,7 @@
     },
     {
       "id": "g1u-NA-05-02",
+      "slug": "rj-g1u-NA-876jj",
       "name": "8、7、6加几",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1953,6 +2075,7 @@
     },
     {
       "id": "g1u-NA-05-03",
+      "slug": "rj-g1u-NA-5432jj",
       "name": "5、4、3、2加几",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -1983,6 +2106,7 @@
     },
     {
       "id": "g1u-NA-05-04",
+      "slug": "rj-g1u-NA-yjfjjwttwyyt",
       "name": "用加法解决问题（图文应用题）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2015,6 +2139,7 @@
     },
     {
       "id": "g1u-NA-06-01",
+      "slug": "rj-g1u-NA-rszbzsjsb",
       "name": "认识钟表（整时、几时半）",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2048,6 +2173,7 @@
     },
     {
       "id": "g1u-GG-07-01",
+      "slug": "rj-g1u-GG-rslttxcftzftyzq",
       "name": "认识立体图形（长方体、正方体、圆柱、球）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2082,6 +2208,7 @@
     },
     {
       "id": "g1u-GG-08-01",
+      "slug": "rj-g1u-GG-wzsxqh",
       "name": "位置：上下、前后",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2115,6 +2242,7 @@
     },
     {
       "id": "g1u-GG-08-02",
+      "slug": "rj-g1u-GG-wzzy",
       "name": "位置：左、右",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2146,6 +2274,7 @@
     },
     {
       "id": "g1u-CP-09-01",
+      "slug": "rj-g1u-CP-flyzl",
       "name": "分类与整理",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2178,6 +2307,7 @@
     },
     {
       "id": "g1u-CP-09-02",
+      "slug": "rj-g1u-CP-sxgjjddpl",
       "name": "数学广角——简单的排列",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2209,6 +2339,7 @@
     },
     {
       "id": "g1d-NA-01-01",
+      "slug": "rj-g1d-NA-sjj9",
       "name": "十几减9",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2240,6 +2371,7 @@
     },
     {
       "id": "g1d-NA-01-02",
+      "slug": "rj-g1d-NA-sjj876",
       "name": "十几减8、7、6",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2270,6 +2402,7 @@
     },
     {
       "id": "g1d-NA-01-03",
+      "slug": "rj-g1d-NA-sjj5432",
       "name": "十几减5、4、3、2",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2300,6 +2433,7 @@
     },
     {
       "id": "g1d-NA-01-04",
+      "slug": "rj-g1d-NA-jjwtqlygjs",
       "name": "解决问题（求另一个加数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2331,6 +2465,7 @@
     },
     {
       "id": "g1d-NA-02-01",
+      "slug": "rj-g1d-NA-sssdzc100yn",
       "name": "数数、数的组成（100以内）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2364,6 +2499,7 @@
     },
     {
       "id": "g1d-NA-02-02",
+      "slug": "rj-g1d-NA-100ynsddfhxf",
       "name": "100以内数的读法和写法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2394,6 +2530,7 @@
     },
     {
       "id": "g1d-NA-02-03",
+      "slug": "rj-g1d-NA-sdsxbjdx100yn",
       "name": "数的顺序、比较大小（100以内）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2427,6 +2564,7 @@
     },
     {
       "id": "g1d-NA-02-04",
+      "slug": "rj-g1d-NA-zssjywsjxydjf",
       "name": "整十数加一位数及相应的减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2457,6 +2595,7 @@
     },
     {
       "id": "g1d-NA-03-01",
+      "slug": "rj-g1d-NA-zssjjzss",
       "name": "整十数加、减整十数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2488,6 +2627,7 @@
     },
     {
       "id": "g1d-NA-03-02",
+      "slug": "rj-g1d-NA-lwsjywszssbjw",
       "name": "两位数加一位数、整十数（不进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2520,6 +2660,7 @@
     },
     {
       "id": "g1d-NA-03-03",
+      "slug": "rj-g1d-NA-lwsjywsjw",
       "name": "两位数加一位数（进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2552,6 +2693,7 @@
     },
     {
       "id": "g1d-NA-03-04",
+      "slug": "rj-g1d-NA-lwsjywszssbtw",
       "name": "两位数减一位数、整十数（不退位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2584,6 +2726,7 @@
     },
     {
       "id": "g1d-NA-03-05",
+      "slug": "rj-g1d-NA-lwsjywstw",
       "name": "两位数减一位数（退位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2616,6 +2759,7 @@
     },
     {
       "id": "g1d-NA-03-06",
+      "slug": "rj-g1d-NA-dxkhdlbjs",
       "name": "带小括号的两步计算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2647,6 +2791,7 @@
     },
     {
       "id": "g1d-NA-03-07",
+      "slug": "rj-g1d-NA-yljljjjsjwt",
       "name": "用连加、连减解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2678,6 +2823,7 @@
     },
     {
       "id": "g1d-NA-04-01",
+      "slug": "rj-g1d-NA-rsrmbyjf",
       "name": "认识人民币（元、角、分）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2709,6 +2855,7 @@
     },
     {
       "id": "g1d-NA-04-02",
+      "slug": "rj-g1d-NA-rmbdjdjs",
       "name": "人民币的简单计算",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2739,6 +2886,7 @@
     },
     {
       "id": "g1d-GG-05-01",
+      "slug": "rj-g1d-GG-rspmtx",
       "name": "认识平面图形",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2771,6 +2919,7 @@
     },
     {
       "id": "g1d-GG-05-02",
+      "slug": "rj-g1d-GG-pmtxdpz",
       "name": "平面图形的拼组",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2802,6 +2951,7 @@
     },
     {
       "id": "g1d-GG-05-03",
+      "slug": "rj-g1d-GG-txdfjypj",
       "name": "图形的分解与拼接",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2832,6 +2982,7 @@
     },
     {
       "id": "g1d-SP-06-01",
+      "slug": "rj-g1d-SP-sjdsjyzl",
       "name": "数据的收集与整理",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -2863,6 +3014,7 @@
     },
     {
       "id": "g1d-SP-06-02",
+      "slug": "rj-g1d-SP-jddxxtjt",
       "name": "简单的象形统计图",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2894,6 +3046,7 @@
     },
     {
       "id": "g1d-NA-07-01",
+      "slug": "rj-g1d-NA-zgltxgl",
       "name": "找规律（图形规律）",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2926,6 +3079,7 @@
     },
     {
       "id": "g1d-NA-07-02",
+      "slug": "rj-g1d-NA-zglszgl",
       "name": "找规律（数字规律）",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -2957,6 +3111,7 @@
     },
     {
       "id": "g1d-CP-08-01",
+      "slug": "rj-g1d-CP-ysxhdytjdwt",
       "name": "用数学（含多余条件的问题）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -2988,6 +3143,7 @@
     },
     {
       "id": "g1d-CP-08-02",
+      "slug": "rj-g1d-CP-sxgjdpy",
       "name": "数学广角——搭配（一）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3019,6 +3175,7 @@
     },
     {
       "id": "g1d-CP-08-03",
+      "slug": "rj-g1d-CP-sxqhzydzhyy",
       "name": "上下、前后、左右的综合运用",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3051,6 +3208,7 @@
     },
     {
       "id": "g1d-CP-08-04",
+      "slug": "rj-g1d-CP-100ynsdgj",
       "name": "100以内数的估计",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -3081,6 +3239,7 @@
     },
     {
       "id": "g1d-CP-08-05",
+      "slug": "rj-g1d-CP-jjfgsy",
       "name": "加减法估算（一）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3111,6 +3270,7 @@
     },
     {
       "id": "g1d-CP-08-06",
+      "slug": "rj-g1d-CP-shzdsxwtgw",
       "name": "生活中的数学问题（购物）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3142,6 +3302,7 @@
     },
     {
       "id": "g2u-NA-01-01",
+      "slug": "rj-g2u-NA-rslmylml",
       "name": "认识厘米、用厘米量",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -3174,6 +3335,7 @@
     },
     {
       "id": "g2u-NA-01-02",
+      "slug": "rj-g2u-NA-rsmmylmdgx",
       "name": "认识米、米与厘米的关系",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -3205,6 +3367,7 @@
     },
     {
       "id": "g2u-NA-01-03",
+      "slug": "rj-g2u-NA-xddrsyhxd",
       "name": "线段的认识与画线段",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3236,6 +3399,7 @@
     },
     {
       "id": "g2u-NA-01-04",
+      "slug": "rj-g2u-NA-cddwdxzygc",
       "name": "长度单位的选择与估测",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3267,6 +3431,7 @@
     },
     {
       "id": "g2u-NA-02-01",
+      "slug": "rj-g2u-NA-lwsjlwsbjw",
       "name": "两位数加两位数（不进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3298,6 +3463,7 @@
     },
     {
       "id": "g2u-NA-02-02",
+      "slug": "rj-g2u-NA-lwsjlwsjw",
       "name": "两位数加两位数（进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3329,6 +3495,7 @@
     },
     {
       "id": "g2u-NA-02-03",
+      "slug": "rj-g2u-NA-lwsjlwsbtw",
       "name": "两位数减两位数（不退位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3360,6 +3527,7 @@
     },
     {
       "id": "g2u-NA-02-04",
+      "slug": "rj-g2u-NA-lwsjlwstw",
       "name": "两位数减两位数（退位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3392,6 +3560,7 @@
     },
     {
       "id": "g2u-NA-02-05",
+      "slug": "rj-g2u-NA-ljljyjjhh100yn",
       "name": "连加、连减与加减混合（100以内）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3424,6 +3593,7 @@
     },
     {
       "id": "g2u-NA-02-06",
+      "slug": "rj-g2u-NA-jjfgse",
       "name": "加减法估算（二）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3454,6 +3624,7 @@
     },
     {
       "id": "g2u-NA-02-07",
+      "slug": "rj-g2u-NA-qbygsdsjds",
       "name": "求比一个数多（少）几的数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3485,6 +3656,7 @@
     },
     {
       "id": "g2u-NA-03-01",
+      "slug": "rj-g2u-NA-cfdcbrs",
       "name": "乘法的初步认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -3516,6 +3688,7 @@
     },
     {
       "id": "g2u-NA-03-02",
+      "slug": "rj-g2u-NA-26dcfkj",
       "name": "2~6的乘法口诀",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3547,6 +3720,7 @@
     },
     {
       "id": "g2u-NA-03-03",
+      "slug": "rj-g2u-NA-ycfkjqj",
       "name": "用乘法口诀求积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3577,6 +3751,7 @@
     },
     {
       "id": "g2u-NA-03-04",
+      "slug": "rj-g2u-NA-cjcj",
       "name": "乘加、乘减",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3609,6 +3784,7 @@
     },
     {
       "id": "g2u-NA-03-05",
+      "slug": "rj-g2u-NA-ycfjjsjwt",
       "name": "用乘法解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3640,6 +3816,7 @@
     },
     {
       "id": "g2u-NA-04-01",
+      "slug": "rj-g2u-NA-7dcfkj",
       "name": "7的乘法口诀",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3670,6 +3847,7 @@
     },
     {
       "id": "g2u-NA-04-02",
+      "slug": "rj-g2u-NA-8dcfkj",
       "name": "8的乘法口诀",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3700,6 +3878,7 @@
     },
     {
       "id": "g2u-NA-04-03",
+      "slug": "rj-g2u-NA-9dcfkj",
       "name": "9的乘法口诀",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3730,6 +3909,7 @@
     },
     {
       "id": "g2u-NA-04-04",
+      "slug": "rj-g2u-NA-ykjjjsjwt",
       "name": "用口诀解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -3760,6 +3940,7 @@
     },
     {
       "id": "g2u-GG-05-01",
+      "slug": "rj-g2u-GG-jdrsyjdgbfmc",
       "name": "角的认识与角的各部分名称",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -3791,6 +3972,7 @@
     },
     {
       "id": "g2u-GG-05-02",
+      "slug": "rj-g2u-GG-zjdrsypd",
       "name": "直角的认识与判断",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -3822,6 +4004,7 @@
     },
     {
       "id": "g2u-GG-05-03",
+      "slug": "rj-g2u-GG-rjhdj",
       "name": "锐角和钝角",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -3852,6 +4035,7 @@
     },
     {
       "id": "g2u-GG-05-04",
+      "slug": "rj-g2u-GG-ysjcpj",
       "name": "用三角尺拼角",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3882,6 +4066,7 @@
     },
     {
       "id": "g2u-GG-06-01",
+      "slug": "rj-g2u-GG-cbtwzgcwt",
       "name": "从不同位置观察物体",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3913,6 +4098,7 @@
     },
     {
       "id": "g2u-NA-07-01",
+      "slug": "rj-g2u-NA-rsjsjf",
       "name": "认识几时几分",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3944,6 +4130,7 @@
     },
     {
       "id": "g2u-NA-07-02",
+      "slug": "rj-g2u-NA-sjdjdjs",
       "name": "时间的简单计算",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -3975,6 +4162,7 @@
     },
     {
       "id": "g2u-SP-08-01",
+      "slug": "rj-g2u-SP-jddsjzlytjb",
       "name": "简单的数据整理与统计表",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4006,6 +4194,7 @@
     },
     {
       "id": "g2u-CP-09-01",
+      "slug": "rj-g2u-CP-sxgjdpe",
       "name": "数学广角——搭配（二）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4037,6 +4226,7 @@
     },
     {
       "id": "g2u-CP-09-02",
+      "slug": "rj-g2u-CP-lylbybsjhd",
       "name": "量一量、比一比（实践活动）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4069,6 +4259,7 @@
     },
     {
       "id": "g2u-CP-09-03",
+      "slug": "rj-g2u-CP-ysxjjshzdjjwt",
       "name": "用数学解决生活中的加减问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4099,6 +4290,7 @@
     },
     {
       "id": "g2u-CP-09-04",
+      "slug": "rj-g2u-CP-szbmyglts",
       "name": "数字编码与规律探索",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -4129,6 +4321,7 @@
     },
     {
       "id": "g2d-NA-01-01",
+      "slug": "rj-g2d-NA-pjf",
       "name": "平均分",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4160,6 +4353,7 @@
     },
     {
       "id": "g2d-NA-01-02",
+      "slug": "rj-g2d-NA-cfdcbrs",
       "name": "除法的初步认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4191,6 +4385,7 @@
     },
     {
       "id": "g2d-NA-01-03",
+      "slug": "rj-g2d-NA-y26dcfkjqs",
       "name": "用2~6的乘法口诀求商",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4222,6 +4417,7 @@
     },
     {
       "id": "g2d-NA-01-04",
+      "slug": "rj-g2d-NA-ycfjjsjwt",
       "name": "用除法解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4252,6 +4448,7 @@
     },
     {
       "id": "g2d-NA-02-01",
+      "slug": "rj-g2d-NA-y789dcfkjqs",
       "name": "用7、8、9的乘法口诀求商",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4283,6 +4480,7 @@
     },
     {
       "id": "g2d-NA-02-02",
+      "slug": "rj-g2d-NA-ycfjjlbsjwt",
       "name": "用除法解决两步实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4313,6 +4511,7 @@
     },
     {
       "id": "g2d-NA-03-01",
+      "slug": "rj-g2d-NA-tjysdsx",
       "name": "同级运算的顺序",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4343,6 +4542,7 @@
     },
     {
       "id": "g2d-NA-03-02",
+      "slug": "rj-g2d-NA-hljysdyssx",
       "name": "含两级运算的运算顺序",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4374,6 +4574,7 @@
     },
     {
       "id": "g2d-NA-03-03",
+      "slug": "rj-g2d-NA-hxkhdhhys",
       "name": "含小括号的混合运算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4404,6 +4605,7 @@
     },
     {
       "id": "g2d-NA-03-04",
+      "slug": "rj-g2d-NA-yhhysjjsjwt",
       "name": "用混合运算解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4434,6 +4636,7 @@
     },
     {
       "id": "g2d-NA-04-01",
+      "slug": "rj-g2d-NA-ysdrsyyyscfdyy",
       "name": "余数的认识与有余数除法的意义",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4465,6 +4668,7 @@
     },
     {
       "id": "g2d-NA-04-02",
+      "slug": "rj-g2d-NA-ysycsdgx",
       "name": "余数与除数的关系",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4496,6 +4700,7 @@
     },
     {
       "id": "g2d-NA-04-03",
+      "slug": "rj-g2d-NA-yyscfdjs",
       "name": "有余数除法的计算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4526,6 +4731,7 @@
     },
     {
       "id": "g2d-NA-04-04",
+      "slug": "rj-g2d-NA-yyysdcfjjwt",
       "name": "用有余数的除法解决问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4556,6 +4762,7 @@
     },
     {
       "id": "g2d-NA-05-01",
+      "slug": "rj-g2d-NA-1000ynsdrs",
       "name": "1000以内数的认识",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -4587,6 +4794,7 @@
     },
     {
       "id": "g2d-NA-05-02",
+      "slug": "rj-g2d-NA-10000ynsdrs",
       "name": "10000以内数的认识",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -4618,6 +4826,7 @@
     },
     {
       "id": "g2d-NA-05-03",
+      "slug": "rj-g2d-NA-wynsddx",
       "name": "万以内数的读写",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -4648,6 +4857,7 @@
     },
     {
       "id": "g2d-NA-05-04",
+      "slug": "rj-g2d-NA-wynsddxbjyjss",
       "name": "万以内数的大小比较与近似数",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4679,6 +4889,7 @@
     },
     {
       "id": "g2d-NA-05-05",
+      "slug": "rj-g2d-NA-zbzqsdjjf",
       "name": "整百、整千数的加减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4710,6 +4921,7 @@
     },
     {
       "id": "g2d-NA-06-01",
+      "slug": "rj-g2d-NA-rskhqk",
       "name": "认识克和千克",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4740,6 +4952,7 @@
     },
     {
       "id": "g2d-NA-06-02",
+      "slug": "rj-g2d-NA-kyqkddwhsysjyy",
       "name": "克与千克的单位换算与实际应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4770,6 +4983,7 @@
     },
     {
       "id": "g2d-GG-07-01",
+      "slug": "rj-g2d-GG-rszdctx",
       "name": "认识轴对称图形",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4801,6 +5015,7 @@
     },
     {
       "id": "g2d-GG-07-02",
+      "slug": "rj-g2d-GG-rspyyxzxx",
       "name": "认识平移与旋转现象",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -4832,6 +5047,7 @@
     },
     {
       "id": "g2d-GG-07-03",
+      "slug": "rj-g2d-GG-txdpyyxzcz",
       "name": "图形的平移与旋转操作",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -4863,6 +5079,7 @@
     },
     {
       "id": "g2d-SP-08-01",
+      "slug": "rj-g2d-SP-sjsjzltcf",
       "name": "数据收集整理（调查法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4895,6 +5112,7 @@
     },
     {
       "id": "g2d-SP-08-02",
+      "slug": "rj-g2d-SP-tjbytxtjt",
       "name": "统计表与条形统计图",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -4925,6 +5143,7 @@
     },
     {
       "id": "g2d-CP-09-01",
+      "slug": "rj-g2d-CP-sxgjtly",
       "name": "数学广角——推理（一）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -4956,6 +5175,7 @@
     },
     {
       "id": "g2d-CP-09-02",
+      "slug": "rj-g2d-CP-zglzqgl",
       "name": "找规律（周期规律）",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -4988,6 +5208,7 @@
     },
     {
       "id": "g2d-CP-09-03",
+      "slug": "rj-g2d-CP-jddsjyshwt",
       "name": "简单的时间与生活问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5018,6 +5239,7 @@
     },
     {
       "id": "g2d-CP-09-04",
+      "slug": "rj-g2d-CP-sjhdxxsjs",
       "name": "实践活动：小小设计师",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -5050,6 +5272,7 @@
     },
     {
       "id": "g3u-NA-01-01",
+      "slug": "rj-g3u-NA-mdrs",
       "name": "秒的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5081,6 +5304,7 @@
     },
     {
       "id": "g3u-NA-01-02",
+      "slug": "rj-g3u-NA-sjdhsyjdjs",
       "name": "时间的换算与简单计算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5111,6 +5335,7 @@
     },
     {
       "id": "g3u-NA-02-01",
+      "slug": "rj-g3u-NA-lwsjlwsks",
       "name": "两位数加两位数口算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5141,6 +5366,7 @@
     },
     {
       "id": "g3u-NA-02-02",
+      "slug": "rj-g3u-NA-lwsjlwsks-2",
       "name": "两位数减两位数口算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5171,6 +5397,7 @@
     },
     {
       "id": "g3u-NA-02-03",
+      "slug": "rj-g3u-NA-jbjsjjjbjsbs",
       "name": "几百几十加、减几百几十（笔算）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5203,6 +5430,7 @@
     },
     {
       "id": "g3u-NA-02-04",
+      "slug": "rj-g3u-NA-jjfdgss",
       "name": "加减法的估算（三）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5234,6 +5462,7 @@
     },
     {
       "id": "g3u-NA-03-01",
+      "slug": "rj-g3u-NA-hmdrs",
       "name": "毫米的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5265,6 +5494,7 @@
     },
     {
       "id": "g3u-NA-03-02",
+      "slug": "rj-g3u-NA-fmdrs",
       "name": "分米的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5295,6 +5525,7 @@
     },
     {
       "id": "g3u-NA-03-03",
+      "slug": "rj-g3u-NA-qmdrs",
       "name": "千米的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5326,6 +5557,7 @@
     },
     {
       "id": "g3u-NA-03-04",
+      "slug": "rj-g3u-NA-ddrs",
       "name": "吨的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5357,6 +5589,7 @@
     },
     {
       "id": "g3u-NA-03-05",
+      "slug": "rj-g3u-NA-cddwyzldwdhs",
       "name": "长度单位与质量单位的换算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5387,6 +5620,7 @@
     },
     {
       "id": "g3u-NA-04-01",
+      "slug": "rj-g3u-NA-swsjswsbjwjw",
       "name": "三位数加三位数（不进位、进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5419,6 +5653,7 @@
     },
     {
       "id": "g3u-NA-04-02",
+      "slug": "rj-g3u-NA-swsjswsbtwtw",
       "name": "三位数减三位数（不退位、退位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5451,6 +5686,7 @@
     },
     {
       "id": "g3u-NA-04-03",
+      "slug": "rj-g3u-NA-bjszjhmwy0djf",
       "name": "被减数中间或末尾有0的减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5481,6 +5717,7 @@
     },
     {
       "id": "g3u-NA-04-04",
+      "slug": "rj-g3u-NA-jjfdys",
       "name": "加减法的验算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5512,6 +5749,7 @@
     },
     {
       "id": "g3u-NA-05-01",
+      "slug": "rj-g3u-NA-kscfzszbscyws",
       "name": "口算乘法（整十、整百数乘一位数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5544,6 +5782,7 @@
     },
     {
       "id": "g3u-NA-05-02",
+      "slug": "rj-g3u-NA-dwscywsdbsbjw",
       "name": "多位数乘一位数的笔算（不进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5575,6 +5814,7 @@
     },
     {
       "id": "g3u-NA-05-03",
+      "slug": "rj-g3u-NA-dwscywsdbsjw",
       "name": "多位数乘一位数的笔算（进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5606,6 +5846,7 @@
     },
     {
       "id": "g3u-NA-05-04",
+      "slug": "rj-g3u-NA-ygyszjhmwy0dcf",
       "name": "一个因数中间或末尾有0的乘法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5636,6 +5877,7 @@
     },
     {
       "id": "g3u-NA-05-05",
+      "slug": "rj-g3u-NA-ycfgsjjwt",
       "name": "用乘法估算解决问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5666,6 +5908,7 @@
     },
     {
       "id": "g3u-NA-05-06",
+      "slug": "rj-g3u-NA-yccfjjsjwt",
       "name": "用乘除法解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5696,6 +5939,7 @@
     },
     {
       "id": "g3u-NA-06-01",
+      "slug": "rj-g3u-NA-rsjfzy",
       "name": "认识几分之一",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5727,6 +5971,7 @@
     },
     {
       "id": "g3u-NA-06-02",
+      "slug": "rj-g3u-NA-rsjfzj",
       "name": "认识几分之几",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5757,6 +6002,7 @@
     },
     {
       "id": "g3u-NA-06-03",
+      "slug": "rj-g3u-NA-bjfsddx",
       "name": "比较分数的大小",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5788,6 +6034,7 @@
     },
     {
       "id": "g3u-NA-06-04",
+      "slug": "rj-g3u-NA-fsdjdjstfm",
       "name": "分数的简单计算（同分母）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5819,6 +6066,7 @@
     },
     {
       "id": "g3u-NA-06-05",
+      "slug": "rj-g3u-NA-fsdjdyyqygsdjfzj",
       "name": "分数的简单应用（求一个数的几分之几）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5850,6 +6098,7 @@
     },
     {
       "id": "g3u-GG-07-01",
+      "slug": "rj-g3u-GG-sbxdrs",
       "name": "四边形的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5881,6 +6130,7 @@
     },
     {
       "id": "g3u-GG-07-02",
+      "slug": "rj-g3u-GG-zcdrs",
       "name": "周长的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -5912,6 +6162,7 @@
     },
     {
       "id": "g3u-GG-07-03",
+      "slug": "rj-g3u-GG-cfxhzfxdzc",
       "name": "长方形和正方形的周长",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5943,6 +6194,7 @@
     },
     {
       "id": "g3u-GG-07-04",
+      "slug": "rj-g3u-GG-zcdsjwtpz",
       "name": "周长的实际问题（拼组）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -5975,6 +6227,7 @@
     },
     {
       "id": "g3u-SP-08-01",
+      "slug": "rj-g3u-SP-szbmyzbmsfzh",
       "name": "数字编码（邮政编码、身份证号）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6008,6 +6261,7 @@
     },
     {
       "id": "g3u-CP-09-01",
+      "slug": "rj-g3u-CP-sxgjjhzdwt",
       "name": "数学广角——集合（重叠问题）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6040,6 +6294,7 @@
     },
     {
       "id": "g3u-CP-09-02",
+      "slug": "rj-g3u-CP-clsjhdlyl",
       "name": "测量实践活动（量一量）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6071,6 +6326,7 @@
     },
     {
       "id": "g3u-CP-09-03",
+      "slug": "rj-g3u-CP-jjwtcllbf",
       "name": "解决问题策略（列表法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6102,6 +6358,7 @@
     },
     {
       "id": "g3d-NA-01-01",
+      "slug": "rj-g3d-NA-kscf",
       "name": "口算除法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6132,6 +6389,7 @@
     },
     {
       "id": "g3d-NA-01-02",
+      "slug": "rj-g3d-NA-lwscyywsdbs",
       "name": "两位数除以一位数的笔算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6162,6 +6420,7 @@
     },
     {
       "id": "g3d-NA-01-03",
+      "slug": "rj-g3d-NA-swscyywsdbs",
       "name": "三位数除以一位数的笔算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6192,6 +6451,7 @@
     },
     {
       "id": "g3d-NA-01-04",
+      "slug": "rj-g3d-NA-szjhmwy0dcf",
       "name": "商中间或末尾有0的除法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6222,6 +6482,7 @@
     },
     {
       "id": "g3d-NA-01-05",
+      "slug": "rj-g3d-NA-cfdys",
       "name": "除法的验算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6253,6 +6514,7 @@
     },
     {
       "id": "g3d-NA-01-06",
+      "slug": "rj-g3d-NA-ycfgsjjwt",
       "name": "用除法估算解决问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6283,6 +6545,7 @@
     },
     {
       "id": "g3d-NA-02-01",
+      "slug": "rj-g3d-NA-kscflwsczss",
       "name": "口算乘法（两位数乘整十数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6314,6 +6577,7 @@
     },
     {
       "id": "g3d-NA-02-02",
+      "slug": "rj-g3d-NA-lwsclwsdbsbjw",
       "name": "两位数乘两位数的笔算（不进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6345,6 +6609,7 @@
     },
     {
       "id": "g3d-NA-02-03",
+      "slug": "rj-g3d-NA-lwsclwsdbsjw",
       "name": "两位数乘两位数的笔算（进位）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6376,6 +6641,7 @@
     },
     {
       "id": "g3d-NA-02-04",
+      "slug": "rj-g3d-NA-cfgsysjyy",
       "name": "乘法估算与实际应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6406,6 +6672,7 @@
     },
     {
       "id": "g3d-NA-03-01",
+      "slug": "rj-g3d-NA-rsxs",
       "name": "认识小数",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -6437,6 +6704,7 @@
     },
     {
       "id": "g3d-NA-03-02",
+      "slug": "rj-g3d-NA-xsddxf",
       "name": "小数的读写法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -6467,6 +6735,7 @@
     },
     {
       "id": "g3d-NA-03-03",
+      "slug": "rj-g3d-NA-xsddxbj",
       "name": "小数的大小比较",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -6498,6 +6767,7 @@
     },
     {
       "id": "g3d-NA-03-04",
+      "slug": "rj-g3d-NA-jddxsjjf",
       "name": "简单的小数加、减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6529,6 +6799,7 @@
     },
     {
       "id": "g3d-NA-03-05",
+      "slug": "rj-g3d-NA-yxsjjsjwt",
       "name": "用小数解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6559,6 +6830,7 @@
     },
     {
       "id": "g3d-NA-04-01",
+      "slug": "rj-g3d-NA-nyrdjbzs",
       "name": "年、月、日的基本知识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -6590,6 +6862,7 @@
     },
     {
       "id": "g3d-NA-04-02",
+      "slug": "rj-g3d-NA-pnhrn",
       "name": "平年和闰年",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -6621,6 +6894,7 @@
     },
     {
       "id": "g3d-NA-04-03",
+      "slug": "rj-g3d-NA-24sjsf",
       "name": "24时计时法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -6652,6 +6926,7 @@
     },
     {
       "id": "g3d-NA-04-04",
+      "slug": "rj-g3d-NA-jgsjdjs",
       "name": "经过时间的计算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6684,6 +6959,7 @@
     },
     {
       "id": "g3d-GG-05-01",
+      "slug": "rj-g3d-GG-rsdnxb",
       "name": "认识东、南、西、北",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -6715,6 +6991,7 @@
     },
     {
       "id": "g3d-GG-05-02",
+      "slug": "rj-g3d-GG-rsdbdnxbxn",
       "name": "认识东北、东南、西北、西南",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -6748,6 +7025,7 @@
     },
     {
       "id": "g3d-GG-05-03",
+      "slug": "rj-g3d-GG-jddlxt",
       "name": "简单的路线图",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -6779,6 +7057,7 @@
     },
     {
       "id": "g3d-GG-06-01",
+      "slug": "rj-g3d-GG-mjhmjdw",
       "name": "面积和面积单位",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -6810,6 +7089,7 @@
     },
     {
       "id": "g3d-GG-06-02",
+      "slug": "rj-g3d-GG-cfxzfxmjdjs",
       "name": "长方形、正方形面积的计算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6842,6 +7122,7 @@
     },
     {
       "id": "g3d-GG-06-03",
+      "slug": "rj-g3d-GG-mjdwjdjlyhs",
       "name": "面积单位间的进率与换算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6872,6 +7153,7 @@
     },
     {
       "id": "g3d-GG-06-04",
+      "slug": "rj-g3d-GG-mjyzcddb",
       "name": "面积与周长的对比",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6902,6 +7184,7 @@
     },
     {
       "id": "g3d-GG-06-05",
+      "slug": "rj-g3d-GG-zhtxmjdjs",
       "name": "组合图形面积的计算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6933,6 +7216,7 @@
     },
     {
       "id": "g3d-SP-07-01",
+      "slug": "rj-g3d-SP-fstjb",
       "name": "复式统计表",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6964,6 +7248,7 @@
     },
     {
       "id": "g3d-CP-08-01",
+      "slug": "rj-g3d-CP-sxgjplzh",
       "name": "数学广角——排列组合",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -6995,6 +7280,7 @@
     },
     {
       "id": "g3d-CP-08-02",
+      "slug": "rj-g3d-CP-sjhdzzhdrl",
       "name": "实践活动：制作活动日历",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7026,6 +7312,7 @@
     },
     {
       "id": "g3d-CP-08-03",
+      "slug": "rj-g3d-CP-jjwtlcygywt",
       "name": "解决问题：连乘与归一问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7057,6 +7344,7 @@
     },
     {
       "id": "g3d-CP-08-04",
+      "slug": "rj-g3d-CP-sjdzlyjdfx",
       "name": "数据的整理与简单分析",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7088,6 +7376,7 @@
     },
     {
       "id": "g4u-NA-01-01",
+      "slug": "rj-g4u-NA-yynsdrs",
       "name": "亿以内数的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7119,6 +7408,7 @@
     },
     {
       "id": "g4u-NA-01-02",
+      "slug": "rj-g4u-NA-yynsddfhxf",
       "name": "亿以内数的读法和写法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -7149,6 +7439,7 @@
     },
     {
       "id": "g4u-NA-01-03",
+      "slug": "rj-g4u-NA-yynsddxbjygx",
       "name": "亿以内数的大小比较与改写",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7180,6 +7471,7 @@
     },
     {
       "id": "g4u-NA-01-04",
+      "slug": "rj-g4u-NA-sdcsysjzjsf",
       "name": "数的产生与十进制计数法",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7211,6 +7503,7 @@
     },
     {
       "id": "g4u-NA-01-05",
+      "slug": "rj-g4u-NA-yyssdrs",
       "name": "亿以上数的认识",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -7242,6 +7535,7 @@
     },
     {
       "id": "g4u-NA-01-06",
+      "slug": "rj-g4u-NA-qjsssswrf",
       "name": "求近似数（四舍五入法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7274,6 +7568,7 @@
     },
     {
       "id": "g4u-NA-01-07",
+      "slug": "rj-g4u-NA-sdgxyslwy",
       "name": "数的改写与省略（万、亿）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7304,6 +7599,7 @@
     },
     {
       "id": "g4u-NA-02-01",
+      "slug": "rj-g4u-NA-rsgq",
       "name": "认识公顷",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7335,6 +7631,7 @@
     },
     {
       "id": "g4u-NA-02-02",
+      "slug": "rj-g4u-NA-rspfqm",
       "name": "认识平方千米",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7366,6 +7663,7 @@
     },
     {
       "id": "g4u-NA-02-03",
+      "slug": "rj-g4u-NA-gqpfqmypfmdhs",
       "name": "公顷、平方千米与平方米的换算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7398,6 +7696,7 @@
     },
     {
       "id": "g4u-NA-03-01",
+      "slug": "rj-g4u-NA-swsclwsdbs",
       "name": "三位数乘两位数的笔算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7428,6 +7727,7 @@
     },
     {
       "id": "g4u-NA-03-02",
+      "slug": "rj-g4u-NA-yszjhmwy0dcf",
       "name": "因数中间或末尾有0的乘法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7458,6 +7758,7 @@
     },
     {
       "id": "g4u-NA-03-03",
+      "slug": "rj-g4u-NA-jdbhgl",
       "name": "积的变化规律",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7489,6 +7790,7 @@
     },
     {
       "id": "g4u-NA-03-04",
+      "slug": "rj-g4u-NA-djslyzjdslgx",
       "name": "单价、数量与总价的数量关系",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7520,6 +7822,7 @@
     },
     {
       "id": "g4u-NA-03-05",
+      "slug": "rj-g4u-NA-sdsjylcdslgx",
       "name": "速度、时间与路程的数量关系",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7551,6 +7854,7 @@
     },
     {
       "id": "g4u-NA-03-06",
+      "slug": "rj-g4u-NA-cfgsysjyy",
       "name": "乘法估算与实际应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7581,6 +7885,7 @@
     },
     {
       "id": "g4u-NA-04-01",
+      "slug": "rj-g4u-NA-kscfzss",
       "name": "口算除法（整十数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7612,6 +7917,7 @@
     },
     {
       "id": "g4u-NA-04-02",
+      "slug": "rj-g4u-NA-csslwsdbssyws",
       "name": "除数是两位数的笔算（商一位数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7643,6 +7949,7 @@
     },
     {
       "id": "g4u-NA-04-03",
+      "slug": "rj-g4u-NA-csslwsdbsslws",
       "name": "除数是两位数的笔算（商两位数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7674,6 +7981,7 @@
     },
     {
       "id": "g4u-NA-04-04",
+      "slug": "rj-g4u-NA-sdbhgl",
       "name": "商的变化规律",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7705,6 +8013,7 @@
     },
     {
       "id": "g4u-NA-04-05",
+      "slug": "rj-g4u-NA-ssyts",
       "name": "试商与调商",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7735,6 +8044,7 @@
     },
     {
       "id": "g4u-NA-04-06",
+      "slug": "rj-g4u-NA-ycfjjsjwt",
       "name": "用除法解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -7765,6 +8075,7 @@
     },
     {
       "id": "g4u-GG-05-01",
+      "slug": "rj-g4u-GG-zxsxhxd",
       "name": "直线、射线和线段",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7797,6 +8108,7 @@
     },
     {
       "id": "g4u-GG-05-02",
+      "slug": "rj-g4u-GG-jddlyljq",
       "name": "角的度量与量角器",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7828,6 +8140,7 @@
     },
     {
       "id": "g4u-GG-05-03",
+      "slug": "rj-g4u-GG-jdflrjzjdjpjzj",
       "name": "角的分类（锐角、直角、钝角、平角、周角）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7865,6 +8178,7 @@
     },
     {
       "id": "g4u-GG-05-04",
+      "slug": "rj-g4u-GG-hj",
       "name": "画角",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -7896,6 +8210,7 @@
     },
     {
       "id": "g4u-GG-06-01",
+      "slug": "rj-g4u-GG-czypx",
       "name": "垂直与平行",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7927,6 +8242,7 @@
     },
     {
       "id": "g4u-GG-06-02",
+      "slug": "rj-g4u-GG-pxsbxhtxdrs",
       "name": "平行四边形和梯形的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -7958,6 +8274,7 @@
     },
     {
       "id": "g4u-GG-06-03",
+      "slug": "rj-g4u-GG-pxsbxhtxdtzyhf",
       "name": "平行四边形和梯形的特征与画法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -7989,6 +8306,7 @@
     },
     {
       "id": "g4u-SP-07-01",
+      "slug": "rj-g4u-SP-txtjty",
       "name": "条形统计图（一）",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -8020,6 +8338,7 @@
     },
     {
       "id": "g4u-SP-07-02",
+      "slug": "rj-g4u-SP-pjsytjyy",
       "name": "平均数与统计应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8052,6 +8371,7 @@
     },
     {
       "id": "g4u-CP-08-01",
+      "slug": "rj-g4u-CP-sxgjyhqclb",
       "name": "数学广角——优化（沏茶、烙饼）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8085,6 +8405,7 @@
     },
     {
       "id": "g4d-NA-01-01",
+      "slug": "rj-g4d-NA-jjfdyyhgbfjdgx",
       "name": "加减法的意义和各部分间的关系",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8116,6 +8437,7 @@
     },
     {
       "id": "g4d-NA-01-02",
+      "slug": "rj-g4d-NA-ccfdyyhgbfjdgx",
       "name": "乘除法的意义和各部分间的关系",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8147,6 +8469,7 @@
     },
     {
       "id": "g4d-NA-01-03",
+      "slug": "rj-g4d-NA-hkhdszhhys",
       "name": "含括号的四则混合运算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8177,6 +8500,7 @@
     },
     {
       "id": "g4d-NA-01-04",
+      "slug": "rj-g4d-NA-yg0dys",
       "name": "有关0的运算",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8208,6 +8532,7 @@
     },
     {
       "id": "g4d-NA-02-01",
+      "slug": "rj-g4d-NA-jfjhlhjhl",
       "name": "加法交换律和结合律",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8239,6 +8564,7 @@
     },
     {
       "id": "g4d-NA-02-02",
+      "slug": "rj-g4d-NA-cfjhlhjhl",
       "name": "乘法交换律和结合律",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8270,6 +8596,7 @@
     },
     {
       "id": "g4d-NA-02-03",
+      "slug": "rj-g4d-NA-cffpl",
       "name": "乘法分配律",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8301,6 +8628,7 @@
     },
     {
       "id": "g4d-NA-02-04",
+      "slug": "rj-g4d-NA-jbysjjf",
       "name": "简便运算（加减法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8332,6 +8660,7 @@
     },
     {
       "id": "g4d-NA-02-05",
+      "slug": "rj-g4d-NA-jbyscf",
       "name": "简便运算（乘法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8363,6 +8692,7 @@
     },
     {
       "id": "g4d-NA-03-01",
+      "slug": "rj-g4d-NA-xsdyyhswsxb",
       "name": "小数的意义和数位顺序表",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8394,6 +8724,7 @@
     },
     {
       "id": "g4d-NA-03-02",
+      "slug": "rj-g4d-NA-xsddfhxf",
       "name": "小数的读法和写法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -8424,6 +8755,7 @@
     },
     {
       "id": "g4d-NA-03-03",
+      "slug": "rj-g4d-NA-xsdxz",
       "name": "小数的性质",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8455,6 +8787,7 @@
     },
     {
       "id": "g4d-NA-03-04",
+      "slug": "rj-g4d-NA-xsdydyqxsdxdbh",
       "name": "小数点移动引起小数大小的变化",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8486,6 +8819,7 @@
     },
     {
       "id": "g4d-NA-03-05",
+      "slug": "rj-g4d-NA-xsydwhs",
       "name": "小数与单位换算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8516,6 +8850,7 @@
     },
     {
       "id": "g4d-NA-03-06",
+      "slug": "rj-g4d-NA-xsdjssygx",
       "name": "小数的近似数与改写",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8546,6 +8881,7 @@
     },
     {
       "id": "g4d-NA-04-01",
+      "slug": "rj-g4d-NA-xsjjfbs",
       "name": "小数加减法（笔算）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8577,6 +8913,7 @@
     },
     {
       "id": "g4d-NA-04-02",
+      "slug": "rj-g4d-NA-xsjjhhys",
       "name": "小数加减混合运算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8607,6 +8944,7 @@
     },
     {
       "id": "g4d-NA-04-03",
+      "slug": "rj-g4d-NA-zsysdltgdxs",
       "name": "整数运算定律推广到小数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8637,6 +8975,7 @@
     },
     {
       "id": "g4d-GG-05-01",
+      "slug": "rj-g4d-GG-sjxdtxysbgx",
       "name": "三角形的特性与三边关系",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8668,6 +9007,7 @@
     },
     {
       "id": "g4d-GG-05-02",
+      "slug": "rj-g4d-GG-sjxdflajab",
       "name": "三角形的分类（按角、按边）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8701,6 +9041,7 @@
     },
     {
       "id": "g4d-GG-05-03",
+      "slug": "rj-g4d-GG-sjxdnjh",
       "name": "三角形的内角和",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -8733,6 +9074,7 @@
     },
     {
       "id": "g4d-GG-05-04",
+      "slug": "rj-g4d-GG-sbxdnjh",
       "name": "四边形的内角和",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8763,6 +9105,7 @@
     },
     {
       "id": "g4d-GG-06-01",
+      "slug": "rj-g4d-GG-zdctxdxzyhf",
       "name": "轴对称图形的性质与画法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -8794,6 +9137,7 @@
     },
     {
       "id": "g4d-GG-06-02",
+      "slug": "rj-g4d-GG-pydxzyhf",
       "name": "平移的性质与画法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -8825,6 +9169,7 @@
     },
     {
       "id": "g4d-GG-07-01",
+      "slug": "rj-g4d-GG-cbtfxgclttx",
       "name": "从不同方向观察立体图形",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -8856,6 +9201,7 @@
     },
     {
       "id": "g4d-SP-08-01",
+      "slug": "rj-g4d-SP-pjse",
       "name": "平均数（二）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8887,6 +9233,7 @@
     },
     {
       "id": "g4d-SP-08-02",
+      "slug": "rj-g4d-SP-fstxtjt",
       "name": "复式条形统计图",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -8918,6 +9265,7 @@
     },
     {
       "id": "g4d-SP-08-03",
+      "slug": "rj-g4d-SP-zxtjtcb",
       "name": "折线统计图初步",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -8948,6 +9296,7 @@
     },
     {
       "id": "g4d-CP-09-01",
+      "slug": "rj-g4d-CP-sxgjjttl",
       "name": "数学广角——鸡兔同笼",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -8979,6 +9328,7 @@
     },
     {
       "id": "g4d-CP-09-02",
+      "slug": "rj-g4d-CP-yywcsjsjyfx",
       "name": "营养午餐（数据收集与分析）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9010,6 +9360,7 @@
     },
     {
       "id": "g5u-NA-01-01",
+      "slug": "rj-g5u-NA-xsczs",
       "name": "小数乘整数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9040,6 +9391,7 @@
     },
     {
       "id": "g5u-NA-01-02",
+      "slug": "rj-g5u-NA-xscxs",
       "name": "小数乘小数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9070,6 +9422,7 @@
     },
     {
       "id": "g5u-NA-01-03",
+      "slug": "rj-g5u-NA-jdjss",
       "name": "积的近似数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9100,6 +9453,7 @@
     },
     {
       "id": "g5u-NA-01-04",
+      "slug": "rj-g5u-NA-lccjcj",
       "name": "连乘、乘加、乘减",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9132,6 +9486,7 @@
     },
     {
       "id": "g5u-NA-01-05",
+      "slug": "rj-g5u-NA-yxscfjjwt",
       "name": "用小数乘法解决问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9162,6 +9517,7 @@
     },
     {
       "id": "g5u-NA-02-01",
+      "slug": "rj-g5u-NA-csszsdxscf",
       "name": "除数是整数的小数除法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9192,6 +9548,7 @@
     },
     {
       "id": "g5u-NA-02-02",
+      "slug": "rj-g5u-NA-ygscyxs",
       "name": "一个数除以小数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9222,6 +9579,7 @@
     },
     {
       "id": "g5u-NA-02-03",
+      "slug": "rj-g5u-NA-sdjss",
       "name": "商的近似数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9252,6 +9610,7 @@
     },
     {
       "id": "g5u-NA-02-04",
+      "slug": "rj-g5u-NA-xhxs",
       "name": "循环小数",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -9283,6 +9642,7 @@
     },
     {
       "id": "g5u-NA-02-05",
+      "slug": "rj-g5u-NA-yjsqtsgl",
       "name": "用计算器探索规律",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9313,6 +9673,7 @@
     },
     {
       "id": "g5u-NA-02-06",
+      "slug": "rj-g5u-NA-yxscfjjwtjyfqwf",
       "name": "用小数除法解决问题（进一法、去尾法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9345,6 +9706,7 @@
     },
     {
       "id": "g5u-NA-03-01",
+      "slug": "rj-g5u-NA-yzmbss",
       "name": "用字母表示数",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -9376,6 +9738,7 @@
     },
     {
       "id": "g5u-NA-03-02",
+      "slug": "rj-g5u-NA-fcdyy",
       "name": "方程的意义",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -9407,6 +9770,7 @@
     },
     {
       "id": "g5u-NA-03-03",
+      "slug": "rj-g5u-NA-dsdxz",
       "name": "等式的性质",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -9438,6 +9802,7 @@
     },
     {
       "id": "g5u-NA-03-04",
+      "slug": "rj-g5u-NA-jfcyb",
       "name": "解方程（一步）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9469,6 +9834,7 @@
     },
     {
       "id": "g5u-NA-03-05",
+      "slug": "rj-g5u-NA-jfclbjdkh",
       "name": "解方程（两步及带括号）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9500,6 +9866,7 @@
     },
     {
       "id": "g5u-NA-03-06",
+      "slug": "rj-g5u-NA-lfcjjsjwt",
       "name": "列方程解决实际问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9530,6 +9897,7 @@
     },
     {
       "id": "g5u-NA-03-07",
+      "slug": "rj-g5u-NA-lfcjsfzdwthbcb",
       "name": "列方程解稍复杂的问题（和倍、差倍）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9562,6 +9930,7 @@
     },
     {
       "id": "g5u-GG-04-01",
+      "slug": "rj-g5u-GG-ysdbswz",
       "name": "用数对表示位置",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -9594,6 +9963,7 @@
     },
     {
       "id": "g5u-GG-04-02",
+      "slug": "rj-g5u-GG-zfgzsysdqdwz",
       "name": "在方格纸上用数对确定位置",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -9625,6 +9995,7 @@
     },
     {
       "id": "g5u-GG-05-01",
+      "slug": "rj-g5u-GG-pxsbxdmj",
       "name": "平行四边形的面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9656,6 +10027,7 @@
     },
     {
       "id": "g5u-GG-05-02",
+      "slug": "rj-g5u-GG-sjxdmj",
       "name": "三角形的面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9687,6 +10059,7 @@
     },
     {
       "id": "g5u-GG-05-03",
+      "slug": "rj-g5u-GG-txdmj",
       "name": "梯形的面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9718,6 +10091,7 @@
     },
     {
       "id": "g5u-GG-05-04",
+      "slug": "rj-g5u-GG-zhtxdmj",
       "name": "组合图形的面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9749,6 +10123,7 @@
     },
     {
       "id": "g5u-GG-05-05",
+      "slug": "rj-g5u-GG-fgzzbgztxmjdgs",
       "name": "方格纸中不规则图形面积的估算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9780,6 +10155,7 @@
     },
     {
       "id": "g5u-SP-06-01",
+      "slug": "rj-g5u-SP-sjfsdknx",
       "name": "事件发生的可能性",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -9811,6 +10187,7 @@
     },
     {
       "id": "g5u-CP-07-01",
+      "slug": "rj-g5u-CP-sxgjzswt",
       "name": "数学广角——植树问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9842,6 +10219,7 @@
     },
     {
       "id": "g5u-CP-07-02",
+      "slug": "rj-g5u-CP-zyzknxsjhd",
       "name": "掷一掷（可能性实践活动）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9873,6 +10251,7 @@
     },
     {
       "id": "g5u-CP-07-03",
+      "slug": "rj-g5u-CP-fdjfwt",
       "name": "分段计费问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9903,6 +10282,7 @@
     },
     {
       "id": "g5u-CP-07-04",
+      "slug": "rj-g5u-CP-zhsjjyysldtj",
       "name": "综合实践：节约用水（量的统计）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9936,6 +10316,7 @@
     },
     {
       "id": "g5d-NA-01-01",
+      "slug": "rj-g5d-NA-yshbsdyy",
       "name": "因数和倍数的意义",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -9967,6 +10348,7 @@
     },
     {
       "id": "g5d-NA-01-02",
+      "slug": "rj-g5d-NA-zygsdyshbs",
       "name": "找一个数的因数和倍数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -9997,6 +10379,7 @@
     },
     {
       "id": "g5d-NA-01-03",
+      "slug": "rj-g5d-NA-25dbsdtz",
       "name": "2、5的倍数的特征",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10028,6 +10411,7 @@
     },
     {
       "id": "g5d-NA-01-04",
+      "slug": "rj-g5d-NA-3dbsdtz",
       "name": "3的倍数的特征",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10059,6 +10443,7 @@
     },
     {
       "id": "g5d-NA-01-05",
+      "slug": "rj-g5d-NA-zshhs",
       "name": "质数和合数",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10090,6 +10475,7 @@
     },
     {
       "id": "g5d-NA-01-06",
+      "slug": "rj-g5d-NA-qshosdysxz",
       "name": "奇数和偶数的运算性质",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10121,6 +10507,7 @@
     },
     {
       "id": "g5d-NA-02-01",
+      "slug": "rj-g5d-NA-fsdyyydw1",
       "name": "分数的意义与单位“1”",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10152,6 +10539,7 @@
     },
     {
       "id": "g5d-NA-02-02",
+      "slug": "rj-g5d-NA-fsycfdgx",
       "name": "分数与除法的关系",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10183,6 +10571,7 @@
     },
     {
       "id": "g5d-NA-02-03",
+      "slug": "rj-g5d-NA-zfshjfs",
       "name": "真分数和假分数",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10214,6 +10603,7 @@
     },
     {
       "id": "g5d-NA-02-04",
+      "slug": "rj-g5d-NA-fsdjbxz",
       "name": "分数的基本性质",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10245,6 +10635,7 @@
     },
     {
       "id": "g5d-NA-02-05",
+      "slug": "rj-g5d-NA-yfzdgys",
       "name": "约分（最大公因数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10276,6 +10667,7 @@
     },
     {
       "id": "g5d-NA-02-06",
+      "slug": "rj-g5d-NA-tfzxgbs",
       "name": "通分（最小公倍数）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10307,6 +10699,7 @@
     },
     {
       "id": "g5d-NA-02-07",
+      "slug": "rj-g5d-NA-fsyxsdhh",
       "name": "分数与小数的互化",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10337,6 +10730,7 @@
     },
     {
       "id": "g5d-NA-03-01",
+      "slug": "rj-g5d-NA-tfmfsjjf",
       "name": "同分母分数加减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10367,6 +10761,7 @@
     },
     {
       "id": "g5d-NA-03-02",
+      "slug": "rj-g5d-NA-yfmfsjjf",
       "name": "异分母分数加减法",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10397,6 +10792,7 @@
     },
     {
       "id": "g5d-NA-03-03",
+      "slug": "rj-g5d-NA-fsjjhhys",
       "name": "分数加减混合运算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10427,6 +10823,7 @@
     },
     {
       "id": "g5d-NA-03-04",
+      "slug": "rj-g5d-NA-fsjjfdjbys",
       "name": "分数加减法的简便运算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10457,6 +10854,7 @@
     },
     {
       "id": "g5d-NA-03-05",
+      "slug": "rj-g5d-NA-yfsjjfjjwt",
       "name": "用分数加减法解决问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10487,6 +10885,7 @@
     },
     {
       "id": "g5d-GG-04-01",
+      "slug": "rj-g5d-GG-cfthzftdrs",
       "name": "长方体和正方体的认识",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10518,6 +10917,7 @@
     },
     {
       "id": "g5d-GG-04-02",
+      "slug": "rj-g5d-GG-cfthzftdbmj",
       "name": "长方体和正方体的表面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10548,6 +10948,7 @@
     },
     {
       "id": "g5d-GG-04-03",
+      "slug": "rj-g5d-GG-tjhtjdw",
       "name": "体积和体积单位",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -10579,6 +10980,7 @@
     },
     {
       "id": "g5d-GG-04-04",
+      "slug": "rj-g5d-GG-cfthzftdtj",
       "name": "长方体和正方体的体积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10610,6 +11012,7 @@
     },
     {
       "id": "g5d-GG-04-05",
+      "slug": "rj-g5d-GG-rjhrjdw",
       "name": "容积和容积单位",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10640,6 +11043,7 @@
     },
     {
       "id": "g5d-GG-04-06",
+      "slug": "rj-g5d-GG-bgzwtdtjpsf",
       "name": "不规则物体的体积（排水法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10672,6 +11076,7 @@
     },
     {
       "id": "g5d-GG-05-01",
+      "slug": "rj-g5d-GG-xzdxzyhf",
       "name": "旋转的性质与画法",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -10703,6 +11108,7 @@
     },
     {
       "id": "g5d-GG-06-01",
+      "slug": "rj-g5d-GG-cbtfxgclttxs",
       "name": "从不同方向观察立体图形（三）",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -10734,6 +11140,7 @@
     },
     {
       "id": "g5d-SP-07-01",
+      "slug": "rj-g5d-SP-zxtjte",
       "name": "折线统计图（二）",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -10765,6 +11172,7 @@
     },
     {
       "id": "g5d-SP-07-02",
+      "slug": "rj-g5d-SP-fszxtjt",
       "name": "复式折线统计图",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -10795,6 +11203,7 @@
     },
     {
       "id": "g5d-CP-08-01",
+      "slug": "rj-g5d-CP-sxgjzcp",
       "name": "数学广角——找次品",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10826,6 +11235,7 @@
     },
     {
       "id": "g5d-CP-08-02",
+      "slug": "rj-g5d-CP-zhysjtstx",
       "name": "综合与实践：探索图形",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10857,6 +11267,7 @@
     },
     {
       "id": "g6u-NA-01-01",
+      "slug": "rj-g6u-NA-fsczs",
       "name": "分数乘整数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10887,6 +11298,7 @@
     },
     {
       "id": "g6u-NA-01-02",
+      "slug": "rj-g6u-NA-fscfs",
       "name": "分数乘分数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10917,6 +11329,7 @@
     },
     {
       "id": "g6u-NA-01-03",
+      "slug": "rj-g6u-NA-fshhysyjbys",
       "name": "分数混合运算与简便运算",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10947,6 +11360,7 @@
     },
     {
       "id": "g6u-NA-01-04",
+      "slug": "rj-g6u-NA-yfscfjjwtqygsdjfzj",
       "name": "用分数乘法解决问题（求一个数的几分之几）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -10978,6 +11392,7 @@
     },
     {
       "id": "g6u-NA-01-05",
+      "slug": "rj-g6u-NA-lxqygsdjfzj",
       "name": "连续求一个数的几分之几",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11008,6 +11423,7 @@
     },
     {
       "id": "g6u-NA-02-01",
+      "slug": "rj-g6u-NA-fscyzs",
       "name": "分数除以整数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11038,6 +11454,7 @@
     },
     {
       "id": "g6u-NA-02-02",
+      "slug": "rj-g6u-NA-ygscyfs",
       "name": "一个数除以分数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11068,6 +11485,7 @@
     },
     {
       "id": "g6u-NA-02-03",
+      "slug": "rj-g6u-NA-fshhyscf",
       "name": "分数混合运算（除法）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11099,6 +11517,7 @@
     },
     {
       "id": "g6u-NA-02-04",
+      "slug": "rj-g6u-NA-yzygsdjfzjsdsqzgs",
       "name": "已知一个数的几分之几是多少，求这个数",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11130,6 +11549,7 @@
     },
     {
       "id": "g6u-NA-02-05",
+      "slug": "rj-g6u-NA-gcwt",
       "name": "工程问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11160,6 +11580,7 @@
     },
     {
       "id": "g6u-NA-02-06",
+      "slug": "rj-g6u-NA-fsccfzhyy",
       "name": "分数乘除法综合应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11190,6 +11611,7 @@
     },
     {
       "id": "g6u-NA-03-01",
+      "slug": "rj-g6u-NA-bdyyybdgbfmc",
       "name": "比的意义与比的各部分名称",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -11222,6 +11644,7 @@
     },
     {
       "id": "g6u-NA-03-02",
+      "slug": "rj-g6u-NA-bdjbxzyhjb",
       "name": "比的基本性质与化简比",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -11252,6 +11675,7 @@
     },
     {
       "id": "g6u-NA-03-03",
+      "slug": "rj-g6u-NA-byfscfdgx",
       "name": "比与分数、除法的关系",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -11284,6 +11708,7 @@
     },
     {
       "id": "g6u-NA-04-01",
+      "slug": "rj-g6u-NA-bfsdyyhdxf",
       "name": "百分数的意义和读写法",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -11315,6 +11740,7 @@
     },
     {
       "id": "g6u-NA-04-02",
+      "slug": "rj-g6u-NA-bfsyfsxsdhh",
       "name": "百分数与分数、小数的互化",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11346,6 +11772,7 @@
     },
     {
       "id": "g6u-NA-04-03",
+      "slug": "rj-g6u-NA-qbflhglcqld",
       "name": "求百分率（合格率、出勤率等）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11378,6 +11805,7 @@
     },
     {
       "id": "g6u-NA-04-04",
+      "slug": "rj-g6u-NA-qygsblygsdsbfzj",
       "name": "求一个数比另一个数多（少）百分之几",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11409,6 +11837,7 @@
     },
     {
       "id": "g6u-NA-04-05",
+      "slug": "rj-g6u-NA-zkcsslll",
       "name": "折扣、成数、税率、利率",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11442,6 +11871,7 @@
     },
     {
       "id": "g6u-GG-05-01",
+      "slug": "rj-g6u-GG-ydrsyxbjzj",
       "name": "圆的认识（圆心、半径、直径）",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -11476,6 +11906,7 @@
     },
     {
       "id": "g6u-GG-05-02",
+      "slug": "rj-g6u-GG-ydzc",
       "name": "圆的周长",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11507,6 +11938,7 @@
     },
     {
       "id": "g6u-GG-05-03",
+      "slug": "rj-g6u-GG-ydmj",
       "name": "圆的面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11537,6 +11969,7 @@
     },
     {
       "id": "g6u-GG-05-04",
+      "slug": "rj-g6u-GG-yhdmj",
       "name": "圆环的面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11567,6 +12000,7 @@
     },
     {
       "id": "g6u-GG-05-05",
+      "slug": "rj-g6u-GG-sxysxdmj",
       "name": "扇形与扇形的面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11598,6 +12032,7 @@
     },
     {
       "id": "g6u-GG-05-06",
+      "slug": "rj-g6u-GG-zhtxyyybfmj",
       "name": "组合图形与阴影部分面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11629,6 +12064,7 @@
     },
     {
       "id": "g6u-GG-06-01",
+      "slug": "rj-g6u-GG-yfxhjlqdwz",
       "name": "用方向和距离确定位置",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -11660,6 +12096,7 @@
     },
     {
       "id": "g6u-GG-06-02",
+      "slug": "rj-g6u-GG-msjddlxt",
       "name": "描述简单的路线图",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -11691,6 +12128,7 @@
     },
     {
       "id": "g6u-SP-07-01",
+      "slug": "rj-g6u-SP-sxtjt",
       "name": "扇形统计图",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -11723,6 +12161,7 @@
     },
     {
       "id": "g6u-SP-07-02",
+      "slug": "rj-g6u-SP-tjtdxzysjfx",
       "name": "统计图的选择与数据分析",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11754,6 +12193,7 @@
     },
     {
       "id": "g6u-CP-08-01",
+      "slug": "rj-g6u-CP-sxgjsyx",
       "name": "数学广角——数与形",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11785,6 +12225,7 @@
     },
     {
       "id": "g6u-CP-08-02",
+      "slug": "rj-g6u-CP-qdqpxzhsj",
       "name": "确定起跑线（综合实践）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11816,6 +12257,7 @@
     },
     {
       "id": "g6u-CP-08-03",
+      "slug": "rj-g6u-CP-bfszsjshzdzhyy",
       "name": "百分数在实际生活中的综合应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11846,6 +12288,7 @@
     },
     {
       "id": "g6d-NA-01-01",
+      "slug": "rj-g6d-NA-fsdrsyyy",
       "name": "负数的认识与意义",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -11877,6 +12320,7 @@
     },
     {
       "id": "g6d-NA-01-02",
+      "slug": "rj-g6d-NA-zszsbszsyfs",
       "name": "在数轴上表示正数与负数",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -11909,6 +12353,7 @@
     },
     {
       "id": "g6d-NA-01-03",
+      "slug": "rj-g6d-NA-fsddxbjysjyy",
       "name": "负数的大小比较与实际应用",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -11940,6 +12385,7 @@
     },
     {
       "id": "g6d-NA-02-01",
+      "slug": "rj-g6d-NA-zkdsjyy",
       "name": "折扣的实际应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -11971,6 +12417,7 @@
     },
     {
       "id": "g6d-NA-02-02",
+      "slug": "rj-g6d-NA-csdsjyy",
       "name": "成数的实际应用",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12001,6 +12448,7 @@
     },
     {
       "id": "g6d-NA-02-03",
+      "slug": "rj-g6d-NA-slwt",
       "name": "税率问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12031,6 +12479,7 @@
     },
     {
       "id": "g6d-NA-02-04",
+      "slug": "rj-g6d-NA-llybjlxwt",
       "name": "利率与本金、利息问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12062,6 +12511,7 @@
     },
     {
       "id": "g6d-NA-02-05",
+      "slug": "rj-g6d-NA-gwzdzyfabj",
       "name": "购物中的最优方案比较",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12092,6 +12542,7 @@
     },
     {
       "id": "g6d-NA-03-01",
+      "slug": "rj-g6d-NA-bldyyhjbxz",
       "name": "比例的意义和基本性质",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -12123,6 +12574,7 @@
     },
     {
       "id": "g6d-NA-03-02",
+      "slug": "rj-g6d-NA-jbl",
       "name": "解比例",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12153,6 +12605,7 @@
     },
     {
       "id": "g6d-NA-03-03",
+      "slug": "rj-g6d-NA-zbl",
       "name": "正比例",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -12184,6 +12637,7 @@
     },
     {
       "id": "g6d-NA-03-04",
+      "slug": "rj-g6d-NA-fbl",
       "name": "反比例",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -12215,6 +12669,7 @@
     },
     {
       "id": "g6d-NA-03-05",
+      "slug": "rj-g6d-NA-yzbljjwt",
       "name": "用正比例解决问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12245,6 +12700,7 @@
     },
     {
       "id": "g6d-NA-03-06",
+      "slug": "rj-g6d-NA-yfbljjwt",
       "name": "用反比例解决问题",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12275,6 +12731,7 @@
     },
     {
       "id": "g6d-NA-03-07",
+      "slug": "rj-g6d-NA-blc",
       "name": "比例尺",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -12307,6 +12764,7 @@
     },
     {
       "id": "g6d-NA-03-08",
+      "slug": "rj-g6d-NA-txdfdysx",
       "name": "图形的放大与缩小",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -12338,6 +12796,7 @@
     },
     {
       "id": "g6d-GG-04-01",
+      "slug": "rj-g6d-GG-yzdrsybmj",
       "name": "圆柱的认识与表面积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12369,6 +12828,7 @@
     },
     {
       "id": "g6d-GG-04-02",
+      "slug": "rj-g6d-GG-yzdtj",
       "name": "圆柱的体积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12399,6 +12859,7 @@
     },
     {
       "id": "g6d-GG-04-03",
+      "slug": "rj-g6d-GG-yzdrsytj",
       "name": "圆锥的认识与体积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12429,6 +12890,7 @@
     },
     {
       "id": "g6d-GG-04-04",
+      "slug": "rj-g6d-GG-zhlttxdtjyrj",
       "name": "组合立体图形的体积与容积",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12459,6 +12921,7 @@
     },
     {
       "id": "g6d-GG-05-01",
+      "slug": "rj-g6d-GG-txdrsyclzfx",
       "name": "图形的认识与测量总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12489,6 +12952,7 @@
     },
     {
       "id": "g6d-GG-05-02",
+      "slug": "rj-g6d-GG-txdydywzzfx",
       "name": "图形的运动与位置总复习",
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
@@ -12519,6 +12983,7 @@
     },
     {
       "id": "g6d-NA-06-01",
+      "slug": "rj-g6d-NA-sdrszfx",
       "name": "数的认识总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12550,6 +13015,7 @@
     },
     {
       "id": "g6d-NA-06-02",
+      "slug": "rj-g6d-NA-syyszfx",
       "name": "数与运算总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12580,6 +13046,7 @@
     },
     {
       "id": "g6d-NA-06-03",
+      "slug": "rj-g6d-NA-syfczfx",
       "name": "式与方程总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12610,6 +13077,7 @@
     },
     {
       "id": "g6d-NA-06-04",
+      "slug": "rj-g6d-NA-bhblzfx",
       "name": "比和比例总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12640,6 +13108,7 @@
     },
     {
       "id": "g6d-NA-06-05",
+      "slug": "rj-g6d-NA-cjdlzfx",
       "name": "常见的量总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12670,6 +13139,7 @@
     },
     {
       "id": "g6d-SP-07-01",
+      "slug": "rj-g6d-SP-tjyglzfx",
       "name": "统计与概率总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12701,6 +13171,7 @@
     },
     {
       "id": "g6d-SP-07-02",
+      "slug": "rj-g6d-SP-pjszwsyzs",
       "name": "平均数、中位数与众数",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -12734,6 +13205,7 @@
     },
     {
       "id": "g6d-SP-07-03",
+      "slug": "rj-g6d-SP-knxyjdgl",
       "name": "可能性与简单概率",
       "type": "CONCEPTUAL",
       "suitableTypes": [
@@ -12765,6 +13237,7 @@
     },
     {
       "id": "g6d-CP-08-01",
+      "slug": "rj-g6d-CP-sxskljtl",
       "name": "数学思考（逻辑推理）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12796,6 +13269,7 @@
     },
     {
       "id": "g6d-CP-08-02",
+      "slug": "rj-g6d-CP-gcwtctyl",
       "name": "鸽巢问题（抽屉原理）",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12827,6 +13301,7 @@
     },
     {
       "id": "g6d-CP-08-03",
+      "slug": "rj-g6d-CP-pmtxdzcymjzh",
       "name": "平面图形的周长与面积综合",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12857,6 +13332,7 @@
     },
     {
       "id": "g6d-CP-08-04",
+      "slug": "rj-g6d-CP-lttxdbmjytjzh",
       "name": "立体图形的表面积与体积综合",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12887,6 +13363,7 @@
     },
     {
       "id": "g6d-CP-08-05",
+      "slug": "rj-g6d-CP-jjwtclzh",
       "name": "解决问题策略综合",
       "type": "PROCEDURAL",
       "suitableTypes": [
@@ -12917,6 +13394,7 @@
     },
     {
       "id": "g6d-CP-08-06",
+      "slug": "rj-g6d-CP-zhysjzfx",
       "name": "综合与实践总复习",
       "type": "PROCEDURAL",
       "suitableTypes": [

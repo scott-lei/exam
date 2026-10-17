@@ -18,6 +18,8 @@
   "questions": [
     {
       "id": "g1u-Q001",
+      "slug": "rj-g1u-NA-sys110gs-001",
+      "contentHash": "d1b3ed94",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -67,6 +69,8 @@
     },
     {
       "id": "g1u-Q002",
+      "slug": "rj-g1u-NA-bdsyydy-002",
+      "contentHash": "d30545a9",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -106,6 +110,8 @@
     },
     {
       "id": "g1u-Q003",
+      "slug": "rj-g1u-NA-15gsdrs-003",
+      "contentHash": "9ee64e22",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -148,6 +154,8 @@
     },
     {
       "id": "g1u-Q004",
+      "slug": "rj-g1u-NA-sdfyh25-004",
+      "contentHash": "594b37c9",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -190,6 +198,8 @@
     },
     {
       "id": "g1u-Q005",
+      "slug": "rj-g1u-NA-5yndjf-005",
+      "contentHash": "87e761af",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -229,6 +239,8 @@
     },
     {
       "id": "g1u-Q006",
+      "slug": "rj-g1u-NA-ljlj-006",
+      "contentHash": "54fabaa4",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -268,6 +280,8 @@
     },
     {
       "id": "g1u-Q007",
+      "slug": "rj-g1u-NA-1120gsdrs-007",
+      "contentHash": "1c674b9c",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -314,6 +328,8 @@
     },
     {
       "id": "g1u-Q008",
+      "slug": "rj-g1u-NA-9jj-008",
+      "contentHash": "a68194b4",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -353,6 +369,8 @@
     },
     {
       "id": "g1u-Q009",
+      "slug": "rj-g1u-NA-rszbzsjsb-009",
+      "contentHash": "28eb033f",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -396,6 +414,8 @@
     },
     {
       "id": "g1u-Q010",
+      "slug": "rj-g1u-NA-yjfjjwttwyyt-010",
+      "contentHash": "477aeb34",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -440,6 +460,8 @@
     },
     {
       "id": "g1u-Q011",
+      "slug": "rj-g1u-CP-flyzl-011",
+      "contentHash": "6e4cb851",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",
@@ -507,6 +529,8 @@
     },
     {
       "id": "g1u-Q012",
+      "slug": "rj-g1u-GG-rslttxcftzftyzq-012",
+      "contentHash": "2b15a9cc",
       "grade": 1,
       "book": "grade1-up",
       "bookName": "一年级上册",

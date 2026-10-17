@@ -18,6 +18,8 @@
   "questions": [
     {
       "id": "g2u-Q001",
+      "slug": "rj-g2u-NA-rslmylml-001",
+      "contentHash": "7db81cda",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -64,6 +66,8 @@
     },
     {
       "id": "g2u-Q002",
+      "slug": "rj-g2u-NA-lwsjlwsjw-002",
+      "contentHash": "ef17a553",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -103,6 +107,8 @@
     },
     {
       "id": "g2u-Q003",
+      "slug": "rj-g2u-NA-lwsjlwstw-003",
+      "contentHash": "050f3299",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -142,6 +148,8 @@
     },
     {
       "id": "g2u-Q004",
+      "slug": "rj-g2u-NA-cfdcbrs-004",
+      "contentHash": "d3032b55",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -188,6 +196,8 @@
     },
     {
       "id": "g2u-Q005",
+      "slug": "rj-g2u-NA-8dcfkj-005",
+      "contentHash": "11ba4c4a",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -227,6 +237,8 @@
     },
     {
       "id": "g2u-Q006",
+      "slug": "rj-g2u-NA-ycfjjsjwt-006",
+      "contentHash": "3259ed70",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -266,6 +278,8 @@
     },
     {
       "id": "g2u-Q007",
+      "slug": "rj-g2u-GG-zjdrsypd-007",
+      "contentHash": "ca5377c2",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -305,6 +319,8 @@
     },
     {
       "id": "g2u-Q008",
+      "slug": "rj-g2u-GG-cbtwzgcwt-008",
+      "contentHash": "7fdeb181",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -351,6 +367,8 @@
     },
     {
       "id": "g2u-Q009",
+      "slug": "rj-g2u-NA-xddrsyhxd-009",
+      "contentHash": "f04aa35a",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -394,6 +412,8 @@
     },
     {
       "id": "g2u-Q010",
+      "slug": "rj-g2u-NA-ykjjjsjwt-010",
+      "contentHash": "9d337da0",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -438,6 +458,8 @@
     },
     {
       "id": "g2u-Q011",
+      "slug": "rj-g2u-SP-jddsjzlytjb-011",
+      "contentHash": "b535e3b8",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",
@@ -505,6 +527,8 @@
     },
     {
       "id": "g2u-Q012",
+      "slug": "rj-g2u-GG-zjdrsypd-012",
+      "contentHash": "801f11e0",
       "grade": 2,
       "book": "grade2-up",
       "bookName": "二年级上册",

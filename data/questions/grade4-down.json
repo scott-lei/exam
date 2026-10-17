@@ -18,6 +18,8 @@
   "questions": [
     {
       "id": "g4d-Q001",
+      "slug": "rj-g4d-NA-jbyscf-001",
+      "contentHash": "9ffb2f24",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -57,6 +59,8 @@
     },
     {
       "id": "g4d-Q002",
+      "slug": "rj-g4d-NA-cffpl-002",
+      "contentHash": "6847c1b1",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -96,6 +100,8 @@
     },
     {
       "id": "g4d-Q003",
+      "slug": "rj-g4d-NA-xsdydyqxsdxdbh-003",
+      "contentHash": "edfda8a1",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -138,6 +144,8 @@
     },
     {
       "id": "g4d-Q004",
+      "slug": "rj-g4d-NA-zsysdltgdxs-004",
+      "contentHash": "87f9b970",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -177,6 +185,8 @@
     },
     {
       "id": "g4d-Q005",
+      "slug": "rj-g4d-NA-yg0dys-005",
+      "contentHash": "ebbf507c",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -216,6 +226,8 @@
     },
     {
       "id": "g4d-Q006",
+      "slug": "rj-g4d-NA-cffpl-006",
+      "contentHash": "0b78eb4b",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -262,6 +274,8 @@
     },
     {
       "id": "g4d-Q007",
+      "slug": "rj-g4d-GG-sjxdnjh-007",
+      "contentHash": "411c4876",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -305,6 +319,8 @@
     },
     {
       "id": "g4d-Q008",
+      "slug": "rj-g4d-GG-sbxdnjh-008",
+      "contentHash": "53e6383e",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -349,6 +365,8 @@
     },
     {
       "id": "g4d-Q009",
+      "slug": "rj-g4d-GG-zdctxdxzyhf-009",
+      "contentHash": "4b986831",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -395,6 +413,8 @@
     },
     {
       "id": "g4d-Q010",
+      "slug": "rj-g4d-SP-fstxtjt-010",
+      "contentHash": "4b56deff",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -462,6 +482,8 @@
     },
     {
       "id": "g4d-Q011",
+      "slug": "rj-g4d-CP-sxgjjttl-011",
+      "contentHash": "0f59f99c",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
@@ -510,6 +532,8 @@
     },
     {
       "id": "g4d-Q012",
+      "slug": "rj-g4d-GG-zdctxdxzyhf-012",
+      "contentHash": "cb3545ed",
       "grade": 4,
       "book": "grade4-down",
       "bookName": "四年级下册",
