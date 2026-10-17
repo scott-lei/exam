@@ -63,7 +63,12 @@
   function esc(s) { return window.MX.Math.escapeHtml(s); }
   function $(sel, ctx) { return (ctx || document).querySelector(sel); }
   function $$(sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); }
-  function bookId() { return 'grade' + state.grade + '-' + state.term; }
+  /* 书 id 按当前教材版本解析：人教版 grade1-up / 北师大版 bsd-grade1-up
+     （卡 8 起册 id 带版本前缀，不能硬拼，否则北师大版下去加载不存在的文件） */
+  function bookId() {
+    var b = (window.MX.Tags.books || []).filter(function (x) { return x.grade === state.grade && x.term === state.term; })[0];
+    return b ? b.id : ('grade' + state.grade + '-' + state.term);
+  }
   function gradeName() { return (GRADES.filter(function (g) { return g.g === state.grade; })[0] || {}).name || ''; }
   function termName() { return (TERMS.filter(function (t) { return t.t === state.term; })[0] || {}).name || ''; }
   function scenarioName() { return (SCENARIOS.filter(function (s) { return s.id === state.scenario; })[0] || {}).name || '自定义'; }
@@ -753,7 +758,7 @@
     } else if (book) {
       if (applyBook(book)) await doBuild(true);
     } else if (quick) {
-      if (applyBook(book || 'grade1-up')) await doBuild(true);
+      if (applyBook(book || bookId())) await doBuild(true);
     }
   }
 
