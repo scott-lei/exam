@@ -115,11 +115,13 @@ for (const book of BOOKS) {
 
     unit.points.forEach((pt, i) => {
       const pId = `${book.code}-${unit.domain}-${pad(unitIdx)}-${pad(i + 1)}`;
+      const pSlug = uniqueSlug(`${VERSION}-${book.code}-${unit.domain}-${pinyinish(pt.name)}`, seenPoint);
       const fullType = TYPE_FULL[pt.type] || pt.type;
       const avgDiff = Math.round(((pt.diff[0] + pt.diff[1]) / 2) * 10) / 10;
       points.push({
-        id: pId,
-        slug: uniqueSlug(`${VERSION}-${book.code}-${unit.domain}-${pinyinish(pt.name)}`, seenPoint),
+        id: pSlug,            // 新主键：语义化 slug（卡 3）
+        legacyId: pId,        // 旧序号主键，保留用于历史数据迁移
+        slug: pSlug,          // 与 id 同值，便于下游兼容读取
         name: pt.name,
         type: fullType,
         suitableTypes: pt.types.map((t) => QT_FULL[t] || t),

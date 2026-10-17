@@ -17,7 +17,8 @@
   },
   "questions": [
     {
-      "id": "g4d-Q001",
+      "id": "rj-g4d-NA-jbyscf-001",
+      "legacyId": "g4d-Q001",
       "slug": "rj-g4d-NA-jbyscf-001",
       "contentHash": "9ffb2f24",
       "grade": 4,
@@ -27,10 +28,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4d-NA-02",
       "knowledgeName": "运算定律",
-      "point": "g4d-NA-02-05",
+      "point": "rj-g4d-NA-jbyscf",
       "pointName": "简便运算（乘法）",
       "topics": [
-        "g4d-NA-02-05"
+        "rj-g4d-NA-jbyscf"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -58,7 +59,8 @@
       }
     },
     {
-      "id": "g4d-Q002",
+      "id": "rj-g4d-NA-cffpl-002",
+      "legacyId": "g4d-Q002",
       "slug": "rj-g4d-NA-cffpl-002",
       "contentHash": "6847c1b1",
       "grade": 4,
@@ -68,10 +70,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4d-NA-02",
       "knowledgeName": "运算定律",
-      "point": "g4d-NA-02-03",
+      "point": "rj-g4d-NA-cffpl",
       "pointName": "乘法分配律",
       "topics": [
-        "g4d-NA-02-03"
+        "rj-g4d-NA-cffpl"
       ],
       "pointType": "CONCEPTUAL",
       "type": "calculation",
@@ -99,7 +101,8 @@
       }
     },
     {
-      "id": "g4d-Q003",
+      "id": "rj-g4d-NA-xsdydyqxsdxdbh-003",
+      "legacyId": "g4d-Q003",
       "slug": "rj-g4d-NA-xsdydyqxsdxdbh-003",
       "contentHash": "edfda8a1",
       "grade": 4,
@@ -109,10 +112,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4d-NA-03",
       "knowledgeName": "小数的意义和性质",
-      "point": "g4d-NA-03-04",
+      "point": "rj-g4d-NA-xsdydyqxsdxdbh",
       "pointName": "小数点移动引起小数大小的变化",
       "topics": [
-        "g4d-NA-03-04"
+        "rj-g4d-NA-xsdydyqxsdxdbh"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -143,7 +146,8 @@
       }
     },
     {
-      "id": "g4d-Q004",
+      "id": "rj-g4d-NA-zsysdltgdxs-004",
+      "legacyId": "g4d-Q004",
       "slug": "rj-g4d-NA-zsysdltgdxs-004",
       "contentHash": "87f9b970",
       "grade": 4,
@@ -153,10 +157,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4d-NA-04",
       "knowledgeName": "小数的加法和减法",
-      "point": "g4d-NA-04-03",
+      "point": "rj-g4d-NA-zsysdltgdxs",
       "pointName": "整数运算定律推广到小数",
       "topics": [
-        "g4d-NA-04-03"
+        "rj-g4d-NA-zsysdltgdxs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -184,7 +188,8 @@
       }
     },
     {
-      "id": "g4d-Q005",
+      "id": "rj-g4d-NA-yg0dys-005",
+      "legacyId": "g4d-Q005",
       "slug": "rj-g4d-NA-yg0dys-005",
       "contentHash": "ebbf507c",
       "grade": 4,
@@ -194,10 +199,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4d-NA-01",
       "knowledgeName": "四则运算",
-      "point": "g4d-NA-01-04",
+      "point": "rj-g4d-NA-yg0dys",
       "pointName": "有关0的运算",
       "topics": [
-        "g4d-NA-01-04"
+        "rj-g4d-NA-yg0dys"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -225,7 +230,8 @@
       }
     },
     {
-      "id": "g4d-Q006",
+      "id": "rj-g4d-NA-cffpl-006",
+      "legacyId": "g4d-Q006",
       "slug": "rj-g4d-NA-cffpl-006",
       "contentHash": "0b78eb4b",
       "grade": 4,
@@ -235,10 +241,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4d-NA-02",
       "knowledgeName": "运算定律",
-      "point": "g4d-NA-02-03",
+      "point": "rj-g4d-NA-cffpl",
       "pointName": "乘法分配律",
       "topics": [
-        "g4d-NA-02-03"
+        "rj-g4d-NA-cffpl"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -273,7 +279,8 @@
       }
     },
     {
-      "id": "g4d-Q007",
+      "id": "rj-g4d-GG-sjxdnjh-007",
+      "legacyId": "g4d-Q007",
       "slug": "rj-g4d-GG-sjxdnjh-007",
       "contentHash": "411c4876",
       "grade": 4,
@@ -283,10 +290,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4d-GG-05",
       "knowledgeName": "三角形",
-      "point": "g4d-GG-05-03",
+      "point": "rj-g4d-GG-sjxdnjh",
       "pointName": "三角形的内角和",
       "topics": [
-        "g4d-GG-05-03"
+        "rj-g4d-GG-sjxdnjh"
       ],
       "pointType": "CONCEPTUAL",
       "type": "figure",
@@ -318,7 +325,8 @@
       }
     },
     {
-      "id": "g4d-Q008",
+      "id": "rj-g4d-GG-sbxdnjh-008",
+      "legacyId": "g4d-Q008",
       "slug": "rj-g4d-GG-sbxdnjh-008",
       "contentHash": "53e6383e",
       "grade": 4,
@@ -328,10 +336,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4d-GG-05",
       "knowledgeName": "三角形",
-      "point": "g4d-GG-05-04",
+      "point": "rj-g4d-GG-sbxdnjh",
       "pointName": "四边形的内角和",
       "topics": [
-        "g4d-GG-05-04"
+        "rj-g4d-GG-sbxdnjh"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -364,7 +372,8 @@
       }
     },
     {
-      "id": "g4d-Q009",
+      "id": "rj-g4d-GG-zdctxdxzyhf-009",
+      "legacyId": "g4d-Q009",
       "slug": "rj-g4d-GG-zdctxdxzyhf-009",
       "contentHash": "4b986831",
       "grade": 4,
@@ -374,10 +383,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4d-GG-06",
       "knowledgeName": "图形的运动（二）",
-      "point": "g4d-GG-06-01",
+      "point": "rj-g4d-GG-zdctxdxzyhf",
       "pointName": "轴对称图形的性质与画法",
       "topics": [
-        "g4d-GG-06-01"
+        "rj-g4d-GG-zdctxdxzyhf"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -412,7 +421,8 @@
       }
     },
     {
-      "id": "g4d-Q010",
+      "id": "rj-g4d-SP-fstxtjt-010",
+      "legacyId": "g4d-Q010",
       "slug": "rj-g4d-SP-fstxtjt-010",
       "contentHash": "4b56deff",
       "grade": 4,
@@ -422,10 +432,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g4d-SP-08",
       "knowledgeName": "统计",
-      "point": "g4d-SP-08-02",
+      "point": "rj-g4d-SP-fstxtjt",
       "pointName": "复式条形统计图",
       "topics": [
-        "g4d-SP-08-02"
+        "rj-g4d-SP-fstxtjt"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "reading",
@@ -481,7 +491,8 @@
       }
     },
     {
-      "id": "g4d-Q011",
+      "id": "rj-g4d-CP-sxgjjttl-011",
+      "legacyId": "g4d-Q011",
       "slug": "rj-g4d-CP-sxgjjttl-011",
       "contentHash": "0f59f99c",
       "grade": 4,
@@ -491,10 +502,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g4d-CP-09",
       "knowledgeName": "综合与实践",
-      "point": "g4d-CP-09-01",
+      "point": "rj-g4d-CP-sxgjjttl",
       "pointName": "数学广角——鸡兔同笼",
       "topics": [
-        "g4d-CP-09-01"
+        "rj-g4d-CP-sxgjjttl"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -531,7 +542,8 @@
       }
     },
     {
-      "id": "g4d-Q012",
+      "id": "rj-g4d-GG-zdctxdxzyhf-012",
+      "legacyId": "g4d-Q012",
       "slug": "rj-g4d-GG-zdctxdxzyhf-012",
       "contentHash": "cb3545ed",
       "grade": 4,
@@ -541,10 +553,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4d-GG-06",
       "knowledgeName": "图形的运动（二）",
-      "point": "g4d-GG-06-01",
+      "point": "rj-g4d-GG-zdctxdxzyhf",
       "pointName": "轴对称图形的性质与画法",
       "topics": [
-        "g4d-GG-06-01"
+        "rj-g4d-GG-zdctxdxzyhf"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "draw",

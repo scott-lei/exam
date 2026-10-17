@@ -18,7 +18,8 @@
   },
   "questions": [
     {
-      "id": "g2d-Q001",
+      "id": "rj-g2d-NA-y26dcfkjqs-001",
+      "legacyId": "g2d-Q001",
       "slug": "rj-g2d-NA-y26dcfkjqs-001",
       "contentHash": "add068d3",
       "grade": 2,
@@ -28,10 +29,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-01",
       "knowledgeName": "表内除法（一）",
-      "point": "g2d-NA-01-03",
+      "point": "rj-g2d-NA-y26dcfkjqs",
       "pointName": "用2~6的乘法口诀求商",
       "topics": [
-        "g2d-NA-01-03"
+        "rj-g2d-NA-y26dcfkjqs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -59,7 +60,8 @@
       }
     },
     {
-      "id": "g2d-Q002",
+      "id": "rj-g2d-NA-y789dcfkjqs-002",
+      "legacyId": "g2d-Q002",
       "slug": "rj-g2d-NA-y789dcfkjqs-002",
       "contentHash": "bafedf4b",
       "grade": 2,
@@ -69,10 +71,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-02",
       "knowledgeName": "表内除法（二）",
-      "point": "g2d-NA-02-01",
+      "point": "rj-g2d-NA-y789dcfkjqs",
       "pointName": "用7、8、9的乘法口诀求商",
       "topics": [
-        "g2d-NA-02-01"
+        "rj-g2d-NA-y789dcfkjqs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -100,7 +102,8 @@
       }
     },
     {
-      "id": "g2d-Q003",
+      "id": "rj-g2d-NA-ysycsdgx-003",
+      "legacyId": "g2d-Q003",
       "slug": "rj-g2d-NA-ysycsdgx-003",
       "contentHash": "c1df58ea",
       "grade": 2,
@@ -110,10 +113,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-04",
       "knowledgeName": "有余数的除法",
-      "point": "g2d-NA-04-02",
+      "point": "rj-g2d-NA-ysycsdgx",
       "pointName": "余数与除数的关系",
       "topics": [
-        "g2d-NA-04-02"
+        "rj-g2d-NA-ysycsdgx"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -143,7 +146,8 @@
       }
     },
     {
-      "id": "g2d-Q004",
+      "id": "rj-g2d-NA-ysdrsyyyscfdyy-004",
+      "legacyId": "g2d-Q004",
       "slug": "rj-g2d-NA-ysdrsyyyscfdyy-004",
       "contentHash": "31b4d940",
       "grade": 2,
@@ -153,10 +157,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-04",
       "knowledgeName": "有余数的除法",
-      "point": "g2d-NA-04-01",
+      "point": "rj-g2d-NA-ysdrsyyyscfdyy",
       "pointName": "余数的认识与有余数除法的意义",
       "topics": [
-        "g2d-NA-04-01"
+        "rj-g2d-NA-ysdrsyyyscfdyy"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -184,7 +188,8 @@
       }
     },
     {
-      "id": "g2d-Q005",
+      "id": "rj-g2d-NA-hljysdyssx-005",
+      "legacyId": "g2d-Q005",
       "slug": "rj-g2d-NA-hljysdyssx-005",
       "contentHash": "4679f052",
       "grade": 2,
@@ -194,10 +199,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-03",
       "knowledgeName": "混合运算",
-      "point": "g2d-NA-03-02",
+      "point": "rj-g2d-NA-hljysdyssx",
       "pointName": "含两级运算的运算顺序",
       "topics": [
-        "g2d-NA-03-02"
+        "rj-g2d-NA-hljysdyssx"
       ],
       "pointType": "PROCEDURAL",
       "type": "choice",
@@ -232,7 +237,8 @@
       }
     },
     {
-      "id": "g2d-Q006",
+      "id": "rj-g2d-NA-hxkhdhhys-006",
+      "legacyId": "g2d-Q006",
       "slug": "rj-g2d-NA-hxkhdhhys-006",
       "contentHash": "a055508f",
       "grade": 2,
@@ -242,10 +248,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-03",
       "knowledgeName": "混合运算",
-      "point": "g2d-NA-03-03",
+      "point": "rj-g2d-NA-hxkhdhhys",
       "pointName": "含小括号的混合运算",
       "topics": [
-        "g2d-NA-03-03"
+        "rj-g2d-NA-hxkhdhhys"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -273,7 +279,8 @@
       }
     },
     {
-      "id": "g2d-Q007",
+      "id": "rj-g2d-NA-1000ynsdrs-007",
+      "legacyId": "g2d-Q007",
       "slug": "rj-g2d-NA-1000ynsdrs-007",
       "contentHash": "867615d3",
       "grade": 2,
@@ -283,10 +290,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-05",
       "knowledgeName": "万以内数的认识",
-      "point": "g2d-NA-05-01",
+      "point": "rj-g2d-NA-1000ynsdrs",
       "pointName": "1000以内数的认识",
       "topics": [
-        "g2d-NA-05-01"
+        "rj-g2d-NA-1000ynsdrs"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -321,7 +328,8 @@
       }
     },
     {
-      "id": "g2d-Q008",
+      "id": "rj-g2d-NA-yyysdcfjjwt-008",
+      "legacyId": "g2d-Q008",
       "slug": "rj-g2d-NA-yyysdcfjjwt-008",
       "contentHash": "39ee5f8f",
       "grade": 2,
@@ -331,10 +339,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2d-NA-04",
       "knowledgeName": "有余数的除法",
-      "point": "g2d-NA-04-04",
+      "point": "rj-g2d-NA-yyysdcfjjwt",
       "pointName": "用有余数的除法解决问题",
       "topics": [
-        "g2d-NA-04-04"
+        "rj-g2d-NA-yyysdcfjjwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -371,7 +379,8 @@
       }
     },
     {
-      "id": "g2d-Q009",
+      "id": "rj-g2d-GG-rszdctx-009",
+      "legacyId": "g2d-Q009",
       "slug": "rj-g2d-GG-rszdctx-009",
       "contentHash": "c5ead552",
       "grade": 2,
@@ -381,10 +390,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g2d-GG-07",
       "knowledgeName": "图形的运动（一）",
-      "point": "g2d-GG-07-01",
+      "point": "rj-g2d-GG-rszdctx",
       "pointName": "认识轴对称图形",
       "topics": [
-        "g2d-GG-07-01"
+        "rj-g2d-GG-rszdctx"
       ],
       "pointType": "CONCEPTUAL",
       "type": "figure",
@@ -415,7 +424,8 @@
       }
     },
     {
-      "id": "g2d-Q010",
+      "id": "rj-g2d-SP-tjbytxtjt-010",
+      "legacyId": "g2d-Q010",
       "slug": "rj-g2d-SP-tjbytxtjt-010",
       "contentHash": "f5cc64b3",
       "grade": 2,
@@ -425,10 +435,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g2d-SP-08",
       "knowledgeName": "数据收集整理",
-      "point": "g2d-SP-08-02",
+      "point": "rj-g2d-SP-tjbytxtjt",
       "pointName": "统计表与条形统计图",
       "topics": [
-        "g2d-SP-08-02"
+        "rj-g2d-SP-tjbytxtjt"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "reading",
@@ -484,7 +494,8 @@
       }
     },
     {
-      "id": "g2d-Q011",
+      "id": "rj-g2d-GG-txdpyyxzcz-011",
+      "legacyId": "g2d-Q011",
       "slug": "rj-g2d-GG-txdpyyxzcz-011",
       "contentHash": "30d8f4e9",
       "grade": 2,
@@ -494,10 +505,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g2d-GG-07",
       "knowledgeName": "图形的运动（一）",
-      "point": "g2d-GG-07-03",
+      "point": "rj-g2d-GG-txdpyyxzcz",
       "pointName": "图形的平移与旋转操作",
       "topics": [
-        "g2d-GG-07-03"
+        "rj-g2d-GG-txdpyyxzcz"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "figure-interactive",
@@ -597,7 +608,8 @@
       }
     },
     {
-      "id": "g2d-Q012",
+      "id": "rj-g2d-CP-sjhdxxsjs-012",
+      "legacyId": "g2d-Q012",
       "slug": "rj-g2d-CP-sjhdxxsjs-012",
       "contentHash": "1ff429cc",
       "grade": 2,
@@ -607,10 +619,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g2d-CP-09",
       "knowledgeName": "综合与实践",
-      "point": "g2d-CP-09-04",
+      "point": "rj-g2d-CP-sjhdxxsjs",
       "pointName": "实践活动：小小设计师",
       "topics": [
-        "g2d-CP-09-04"
+        "rj-g2d-CP-sjhdxxsjs"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "draw",

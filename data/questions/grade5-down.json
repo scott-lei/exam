@@ -17,7 +17,8 @@
   },
   "questions": [
     {
-      "id": "g5d-Q001",
+      "id": "rj-g5d-NA-25dbsdtz-001",
+      "legacyId": "g5d-Q001",
       "slug": "rj-g5d-NA-25dbsdtz-001",
       "contentHash": "5c883b6a",
       "grade": 5,
@@ -27,10 +28,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5d-NA-01",
       "knowledgeName": "因数与倍数",
-      "point": "g5d-NA-01-03",
+      "point": "rj-g5d-NA-25dbsdtz",
       "pointName": "2、5的倍数的特征",
       "topics": [
-        "g5d-NA-01-03"
+        "rj-g5d-NA-25dbsdtz"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -65,7 +66,8 @@
       }
     },
     {
-      "id": "g5d-Q002",
+      "id": "rj-g5d-NA-zshhs-002",
+      "legacyId": "g5d-Q002",
       "slug": "rj-g5d-NA-zshhs-002",
       "contentHash": "f7d8f8a0",
       "grade": 5,
@@ -75,10 +77,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5d-NA-01",
       "knowledgeName": "因数与倍数",
-      "point": "g5d-NA-01-05",
+      "point": "rj-g5d-NA-zshhs",
       "pointName": "质数和合数",
       "topics": [
-        "g5d-NA-01-05"
+        "rj-g5d-NA-zshhs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -115,7 +117,8 @@
       }
     },
     {
-      "id": "g5d-Q003",
+      "id": "rj-g5d-NA-yfzdgys-003",
+      "legacyId": "g5d-Q003",
       "slug": "rj-g5d-NA-yfzdgys-003",
       "contentHash": "ae668644",
       "grade": 5,
@@ -125,10 +128,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5d-NA-02",
       "knowledgeName": "分数的意义和性质",
-      "point": "g5d-NA-02-05",
+      "point": "rj-g5d-NA-yfzdgys",
       "pointName": "约分（最大公因数）",
       "topics": [
-        "g5d-NA-02-05"
+        "rj-g5d-NA-yfzdgys"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -156,7 +159,8 @@
       }
     },
     {
-      "id": "g5d-Q004",
+      "id": "rj-g5d-NA-fsyxsdhh-004",
+      "legacyId": "g5d-Q004",
       "slug": "rj-g5d-NA-fsyxsdhh-004",
       "contentHash": "07759aa7",
       "grade": 5,
@@ -166,10 +170,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5d-NA-02",
       "knowledgeName": "分数的意义和性质",
-      "point": "g5d-NA-02-07",
+      "point": "rj-g5d-NA-fsyxsdhh",
       "pointName": "分数与小数的互化",
       "topics": [
-        "g5d-NA-02-07"
+        "rj-g5d-NA-fsyxsdhh"
       ],
       "pointType": "PROCEDURAL",
       "type": "fill",
@@ -204,7 +208,8 @@
       }
     },
     {
-      "id": "g5d-Q005",
+      "id": "rj-g5d-NA-yfmfsjjf-005",
+      "legacyId": "g5d-Q005",
       "slug": "rj-g5d-NA-yfmfsjjf-005",
       "contentHash": "d258582d",
       "grade": 5,
@@ -214,10 +219,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5d-NA-03",
       "knowledgeName": "分数的加法和减法",
-      "point": "g5d-NA-03-02",
+      "point": "rj-g5d-NA-yfmfsjjf",
       "pointName": "异分母分数加减法",
       "topics": [
-        "g5d-NA-03-02"
+        "rj-g5d-NA-yfmfsjjf"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -245,7 +250,8 @@
       }
     },
     {
-      "id": "g5d-Q006",
+      "id": "rj-g5d-NA-yfsjjfjjwt-006",
+      "legacyId": "g5d-Q006",
       "slug": "rj-g5d-NA-yfsjjfjjwt-006",
       "contentHash": "2a72467f",
       "grade": 5,
@@ -255,10 +261,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5d-NA-03",
       "knowledgeName": "分数的加法和减法",
-      "point": "g5d-NA-03-05",
+      "point": "rj-g5d-NA-yfsjjfjjwt",
       "pointName": "用分数加减法解决问题",
       "topics": [
-        "g5d-NA-03-05"
+        "rj-g5d-NA-yfsjjfjjwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -290,7 +296,8 @@
       }
     },
     {
-      "id": "g5d-Q007",
+      "id": "rj-g5d-NA-yshbsdyy-007",
+      "legacyId": "g5d-Q007",
       "slug": "rj-g5d-NA-yshbsdyy-007",
       "contentHash": "ba094b4d",
       "grade": 5,
@@ -300,10 +307,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5d-NA-01",
       "knowledgeName": "因数与倍数",
-      "point": "g5d-NA-01-01",
+      "point": "rj-g5d-NA-yshbsdyy",
       "pointName": "因数和倍数的意义",
       "topics": [
-        "g5d-NA-01-01"
+        "rj-g5d-NA-yshbsdyy"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -331,7 +338,8 @@
       }
     },
     {
-      "id": "g5d-Q008",
+      "id": "rj-g5d-GG-cfthzftdtj-008",
+      "legacyId": "g5d-Q008",
       "slug": "rj-g5d-GG-cfthzftdtj-008",
       "contentHash": "87933dcb",
       "grade": 5,
@@ -341,10 +349,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5d-GG-04",
       "knowledgeName": "长方体和正方体",
-      "point": "g5d-GG-04-04",
+      "point": "rj-g5d-GG-cfthzftdtj",
       "pointName": "长方体和正方体的体积",
       "topics": [
-        "g5d-GG-04-04"
+        "rj-g5d-GG-cfthzftdtj"
       ],
       "pointType": "PROCEDURAL",
       "type": "figure",
@@ -376,7 +384,8 @@
       }
     },
     {
-      "id": "g5d-Q009",
+      "id": "rj-g5d-GG-cfthzftdbmj-009",
+      "legacyId": "g5d-Q009",
       "slug": "rj-g5d-GG-cfthzftdbmj-009",
       "contentHash": "4f59c1fc",
       "grade": 5,
@@ -386,10 +395,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5d-GG-04",
       "knowledgeName": "长方体和正方体",
-      "point": "g5d-GG-04-02",
+      "point": "rj-g5d-GG-cfthzftdbmj",
       "pointName": "长方体和正方体的表面积",
       "topics": [
-        "g5d-GG-04-02"
+        "rj-g5d-GG-cfthzftdbmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -422,7 +431,8 @@
       }
     },
     {
-      "id": "g5d-Q010",
+      "id": "rj-g5d-GG-bgzwtdtjpsf-010",
+      "legacyId": "g5d-Q010",
       "slug": "rj-g5d-GG-bgzwtdtjpsf-010",
       "contentHash": "24506cc0",
       "grade": 5,
@@ -432,10 +442,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5d-GG-04",
       "knowledgeName": "长方体和正方体",
-      "point": "g5d-GG-04-06",
+      "point": "rj-g5d-GG-bgzwtdtjpsf",
       "pointName": "不规则物体的体积（排水法）",
       "topics": [
-        "g5d-GG-04-06"
+        "rj-g5d-GG-bgzwtdtjpsf"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -483,7 +493,8 @@
       }
     },
     {
-      "id": "g5d-Q011",
+      "id": "rj-g5d-GG-cbtfxgclttxs-011",
+      "legacyId": "g5d-Q011",
       "slug": "rj-g5d-GG-cbtfxgclttxs-011",
       "contentHash": "07115c81",
       "grade": 5,
@@ -493,10 +504,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5d-GG-06",
       "knowledgeName": "观察物体（三）",
-      "point": "g5d-GG-06-01",
+      "point": "rj-g5d-GG-cbtfxgclttxs",
       "pointName": "从不同方向观察立体图形（三）",
       "topics": [
-        "g5d-GG-06-01"
+        "rj-g5d-GG-cbtfxgclttxs"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -531,7 +542,8 @@
       }
     },
     {
-      "id": "g5d-Q012",
+      "id": "rj-g5d-SP-zxtjte-012",
+      "legacyId": "g5d-Q012",
       "slug": "rj-g5d-SP-zxtjte-012",
       "contentHash": "be2a2a10",
       "grade": 5,
@@ -541,10 +553,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g5d-SP-07",
       "knowledgeName": "折线统计图",
-      "point": "g5d-SP-07-01",
+      "point": "rj-g5d-SP-zxtjte",
       "pointName": "折线统计图（二）",
       "topics": [
-        "g5d-SP-07-01"
+        "rj-g5d-SP-zxtjte"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "reading",
@@ -602,7 +614,8 @@
       }
     },
     {
-      "id": "g5d-Q013",
+      "id": "rj-g5d-GG-xzdxzyhf-013",
+      "legacyId": "g5d-Q013",
       "slug": "rj-g5d-GG-xzdxzyhf-013",
       "contentHash": "d356e5d3",
       "grade": 5,
@@ -612,10 +625,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5d-GG-05",
       "knowledgeName": "图形的运动（三）",
-      "point": "g5d-GG-05-01",
+      "point": "rj-g5d-GG-xzdxzyhf",
       "pointName": "旋转的性质与画法",
       "topics": [
-        "g5d-GG-05-01"
+        "rj-g5d-GG-xzdxzyhf"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "draw",

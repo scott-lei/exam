@@ -18,7 +18,8 @@
   },
   "questions": [
     {
-      "id": "g1d-Q001",
+      "id": "rj-g1d-NA-sjj9-001",
+      "legacyId": "g1d-Q001",
       "slug": "rj-g1d-NA-sjj9-001",
       "contentHash": "7a4f2bde",
       "grade": 1,
@@ -28,10 +29,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1d-NA-01",
       "knowledgeName": "20以内的退位减法",
-      "point": "g1d-NA-01-01",
+      "point": "rj-g1d-NA-sjj9",
       "pointName": "十几减9",
       "topics": [
-        "g1d-NA-01-01"
+        "rj-g1d-NA-sjj9"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -59,7 +60,8 @@
       }
     },
     {
-      "id": "g1d-Q002",
+      "id": "rj-g1d-NA-sjj876-002",
+      "legacyId": "g1d-Q002",
       "slug": "rj-g1d-NA-sjj876-002",
       "contentHash": "4f39406c",
       "grade": 1,
@@ -69,10 +71,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1d-NA-01",
       "knowledgeName": "20以内的退位减法",
-      "point": "g1d-NA-01-02",
+      "point": "rj-g1d-NA-sjj876",
       "pointName": "十几减8、7、6",
       "topics": [
-        "g1d-NA-01-02"
+        "rj-g1d-NA-sjj876"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -100,7 +102,8 @@
       }
     },
     {
-      "id": "g1d-Q003",
+      "id": "rj-g1d-NA-sssdzc100yn-003",
+      "legacyId": "g1d-Q003",
       "slug": "rj-g1d-NA-sssdzc100yn-003",
       "contentHash": "6abf948e",
       "grade": 1,
@@ -110,10 +113,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1d-NA-02",
       "knowledgeName": "100以内数的认识",
-      "point": "g1d-NA-02-01",
+      "point": "rj-g1d-NA-sssdzc100yn",
       "pointName": "数数、数的组成（100以内）",
       "topics": [
-        "g1d-NA-02-01"
+        "rj-g1d-NA-sssdzc100yn"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -149,7 +152,8 @@
       }
     },
     {
-      "id": "g1d-Q004",
+      "id": "rj-g1d-NA-dxkhdlbjs-004",
+      "legacyId": "g1d-Q004",
       "slug": "rj-g1d-NA-dxkhdlbjs-004",
       "contentHash": "6e02f87c",
       "grade": 1,
@@ -159,10 +163,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1d-NA-03",
       "knowledgeName": "100以内的加法和减法（一）",
-      "point": "g1d-NA-03-06",
+      "point": "rj-g1d-NA-dxkhdlbjs",
       "pointName": "带小括号的两步计算",
       "topics": [
-        "g1d-NA-03-06"
+        "rj-g1d-NA-dxkhdlbjs"
       ],
       "pointType": "PROCEDURAL",
       "type": "judge",
@@ -190,7 +194,8 @@
       }
     },
     {
-      "id": "g1d-Q005",
+      "id": "rj-g1d-NA-lwsjywstw-005",
+      "legacyId": "g1d-Q005",
       "slug": "rj-g1d-NA-lwsjywstw-005",
       "contentHash": "39bbd56a",
       "grade": 1,
@@ -200,10 +205,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1d-NA-03",
       "knowledgeName": "100以内的加法和减法（一）",
-      "point": "g1d-NA-03-05",
+      "point": "rj-g1d-NA-lwsjywstw",
       "pointName": "两位数减一位数（退位）",
       "topics": [
-        "g1d-NA-03-05"
+        "rj-g1d-NA-lwsjywstw"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -231,7 +236,8 @@
       }
     },
     {
-      "id": "g1d-Q006",
+      "id": "rj-g1d-NA-yljljjjsjwt-006",
+      "legacyId": "g1d-Q006",
       "slug": "rj-g1d-NA-yljljjjsjwt-006",
       "contentHash": "974a620c",
       "grade": 1,
@@ -241,10 +247,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1d-NA-03",
       "knowledgeName": "100以内的加法和减法（一）",
-      "point": "g1d-NA-03-07",
+      "point": "rj-g1d-NA-yljljjjsjwt",
       "pointName": "用连加、连减解决实际问题",
       "topics": [
-        "g1d-NA-03-07"
+        "rj-g1d-NA-yljljjjsjwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -277,7 +283,8 @@
       }
     },
     {
-      "id": "g1d-Q007",
+      "id": "rj-g1d-NA-rsrmbyjf-007",
+      "legacyId": "g1d-Q007",
       "slug": "rj-g1d-NA-rsrmbyjf-007",
       "contentHash": "95545574",
       "grade": 1,
@@ -287,10 +294,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1d-NA-04",
       "knowledgeName": "认识人民币",
-      "point": "g1d-NA-04-01",
+      "point": "rj-g1d-NA-rsrmbyjf",
       "pointName": "认识人民币（元、角、分）",
       "topics": [
-        "g1d-NA-04-01"
+        "rj-g1d-NA-rsrmbyjf"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -325,7 +332,8 @@
       }
     },
     {
-      "id": "g1d-Q008",
+      "id": "rj-g1d-GG-rspmtx-008",
+      "legacyId": "g1d-Q008",
       "slug": "rj-g1d-GG-rspmtx-008",
       "contentHash": "089e7a40",
       "grade": 1,
@@ -335,10 +343,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g1d-GG-05",
       "knowledgeName": "认识图形（二）",
-      "point": "g1d-GG-05-01",
+      "point": "rj-g1d-GG-rspmtx",
       "pointName": "认识平面图形",
       "topics": [
-        "g1d-GG-05-01"
+        "rj-g1d-GG-rspmtx"
       ],
       "pointType": "CONCEPTUAL",
       "type": "figure",
@@ -369,7 +377,8 @@
       }
     },
     {
-      "id": "g1d-Q009",
+      "id": "rj-g1d-CP-shzdsxwtgw-009",
+      "legacyId": "g1d-Q009",
       "slug": "rj-g1d-CP-shzdsxwtgw-009",
       "contentHash": "108d0be3",
       "grade": 1,
@@ -379,10 +388,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g1d-CP-08",
       "knowledgeName": "综合与实践",
-      "point": "g1d-CP-08-06",
+      "point": "rj-g1d-CP-shzdsxwtgw",
       "pointName": "生活中的数学问题（购物）",
       "topics": [
-        "g1d-CP-08-06"
+        "rj-g1d-CP-shzdsxwtgw"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -427,7 +436,8 @@
       }
     },
     {
-      "id": "g1d-Q010",
+      "id": "rj-g1d-GG-rspmtx-010",
+      "legacyId": "g1d-Q010",
       "slug": "rj-g1d-GG-rspmtx-010",
       "contentHash": "66709d44",
       "grade": 1,
@@ -437,10 +447,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g1d-GG-05",
       "knowledgeName": "认识图形（二）",
-      "point": "g1d-GG-05-01",
+      "point": "rj-g1d-GG-rspmtx",
       "pointName": "认识平面图形",
       "topics": [
-        "g1d-GG-05-01"
+        "rj-g1d-GG-rspmtx"
       ],
       "pointType": "CONCEPTUAL",
       "type": "figure-interactive",
@@ -508,7 +518,8 @@
       }
     },
     {
-      "id": "g1d-Q011",
+      "id": "rj-g1d-GG-pmtxdpz-011",
+      "legacyId": "g1d-Q011",
       "slug": "rj-g1d-GG-pmtxdpz-011",
       "contentHash": "9d9f268b",
       "grade": 1,
@@ -518,10 +529,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g1d-GG-05",
       "knowledgeName": "认识图形（二）",
-      "point": "g1d-GG-05-02",
+      "point": "rj-g1d-GG-pmtxdpz",
       "pointName": "平面图形的拼组",
       "topics": [
-        "g1d-GG-05-02"
+        "rj-g1d-GG-pmtxdpz"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "draw",

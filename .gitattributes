@@ -1,4 +1,3 @@
-# 生成产物与脚本统一使用 LF 换行，确保「连跑两次构建 git diff 为空」
-* text=auto
-data/ text eol=lf
-scripts/ text eol=lf
+# 所有文本文件统一使用 LF 换行，确保「连跑两次构建 git diff 为空」且无 CRLF 噪声
+# eol=lf：仓库与工作区都以 LF 存储/检出，彻底压制 Windows autocrlf 的 CRLF 警告
+* text=auto eol=lf

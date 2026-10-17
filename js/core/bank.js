@@ -45,7 +45,10 @@
   function get(qid) { return qIndex[qid] || null; }
 
   function bookIdOfQid(qid) {
-    var code = String(qid || '').split('-')[0];
+    var parts = String(qid || '').split('-');
+    // 旧主键：<code>-QNNN（如 g1u-Q001）；新主键：rj-<code>-<domain>-<pinyin>-<NNN>
+    // 取版本段之后的 book code。
+    var code = parts[0] === 'rj' ? (parts[1] || '') : parts[0];
     return global.MX.Tags.bookIdByCode(code);
   }
 

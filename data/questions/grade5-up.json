@@ -18,7 +18,8 @@
   },
   "questions": [
     {
-      "id": "g5u-Q001",
+      "id": "rj-g5u-NA-xscxs-001",
+      "legacyId": "g5u-Q001",
       "slug": "rj-g5u-NA-xscxs-001",
       "contentHash": "f6b3ac0b",
       "grade": 5,
@@ -28,10 +29,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5u-NA-01",
       "knowledgeName": "小数乘法",
-      "point": "g5u-NA-01-02",
+      "point": "rj-g5u-NA-xscxs",
       "pointName": "小数乘小数",
       "topics": [
-        "g5u-NA-01-02"
+        "rj-g5u-NA-xscxs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -59,7 +60,8 @@
       }
     },
     {
-      "id": "g5u-Q002",
+      "id": "rj-g5u-NA-ygscyxs-002",
+      "legacyId": "g5u-Q002",
       "slug": "rj-g5u-NA-ygscyxs-002",
       "contentHash": "8a42b21b",
       "grade": 5,
@@ -69,10 +71,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5u-NA-02",
       "knowledgeName": "小数除法",
-      "point": "g5u-NA-02-02",
+      "point": "rj-g5u-NA-ygscyxs",
       "pointName": "一个数除以小数",
       "topics": [
-        "g5u-NA-02-02"
+        "rj-g5u-NA-ygscyxs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -100,7 +102,8 @@
       }
     },
     {
-      "id": "g5u-Q003",
+      "id": "rj-g5u-NA-sdjss-003",
+      "legacyId": "g5u-Q003",
       "slug": "rj-g5u-NA-sdjss-003",
       "contentHash": "75cf58e8",
       "grade": 5,
@@ -110,10 +113,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5u-NA-02",
       "knowledgeName": "小数除法",
-      "point": "g5u-NA-02-03",
+      "point": "rj-g5u-NA-sdjss",
       "pointName": "商的近似数",
       "topics": [
-        "g5u-NA-02-03"
+        "rj-g5u-NA-sdjss"
       ],
       "pointType": "PROCEDURAL",
       "type": "fill",
@@ -143,7 +146,8 @@
       }
     },
     {
-      "id": "g5u-Q004",
+      "id": "rj-g5u-NA-xhxs-004",
+      "legacyId": "g5u-Q004",
       "slug": "rj-g5u-NA-xhxs-004",
       "contentHash": "9725b903",
       "grade": 5,
@@ -153,10 +157,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5u-NA-02",
       "knowledgeName": "小数除法",
-      "point": "g5u-NA-02-04",
+      "point": "rj-g5u-NA-xhxs",
       "pointName": "循环小数",
       "topics": [
-        "g5u-NA-02-04"
+        "rj-g5u-NA-xhxs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -191,7 +195,8 @@
       }
     },
     {
-      "id": "g5u-Q005",
+      "id": "rj-g5u-NA-jfclbjdkh-005",
+      "legacyId": "g5u-Q005",
       "slug": "rj-g5u-NA-jfclbjdkh-005",
       "contentHash": "d27473ae",
       "grade": 5,
@@ -201,10 +206,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5u-NA-03",
       "knowledgeName": "简易方程",
-      "point": "g5u-NA-03-05",
+      "point": "rj-g5u-NA-jfclbjdkh",
       "pointName": "解方程（两步及带括号）",
       "topics": [
-        "g5u-NA-03-05"
+        "rj-g5u-NA-jfclbjdkh"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -232,7 +237,8 @@
       }
     },
     {
-      "id": "g5u-Q006",
+      "id": "rj-g5u-NA-lfcjjsjwt-006",
+      "legacyId": "g5u-Q006",
       "slug": "rj-g5u-NA-lfcjjsjwt-006",
       "contentHash": "de0e6f39",
       "grade": 5,
@@ -242,10 +248,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5u-NA-03",
       "knowledgeName": "简易方程",
-      "point": "g5u-NA-03-06",
+      "point": "rj-g5u-NA-lfcjjsjwt",
       "pointName": "列方程解决实际问题",
       "topics": [
-        "g5u-NA-03-06"
+        "rj-g5u-NA-lfcjjsjwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -278,7 +284,8 @@
       }
     },
     {
-      "id": "g5u-Q007",
+      "id": "rj-g5u-NA-fcdyy-007",
+      "legacyId": "g5u-Q007",
       "slug": "rj-g5u-NA-fcdyy-007",
       "contentHash": "4b3636d3",
       "grade": 5,
@@ -288,10 +295,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g5u-NA-03",
       "knowledgeName": "简易方程",
-      "point": "g5u-NA-03-02",
+      "point": "rj-g5u-NA-fcdyy",
       "pointName": "方程的意义",
       "topics": [
-        "g5u-NA-03-02"
+        "rj-g5u-NA-fcdyy"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -319,7 +326,8 @@
       }
     },
     {
-      "id": "g5u-Q008",
+      "id": "rj-g5u-GG-pxsbxdmj-008",
+      "legacyId": "g5u-Q008",
       "slug": "rj-g5u-GG-pxsbxdmj-008",
       "contentHash": "e9581b13",
       "grade": 5,
@@ -329,10 +337,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5u-GG-05",
       "knowledgeName": "多边形的面积",
-      "point": "g5u-GG-05-01",
+      "point": "rj-g5u-GG-pxsbxdmj",
       "pointName": "平行四边形的面积",
       "topics": [
-        "g5u-GG-05-01"
+        "rj-g5u-GG-pxsbxdmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "figure",
@@ -364,7 +372,8 @@
       }
     },
     {
-      "id": "g5u-Q009",
+      "id": "rj-g5u-GG-txdmj-009",
+      "legacyId": "g5u-Q009",
       "slug": "rj-g5u-GG-txdmj-009",
       "contentHash": "3ae91226",
       "grade": 5,
@@ -374,10 +383,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5u-GG-05",
       "knowledgeName": "多边形的面积",
-      "point": "g5u-GG-05-03",
+      "point": "rj-g5u-GG-txdmj",
       "pointName": "梯形的面积",
       "topics": [
-        "g5u-GG-05-03"
+        "rj-g5u-GG-txdmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -410,7 +419,8 @@
       }
     },
     {
-      "id": "g5u-Q010",
+      "id": "rj-g5u-GG-zhtxdmj-010",
+      "legacyId": "g5u-Q010",
       "slug": "rj-g5u-GG-zhtxdmj-010",
       "contentHash": "7f6ff44f",
       "grade": 5,
@@ -420,10 +430,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5u-GG-05",
       "knowledgeName": "多边形的面积",
-      "point": "g5u-GG-05-04",
+      "point": "rj-g5u-GG-zhtxdmj",
       "pointName": "组合图形的面积",
       "topics": [
-        "g5u-GG-05-04"
+        "rj-g5u-GG-zhtxdmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -479,7 +489,8 @@
       }
     },
     {
-      "id": "g5u-Q011",
+      "id": "rj-g5u-SP-sjfsdknx-011",
+      "legacyId": "g5u-Q011",
       "slug": "rj-g5u-SP-sjfsdknx-011",
       "contentHash": "d59298e0",
       "grade": 5,
@@ -489,10 +500,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g5u-SP-06",
       "knowledgeName": "可能性",
-      "point": "g5u-SP-06-01",
+      "point": "rj-g5u-SP-sjfsdknx",
       "pointName": "事件发生的可能性",
       "topics": [
-        "g5u-SP-06-01"
+        "rj-g5u-SP-sjfsdknx"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -527,7 +538,8 @@
       }
     },
     {
-      "id": "g5u-Q012",
+      "id": "rj-g5u-CP-sxgjzswt-012",
+      "legacyId": "g5u-Q012",
       "slug": "rj-g5u-CP-sxgjzswt-012",
       "contentHash": "1e312449",
       "grade": 5,
@@ -537,10 +549,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g5u-CP-07",
       "knowledgeName": "综合与实践",
-      "point": "g5u-CP-07-01",
+      "point": "rj-g5u-CP-sxgjzswt",
       "pointName": "数学广角——植树问题",
       "topics": [
-        "g5u-CP-07-01"
+        "rj-g5u-CP-sxgjzswt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -573,7 +585,8 @@
       }
     },
     {
-      "id": "g5u-Q013",
+      "id": "rj-g5u-GG-ysdbswz-013",
+      "legacyId": "g5u-Q013",
       "slug": "rj-g5u-GG-ysdbswz-013",
       "contentHash": "dee32b0f",
       "grade": 5,
@@ -583,10 +596,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5u-GG-04",
       "knowledgeName": "位置",
-      "point": "g5u-GG-04-01",
+      "point": "rj-g5u-GG-ysdbswz",
       "pointName": "用数对表示位置",
       "topics": [
-        "g5u-GG-04-01"
+        "rj-g5u-GG-ysdbswz"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "figure-interactive",
@@ -861,7 +874,8 @@
       }
     },
     {
-      "id": "g5u-Q014",
+      "id": "rj-g5u-GG-pxsbxdmj-014",
+      "legacyId": "g5u-Q014",
       "slug": "rj-g5u-GG-pxsbxdmj-014",
       "contentHash": "44255c03",
       "grade": 5,
@@ -871,10 +885,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g5u-GG-05",
       "knowledgeName": "多边形的面积",
-      "point": "g5u-GG-05-01",
+      "point": "rj-g5u-GG-pxsbxdmj",
       "pointName": "平行四边形的面积",
       "topics": [
-        "g5u-GG-05-01"
+        "rj-g5u-GG-pxsbxdmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "draw",

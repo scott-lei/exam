@@ -17,7 +17,8 @@
   },
   "questions": [
     {
-      "id": "g6u-Q001",
+      "id": "rj-g6u-NA-ygscyfs-001",
+      "legacyId": "g6u-Q001",
       "slug": "rj-g6u-NA-ygscyfs-001",
       "contentHash": "88f3033f",
       "grade": 6,
@@ -27,10 +28,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-02",
       "knowledgeName": "分数除法",
-      "point": "g6u-NA-02-02",
+      "point": "rj-g6u-NA-ygscyfs",
       "pointName": "一个数除以分数",
       "topics": [
-        "g6u-NA-02-02"
+        "rj-g6u-NA-ygscyfs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -58,7 +59,8 @@
       }
     },
     {
-      "id": "g6u-Q002",
+      "id": "rj-g6u-NA-fshhysyjbys-002",
+      "legacyId": "g6u-Q002",
       "slug": "rj-g6u-NA-fshhysyjbys-002",
       "contentHash": "4f8063d7",
       "grade": 6,
@@ -68,10 +70,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-01",
       "knowledgeName": "分数乘法",
-      "point": "g6u-NA-01-03",
+      "point": "rj-g6u-NA-fshhysyjbys",
       "pointName": "分数混合运算与简便运算",
       "topics": [
-        "g6u-NA-01-03"
+        "rj-g6u-NA-fshhysyjbys"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -99,7 +101,8 @@
       }
     },
     {
-      "id": "g6u-Q003",
+      "id": "rj-g6u-NA-bdjbxzyhjb-003",
+      "legacyId": "g6u-Q003",
       "slug": "rj-g6u-NA-bdjbxzyhjb-003",
       "contentHash": "17a5c17c",
       "grade": 6,
@@ -109,10 +112,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-03",
       "knowledgeName": "比",
-      "point": "g6u-NA-03-02",
+      "point": "rj-g6u-NA-bdjbxzyhjb",
       "pointName": "比的基本性质与化简比",
       "topics": [
-        "g6u-NA-03-02"
+        "rj-g6u-NA-bdjbxzyhjb"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -145,7 +148,8 @@
       }
     },
     {
-      "id": "g6u-Q004",
+      "id": "rj-g6u-NA-bdyyybdgbfmc-004",
+      "legacyId": "g6u-Q004",
       "slug": "rj-g6u-NA-bdyyybdgbfmc-004",
       "contentHash": "a6589443",
       "grade": 6,
@@ -155,10 +159,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-03",
       "knowledgeName": "比",
-      "point": "g6u-NA-03-01",
+      "point": "rj-g6u-NA-bdyyybdgbfmc",
       "pointName": "比的意义与比的各部分名称",
       "topics": [
-        "g6u-NA-03-01"
+        "rj-g6u-NA-bdyyybdgbfmc"
       ],
       "pointType": "CONCEPTUAL",
       "type": "application",
@@ -199,7 +203,8 @@
       }
     },
     {
-      "id": "g6u-Q005",
+      "id": "rj-g6u-NA-bfsyfsxsdhh-005",
+      "legacyId": "g6u-Q005",
       "slug": "rj-g6u-NA-bfsyfsxsdhh-005",
       "contentHash": "afce06e2",
       "grade": 6,
@@ -209,10 +214,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-04",
       "knowledgeName": "百分数（一）",
-      "point": "g6u-NA-04-02",
+      "point": "rj-g6u-NA-bfsyfsxsdhh",
       "pointName": "百分数与分数、小数的互化",
       "topics": [
-        "g6u-NA-04-02"
+        "rj-g6u-NA-bfsyfsxsdhh"
       ],
       "pointType": "PROCEDURAL",
       "type": "fill",
@@ -253,7 +258,8 @@
       }
     },
     {
-      "id": "g6u-Q006",
+      "id": "rj-g6u-NA-qbflhglcqld-006",
+      "legacyId": "g6u-Q006",
       "slug": "rj-g6u-NA-qbflhglcqld-006",
       "contentHash": "f1128c64",
       "grade": 6,
@@ -263,10 +269,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-04",
       "knowledgeName": "百分数（一）",
-      "point": "g6u-NA-04-03",
+      "point": "rj-g6u-NA-qbflhglcqld",
       "pointName": "求百分率（合格率、出勤率等）",
       "topics": [
-        "g6u-NA-04-03"
+        "rj-g6u-NA-qbflhglcqld"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -299,7 +305,8 @@
       }
     },
     {
-      "id": "g6u-Q007",
+      "id": "rj-g6u-NA-zkcsslll-007",
+      "legacyId": "g6u-Q007",
       "slug": "rj-g6u-NA-zkcsslll-007",
       "contentHash": "a106f9c6",
       "grade": 6,
@@ -309,10 +316,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-04",
       "knowledgeName": "百分数（一）",
-      "point": "g6u-NA-04-05",
+      "point": "rj-g6u-NA-zkcsslll",
       "pointName": "折扣、成数、税率、利率",
       "topics": [
-        "g6u-NA-04-05"
+        "rj-g6u-NA-zkcsslll"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -345,7 +352,8 @@
       }
     },
     {
-      "id": "g6u-Q008",
+      "id": "rj-g6u-GG-ydzc-008",
+      "legacyId": "g6u-Q008",
       "slug": "rj-g6u-GG-ydzc-008",
       "contentHash": "4dd5027a",
       "grade": 6,
@@ -355,10 +363,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6u-GG-05",
       "knowledgeName": "圆",
-      "point": "g6u-GG-05-02",
+      "point": "rj-g6u-GG-ydzc",
       "pointName": "圆的周长",
       "topics": [
-        "g6u-GG-05-02"
+        "rj-g6u-GG-ydzc"
       ],
       "pointType": "PROCEDURAL",
       "type": "figure",
@@ -391,7 +399,8 @@
       }
     },
     {
-      "id": "g6u-Q009",
+      "id": "rj-g6u-GG-ydmj-009",
+      "legacyId": "g6u-Q009",
       "slug": "rj-g6u-GG-ydmj-009",
       "contentHash": "9fc478d6",
       "grade": 6,
@@ -401,10 +410,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6u-GG-05",
       "knowledgeName": "圆",
-      "point": "g6u-GG-05-03",
+      "point": "rj-g6u-GG-ydmj",
       "pointName": "圆的面积",
       "topics": [
-        "g6u-GG-05-03"
+        "rj-g6u-GG-ydmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -438,7 +447,8 @@
       }
     },
     {
-      "id": "g6u-Q010",
+      "id": "rj-g6u-GG-zhtxyyybfmj-010",
+      "legacyId": "g6u-Q010",
       "slug": "rj-g6u-GG-zhtxyyybfmj-010",
       "contentHash": "474dde0d",
       "grade": 6,
@@ -448,10 +458,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6u-GG-05",
       "knowledgeName": "圆",
-      "point": "g6u-GG-05-06",
+      "point": "rj-g6u-GG-zhtxyyybfmj",
       "pointName": "组合图形与阴影部分面积",
       "topics": [
-        "g6u-GG-05-06"
+        "rj-g6u-GG-zhtxyyybfmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -501,7 +511,8 @@
       }
     },
     {
-      "id": "g6u-Q011",
+      "id": "rj-g6u-SP-sxtjt-011",
+      "legacyId": "g6u-Q011",
       "slug": "rj-g6u-SP-sxtjt-011",
       "contentHash": "95fa1ade",
       "grade": 6,
@@ -511,10 +522,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g6u-SP-07",
       "knowledgeName": "统计",
-      "point": "g6u-SP-07-01",
+      "point": "rj-g6u-SP-sxtjt",
       "pointName": "扇形统计图",
       "topics": [
-        "g6u-SP-07-01"
+        "rj-g6u-SP-sxtjt"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -549,7 +560,8 @@
       }
     },
     {
-      "id": "g6u-Q012",
+      "id": "rj-g6u-NA-gcwt-012",
+      "legacyId": "g6u-Q012",
       "slug": "rj-g6u-NA-gcwt-012",
       "contentHash": "3ec09a21",
       "grade": 6,
@@ -559,10 +571,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6u-NA-02",
       "knowledgeName": "分数除法",
-      "point": "g6u-NA-02-05",
+      "point": "rj-g6u-NA-gcwt",
       "pointName": "工程问题",
       "topics": [
-        "g6u-NA-02-05"
+        "rj-g6u-NA-gcwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -595,7 +607,8 @@
       }
     },
     {
-      "id": "g6u-Q013",
+      "id": "rj-g6u-GG-sxysxdmj-013",
+      "legacyId": "g6u-Q013",
       "slug": "rj-g6u-GG-sxysxdmj-013",
       "contentHash": "5670e174",
       "grade": 6,
@@ -605,10 +618,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6u-GG-05",
       "knowledgeName": "圆",
-      "point": "g6u-GG-05-05",
+      "point": "rj-g6u-GG-sxysxdmj",
       "pointName": "扇形与扇形的面积",
       "topics": [
-        "g6u-GG-05-05"
+        "rj-g6u-GG-sxysxdmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "figure-interactive",
@@ -676,7 +689,8 @@
       }
     },
     {
-      "id": "g6u-Q014",
+      "id": "rj-g6u-GG-ydrsyxbjzj-014",
+      "legacyId": "g6u-Q014",
       "slug": "rj-g6u-GG-ydrsyxbjzj-014",
       "contentHash": "90b3c250",
       "grade": 6,
@@ -686,10 +700,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6u-GG-05",
       "knowledgeName": "圆",
-      "point": "g6u-GG-05-01",
+      "point": "rj-g6u-GG-ydrsyxbjzj",
       "pointName": "圆的认识（圆心、半径、直径）",
       "topics": [
-        "g6u-GG-05-01"
+        "rj-g6u-GG-ydrsyxbjzj"
       ],
       "pointType": "CONCEPTUAL",
       "type": "draw",

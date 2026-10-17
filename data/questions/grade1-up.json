@@ -17,7 +17,8 @@
   },
   "questions": [
     {
-      "id": "g1u-Q001",
+      "id": "rj-g1u-NA-sys110gs-001",
+      "legacyId": "g1u-Q001",
       "slug": "rj-g1u-NA-sys110gs-001",
       "contentHash": "d1b3ed94",
       "grade": 1,
@@ -27,10 +28,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-01",
       "knowledgeName": "准备课",
-      "point": "g1u-NA-01-01",
+      "point": "rj-g1u-NA-sys110gs",
       "pointName": "数一数（1~10各数）",
       "topics": [
-        "g1u-NA-01-01"
+        "rj-g1u-NA-sys110gs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -68,7 +69,8 @@
       }
     },
     {
-      "id": "g1u-Q002",
+      "id": "rj-g1u-NA-bdsyydy-002",
+      "legacyId": "g1u-Q002",
       "slug": "rj-g1u-NA-bdsyydy-002",
       "contentHash": "d30545a9",
       "grade": 1,
@@ -78,10 +80,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-01",
       "knowledgeName": "准备课",
-      "point": "g1u-NA-01-02",
+      "point": "rj-g1u-NA-bdsyydy",
       "pointName": "比多少（一一对应）",
       "topics": [
-        "g1u-NA-01-02"
+        "rj-g1u-NA-bdsyydy"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -109,7 +111,8 @@
       }
     },
     {
-      "id": "g1u-Q003",
+      "id": "rj-g1u-NA-15gsdrs-003",
+      "legacyId": "g1u-Q003",
       "slug": "rj-g1u-NA-15gsdrs-003",
       "contentHash": "9ee64e22",
       "grade": 1,
@@ -119,10 +122,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-02",
       "knowledgeName": "1~5的认识和加减法",
-      "point": "g1u-NA-02-01",
+      "point": "rj-g1u-NA-15gsdrs",
       "pointName": "1~5各数的认识",
       "topics": [
-        "g1u-NA-02-01"
+        "rj-g1u-NA-15gsdrs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -153,7 +156,8 @@
       }
     },
     {
-      "id": "g1u-Q004",
+      "id": "rj-g1u-NA-sdfyh25-004",
+      "legacyId": "g1u-Q004",
       "slug": "rj-g1u-NA-sdfyh25-004",
       "contentHash": "594b37c9",
       "grade": 1,
@@ -163,10 +167,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-02",
       "knowledgeName": "1~5的认识和加减法",
-      "point": "g1u-NA-02-04",
+      "point": "rj-g1u-NA-sdfyh25",
       "pointName": "数的分与合（2~5）",
       "topics": [
-        "g1u-NA-02-04"
+        "rj-g1u-NA-sdfyh25"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -197,7 +201,8 @@
       }
     },
     {
-      "id": "g1u-Q005",
+      "id": "rj-g1u-NA-5yndjf-005",
+      "legacyId": "g1u-Q005",
       "slug": "rj-g1u-NA-5yndjf-005",
       "contentHash": "87e761af",
       "grade": 1,
@@ -207,10 +212,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-02",
       "knowledgeName": "1~5的认识和加减法",
-      "point": "g1u-NA-02-05",
+      "point": "rj-g1u-NA-5yndjf",
       "pointName": "5以内的加法",
       "topics": [
-        "g1u-NA-02-05"
+        "rj-g1u-NA-5yndjf"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -238,7 +243,8 @@
       }
     },
     {
-      "id": "g1u-Q006",
+      "id": "rj-g1u-NA-ljlj-006",
+      "legacyId": "g1u-Q006",
       "slug": "rj-g1u-NA-ljlj-006",
       "contentHash": "54fabaa4",
       "grade": 1,
@@ -248,10 +254,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-03",
       "knowledgeName": "6~10的认识和加减法",
-      "point": "g1u-NA-03-07",
+      "point": "rj-g1u-NA-ljlj",
       "pointName": "连加、连减",
       "topics": [
-        "g1u-NA-03-07"
+        "rj-g1u-NA-ljlj"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -279,7 +285,8 @@
       }
     },
     {
-      "id": "g1u-Q007",
+      "id": "rj-g1u-NA-1120gsdrs-007",
+      "legacyId": "g1u-Q007",
       "slug": "rj-g1u-NA-1120gsdrs-007",
       "contentHash": "1c674b9c",
       "grade": 1,
@@ -289,10 +296,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-04",
       "knowledgeName": "11~20各数的认识",
-      "point": "g1u-NA-04-01",
+      "point": "rj-g1u-NA-1120gsdrs",
       "pointName": "11~20各数的认识",
       "topics": [
-        "g1u-NA-04-01"
+        "rj-g1u-NA-1120gsdrs"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -327,7 +334,8 @@
       }
     },
     {
-      "id": "g1u-Q008",
+      "id": "rj-g1u-NA-9jj-008",
+      "legacyId": "g1u-Q008",
       "slug": "rj-g1u-NA-9jj-008",
       "contentHash": "a68194b4",
       "grade": 1,
@@ -337,10 +345,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-05",
       "knowledgeName": "20以内的进位加法",
-      "point": "g1u-NA-05-01",
+      "point": "rj-g1u-NA-9jj",
       "pointName": "9加几",
       "topics": [
-        "g1u-NA-05-01"
+        "rj-g1u-NA-9jj"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -368,7 +376,8 @@
       }
     },
     {
-      "id": "g1u-Q009",
+      "id": "rj-g1u-NA-rszbzsjsb-009",
+      "legacyId": "g1u-Q009",
       "slug": "rj-g1u-NA-rszbzsjsb-009",
       "contentHash": "28eb033f",
       "grade": 1,
@@ -378,10 +387,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-06",
       "knowledgeName": "认识钟表",
-      "point": "g1u-NA-06-01",
+      "point": "rj-g1u-NA-rszbzsjsb",
       "pointName": "认识钟表（整时、几时半）",
       "topics": [
-        "g1u-NA-06-01"
+        "rj-g1u-NA-rszbzsjsb"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "figure",
@@ -413,7 +422,8 @@
       }
     },
     {
-      "id": "g1u-Q010",
+      "id": "rj-g1u-NA-yjfjjwttwyyt-010",
+      "legacyId": "g1u-Q010",
       "slug": "rj-g1u-NA-yjfjjwttwyyt-010",
       "contentHash": "477aeb34",
       "grade": 1,
@@ -423,10 +433,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g1u-NA-05",
       "knowledgeName": "20以内的进位加法",
-      "point": "g1u-NA-05-04",
+      "point": "rj-g1u-NA-yjfjjwttwyyt",
       "pointName": "用加法解决问题（图文应用题）",
       "topics": [
-        "g1u-NA-05-04"
+        "rj-g1u-NA-yjfjjwttwyyt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -459,7 +469,8 @@
       }
     },
     {
-      "id": "g1u-Q011",
+      "id": "rj-g1u-CP-flyzl-011",
+      "legacyId": "g1u-Q011",
       "slug": "rj-g1u-CP-flyzl-011",
       "contentHash": "6e4cb851",
       "grade": 1,
@@ -469,10 +480,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g1u-CP-09",
       "knowledgeName": "综合与实践",
-      "point": "g1u-CP-09-01",
+      "point": "rj-g1u-CP-flyzl",
       "pointName": "分类与整理",
       "topics": [
-        "g1u-CP-09-01"
+        "rj-g1u-CP-flyzl"
       ],
       "pointType": "CONCEPTUAL",
       "type": "reading",
@@ -528,7 +539,8 @@
       }
     },
     {
-      "id": "g1u-Q012",
+      "id": "rj-g1u-GG-rslttxcftzftyzq-012",
+      "legacyId": "g1u-Q012",
       "slug": "rj-g1u-GG-rslttxcftzftyzq-012",
       "contentHash": "2b15a9cc",
       "grade": 1,
@@ -538,10 +550,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g1u-GG-07",
       "knowledgeName": "认识图形（一）",
-      "point": "g1u-GG-07-01",
+      "point": "rj-g1u-GG-rslttxcftzftyzq",
       "pointName": "认识立体图形（长方体、正方体、圆柱、球）",
       "topics": [
-        "g1u-GG-07-01"
+        "rj-g1u-GG-rslttxcftzftyzq"
       ],
       "pointType": "CONCEPTUAL",
       "type": "draw",

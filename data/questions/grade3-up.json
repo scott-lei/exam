@@ -17,7 +17,8 @@
   },
   "questions": [
     {
-      "id": "g3u-Q001",
+      "id": "rj-g3u-NA-mdrs-001",
+      "legacyId": "g3u-Q001",
       "slug": "rj-g3u-NA-mdrs-001",
       "contentHash": "ac38f9c0",
       "grade": 3,
@@ -27,10 +28,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-01",
       "knowledgeName": "时、分、秒",
-      "point": "g3u-NA-01-01",
+      "point": "rj-g3u-NA-mdrs",
       "pointName": "秒的认识",
       "topics": [
-        "g3u-NA-01-01"
+        "rj-g3u-NA-mdrs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -65,7 +66,8 @@
       }
     },
     {
-      "id": "g3u-Q002",
+      "id": "rj-g3u-NA-jbjsjjjbjsbs-002",
+      "legacyId": "g3u-Q002",
       "slug": "rj-g3u-NA-jbjsjjjbjsbs-002",
       "contentHash": "fc3e7486",
       "grade": 3,
@@ -75,10 +77,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-02",
       "knowledgeName": "万以内的加法和减法（一）",
-      "point": "g3u-NA-02-03",
+      "point": "rj-g3u-NA-jbjsjjjbjsbs",
       "pointName": "几百几十加、减几百几十（笔算）",
       "topics": [
-        "g3u-NA-02-03"
+        "rj-g3u-NA-jbjsjjjbjsbs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -106,7 +108,8 @@
       }
     },
     {
-      "id": "g3u-Q003",
+      "id": "rj-g3u-NA-cddwyzldwdhs-003",
+      "legacyId": "g3u-Q003",
       "slug": "rj-g3u-NA-cddwyzldwdhs-003",
       "contentHash": "67fc7e04",
       "grade": 3,
@@ -116,10 +119,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-03",
       "knowledgeName": "测量",
-      "point": "g3u-NA-03-05",
+      "point": "rj-g3u-NA-cddwyzldwdhs",
       "pointName": "长度单位与质量单位的换算",
       "topics": [
-        "g3u-NA-03-05"
+        "rj-g3u-NA-cddwyzldwdhs"
       ],
       "pointType": "PROCEDURAL",
       "type": "fill",
@@ -150,7 +153,8 @@
       }
     },
     {
-      "id": "g3u-Q004",
+      "id": "rj-g3u-NA-bjszjhmwy0djf-004",
+      "legacyId": "g3u-Q004",
       "slug": "rj-g3u-NA-bjszjhmwy0djf-004",
       "contentHash": "d512113c",
       "grade": 3,
@@ -160,10 +164,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-04",
       "knowledgeName": "万以内的加法和减法（二）",
-      "point": "g3u-NA-04-03",
+      "point": "rj-g3u-NA-bjszjhmwy0djf",
       "pointName": "被减数中间或末尾有0的减法",
       "topics": [
-        "g3u-NA-04-03"
+        "rj-g3u-NA-bjszjhmwy0djf"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -191,7 +195,8 @@
       }
     },
     {
-      "id": "g3u-Q005",
+      "id": "rj-g3u-NA-dwscywsdbsjw-005",
+      "legacyId": "g3u-Q005",
       "slug": "rj-g3u-NA-dwscywsdbsjw-005",
       "contentHash": "ad59ffb3",
       "grade": 3,
@@ -201,10 +206,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-05",
       "knowledgeName": "多位数乘一位数",
-      "point": "g3u-NA-05-03",
+      "point": "rj-g3u-NA-dwscywsdbsjw",
       "pointName": "多位数乘一位数的笔算（进位）",
       "topics": [
-        "g3u-NA-05-03"
+        "rj-g3u-NA-dwscywsdbsjw"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -232,7 +237,8 @@
       }
     },
     {
-      "id": "g3u-Q006",
+      "id": "rj-g3u-NA-yccfjjsjwt-006",
+      "legacyId": "g3u-Q006",
       "slug": "rj-g3u-NA-yccfjjsjwt-006",
       "contentHash": "77fe7781",
       "grade": 3,
@@ -242,10 +248,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-05",
       "knowledgeName": "多位数乘一位数",
-      "point": "g3u-NA-05-06",
+      "point": "rj-g3u-NA-yccfjjsjwt",
       "pointName": "用乘除法解决实际问题",
       "topics": [
-        "g3u-NA-05-06"
+        "rj-g3u-NA-yccfjjsjwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -278,7 +284,8 @@
       }
     },
     {
-      "id": "g3u-Q007",
+      "id": "rj-g3u-NA-bjfsddx-007",
+      "legacyId": "g3u-Q007",
       "slug": "rj-g3u-NA-bjfsddx-007",
       "contentHash": "8f3cc3a7",
       "grade": 3,
@@ -288,10 +295,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-06",
       "knowledgeName": "分数的初步认识",
-      "point": "g3u-NA-06-03",
+      "point": "rj-g3u-NA-bjfsddx",
       "pointName": "比较分数的大小",
       "topics": [
-        "g3u-NA-06-03"
+        "rj-g3u-NA-bjfsddx"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -319,7 +326,8 @@
       }
     },
     {
-      "id": "g3u-Q008",
+      "id": "rj-g3u-NA-fsdjdjstfm-008",
+      "legacyId": "g3u-Q008",
       "slug": "rj-g3u-NA-fsdjdjstfm-008",
       "contentHash": "41880cdc",
       "grade": 3,
@@ -329,10 +337,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3u-NA-06",
       "knowledgeName": "分数的初步认识",
-      "point": "g3u-NA-06-04",
+      "point": "rj-g3u-NA-fsdjdjstfm",
       "pointName": "分数的简单计算（同分母）",
       "topics": [
-        "g3u-NA-06-04"
+        "rj-g3u-NA-fsdjdjstfm"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -360,7 +368,8 @@
       }
     },
     {
-      "id": "g3u-Q009",
+      "id": "rj-g3u-GG-cfxhzfxdzc-009",
+      "legacyId": "g3u-Q009",
       "slug": "rj-g3u-GG-cfxhzfxdzc-009",
       "contentHash": "829163e2",
       "grade": 3,
@@ -370,10 +379,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g3u-GG-07",
       "knowledgeName": "长方形和正方形",
-      "point": "g3u-GG-07-03",
+      "point": "rj-g3u-GG-cfxhzfxdzc",
       "pointName": "长方形和正方形的周长",
       "topics": [
-        "g3u-GG-07-03"
+        "rj-g3u-GG-cfxhzfxdzc"
       ],
       "pointType": "PROCEDURAL",
       "type": "figure",
@@ -405,7 +414,8 @@
       }
     },
     {
-      "id": "g3u-Q010",
+      "id": "rj-g3u-GG-zcdsjwtpz-010",
+      "legacyId": "g3u-Q010",
       "slug": "rj-g3u-GG-zcdsjwtpz-010",
       "contentHash": "3ab90913",
       "grade": 3,
@@ -415,10 +425,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g3u-GG-07",
       "knowledgeName": "长方形和正方形",
-      "point": "g3u-GG-07-04",
+      "point": "rj-g3u-GG-zcdsjwtpz",
       "pointName": "周长的实际问题（拼组）",
       "topics": [
-        "g3u-GG-07-04"
+        "rj-g3u-GG-zcdsjwtpz"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -480,7 +490,8 @@
       }
     },
     {
-      "id": "g3u-Q011",
+      "id": "rj-g3u-CP-sxgjjhzdwt-011",
+      "legacyId": "g3u-Q011",
       "slug": "rj-g3u-CP-sxgjjhzdwt-011",
       "contentHash": "0fae56c9",
       "grade": 3,
@@ -490,10 +501,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g3u-CP-09",
       "knowledgeName": "综合与实践",
-      "point": "g3u-CP-09-01",
+      "point": "rj-g3u-CP-sxgjjhzdwt",
       "pointName": "数学广角——集合（重叠问题）",
       "topics": [
-        "g3u-CP-09-01"
+        "rj-g3u-CP-sxgjjhzdwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -526,7 +537,8 @@
       }
     },
     {
-      "id": "g3u-Q012",
+      "id": "rj-g3u-GG-zcdrs-012",
+      "legacyId": "g3u-Q012",
       "slug": "rj-g3u-GG-zcdrs-012",
       "contentHash": "b4c6648e",
       "grade": 3,
@@ -536,10 +548,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g3u-GG-07",
       "knowledgeName": "长方形和正方形",
-      "point": "g3u-GG-07-02",
+      "point": "rj-g3u-GG-zcdrs",
       "pointName": "周长的认识",
       "topics": [
-        "g3u-GG-07-02"
+        "rj-g3u-GG-zcdrs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "draw",

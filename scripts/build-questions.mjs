@@ -22,6 +22,9 @@ const tags = JSON.parse(fs.readFileSync(path.join(root, 'data/tags.json'), 'utf8
 
 const ALL = { ...LOWER, ...MIDDLE, ...UPPER };
 const pointById = new Map(tags.points.map((p) => [p.id, p]));
+// 题库源文件 scripts/data/questions-*.mjs 中的 q.p 仍是旧序号主键（legacyId），
+// 切换主键后必须用 legacyId 反查考点，否则解析失败。
+const pointByLegacy = new Map(tags.points.map((p) => [p.legacyId, p]));
 const knowledgeById = new Map(tags.knowledge.map((k) => [k.id, k]));
 const domainById = new Map(tags.domains.map((d) => [d.id, d]));
 const AUTO_TYPES = new Set(tags.questionTypes.filter((t) => t.auto).map((t) => t.id));
@@ -39,7 +42,7 @@ for (const book of tags.books) {
   if (!raw) { errors.push(`${book.id} 缺少题库`); continue; }
 
   const list = raw.map((q, i) => {
-    const pt = pointById.get(q.p);
+    const pt = pointByLegacy.get(q.p);
     if (!pt) { errors.push(`${book.id} 第 ${i + 1} 题引用了不存在的考点 ${q.p}`); return null; }
     const pSlug = pt.slug || pt.id; // 防御：tags 未含 slug 时回退到原 id
     const kn = knowledgeById.get(pt.knowledge);
@@ -52,9 +55,11 @@ for (const book of tags.books) {
       pt.suitableTypes.push(q.type);
       widened.push(`${pt.id}(${pt.name}) += ${q.type}`);
     }
+    const qSlug = `${pSlug}-${String(i + 1).padStart(3, '0')}`;
     return {
-      id: `${book.code}-Q${String(i + 1).padStart(3, '0')}`,
-      slug: `${pSlug}-${String(i + 1).padStart(3, '0')}`,
+      id: qSlug,                                  // 新主键：语义化 slug（卡 3）
+      legacyId: `${book.code}-Q${String(i + 1).padStart(3, '0')}`, // 旧序号主键，保留用于迁移
+      slug: qSlug,                                // 与 id 同值，便于下游兼容
       contentHash: fnv1a(q.stem + JSON.stringify(q.answer)),
       grade: book.grade,
       book: book.id,

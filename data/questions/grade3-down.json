@@ -15,7 +15,8 @@
   },
   "questions": [
     {
-      "id": "g3d-Q001",
+      "id": "rj-g3d-NA-swscyywsdbs-001",
+      "legacyId": "g3d-Q001",
       "slug": "rj-g3d-NA-swscyywsdbs-001",
       "contentHash": "1bc4ca37",
       "grade": 3,
@@ -25,10 +26,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3d-NA-01",
       "knowledgeName": "除数是一位数的除法",
-      "point": "g3d-NA-01-03",
+      "point": "rj-g3d-NA-swscyywsdbs",
       "pointName": "三位数除以一位数的笔算",
       "topics": [
-        "g3d-NA-01-03"
+        "rj-g3d-NA-swscyywsdbs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -56,7 +57,8 @@
       }
     },
     {
-      "id": "g3d-Q002",
+      "id": "rj-g3d-NA-szjhmwy0dcf-002",
+      "legacyId": "g3d-Q002",
       "slug": "rj-g3d-NA-szjhmwy0dcf-002",
       "contentHash": "721a8459",
       "grade": 3,
@@ -66,10 +68,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3d-NA-01",
       "knowledgeName": "除数是一位数的除法",
-      "point": "g3d-NA-01-04",
+      "point": "rj-g3d-NA-szjhmwy0dcf",
       "pointName": "商中间或末尾有0的除法",
       "topics": [
-        "g3d-NA-01-04"
+        "rj-g3d-NA-szjhmwy0dcf"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -97,7 +99,8 @@
       }
     },
     {
-      "id": "g3d-Q003",
+      "id": "rj-g3d-NA-lwsclwsdbsjw-003",
+      "legacyId": "g3d-Q003",
       "slug": "rj-g3d-NA-lwsclwsdbsjw-003",
       "contentHash": "9e377fcf",
       "grade": 3,
@@ -107,10 +110,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3d-NA-02",
       "knowledgeName": "两位数乘两位数",
-      "point": "g3d-NA-02-03",
+      "point": "rj-g3d-NA-lwsclwsdbsjw",
       "pointName": "两位数乘两位数的笔算（进位）",
       "topics": [
-        "g3d-NA-02-03"
+        "rj-g3d-NA-lwsclwsdbsjw"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -138,7 +141,8 @@
       }
     },
     {
-      "id": "g3d-Q004",
+      "id": "rj-g3d-NA-jddxsjjf-004",
+      "legacyId": "g3d-Q004",
       "slug": "rj-g3d-NA-jddxsjjf-004",
       "contentHash": "719db481",
       "grade": 3,
@@ -148,10 +152,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3d-NA-03",
       "knowledgeName": "小数的初步认识",
-      "point": "g3d-NA-03-04",
+      "point": "rj-g3d-NA-jddxsjjf",
       "pointName": "简单的小数加、减法",
       "topics": [
-        "g3d-NA-03-04"
+        "rj-g3d-NA-jddxsjjf"
       ],
       "pointType": "PROCEDURAL",
       "type": "fill",
@@ -182,7 +186,8 @@
       }
     },
     {
-      "id": "g3d-Q005",
+      "id": "rj-g3d-NA-pnhrn-005",
+      "legacyId": "g3d-Q005",
       "slug": "rj-g3d-NA-pnhrn-005",
       "contentHash": "0c3116f2",
       "grade": 3,
@@ -192,10 +197,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3d-NA-04",
       "knowledgeName": "年、月、日",
-      "point": "g3d-NA-04-02",
+      "point": "rj-g3d-NA-pnhrn",
       "pointName": "平年和闰年",
       "topics": [
-        "g3d-NA-04-02"
+        "rj-g3d-NA-pnhrn"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -230,7 +235,8 @@
       }
     },
     {
-      "id": "g3d-Q006",
+      "id": "rj-g3d-NA-24sjsf-006",
+      "legacyId": "g3d-Q006",
       "slug": "rj-g3d-NA-24sjsf-006",
       "contentHash": "42c779dc",
       "grade": 3,
@@ -240,10 +246,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3d-NA-04",
       "knowledgeName": "年、月、日",
-      "point": "g3d-NA-04-03",
+      "point": "rj-g3d-NA-24sjsf",
       "pointName": "24时计时法",
       "topics": [
-        "g3d-NA-04-03"
+        "rj-g3d-NA-24sjsf"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "fill",
@@ -274,7 +280,8 @@
       }
     },
     {
-      "id": "g3d-Q007",
+      "id": "rj-g3d-NA-jgsjdjs-007",
+      "legacyId": "g3d-Q007",
       "slug": "rj-g3d-NA-jgsjdjs-007",
       "contentHash": "be37c002",
       "grade": 3,
@@ -284,10 +291,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g3d-NA-04",
       "knowledgeName": "年、月、日",
-      "point": "g3d-NA-04-04",
+      "point": "rj-g3d-NA-jgsjdjs",
       "pointName": "经过时间的计算",
       "topics": [
-        "g3d-NA-04-04"
+        "rj-g3d-NA-jgsjdjs"
       ],
       "pointType": "PROCEDURAL",
       "type": "fill",
@@ -324,7 +331,8 @@
       }
     },
     {
-      "id": "g3d-Q008",
+      "id": "rj-g3d-GG-cfxzfxmjdjs-008",
+      "legacyId": "g3d-Q008",
       "slug": "rj-g3d-GG-cfxzfxmjdjs-008",
       "contentHash": "a4bbd04e",
       "grade": 3,
@@ -334,10 +342,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g3d-GG-06",
       "knowledgeName": "面积",
-      "point": "g3d-GG-06-02",
+      "point": "rj-g3d-GG-cfxzfxmjdjs",
       "pointName": "长方形、正方形面积的计算",
       "topics": [
-        "g3d-GG-06-02"
+        "rj-g3d-GG-cfxzfxmjdjs"
       ],
       "pointType": "PROCEDURAL",
       "type": "figure",
@@ -369,7 +377,8 @@
       }
     },
     {
-      "id": "g3d-Q009",
+      "id": "rj-g3d-GG-zhtxmjdjs-009",
+      "legacyId": "g3d-Q009",
       "slug": "rj-g3d-GG-zhtxmjdjs-009",
       "contentHash": "b09cd890",
       "grade": 3,
@@ -379,10 +388,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g3d-GG-06",
       "knowledgeName": "面积",
-      "point": "g3d-GG-06-05",
+      "point": "rj-g3d-GG-zhtxmjdjs",
       "pointName": "组合图形面积的计算",
       "topics": [
-        "g3d-GG-06-05"
+        "rj-g3d-GG-zhtxmjdjs"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -430,7 +439,8 @@
       }
     },
     {
-      "id": "g3d-Q010",
+      "id": "rj-g3d-GG-rsdnxb-010",
+      "legacyId": "g3d-Q010",
       "slug": "rj-g3d-GG-rsdnxb-010",
       "contentHash": "4631681e",
       "grade": 3,
@@ -440,10 +450,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g3d-GG-05",
       "knowledgeName": "位置与方向（一）",
-      "point": "g3d-GG-05-01",
+      "point": "rj-g3d-GG-rsdnxb",
       "pointName": "认识东、南、西、北",
       "topics": [
-        "g3d-GG-05-01"
+        "rj-g3d-GG-rsdnxb"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -478,7 +488,8 @@
       }
     },
     {
-      "id": "g3d-Q011",
+      "id": "rj-g3d-SP-fstjb-011",
+      "legacyId": "g3d-Q011",
       "slug": "rj-g3d-SP-fstjb-011",
       "contentHash": "e3da068b",
       "grade": 3,
@@ -488,10 +499,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g3d-SP-07",
       "knowledgeName": "复式统计表",
-      "point": "g3d-SP-07-01",
+      "point": "rj-g3d-SP-fstjb",
       "pointName": "复式统计表",
       "topics": [
-        "g3d-SP-07-01"
+        "rj-g3d-SP-fstjb"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -550,7 +561,8 @@
       }
     },
     {
-      "id": "g3d-Q012",
+      "id": "rj-g3d-GG-cfxzfxmjdjs-012",
+      "legacyId": "g3d-Q012",
       "slug": "rj-g3d-GG-cfxzfxmjdjs-012",
       "contentHash": "c9517dec",
       "grade": 3,
@@ -560,10 +572,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g3d-GG-06",
       "knowledgeName": "面积",
-      "point": "g3d-GG-06-02",
+      "point": "rj-g3d-GG-cfxzfxmjdjs",
       "pointName": "长方形、正方形面积的计算",
       "topics": [
-        "g3d-GG-06-02"
+        "rj-g3d-GG-cfxzfxmjdjs"
       ],
       "pointType": "PROCEDURAL",
       "type": "draw",

@@ -12,7 +12,7 @@
  *       return '讲解文本（可含 $LaTeX$）';
  *     }
  *   });
- *   const qs = await MX.AI.generate({ pointId: 'g4u-NA-01-01', type: 'choice', count: 3 });
+ *   const qs = await MX.AI.generate({ pointId: 'rj-g4u-NA-swsclwsdbs', type: 'choice', count: 3 });
  *
  * 没有配置 provider 时，会自动降级为「本地模板出题」，保证功能可用。
  * ============================================================ */

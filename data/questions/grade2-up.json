@@ -17,7 +17,8 @@
   },
   "questions": [
     {
-      "id": "g2u-Q001",
+      "id": "rj-g2u-NA-rslmylml-001",
+      "legacyId": "g2u-Q001",
       "slug": "rj-g2u-NA-rslmylml-001",
       "contentHash": "7db81cda",
       "grade": 2,
@@ -27,10 +28,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-01",
       "knowledgeName": "长度单位",
-      "point": "g2u-NA-01-01",
+      "point": "rj-g2u-NA-rslmylml",
       "pointName": "认识厘米、用厘米量",
       "topics": [
-        "g2u-NA-01-01"
+        "rj-g2u-NA-rslmylml"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -65,7 +66,8 @@
       }
     },
     {
-      "id": "g2u-Q002",
+      "id": "rj-g2u-NA-lwsjlwsjw-002",
+      "legacyId": "g2u-Q002",
       "slug": "rj-g2u-NA-lwsjlwsjw-002",
       "contentHash": "ef17a553",
       "grade": 2,
@@ -75,10 +77,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-02",
       "knowledgeName": "100以内的加法和减法（二）",
-      "point": "g2u-NA-02-02",
+      "point": "rj-g2u-NA-lwsjlwsjw",
       "pointName": "两位数加两位数（进位）",
       "topics": [
-        "g2u-NA-02-02"
+        "rj-g2u-NA-lwsjlwsjw"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -106,7 +108,8 @@
       }
     },
     {
-      "id": "g2u-Q003",
+      "id": "rj-g2u-NA-lwsjlwstw-003",
+      "legacyId": "g2u-Q003",
       "slug": "rj-g2u-NA-lwsjlwstw-003",
       "contentHash": "050f3299",
       "grade": 2,
@@ -116,10 +119,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-02",
       "knowledgeName": "100以内的加法和减法（二）",
-      "point": "g2u-NA-02-04",
+      "point": "rj-g2u-NA-lwsjlwstw",
       "pointName": "两位数减两位数（退位）",
       "topics": [
-        "g2u-NA-02-04"
+        "rj-g2u-NA-lwsjlwstw"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -147,7 +150,8 @@
       }
     },
     {
-      "id": "g2u-Q004",
+      "id": "rj-g2u-NA-cfdcbrs-004",
+      "legacyId": "g2u-Q004",
       "slug": "rj-g2u-NA-cfdcbrs-004",
       "contentHash": "d3032b55",
       "grade": 2,
@@ -157,10 +161,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-03",
       "knowledgeName": "表内乘法（一）",
-      "point": "g2u-NA-03-01",
+      "point": "rj-g2u-NA-cfdcbrs",
       "pointName": "乘法的初步认识",
       "topics": [
-        "g2u-NA-03-01"
+        "rj-g2u-NA-cfdcbrs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "fill",
@@ -195,7 +199,8 @@
       }
     },
     {
-      "id": "g2u-Q005",
+      "id": "rj-g2u-NA-8dcfkj-005",
+      "legacyId": "g2u-Q005",
       "slug": "rj-g2u-NA-8dcfkj-005",
       "contentHash": "11ba4c4a",
       "grade": 2,
@@ -205,10 +210,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-04",
       "knowledgeName": "表内乘法（二）",
-      "point": "g2u-NA-04-02",
+      "point": "rj-g2u-NA-8dcfkj",
       "pointName": "8的乘法口诀",
       "topics": [
-        "g2u-NA-04-02"
+        "rj-g2u-NA-8dcfkj"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "calculation",
@@ -236,7 +241,8 @@
       }
     },
     {
-      "id": "g2u-Q006",
+      "id": "rj-g2u-NA-ycfjjsjwt-006",
+      "legacyId": "g2u-Q006",
       "slug": "rj-g2u-NA-ycfjjsjwt-006",
       "contentHash": "3259ed70",
       "grade": 2,
@@ -246,10 +252,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-03",
       "knowledgeName": "表内乘法（一）",
-      "point": "g2u-NA-03-05",
+      "point": "rj-g2u-NA-ycfjjsjwt",
       "pointName": "用乘法解决实际问题",
       "topics": [
-        "g2u-NA-03-05"
+        "rj-g2u-NA-ycfjjsjwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -277,7 +283,8 @@
       }
     },
     {
-      "id": "g2u-Q007",
+      "id": "rj-g2u-GG-zjdrsypd-007",
+      "legacyId": "g2u-Q007",
       "slug": "rj-g2u-GG-zjdrsypd-007",
       "contentHash": "ca5377c2",
       "grade": 2,
@@ -287,10 +294,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g2u-GG-05",
       "knowledgeName": "角的初步认识",
-      "point": "g2u-GG-05-02",
+      "point": "rj-g2u-GG-zjdrsypd",
       "pointName": "直角的认识与判断",
       "topics": [
-        "g2u-GG-05-02"
+        "rj-g2u-GG-zjdrsypd"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -318,7 +325,8 @@
       }
     },
     {
-      "id": "g2u-Q008",
+      "id": "rj-g2u-GG-cbtwzgcwt-008",
+      "legacyId": "g2u-Q008",
       "slug": "rj-g2u-GG-cbtwzgcwt-008",
       "contentHash": "7fdeb181",
       "grade": 2,
@@ -328,10 +336,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g2u-GG-06",
       "knowledgeName": "观察物体（一）",
-      "point": "g2u-GG-06-01",
+      "point": "rj-g2u-GG-cbtwzgcwt",
       "pointName": "从不同位置观察物体",
       "topics": [
-        "g2u-GG-06-01"
+        "rj-g2u-GG-cbtwzgcwt"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -366,7 +374,8 @@
       }
     },
     {
-      "id": "g2u-Q009",
+      "id": "rj-g2u-NA-xddrsyhxd-009",
+      "legacyId": "g2u-Q009",
       "slug": "rj-g2u-NA-xddrsyhxd-009",
       "contentHash": "f04aa35a",
       "grade": 2,
@@ -376,10 +385,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-01",
       "knowledgeName": "长度单位",
-      "point": "g2u-NA-01-03",
+      "point": "rj-g2u-NA-xddrsyhxd",
       "pointName": "线段的认识与画线段",
       "topics": [
-        "g2u-NA-01-03"
+        "rj-g2u-NA-xddrsyhxd"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "figure",
@@ -411,7 +420,8 @@
       }
     },
     {
-      "id": "g2u-Q010",
+      "id": "rj-g2u-NA-ykjjjsjwt-010",
+      "legacyId": "g2u-Q010",
       "slug": "rj-g2u-NA-ykjjjsjwt-010",
       "contentHash": "9d337da0",
       "grade": 2,
@@ -421,10 +431,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g2u-NA-04",
       "knowledgeName": "表内乘法（二）",
-      "point": "g2u-NA-04-04",
+      "point": "rj-g2u-NA-ykjjjsjwt",
       "pointName": "用口诀解决实际问题",
       "topics": [
-        "g2u-NA-04-04"
+        "rj-g2u-NA-ykjjjsjwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -457,7 +467,8 @@
       }
     },
     {
-      "id": "g2u-Q011",
+      "id": "rj-g2u-SP-jddsjzlytjb-011",
+      "legacyId": "g2u-Q011",
       "slug": "rj-g2u-SP-jddsjzlytjb-011",
       "contentHash": "b535e3b8",
       "grade": 2,
@@ -467,10 +478,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g2u-SP-08",
       "knowledgeName": "统计",
-      "point": "g2u-SP-08-01",
+      "point": "rj-g2u-SP-jddsjzlytjb",
       "pointName": "简单的数据整理与统计表",
       "topics": [
-        "g2u-SP-08-01"
+        "rj-g2u-SP-jddsjzlytjb"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -526,7 +537,8 @@
       }
     },
     {
-      "id": "g2u-Q012",
+      "id": "rj-g2u-GG-zjdrsypd-012",
+      "legacyId": "g2u-Q012",
       "slug": "rj-g2u-GG-zjdrsypd-012",
       "contentHash": "801f11e0",
       "grade": 2,
@@ -536,10 +548,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g2u-GG-05",
       "knowledgeName": "角的初步认识",
-      "point": "g2u-GG-05-02",
+      "point": "rj-g2u-GG-zjdrsypd",
       "pointName": "直角的认识与判断",
       "topics": [
-        "g2u-GG-05-02"
+        "rj-g2u-GG-zjdrsypd"
       ],
       "pointType": "CONCEPTUAL",
       "type": "draw",

@@ -213,17 +213,17 @@ ok(MX.Grader.gradeQuestion(rq, { subs: [['4'], ['1', '3']] }).ratio === 2 / 3, '
  * ============================================================ */
 section('3. 组卷四种模式');
 
-const p1 = tags.points.find((p) => p.id === 'g3u-GG-07-03');
-const p2 = tags.points.find((p) => p.id === 'g4u-NA-03-01');
+const p1 = tags.points.find((p) => p.id === 'rj-g3u-GG-cfxhzfxdzc');
+const p2 = tags.points.find((p) => p.id === 'rj-g4u-NA-swsclwsdbs');
 
-const r1 = await MX.Builder.build({ mode: 'single', books: ['grade3-up'], points: ['g3u-GG-07-03'], count: 3, totalScore: 30 });
+const r1 = await MX.Builder.build({ mode: 'single', books: ['grade3-up'], points: ['rj-g3u-GG-cfxhzfxdzc'], count: 3, totalScore: 30 });
 ok(r1.ok, '模式一：单考点组题', r1.message);
-ok(r1.ok && r1.paper.questions.every((q) => q.point === 'g3u-GG-07-03'), '单考点题目的考点唯一');
+ok(r1.ok && r1.paper.questions.every((q) => q.point === 'rj-g3u-GG-cfxhzfxdzc'), '单考点题目的考点唯一');
 ok(r1.ok && Math.abs(r1.paper.totalScore - 30) < 0.01, '单考点总分对齐 30', r1.ok ? r1.paper.totalScore : '');
 
-const r2 = await MX.Builder.build({ mode: 'multi', books: ['grade3-up', 'grade4-up'], points: ['g3u-GG-07-02', 'g4u-NA-03-01'], count: 4, totalScore: 40 });
+const r2 = await MX.Builder.build({ mode: 'multi', books: ['grade3-up', 'grade4-up'], points: ['rj-g3u-GG-zcdrs', 'rj-g4u-NA-swsclwsdbs'], count: 4, totalScore: 40 });
 ok(r2.ok, '模式二：多考点组题', r2.message);
-ok(r2.ok && r2.paper.questions.every((q) => ['g3u-GG-07-02', 'g4u-NA-03-01'].includes(q.point)), '多考点题目落在选择范围内');
+ok(r2.ok && r2.paper.questions.every((q) => ['rj-g3u-GG-zcdrs', 'rj-g4u-NA-swsclwsdbs'].includes(q.point)), '多考点题目落在选择范围内');
 
 const r3 = await MX.Builder.build({ mode: 'cross', books: ['grade1-up', 'grade1-down', 'grade2-up', 'grade2-down', 'grade3-up', 'grade3-down', 'grade4-up', 'grade4-down', 'grade5-up', 'grade5-down', 'grade6-up', 'grade6-down'], count: 12, totalScore: 100 });
 ok(r3.ok, '模式三：跨年级组题', r3.message);
@@ -254,7 +254,7 @@ ok(r6.ok, '难度区间过滤', r6.message);
 ok(r6.ok && r6.paper.questions.every((q) => q.difficulty === 3), '难度过滤生效');
 
 // 无可用题目
-const r7 = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['g1u-NA-01-01'], types: ['draw'], count: 5 });
+const r7 = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], types: ['draw'], count: 5 });
 ok(r7.ok === false, '无匹配题型时应给出明确失败提示', r7.message);
 
 /* ============================================================
@@ -294,8 +294,8 @@ ok(MX.Grader.gradeQuestion(custom, { values: ['ok'] }).correct === true, '自定
 ok(customGraded, '自定义插件的 grade 被调用');
 ok(MX.Plugins.inputOf(custom) === 'blanks', '自定义题型输入类型');
 ok(MX.Media.types().length >= 4, '媒体类型可扩展', MX.Media.types().join(','));
-const aiQ = await MX.AI.generate({ pointId: 'g1u-NA-02-05', type: 'calculation', count: 2 });
-ok(aiQ.length === 2 && aiQ[0].point === 'g1u-NA-02-05', 'AI 出题接口（本地模板兜底）');
+const aiQ = await MX.AI.generate({ pointId: 'rj-g1u-NA-5yndjf', type: 'calculation', count: 2 });
+ok(aiQ.length === 2 && aiQ[0].point === 'rj-g1u-NA-5yndjf', 'AI 出题接口（本地模板兜底）');
 ok(MX.AI.isReady() === false, '未配置 provider 时 AI 处于未接入状态');
 const exp = await MX.AI.explain({ analysis: '测试解析', answer: { value: 1 }, type: 'fill' }, null);
 ok(exp.indexOf('测试解析') >= 0, 'AI 讲题接口兜底');

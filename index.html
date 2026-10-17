@@ -43,8 +43,11 @@
 <script src="js/ui/toast.js"></script>
 <script src="js/ui/charts.js"></script>
 <script src="js/ui/render.js"></script>
-<script src="js/ui/shell.js"></script>
-<!-- 页面 -->
-<script src="js/pages/page-index.js"></script>
+  <script src="js/ui/shell.js"></script>
+  <!-- 历史数据迁移（卡 3）：先于页面 boot / Shell.mount 自动运行一次 -->
+  <script src="data/migrate-map.js"></script>
+  <script src="js/core/migrate.js"></script>
+  <!-- 页面 -->
+  <script src="js/pages/page-index.js"></script>
 </body>
 </html>

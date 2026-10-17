@@ -16,7 +16,8 @@
   },
   "questions": [
     {
-      "id": "g6d-Q001",
+      "id": "rj-g6d-NA-fsdrsyyy-001",
+      "legacyId": "g6d-Q001",
       "slug": "rj-g6d-NA-fsdrsyyy-001",
       "contentHash": "3cf0077a",
       "grade": 6,
@@ -26,10 +27,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-01",
       "knowledgeName": "负数",
-      "point": "g6d-NA-01-01",
+      "point": "rj-g6d-NA-fsdrsyyy",
       "pointName": "负数的认识与意义",
       "topics": [
-        "g6d-NA-01-01"
+        "rj-g6d-NA-fsdrsyyy"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -64,7 +65,8 @@
       }
     },
     {
-      "id": "g6d-Q002",
+      "id": "rj-g6d-NA-zszsbszsyfs-002",
+      "legacyId": "g6d-Q002",
       "slug": "rj-g6d-NA-zszsbszsyfs-002",
       "contentHash": "72a1eeb1",
       "grade": 6,
@@ -74,10 +76,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-01",
       "knowledgeName": "负数",
-      "point": "g6d-NA-01-02",
+      "point": "rj-g6d-NA-zszsbszsyfs",
       "pointName": "在数轴上表示正数与负数",
       "topics": [
-        "g6d-NA-01-02"
+        "rj-g6d-NA-zszsbszsyfs"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "figure-interactive",
@@ -200,7 +202,8 @@
       }
     },
     {
-      "id": "g6d-Q003",
+      "id": "rj-g6d-NA-blc-003",
+      "legacyId": "g6d-Q003",
       "slug": "rj-g6d-NA-blc-003",
       "contentHash": "edc24e1e",
       "grade": 6,
@@ -210,10 +213,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-03",
       "knowledgeName": "比例",
-      "point": "g6d-NA-03-07",
+      "point": "rj-g6d-NA-blc",
       "pointName": "比例尺",
       "topics": [
-        "g6d-NA-03-07"
+        "rj-g6d-NA-blc"
       ],
       "pointType": "CONCEPTUAL",
       "type": "calculation",
@@ -242,7 +245,8 @@
       }
     },
     {
-      "id": "g6d-Q004",
+      "id": "rj-g6d-NA-jbl-004",
+      "legacyId": "g6d-Q004",
       "slug": "rj-g6d-NA-jbl-004",
       "contentHash": "568bd976",
       "grade": 6,
@@ -252,10 +256,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-03",
       "knowledgeName": "比例",
-      "point": "g6d-NA-03-02",
+      "point": "rj-g6d-NA-jbl",
       "pointName": "解比例",
       "topics": [
-        "g6d-NA-03-02"
+        "rj-g6d-NA-jbl"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -283,7 +287,8 @@
       }
     },
     {
-      "id": "g6d-Q005",
+      "id": "rj-g6d-NA-llybjlxwt-005",
+      "legacyId": "g6d-Q005",
       "slug": "rj-g6d-NA-llybjlxwt-005",
       "contentHash": "e1b86902",
       "grade": 6,
@@ -293,10 +298,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-02",
       "knowledgeName": "百分数（二）",
-      "point": "g6d-NA-02-04",
+      "point": "rj-g6d-NA-llybjlxwt",
       "pointName": "利率与本金、利息问题",
       "topics": [
-        "g6d-NA-02-04"
+        "rj-g6d-NA-llybjlxwt"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -329,7 +334,8 @@
       }
     },
     {
-      "id": "g6d-Q006",
+      "id": "rj-g6d-NA-fbl-006",
+      "legacyId": "g6d-Q006",
       "slug": "rj-g6d-NA-fbl-006",
       "contentHash": "6913303a",
       "grade": 6,
@@ -339,10 +345,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-03",
       "knowledgeName": "比例",
-      "point": "g6d-NA-03-04",
+      "point": "rj-g6d-NA-fbl",
       "pointName": "反比例",
       "topics": [
-        "g6d-NA-03-04"
+        "rj-g6d-NA-fbl"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -370,7 +376,8 @@
       }
     },
     {
-      "id": "g6d-Q007",
+      "id": "rj-g6d-NA-zbl-007",
+      "legacyId": "g6d-Q007",
       "slug": "rj-g6d-NA-zbl-007",
       "contentHash": "dc099ca1",
       "grade": 6,
@@ -380,10 +387,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-03",
       "knowledgeName": "比例",
-      "point": "g6d-NA-03-03",
+      "point": "rj-g6d-NA-zbl",
       "pointName": "正比例",
       "topics": [
-        "g6d-NA-03-03"
+        "rj-g6d-NA-zbl"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -418,7 +425,8 @@
       }
     },
     {
-      "id": "g6d-Q008",
+      "id": "rj-g6d-GG-yzdtj-008",
+      "legacyId": "g6d-Q008",
       "slug": "rj-g6d-GG-yzdtj-008",
       "contentHash": "86ff481f",
       "grade": 6,
@@ -428,10 +436,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6d-GG-04",
       "knowledgeName": "圆柱与圆锥",
-      "point": "g6d-GG-04-02",
+      "point": "rj-g6d-GG-yzdtj",
       "pointName": "圆柱的体积",
       "topics": [
-        "g6d-GG-04-02"
+        "rj-g6d-GG-yzdtj"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -460,7 +468,8 @@
       }
     },
     {
-      "id": "g6d-Q009",
+      "id": "rj-g6d-GG-yzdrsytj-009",
+      "legacyId": "g6d-Q009",
       "slug": "rj-g6d-GG-yzdrsytj-009",
       "contentHash": "9c28ac27",
       "grade": 6,
@@ -470,10 +479,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6d-GG-04",
       "knowledgeName": "圆柱与圆锥",
-      "point": "g6d-GG-04-03",
+      "point": "rj-g6d-GG-yzdrsytj",
       "pointName": "圆锥的认识与体积",
       "topics": [
-        "g6d-GG-04-03"
+        "rj-g6d-GG-yzdrsytj"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -507,7 +516,8 @@
       }
     },
     {
-      "id": "g6d-Q010",
+      "id": "rj-g6d-GG-yzdrsybmj-010",
+      "legacyId": "g6d-Q010",
       "slug": "rj-g6d-GG-yzdrsybmj-010",
       "contentHash": "1461a66e",
       "grade": 6,
@@ -517,10 +527,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g6d-GG-04",
       "knowledgeName": "圆柱与圆锥",
-      "point": "g6d-GG-04-01",
+      "point": "rj-g6d-GG-yzdrsybmj",
       "pointName": "圆柱的认识与表面积",
       "topics": [
-        "g6d-GG-04-01"
+        "rj-g6d-GG-yzdrsybmj"
       ],
       "pointType": "PROCEDURAL",
       "type": "reading",
@@ -570,7 +580,8 @@
       }
     },
     {
-      "id": "g6d-Q011",
+      "id": "rj-g6d-SP-pjszwsyzs-011",
+      "legacyId": "g6d-Q011",
       "slug": "rj-g6d-SP-pjszwsyzs-011",
       "contentHash": "f2477574",
       "grade": 6,
@@ -580,10 +591,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g6d-SP-07",
       "knowledgeName": "整理和复习·统计与概率",
-      "point": "g6d-SP-07-02",
+      "point": "rj-g6d-SP-pjszwsyzs",
       "pointName": "平均数、中位数与众数",
       "topics": [
-        "g6d-SP-07-02"
+        "rj-g6d-SP-pjszwsyzs"
       ],
       "pointType": "CONCEPTUAL",
       "type": "reading",
@@ -637,7 +648,8 @@
       }
     },
     {
-      "id": "g6d-Q012",
+      "id": "rj-g6d-CP-gcwtctyl-012",
+      "legacyId": "g6d-Q012",
       "slug": "rj-g6d-CP-gcwtctyl-012",
       "contentHash": "64938a9c",
       "grade": 6,
@@ -647,10 +659,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g6d-CP-08",
       "knowledgeName": "整理和复习·综合与实践",
-      "point": "g6d-CP-08-02",
+      "point": "rj-g6d-CP-gcwtctyl",
       "pointName": "鸽巢问题（抽屉原理）",
       "topics": [
-        "g6d-CP-08-02"
+        "rj-g6d-CP-gcwtctyl"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -683,7 +695,8 @@
       }
     },
     {
-      "id": "g6d-Q013",
+      "id": "rj-g6d-CP-sxskljtl-013",
+      "legacyId": "g6d-Q013",
       "slug": "rj-g6d-CP-sxskljtl-013",
       "contentHash": "51878d4a",
       "grade": 6,
@@ -693,10 +706,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g6d-CP-08",
       "knowledgeName": "整理和复习·综合与实践",
-      "point": "g6d-CP-08-01",
+      "point": "rj-g6d-CP-sxskljtl",
       "pointName": "数学思考（逻辑推理）",
       "topics": [
-        "g6d-CP-08-01"
+        "rj-g6d-CP-sxskljtl"
       ],
       "pointType": "PROCEDURAL",
       "type": "choice",
@@ -731,7 +744,8 @@
       }
     },
     {
-      "id": "g6d-Q014",
+      "id": "rj-g6d-NA-zkdsjyy-014",
+      "legacyId": "g6d-Q014",
       "slug": "rj-g6d-NA-zkdsjyy-014",
       "contentHash": "59f634b7",
       "grade": 6,
@@ -741,10 +755,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-02",
       "knowledgeName": "百分数（二）",
-      "point": "g6d-NA-02-01",
+      "point": "rj-g6d-NA-zkdsjyy",
       "pointName": "折扣的实际应用",
       "topics": [
-        "g6d-NA-02-01"
+        "rj-g6d-NA-zkdsjyy"
       ],
       "pointType": "PROCEDURAL",
       "type": "choice",
@@ -779,7 +793,8 @@
       }
     },
     {
-      "id": "g6d-Q015",
+      "id": "rj-g6d-NA-gwzdzyfabj-015",
+      "legacyId": "g6d-Q015",
       "slug": "rj-g6d-NA-gwzdzyfabj-015",
       "contentHash": "b8f5bbdb",
       "grade": 6,
@@ -789,10 +804,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g6d-NA-02",
       "knowledgeName": "百分数（二）",
-      "point": "g6d-NA-02-05",
+      "point": "rj-g6d-NA-gwzdzyfabj",
       "pointName": "购物中的最优方案比较",
       "topics": [
-        "g6d-NA-02-05"
+        "rj-g6d-NA-gwzdzyfabj"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -829,7 +844,8 @@
       }
     },
     {
-      "id": "g6d-Q016",
+      "id": "rj-g6d-CP-pmtxdzcymjzh-016",
+      "legacyId": "g6d-Q016",
       "slug": "rj-g6d-CP-pmtxdzcymjzh-016",
       "contentHash": "48069c51",
       "grade": 6,
@@ -839,10 +855,10 @@
       "domainName": "综合与实践",
       "knowledge": "k-g6d-CP-08",
       "knowledgeName": "整理和复习·综合与实践",
-      "point": "g6d-CP-08-03",
+      "point": "rj-g6d-CP-pmtxdzcymjzh",
       "pointName": "平面图形的周长与面积综合",
       "topics": [
-        "g6d-CP-08-03"
+        "rj-g6d-CP-pmtxdzcymjzh"
       ],
       "pointType": "PROCEDURAL",
       "type": "draw",

@@ -18,7 +18,8 @@
   },
   "questions": [
     {
-      "id": "g4u-Q001",
+      "id": "rj-g4u-NA-yynsddfhxf-001",
+      "legacyId": "g4u-Q001",
       "slug": "rj-g4u-NA-yynsddfhxf-001",
       "contentHash": "76159e12",
       "grade": 4,
@@ -28,10 +29,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4u-NA-01",
       "knowledgeName": "大数的认识",
-      "point": "g4u-NA-01-02",
+      "point": "rj-g4u-NA-yynsddfhxf",
       "pointName": "亿以内数的读法和写法",
       "topics": [
-        "g4u-NA-01-02"
+        "rj-g4u-NA-yynsddfhxf"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "choice",
@@ -66,7 +67,8 @@
       }
     },
     {
-      "id": "g4u-Q002",
+      "id": "rj-g4u-NA-qjsssswrf-002",
+      "legacyId": "g4u-Q002",
       "slug": "rj-g4u-NA-qjsssswrf-002",
       "contentHash": "f7e8c829",
       "grade": 4,
@@ -76,10 +78,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4u-NA-01",
       "knowledgeName": "大数的认识",
-      "point": "g4u-NA-01-06",
+      "point": "rj-g4u-NA-qjsssswrf",
       "pointName": "求近似数（四舍五入法）",
       "topics": [
-        "g4u-NA-01-06"
+        "rj-g4u-NA-qjsssswrf"
       ],
       "pointType": "PROCEDURAL",
       "type": "fill",
@@ -109,7 +111,8 @@
       }
     },
     {
-      "id": "g4u-Q003",
+      "id": "rj-g4u-NA-swsclwsdbs-003",
+      "legacyId": "g4u-Q003",
       "slug": "rj-g4u-NA-swsclwsdbs-003",
       "contentHash": "86e09bf2",
       "grade": 4,
@@ -119,10 +122,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4u-NA-03",
       "knowledgeName": "三位数乘两位数",
-      "point": "g4u-NA-03-01",
+      "point": "rj-g4u-NA-swsclwsdbs",
       "pointName": "三位数乘两位数的笔算",
       "topics": [
-        "g4u-NA-03-01"
+        "rj-g4u-NA-swsclwsdbs"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -150,7 +153,8 @@
       }
     },
     {
-      "id": "g4u-Q004",
+      "id": "rj-g4u-NA-csslwsdbsslws-004",
+      "legacyId": "g4u-Q004",
       "slug": "rj-g4u-NA-csslwsdbsslws-004",
       "contentHash": "15186b2d",
       "grade": 4,
@@ -160,10 +164,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4u-NA-04",
       "knowledgeName": "除数是两位数的除法",
-      "point": "g4u-NA-04-03",
+      "point": "rj-g4u-NA-csslwsdbsslws",
       "pointName": "除数是两位数的笔算（商两位数）",
       "topics": [
-        "g4u-NA-04-03"
+        "rj-g4u-NA-csslwsdbsslws"
       ],
       "pointType": "PROCEDURAL",
       "type": "calculation",
@@ -191,7 +195,8 @@
       }
     },
     {
-      "id": "g4u-Q005",
+      "id": "rj-g4u-NA-sdsjylcdslgx-005",
+      "legacyId": "g4u-Q005",
       "slug": "rj-g4u-NA-sdsjylcdslgx-005",
       "contentHash": "464b81f6",
       "grade": 4,
@@ -201,10 +206,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4u-NA-03",
       "knowledgeName": "三位数乘两位数",
-      "point": "g4u-NA-03-05",
+      "point": "rj-g4u-NA-sdsjylcdslgx",
       "pointName": "速度、时间与路程的数量关系",
       "topics": [
-        "g4u-NA-03-05"
+        "rj-g4u-NA-sdsjylcdslgx"
       ],
       "pointType": "PROCEDURAL",
       "type": "application",
@@ -237,7 +242,8 @@
       }
     },
     {
-      "id": "g4u-Q006",
+      "id": "rj-g4u-NA-jdbhgl-006",
+      "legacyId": "g4u-Q006",
       "slug": "rj-g4u-NA-jdbhgl-006",
       "contentHash": "323460f9",
       "grade": 4,
@@ -247,10 +253,10 @@
       "domainName": "数与代数",
       "knowledge": "k-g4u-NA-03",
       "knowledgeName": "三位数乘两位数",
-      "point": "g4u-NA-03-03",
+      "point": "rj-g4u-NA-jdbhgl",
       "pointName": "积的变化规律",
       "topics": [
-        "g4u-NA-03-03"
+        "rj-g4u-NA-jdbhgl"
       ],
       "pointType": "CONCEPTUAL",
       "type": "judge",
@@ -278,7 +284,8 @@
       }
     },
     {
-      "id": "g4u-Q007",
+      "id": "rj-g4u-GG-jddlyljq-007",
+      "legacyId": "g4u-Q007",
       "slug": "rj-g4u-GG-jddlyljq-007",
       "contentHash": "cf9c275b",
       "grade": 4,
@@ -288,10 +295,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4u-GG-05",
       "knowledgeName": "角的度量",
-      "point": "g4u-GG-05-02",
+      "point": "rj-g4u-GG-jddlyljq",
       "pointName": "角的度量与量角器",
       "topics": [
-        "g4u-GG-05-02"
+        "rj-g4u-GG-jddlyljq"
       ],
       "pointType": "CONCEPTUAL",
       "type": "figure",
@@ -323,7 +330,8 @@
       }
     },
     {
-      "id": "g4u-Q008",
+      "id": "rj-g4u-GG-jdflrjzjdjpjzj-008",
+      "legacyId": "g4u-Q008",
       "slug": "rj-g4u-GG-jdflrjzjdjpjzj-008",
       "contentHash": "1bc77206",
       "grade": 4,
@@ -333,10 +341,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4u-GG-05",
       "knowledgeName": "角的度量",
-      "point": "g4u-GG-05-03",
+      "point": "rj-g4u-GG-jdflrjzjdjpjzj",
       "pointName": "角的分类（锐角、直角、钝角、平角、周角）",
       "topics": [
-        "g4u-GG-05-03"
+        "rj-g4u-GG-jdflrjzjdjpjzj"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -371,7 +379,8 @@
       }
     },
     {
-      "id": "g4u-Q009",
+      "id": "rj-g4u-GG-czypx-009",
+      "legacyId": "g4u-Q009",
       "slug": "rj-g4u-GG-czypx-009",
       "contentHash": "a2b4d20d",
       "grade": 4,
@@ -381,10 +390,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4u-GG-06",
       "knowledgeName": "平行四边形和梯形",
-      "point": "g4u-GG-06-01",
+      "point": "rj-g4u-GG-czypx",
       "pointName": "垂直与平行",
       "topics": [
-        "g4u-GG-06-01"
+        "rj-g4u-GG-czypx"
       ],
       "pointType": "CONCEPTUAL",
       "type": "choice",
@@ -419,7 +428,8 @@
       }
     },
     {
-      "id": "g4u-Q010",
+      "id": "rj-g4u-SP-pjsytjyy-010",
+      "legacyId": "g4u-Q010",
       "slug": "rj-g4u-SP-pjsytjyy-010",
       "contentHash": "acdef091",
       "grade": 4,
@@ -429,10 +439,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g4u-SP-07",
       "knowledgeName": "统计",
-      "point": "g4u-SP-07-02",
+      "point": "rj-g4u-SP-pjsytjyy",
       "pointName": "平均数与统计应用",
       "topics": [
-        "g4u-SP-07-02"
+        "rj-g4u-SP-pjsytjyy"
       ],
       "pointType": "PROCEDURAL",
       "type": "figure",
@@ -464,7 +474,8 @@
       }
     },
     {
-      "id": "g4u-Q011",
+      "id": "rj-g4u-SP-txtjty-011",
+      "legacyId": "g4u-Q011",
       "slug": "rj-g4u-SP-txtjty-011",
       "contentHash": "7336d510",
       "grade": 4,
@@ -474,10 +485,10 @@
       "domainName": "统计与概率",
       "knowledge": "k-g4u-SP-07",
       "knowledgeName": "统计",
-      "point": "g4u-SP-07-01",
+      "point": "rj-g4u-SP-txtjty",
       "pointName": "条形统计图（一）",
       "topics": [
-        "g4u-SP-07-01"
+        "rj-g4u-SP-txtjty"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "reading",
@@ -533,7 +544,8 @@
       }
     },
     {
-      "id": "g4u-Q012",
+      "id": "rj-g4u-GG-jdflrjzjdjpjzj-012",
+      "legacyId": "g4u-Q012",
       "slug": "rj-g4u-GG-jdflrjzjdjpjzj-012",
       "contentHash": "c29a6976",
       "grade": 4,
@@ -543,10 +555,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4u-GG-05",
       "knowledgeName": "角的度量",
-      "point": "g4u-GG-05-03",
+      "point": "rj-g4u-GG-jdflrjzjdjpjzj",
       "pointName": "角的分类（锐角、直角、钝角、平角、周角）",
       "topics": [
-        "g4u-GG-05-03"
+        "rj-g4u-GG-jdflrjzjdjpjzj"
       ],
       "pointType": "CONCEPTUAL",
       "type": "figure-interactive",
@@ -613,7 +625,8 @@
       }
     },
     {
-      "id": "g4u-Q013",
+      "id": "rj-g4u-GG-hj-013",
+      "legacyId": "g4u-Q013",
       "slug": "rj-g4u-GG-hj-013",
       "contentHash": "0ab77db7",
       "grade": 4,
@@ -623,10 +636,10 @@
       "domainName": "图形与几何",
       "knowledge": "k-g4u-GG-05",
       "knowledgeName": "角的度量",
-      "point": "g4u-GG-05-04",
+      "point": "rj-g4u-GG-hj",
       "pointName": "画角",
       "topics": [
-        "g4u-GG-05-04"
+        "rj-g4u-GG-hj"
       ],
       "pointType": "REPRESENTATIONAL",
       "type": "draw",
