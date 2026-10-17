@@ -118,9 +118,15 @@
 
     $('#btn-print').addEventListener('click', function () { window.print(); });
     $('#btn-again').addEventListener('click', function () {
-      var p = (S().getPapers().filter(function (x) { return x.id === r.examId; })[0] || {}).paper;
-      if (p) { S().write('math_exam_current_paper', { paper: p, createdAt: Date.now() }); location.href = 'exam.html?examId=' + encodeURIComponent(p.examId); }
-      else location.href = 'paper-builder.html';
+      var entry = S().getPapers().filter(function (x) { return x.id === r.examId; })[0];
+      if (entry) {
+        S().getPaper(r.examId).then(function (full) {
+          if (full) {
+            S().write('math_exam_current_paper', { paper: full, createdAt: Date.now() });
+            location.href = 'exam.html?examId=' + encodeURIComponent(full.examId || full.id);
+          } else location.href = 'paper-builder.html';
+        });
+      } else location.href = 'paper-builder.html';
     });
     $('#filter-seg').addEventListener('click', function (e) {
       var b = e.target.closest('button[data-f]');

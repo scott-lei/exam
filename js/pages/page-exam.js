@@ -35,9 +35,15 @@
       if (prog && !prog.submitted) { resumeExam(prog); return; }
       var cur = S().read('math_exam_current_paper', null);
       if (cur && cur.paper && (cur.paper.examId === examId || cur.paper.id === examId)) { startExam(cur.paper); return; }
-      // 尝试从已保存试卷中找
+      // 尝试从已保存试卷中找（试卷已瘦身，需回查题目重新拼装）
       var saved = S().getPapers().filter(function (p) { return p.id === examId; })[0];
-      if (saved && saved.paper) { startExam(saved.paper); return; }
+      if (saved) {
+        S().getPaper(examId).then(function (full) {
+          if (full) startExam(full);
+          else window.MX.Toast.warn('未找到该试卷，可在下方选择待完成的试卷或重新组卷');
+        });
+        return;
+      }
       window.MX.Toast.warn('未找到该试卷，可在下方选择待完成的试卷或重新组卷');
     }
     renderExamList();
@@ -110,7 +116,7 @@
       var sp = t.getAttribute && t.getAttribute('data-start-paper');
       if (sp) {
         var p = S().getPapers().filter(function (x) { return x.id === sp; })[0];
-        if (p && p.paper) startExam(p.paper);
+        if (p) { S().getPaper(sp).then(function (full) { if (full) startExam(full); }); }
         return;
       }
       var dpp = t.getAttribute && t.getAttribute('data-drop-paper');

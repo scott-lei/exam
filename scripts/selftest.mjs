@@ -280,6 +280,63 @@ MX.Storage.importAll(bundle);
 ok(MX.Storage.getRecords().length === 1, '备份恢复');
 
 /* ============================================================
+ * 4b. 存储瘦身与版本化（卡 4）
+ * ============================================================ */
+section('4b. 存储瘦身与版本化（卡 4）');
+MX.Storage.clearAll();
+
+// 1) 试卷瘦身：savePaper 只存元数据 + questionIds + paperScores，不再存整卷 questions
+var built = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 8 });
+ok(built.ok === true, '组卷成功（用于试卷瘦身测试）', built.message);
+MX.Storage.savePaper(built.paper);
+var slim = MX.Storage.getPapers()[0];
+ok(slim && Array.isArray(slim.questionIds) && slim.questionIds.length === built.paper.questions.length, 'savePaper 保留 questionIds 且数量一致');
+ok(slim && !slim.questions && !slim.paper, 'savePaper 不再存整卷 questions / paper');
+ok(slim && Array.isArray(slim.paperScores) && slim.paperScores.length === built.paper.questions.length, 'savePaper 保留 paperScores');
+
+// 2) getPaper 回查拼装（题序、题分、stats、duration 还原）
+var full = await MX.Storage.getPaper(built.paper.id);
+ok(full && Array.isArray(full.questions) && full.questions.length === built.paper.questions.length, 'getPaper 回查题目数量一致');
+ok(full && full.questions.every(function (q, i) { return q.id === slim.questionIds[i]; }), 'getPaper 题序与 questionIds 一致');
+ok(full && full.questions[0].paperIndex === 1, 'getPaper 还原 paperIndex');
+ok(full && full.questions[0].paperScore != null, 'getPaper 还原 paperScore');
+ok(full && full.stats && full.duration, 'getPaper 还原 stats / duration（交卷报告依赖）');
+
+// 3) 版本信封：所有写入包成 {v:2,data:...}，旧裸 JSON 自动升级
+var rawRec = sandbox.localStorage.getItem(MX.Storage.KEYS.PAPERS);
+ok(rawRec && rawRec.indexOf('"v":2') >= 0, '写入带版本信封 v:2');
+sandbox.localStorage.setItem('math_exam_test_oldfmt', JSON.stringify({ hello: 'world', n: 42 }));
+var upgraded = MX.Storage.read('math_exam_test_oldfmt', null);
+ok(upgraded && upgraded.hello === 'world' && upgraded.n === 42, '旧裸 JSON 可被正确读取');
+var rawUpg = sandbox.localStorage.getItem('math_exam_test_oldfmt');
+ok(rawUpg && rawUpg.indexOf('"v":2') >= 0, '旧裸 JSON 读取后自动升级为信封');
+
+// 4) getUsage：容量统计 + 单份试卷 < 3KB（保存 3 份验证）
+function blen(s) { try { return unescape(encodeURIComponent(String(s))).length; } catch (e) { return String(s).length; } }
+var pp1 = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 5, title: '卷一' });
+var pp2 = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 6, title: '卷二', seed: 's2' });
+var pp3 = await MX.Builder.build({ mode: 'single', books: ['grade1-up'], points: ['rj-g1u-NA-sys110gs'], count: 7, title: '卷三', seed: 's3' });
+MX.Storage.savePaper(pp1.paper); MX.Storage.savePaper(pp2.paper); MX.Storage.savePaper(pp3.paper);
+var u = MX.Storage.getUsage();
+ok(u && Array.isArray(u.items) && typeof u.total === 'number', 'getUsage 返回统计结构');
+var maxPaper = Math.max.apply(null, MX.Storage.getPapers().map(function (e) { return blen(JSON.stringify({ v: 2, data: e })); }));
+ok(maxPaper > 0 && maxPaper < 3 * 1024, '单份试卷（含信封）占用 < 3KB（最大 ' + maxPaper + 'B）');
+
+// 5) clearOldRecords：清理超期记录与已完成进度
+var oldTs = Date.now() - 400 * 86400000;
+MX.Storage.addRecord({ id: 'OLD', ts: oldTs, earnedScore: 10, totalScore: 100 });
+MX.Storage.addRecord({ id: 'NEW', ts: Date.now(), earnedScore: 90, totalScore: 100 });
+ok(MX.Storage.getRecords().length === 2, '写入 1 条超期 + 1 条近期记录');
+MX.Storage.saveProgress('DONE', { examId: 'DONE', submitted: true, updatedAt: Date.now() });
+MX.Storage.saveProgress('RUN', { examId: 'RUN', submitted: false, updatedAt: Date.now() });
+var cleared = MX.Storage.clearOldRecords(180);
+ok(cleared.removedRecords === 1, 'clearOldRecords 清理 1 条超期记录');
+ok(MX.Storage.getRecords().length === 1 && MX.Storage.getRecords()[0].id === 'NEW', '近期记录保留');
+ok(cleared.removedProgress === 1, 'clearOldRecords 清理 1 条已完成进度');
+ok(MX.Storage.getProgress('DONE') === null, '已完成的 progress 被清除');
+ok(MX.Storage.getProgress('RUN') !== null, '未完成的 progress 保留');
+
+/* ============================================================
  * 5. 扩展能力
  * ============================================================ */
 section('5. 扩展能力');
