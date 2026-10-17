@@ -1446,7 +1446,8 @@
       "suitableTypes": [
         "choice",
         "judge",
-        "figure"
+        "figure",
+        "application"
       ],
       "difficultyRange": [
         1,
@@ -1814,7 +1815,8 @@
       "suitableTypes": [
         "choice",
         "figure",
-        "reading"
+        "reading",
+        "fill"
       ],
       "difficultyRange": [
         1,
@@ -1848,7 +1850,9 @@
       "suitableTypes": [
         "choice",
         "figure",
-        "reading"
+        "reading",
+        "fill",
+        "application"
       ],
       "difficultyRange": [
         1,
@@ -1881,7 +1885,8 @@
       "suitableTypes": [
         "figure",
         "choice",
-        "application"
+        "application",
+        "fill"
       ],
       "difficultyRange": [
         2,
@@ -1949,7 +1954,9 @@
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
         "choice",
-        "figure"
+        "figure",
+        "judge",
+        "figure-interactive"
       ],
       "difficultyRange": [
         1,
@@ -2221,7 +2228,8 @@
       "suitableTypes": [
         "choice",
         "figure",
-        "reading"
+        "reading",
+        "fill"
       ],
       "difficultyRange": [
         1,
@@ -2254,7 +2262,8 @@
       "suitableTypes": [
         "choice",
         "figure",
-        "reading"
+        "reading",
+        "fill"
       ],
       "difficultyRange": [
         2,

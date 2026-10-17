@@ -1,6 +1,6 @@
 // 构建题库文件 —— 人教版 data/questions/ / 北师大版 data/questions-bsd/ 下 <bookId>.json（+ .js 兜底）并做完整性校验
 // 版本由环境变量 VERSION 决定：rj（默认）| bsd。
-// 注意：北师大版题库尚未建设，bsd 分支生成 12 个占位空文件（count 0），组卷时会诚实提示无题。
+// 北师大版题库按册建设（卡 10 起）：scripts/data/questions-bsd.mjs 中已建册走完整构建，未建册生成占位空文件（count 0）。
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -34,9 +34,19 @@ function fnv1a(str) {
 const tags = JSON.parse(fs.readFileSync(path.join(root, tagsFile), 'utf8'));
 
 const ALL = { ...LOWER, ...MIDDLE, ...UPPER };
+// ---- 北师大版题库源（卡 10）：按册增量建设，未建册自动走占位 ----
+let BSD_SOURCE = {};
+if (VERSION === 'bsd') {
+  try {
+    BSD_SOURCE = (await import('./data/questions-bsd.mjs')).BSD || {};
+  } catch (e) {
+    BSD_SOURCE = {}; // 源文件不存在：维持占位行为
+  }
+}
 const pointById = new Map(tags.points.map((p) => [p.id, p]));
-// 题库源文件 scripts/data/questions-*.mjs 中的 q.p 仍是旧序号主键（legacyId），
-// 切换主键后必须用 legacyId 反查考点，否则解析失败。
+// 题库源文件中 q.p 的两种主键：人教版仍是旧序号主键（legacyId），北师大版（卡 10 起）用考点 slug。
+// 解析时 slug 优先、legacyId 回退，两条路径互不影响。
+const pointBySlug = new Map(tags.points.map((p) => [p.slug || p.id, p]));
 const pointByLegacy = new Map(tags.points.map((p) => [p.legacyId, p]));
 const knowledgeById = new Map(tags.knowledge.map((k) => [k.id, k]));
 const domainById = new Map(tags.domains.map((d) => [d.id, d]));
@@ -45,21 +55,17 @@ const AUTO_TYPES = new Set(tags.questionTypes.filter((t) => t.auto).map((t) => t
 const outDir = path.join(root, outDirName);
 fs.mkdirSync(outDir, { recursive: true });
 
-if (VERSION === 'bsd') {
-  console.log('=================================================================');
-  console.log('!! 北师大版题库尚未建设：生成 12 个占位文件（count 0），属预期行为。');
-  console.log('!! 切换北师大版后组卷会提示无可用题目；建设题库后重跑本脚本即可。');
-  console.log('=================================================================');
-}
-
 let totalQuestions = 0;
+let builtBooks = 0;
+let placeholderBooks = 0;
 const report = [];
 const errors = [];
 const widened = [];
 
 for (const book of tags.books) {
-  // 北师大版分支：题库未建设，生成占位空文件，保证 bank.js 的加载链不中断
-  if (VERSION === 'bsd') {
+  // 北师大版分支：源文件中未建设的册生成占位空文件，保证 bank.js 的加载链不中断
+  const raw = VERSION === 'bsd' ? BSD_SOURCE[book.id] : ALL[book.id];
+  if (VERSION === 'bsd' && !raw) {
     const payload = {
       version: '1.0.0',
       book: book.id,
@@ -78,15 +84,14 @@ for (const book of tags.books) {
       `/* 自动生成，请勿手工修改。源文件：${outDirName}/${book.id}.json */\nwindow.__MATH_BANK__ = window.__MATH_BANK__ || {};\nwindow.__MATH_BANK__["${book.id}"] = ` + JSON.stringify(payload) + ';\n',
       'utf8'
     );
+    placeholderBooks++;
     report.push(`${book.short}  （占位，0 题）`);
     continue;
   }
-
-  const raw = ALL[book.id];
   if (!raw) { errors.push(`${book.id} 缺少题库`); continue; }
 
   const list = raw.map((q, i) => {
-    const pt = pointByLegacy.get(q.p);
+    const pt = pointBySlug.get(q.p) || pointByLegacy.get(q.p);
     if (!pt) { errors.push(`${book.id} 第 ${i + 1} 题引用了不存在的考点 ${q.p}`); return null; }
     const pSlug = pt.slug || pt.id; // 防御：tags 未含 slug 时回退到原 id
     const kn = knowledgeById.get(pt.knowledge);
@@ -154,11 +159,15 @@ for (const book of tags.books) {
     'utf8'
   );
   totalQuestions += list.length;
+  builtBooks++;
   report.push(`${book.short}  ${list.length} 题  ${Object.entries(payload.typeStat).map(([k, v]) => `${k}×${v}`).join(' ')}`);
 }
 
 console.log(report.join('\n'));
 console.log(`\n题库合计 ${totalQuestions} 题；自动扩充 suitableTypes ${widened.length} 处`);
+if (VERSION === 'bsd') {
+  console.log(`北师大版：已建 ${builtBooks} 册，占位 ${placeholderBooks} 册（未建册组卷时会提示无可用题目）`);
+}
 
 // 回写 tags 文件，保证「考点 suitableTypes」与题库实际题型一致（按版本写回各自文件）
 if (widened.length) {
