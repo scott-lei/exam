@@ -72,3 +72,92 @@
   .revealed .q-analysis { display: block !important; }
   .analysis-hidden { display: none !important; }
 }
+
+/* ============================================================
+ * 独立打印页（print.html）—— 卷面样式（屏幕预览 = 打印排版）
+ * 仅追加，不修改上面任何规则。
+ * ============================================================ */
+body { font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif; color: #000; background: #eef2f7; }
+
+.pp-toolbar {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  padding: 10px 16px; background: #1e293b; color: #fff;
+  position: sticky; top: 0; z-index: 50;
+}
+.pp-toolbar-title { font-weight: 700; }
+.pp-toolbar-hint { flex: 1 1 320px; font-size: 12px; color: #cbd5e1; }
+.pp-toolbar-actions { display: flex; gap: 8px; }
+
+.pp-root {
+  max-width: 820px; margin: 16px auto; padding: 14mm 12mm;
+  background: #fff; box-shadow: 0 2px 14px rgba(15, 23, 42, .12);
+  color: #000;
+}
+
+.pp-loading, .pp-error { padding: 24px; color: #b91c1c; }
+.pp-error-tip { color: #64748b; margin-top: 8px; }
+
+/* 卷头 */
+.pp-head { width: 100%; border-collapse: collapse; margin-bottom: 8mm; }
+.pp-head td { border: 1px solid #444; padding: 6px 10px; font-size: 13pt; vertical-align: middle; }
+.pp-head .pp-title { text-align: center; font-size: 18pt; font-weight: 700; padding: 10px; letter-spacing: 1px; }
+
+/* 大题 */
+.pp-section { margin-top: 8mm; }
+.pp-section-head {
+  font-weight: 700; font-size: 14pt; margin: 4mm 0 3mm;
+  border-left: 4px solid #2563eb; padding-left: 8px;
+}
+
+/* 单题 */
+.pp-q { margin-bottom: 6mm; break-inside: avoid; page-break-inside: avoid; }
+.pp-q-head { display: flex; align-items: baseline; gap: 6px; }
+.pp-q-num { font-weight: 700; }
+.pp-q-score { color: #64748b; font-size: 10.5pt; }
+.pp-stem { line-height: 1.85; margin: 2px 0; }
+.pp-opts { margin: 2px 0 2px 1.6em; }
+.pp-opt { display: block; margin: 2px 0; }
+.pp-opt-mark { font-weight: 700; margin-right: 6px; }
+.pp-judge-line { margin: 2px 0 2px 1.6em; }
+
+/* 填空横线 / 计算与应用题作答区 */
+.pp-blank {
+  display: inline-block; width: 4em; border-bottom: 1px solid #333;
+  vertical-align: -2px; margin: 0 .15em;
+}
+.pp-lines { margin: 3px 0 2px 1.6em; }
+.pp-lines .pp-line { height: 9mm; border-bottom: 1px solid #444; margin-bottom: 3mm; }
+
+/* 图形 / 作图 */
+.pp-media { margin: 4px 0; max-width: 100%; }
+.pp-media svg { max-width: 100%; height: auto; }
+.pp-draw {
+  height: 60mm; width: 100%; border: 1px solid #94a3b8;
+  background-image:
+    repeating-linear-gradient(to right, #e2e8f0 0, #e2e8f0 1px, transparent 1px, transparent 5mm),
+    repeating-linear-gradient(to bottom, #e2e8f0 0, #e2e8f0 1px, transparent 1px, transparent 5mm);
+  print-color-adjust: exact; -webkit-print-color-adjust: exact;
+}
+
+/* 阅读题子问题 */
+.pp-subs { margin: 2px 0 2px 1.6em; }
+.pp-sub { display: block; margin: 3px 0; line-height: 1.7; }
+.pp-sub-label { font-weight: 700; margin-right: 4px; }
+
+/* 卷尾 */
+.pp-foot { text-align: center; color: #64748b; margin-top: 8mm; font-size: 10.5pt; }
+
+/* 答案页 */
+.pp-answer-wrap { margin-top: 6mm; }
+.pp-answer-title { font-weight: 700; font-size: 15pt; text-align: center; margin-bottom: 5mm; }
+.pp-answer { column-count: 2; column-gap: 8mm; }
+.pp-ans-item { break-inside: avoid; margin-bottom: 4mm; line-height: 1.75; }
+.pp-pagebreak { break-before: page; page-break-before: always; }
+
+/* 打印时：去掉屏幕外壳，交给 @page 边距 */
+@media print {
+  body { background: #fff !important; }
+  .pp-toolbar { display: none !important; }
+  .pp-root { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+  @page { size: A4; margin: 12mm 10mm; }
+}

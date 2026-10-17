@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>打印试卷 · 小学数学在线考试平台</title>
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+<!-- 独立打印页：print.css 改为 media=all，保证屏幕预览即为卷面排版（打印时同样生效） -->
+<link rel="stylesheet" href="css/print.css" media="all">
+</head>
+<body>
+
+<header class="pp-toolbar no-print" id="pp-toolbar">
+  <span class="pp-toolbar-title">试卷打印预览</span>
+  <span class="pp-toolbar-hint">如需页码，请在打印对话框勾选「页眉和页脚」；本系统不自动生成页码。</span>
+  <span class="pp-toolbar-actions">
+    <button class="btn btn-primary btn-sm" id="pp-btn-print">打印 / 另存为 PDF</button>
+    <a class="btn btn-ghost btn-sm" id="pp-btn-back" href="paper-builder.html">返回组卷</a>
+  </span>
+</header>
+
+<main class="pp-root" id="print-root">
+  <div class="pp-loading">正在准备试卷…</div>
+</main>
+
+<!-- 与 paper-builder.html 相同的核心脚本清单（满足离线资源校验），
+     末尾追加本页专用的两个脚本 -->
+<script src="vendor/katex/katex.min.js"></script>
+<script src="vendor/echarts/echarts.min.js"></script>
+<script src="data/tags.js"></script>
+<script src="js/core/loader.js"></script>
+<script src="js/core/storage.js"></script>
+<script src="js/core/tags.js"></script>
+<script src="js/core/bank.js"></script>
+<script src="js/core/grader.js"></script>
+<script src="js/core/plugins.js"></script>
+<script src="js/core/builder.js"></script>
+<script src="js/core/media.js"></script>
+<script src="js/core/ai.js"></script>
+<script src="js/ui/math.js"></script>
+<script src="js/ui/toast.js"></script>
+<script src="js/ui/charts.js"></script>
+<script src="js/ui/render.js"></script>
+<script src="js/ui/shell.js"></script>
+<script src="js/ui/paper-print.js"></script>
+<script src="js/pages/page-print.js"></script>
+</body>
+</html>

@@ -117,7 +117,9 @@
       '<div class="card" id="preview-card">' +
       '<div class="card-head"><h3 class="card-title">📄 试卷预览</h3>' +
       '<div class="btn-group">' +
-      '<button class="btn btn-ghost btn-sm" id="btn-print">打印试卷</button>' +
+      '<button class="btn btn-primary btn-sm" id="btn-print">打印试卷</button>' +
+      '<button class="btn btn-ghost btn-sm" id="btn-print-answer">打印答案</button>' +
+      '<button class="btn btn-ghost btn-sm" id="btn-print-teacher">打印教师版</button>' +
       '<button class="btn btn-success btn-sm" id="btn-start">开始考试</button>' +
       '</div></div>' +
       '<div id="preview-body">' +
@@ -358,10 +360,15 @@
       });
       window.MX.Toast.ok('试卷已保存到「我的试卷」');
     });
-    $('#btn-print').addEventListener('click', function () {
-      if (!previewPaper) return window.MX.Toast.warn('请先生成试卷');
-      window.print();
-    });
+    function openPrint(mode) {
+      if (!previewPaper) { window.MX.Toast.warn('请先生成试卷'); return; }
+      // 把当前试卷对象交给独立打印页（学生版不含答案，答案页在 print.html 内生成）
+      window.MX.Storage.write('math_exam_print_job', previewPaper);
+      location.href = 'print.html?mode=' + mode;
+    }
+    $('#btn-print').addEventListener('click', function () { openPrint('student'); });
+    $('#btn-print-answer').addEventListener('click', function () { openPrint('answer'); });
+    $('#btn-print-teacher').addEventListener('click', function () { openPrint('teacher'); });
     $('#btn-start').addEventListener('click', function () {
       if (!previewPaper) return window.MX.Toast.warn('请先生成试卷');
       startExam(previewPaper);
