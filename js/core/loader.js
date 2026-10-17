@@ -2,6 +2,7 @@
  * MX.Loader —— 数据加载器
  * 目标：既能通过 HTTP 服务运行（fetch JSON），也能直接双击 index.html（file://）运行。
  * 策略：优先 fetch 原始 .json；失败时回退到同名 .js（内联 window.__MATH_* 变量）。
+ * 附带 MX.Version：教材版本（人教/北师大）记忆与数据路径解析，供 tags.js / bank.js 使用。
  * ============================================================ */
 (function (global) {
   'use strict';
@@ -66,6 +67,51 @@
   }
 
   global.MX = global.MX || {};
+
+  /* ============================================================
+   * MX.Version —— 教材版本切换（卡 8）
+   * 版本存于 localStorage（键 math_exam_version），默认北师大版（bsd）。
+   * tags.js / bank.js 据此选择数据文件：
+   *   rj  → data/tags.json      + data/questions/
+   *   bsd → data/tags-bsd.json  + data/questions-bsd/
+   * 切换入口在顶栏「教材版本」下拉（shell.js），切换后刷新页面生效。
+   * ============================================================ */
+  var VERSION_KEY = 'math_exam_version';
+  var VERSION_DEFAULT = 'bsd';
+  var VERSION_LIST = [
+    { id: 'rj',  name: '人教版',   tagsJson: 'data/tags.json',     tagsGlobal: '__MATH_TAGS__',     questionDir: 'data/questions/' },
+    { id: 'bsd', name: '北师大版', tagsJson: 'data/tags-bsd.json', tagsGlobal: '__MATH_TAGS_BSD__', questionDir: 'data/questions-bsd/' }
+  ];
+  function versionItem(v) {
+    for (var i = 0; i < VERSION_LIST.length; i++) {
+      if (VERSION_LIST[i].id === v) return VERSION_LIST[i];
+    }
+    return null;
+  }
+  function versionCurrent() {
+    try {
+      var v = global.localStorage ? global.localStorage.getItem(VERSION_KEY) : null;
+      if (versionItem(v)) return v;
+    } catch (e) { /* 隐私模式等场景回落默认值 */ }
+    return VERSION_DEFAULT;
+  }
+  global.MX.Version = {
+    KEY: VERSION_KEY,
+    DEFAULT: VERSION_DEFAULT,
+    list: VERSION_LIST,
+    current: versionCurrent,
+    item: function () { return versionItem(versionCurrent()); },
+    name: function (v) { var it = versionItem(v || versionCurrent()); return it ? it.name : ''; },
+    tagsJson: function () { return versionItem(versionCurrent()).tagsJson; },
+    tagsGlobal: function () { return versionItem(versionCurrent()).tagsGlobal; },
+    questionDir: function () { return versionItem(versionCurrent()).questionDir; },
+    set: function (v) {
+      if (!versionItem(v)) throw new Error('未知教材版本：' + v);
+      try { global.localStorage.setItem(VERSION_KEY, v); } catch (e) { /* ignore */ }
+      return v;
+    }
+  };
+
   global.MX.Loader = {
     loadJSON: loadJSON,
     clear: function () { cache = {}; },

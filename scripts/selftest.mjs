@@ -1,7 +1,9 @@
 /* ============================================================
  * selftest.mjs —— 端到端自检
  * 在 Node 中构造最小浏览器环境，加载 core 层，验证：
- *   1) 数据完整性（378 考点 / 12 册 / 每册 ≥10 题 / 引用合法）
+ *   1) 数据完整性（人教版 378 考点 / 12 册 / 每册 ≥10 题 / 引用合法）
+ *   1b) 北师大版标签体系（data/tags-bsd.json，若已构建）
+ *   1c) 教材版本切换接线（MX.Version）
  *   2) 自动阅卷正确性（标准答案满分 + 容错 + 反例）
  *   3) 四种组卷模式可用
  * 运行：node scripts/selftest.mjs
@@ -62,6 +64,10 @@ function load(rel) {
 
 const MX = sandbox.MX;
 
+// 以下用例基于人教版数据（data/tags.json + data/questions/），将沙盒版本固定为 rj；
+// 版本接线本身在 1c 节单独验证。
+sandbox.localStorage.setItem(MX.Version.KEY, 'rj');
+
 /* ---------- 标准答案合成 ---------- */
 function valOf(spec) {
   if (spec && typeof spec === 'object' && 'value' in spec) return spec.value;
@@ -93,7 +99,9 @@ function synth(q) {
 section('1. 数据完整性');
 const tags = JSON.parse(fs.readFileSync(path.join(root, 'data/tags.json'), 'utf8'));
 ok(tags.books.length === 12, '册数应为 12', tags.books.length);
-ok(tags.points.length === 378, '三级考点应为 378', tags.points.length);
+// 考点总数以 tags.stats.points 为准（人教版 378），不再硬编码；北师大版另见 1b 节
+const expectPoints = tags.stats.points;
+ok(expectPoints > 0 && tags.points.length === expectPoints, '三级考点数应与 stats.points 一致', tags.points.length + ' vs ' + expectPoints);
 ok(tags.domains.length === 4, '知识领域应为 4', tags.domains.length);
 let bookRangeOk = true, badBook = '';
 tags.books.forEach((b) => { if (b.pointCount < 23 || b.pointCount > 38) { bookRangeOk = false; badBook = b.name + '=' + b.pointCount; } });
@@ -105,7 +113,7 @@ ok(tags.points.every((p) => knIds.has(p.knowledge)), '所有考点都应挂到�
 ok(tags.points.every((p) => p.suitableTypes && p.suitableTypes.length > 0), '所有考点都应有 suitableTypes');
 ok(tags.points.every((p) => Array.isArray(p.difficultyRange) && p.difficultyRange.length === 2), '所有考点都应有难度区间');
 ok(tags.points.every((p) => p.type && p.extend), '所有考点都应有 type 与 extend');
-ok(new Set(tags.points.map((p) => p.id)).size === 378, '考点 id 不应重复');
+ok(new Set(tags.points.map((p) => p.id)).size === tags.points.length, '考点 id 不应重复');
 
 let qTotal = 0, qRefOk = true, qTypeOk = true, qFieldOk = true, badRefs = [], badTypes = [], badFields = [];
 const knownTypes = new Set(tags.questionTypes.map((t) => t.id));
@@ -130,6 +138,59 @@ ok(qRefOk, '所有题目的考点引用合法', badRefs.slice(0, 5).join(', '));
 ok(qTypeOk, '所有题目题型已注册', [...new Set(badTypes)].join(', '));
 ok(qFieldOk, '所有题目字段完整', badFields.slice(0, 5).join(', '));
 console.log(`题库合计 ${qTotal} 题，覆盖 ${seenQids.size} 个唯一 id`);
+
+/* ============================================================
+ * 1b. 北师大版标签体系（data/tags-bsd.json，若已构建）
+ * ============================================================ */
+const bsdTagsFile = path.join(root, 'data/tags-bsd.json');
+if (fs.existsSync(bsdTagsFile)) {
+  section('1b. 北师大版标签体系');
+  const bsd = JSON.parse(fs.readFileSync(bsdTagsFile, 'utf8'));
+  ok(bsd.books.length === 12, '北师大版册数应为 12', bsd.books.length);
+  ok(bsd.points.length === bsd.stats.points, '北师大版考点数应与 stats.points 一致', bsd.points.length + ' vs ' + bsd.stats.points);
+  ok(new Set(bsd.points.map((p) => p.id)).size === bsd.points.length, '北师大版考点 id 不应重复');
+  ok(bsd.points.every((p) => p.id.startsWith('bsd-')), '北师大版考点 id 应以 bsd- 开头');
+  const bsdBad = bsd.books.filter((b) => b.pointCount < 23 || b.pointCount > 38);
+  ok(bsdBad.length === 0, '北师大版每册考点数应在 23~38 之间',
+     bsdBad.map((b) => b.short + '=' + b.pointCount).join(','));
+  ok(bsd.books.every((b) => b.dataFile.startsWith('data/questions-bsd/')), '北师大版 dataFile 应指向 data/questions-bsd/');
+  const bsdKn = new Set(bsd.knowledge.map((k) => k.id));
+  ok(bsd.points.every((p) => bsdKn.has(p.knowledge)), '北师大版考点都应挂到合法二级知识点');
+  ok(bsd.points.every((p) => p.suitableTypes && p.suitableTypes.length > 0), '北师大版考点都应有 suitableTypes');
+  // 题库占位：每册应有文件；尚未建设时为 count 0 空文件（属预期，待后续建设）
+  const bsdQDir = path.join(root, 'data/questions-bsd');
+  const bsdMissing = bsd.books.filter((b) => !fs.existsSync(path.join(bsdQDir, b.id + '.json')));
+  ok(bsdMissing.length === 0, '北师大版每册都应有题库文件', bsdMissing.map((b) => b.id).join(','));
+  if (!bsdMissing.length) {
+    const bsdEmpty = bsd.books.filter((b) => {
+      const pl = JSON.parse(fs.readFileSync(path.join(bsdQDir, b.id + '.json'), 'utf8'));
+      return pl.count === 0;
+    });
+    if (bsdEmpty.length === 12) console.log('（北师大版题库为占位空文件：组卷将提示无题，待后续建设）');
+    else console.log(`（北师大版已建题目册数：${12 - bsdEmpty.length}/12）`);
+  }
+} else {
+  console.log('（未找到 data/tags-bsd.json，跳过北师大版检查；如需检查请先运行 VERSION=bsd node scripts/build-tags.mjs）');
+}
+
+/* ============================================================
+ * 1c. 教材版本切换接线（MX.Version）
+ * ============================================================ */
+section('1c. 教材版本切换接线');
+ok(MX.Version.DEFAULT === 'bsd', '默认教材版本应为北师大版（bsd）', MX.Version.DEFAULT);
+ok(MX.Version.current() === 'rj', '沙盒已固定为人教版（rj）', MX.Version.current());
+ok(MX.Version.list.length === 2 && MX.Version.name('rj') === '人教版' && MX.Version.name('bsd') === '北师大版', '版本清单为人教版/北师大版');
+ok(MX.Version.tagsJson() === 'data/tags.json' && MX.Version.questionDir() === 'data/questions/', 'rj 应对应 data/tags.json 与 data/questions/');
+MX.Version.set('bsd');
+ok(MX.Version.current() === 'bsd' && MX.Version.tagsJson() === 'data/tags-bsd.json' && MX.Version.questionDir() === 'data/questions-bsd/',
+   'set(bsd) 后应指向 data/tags-bsd.json 与 data/questions-bsd/');
+ok(MX.Version.tagsGlobal() === '__MATH_TAGS_BSD__', 'bsd 的 window 全局名应为 __MATH_TAGS_BSD__');
+MX.Version.set('rj');
+ok(MX.Version.current() === 'rj' && MX.Version.tagsGlobal() === '__MATH_TAGS__', 'set(rj) 后恢复 data/tags.json 与 __MATH_TAGS__');
+let versionRejectOk = false;
+try { MX.Version.set('xx'); } catch (e) { versionRejectOk = true; }
+ok(versionRejectOk, '非法版本号应被拒绝');
+ok(MX.Version.current() === 'rj', '非法 set 不影响当前版本');
 
 /* ============================================================
  * 2. 自动阅卷

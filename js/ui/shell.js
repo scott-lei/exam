@@ -43,6 +43,21 @@
     return fmtDate(ts);
   }
 
+  /** 顶栏品牌区副标题：版本名 · N 册 · M 考点 · 题型数（标签加载完成后由 mx:tagsready 刷新） */
+  function brandStatsText() {
+    var vName = global.MX.Version ? global.MX.Version.name() : '';
+    var d = global.MX.Tags && global.MX.Tags.data;
+    if (d && d.stats) {
+      var qCount = d.questionTypes ? d.questionTypes.length : 8;
+      return vName + ' · ' + d.stats.books + ' 册 · ' + d.stats.points + ' 考点 · ' + qCount + ' 大题型';
+    }
+    return vName + ' · 数据加载中…';
+  }
+  function refreshBrandStats() {
+    var el = document.getElementById('brand-stats');
+    if (el) el.textContent = brandStatsText();
+  }
+
   /** 挂载页面外壳 */
   function mount(opts) {
     opts = opts || {};
@@ -59,7 +74,7 @@
         '<div class="container nav-wrap">' +
         '<a class="brand" href="index.html">' +
         '<span class="brand-logo">＋－</span>' +
-        '<span class="brand-text"><b>小学数学在线考试平台</b><em>12 册 · 378 考点 · 8 大题型</em></span>' +
+        '<span class="brand-text"><b>小学数学在线考试平台</b><em id="brand-stats">' + brandStatsText() + '</em></span>' +
         '</a>' +
         '<nav class="nav" id="main-nav">' +
         PAGES.map(function (p) {
@@ -68,6 +83,12 @@
         }).join('') +
         '</nav>' +
         '<div class="nav-actions">' +
+        '<select class="select" id="sel-version" title="教材版本" aria-label="教材版本" ' +
+        'style="height:38px;border:1.5px solid var(--line);border-radius:19px;background-color:#fff;color:var(--ink-3);font-size:.84em;font-weight:600;padding:0 30px 0 14px;cursor:pointer;">' +
+        (global.MX.Version ? global.MX.Version.list : []).map(function (v) {
+          return '<option value="' + v.id + '">' + v.name + '</option>';
+        }).join('') +
+        '</select>' +
         '<button class="btn-icon" id="btn-bigfont" title="低年级大字版">Aa</button>' +
         '<button class="btn-icon" id="btn-settings" title="设置">⚙</button>' +
         '<button class="btn-icon nav-toggle" id="btn-nav-toggle" title="菜单">☰</button>' +
@@ -86,6 +107,28 @@
         this.classList.toggle('on', settings.bigFont);
         global.MX.Toast.info(settings.bigFont ? '已开启大字版' : '已关闭大字版');
       });
+      // 教材版本切换：写入 localStorage 后刷新页面（tags/bank 均按版本取数）
+      var selV = document.getElementById('sel-version');
+      if (selV && global.MX.Version) {
+        selV.value = global.MX.Version.current();
+        selV.addEventListener('change', function () {
+          var v = this.value;
+          if (v === global.MX.Version.current()) return;
+          try {
+            global.MX.Version.set(v);
+          } catch (e) {
+            global.MX.Toast.error(e.message);
+            return;
+          }
+          global.MX.Toast.ok('已切换为' + global.MX.Version.name(v) + '，页面即将刷新');
+          setTimeout(function () { location.reload(); }, 600);
+        });
+      }
+    }
+
+    // 标签体系加载完成后刷新品牌区统计（mount 可能早于 Tags.load）
+    if (global.document && global.document.addEventListener) {
+      global.document.addEventListener('mx:tagsready', refreshBrandStats);
     }
 
     // 页头

@@ -1,6 +1,9 @@
 /* ============================================================
  * MX.Tags —— 四级标签体系（年级 → 知识领域 → 二级知识点 → 三级考点）
- * 数据源：data/tags.json（378 个三级考点）
+ * 数据源按教材版本切换（MX.Version，卡 8；默认北师大版）：
+ *   rj  → data/tags.json      人教版   12 册
+ *   bsd → data/tags-bsd.json  北师大版 12 册
+ * 加载完成后派发 mx:tagsready 事件（detail.version），供外壳更新统计文案。
  * ============================================================ */
 (function (global) {
   'use strict';
@@ -18,8 +21,15 @@
 
   async function load() {
     if (data) return data;
-    data = await global.MX.Loader.loadJSON('data/tags.json', function () { return global.__MATH_TAGS__; });
+    var V = global.MX.Version;
+    var cur = V ? V.current() : 'rj';
+    var url = V ? V.tagsJson() : 'data/tags.json';
+    var gname = V ? V.tagsGlobal() : '__MATH_TAGS__';
+    data = await global.MX.Loader.loadJSON(url, function () { return global[gname]; });
     buildIndex();
+    try {
+      global.document.dispatchEvent(new CustomEvent('mx:tagsready', { detail: { version: cur } }));
+    } catch (e) { /* 非浏览器环境（如 Node 自检）无 CustomEvent/dispatchEvent */ }
     return data;
   }
 

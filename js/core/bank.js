@@ -1,6 +1,8 @@
 /* ============================================================
  * MX.Bank —— 题库（按册懒加载，可扩展）
- * 数据源：data/questions/gradeN-up|down.json
+ * 数据源按教材版本切换（MX.Version，卡 8）：
+ *   rj  → data/questions/
+ *   bsd → data/questions-bsd/
  * ============================================================ */
 (function (global) {
   'use strict';
@@ -15,7 +17,8 @@
     if (loaded[bookId]) return loaded[bookId];
     if (loading[bookId]) return loading[bookId];
     loading[bookId] = (async function () {
-      var payload = await global.MX.Loader.loadJSON('data/questions/' + bookId + '.json', globalKey(bookId));
+      var dir = global.MX.Version ? global.MX.Version.questionDir() : 'data/questions/';
+      var payload = await global.MX.Loader.loadJSON(dir + bookId + '.json', globalKey(bookId));
       loaded[bookId] = payload;
       payload.questions.forEach(function (q) { qIndex[q.id] = q; });
       return payload;
@@ -46,9 +49,9 @@
 
   function bookIdOfQid(qid) {
     var parts = String(qid || '').split('-');
-    // 旧主键：<code>-QNNN（如 g1u-Q001）；新主键：rj-<code>-<domain>-<pinyin>-<NNN>
-    // 取版本段之后的 book code。
-    var code = parts[0] === 'rj' ? (parts[1] || '') : parts[0];
+    // 旧主键：<code>-QNNN（如 g1u-Q001）；新主键：<version>-<code>-<domain>-<pinyin>-<NNN>
+    // 版本段为 rj- 或 bsd-；取版本段之后的 book code。
+    var code = (parts[0] === 'rj' || parts[0] === 'bsd') ? (parts[1] || '') : parts[0];
     return global.MX.Tags.bookIdByCode(code);
   }
 

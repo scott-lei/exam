@@ -1,15 +1,40 @@
-// 构建 data/tags.json —— 四级标签体系（378 个三级考点）+ data/tags.js（file:// 兜底）
+// 构建标签体系数据 —— 人教版 data/tags.json / 北师大版 data/tags-bsd.json（各附同名 .js 作 file:// 兜底）
+// 版本由环境变量 VERSION 决定：rj（默认，人教版，保持历史路径与字节级输出）| bsd（北师大版）
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { BOOKS, DOMAINS, TYPE_META } from './data/curriculum.mjs';
+import { BOOKS as BOOKS_RJ, DOMAINS as DOMAINS_RJ, TYPE_META as TYPE_META_RJ } from './data/curriculum.mjs';
+import { BOOKS as BOOKS_BSD, DOMAINS as DOMAINS_BSD, TYPE_META as TYPE_META_BSD } from './data/curriculum-bsd.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const pad = (n) => String(n).padStart(2, '0');
 
-// 教材版本：当前人教版（rj）。后续切北师大版时改为 'bsd' 等，slug 会随之前缀化。
-const VERSION = 'rj';
+// ---- 教材版本（卡 8）：VERSION=rj|bsd，默认 rj ----
+// slug 前缀随版本走（rj- / bsd-），两套标签体系可并存于同一份前端代码。
+const VERSIONS = {
+  rj:  { name: '人教版',   BOOKS: BOOKS_RJ,  DOMAINS: DOMAINS_RJ,  TYPE_META: TYPE_META_RJ },
+  bsd: { name: '北师大版', BOOKS: BOOKS_BSD, DOMAINS: DOMAINS_BSD, TYPE_META: TYPE_META_BSD },
+};
+const VERSION = String(process.env.VERSION || 'rj').toLowerCase();
+if (!VERSIONS[VERSION]) {
+  console.error(`!! 未知 VERSION="${process.env.VERSION}"，可选值：rj | bsd`);
+  process.exit(1);
+}
+const SRC = VERSIONS[VERSION];
+const { BOOKS, DOMAINS, TYPE_META } = SRC;
+
+// ---- 输出路径（按版本分流；人教版保持原路径，保证旧数据与 HTML 静态引用兼容） ----
+const OUT = VERSION === 'bsd'
+  ? { tagsJson: 'data/tags-bsd.json', tagsJs: 'data/tags-bsd.js', global: '__MATH_TAGS_BSD__', questionDir: 'data/questions-bsd' }
+  : { tagsJson: 'data/tags.json',     tagsJs: 'data/tags.js',     global: '__MATH_TAGS__',     questionDir: 'data/questions' };
+
+// ---- 可配置阈值（原为硬断言：总数必须 378 / 每册 23–38） ----
+// total: 0 表示不校验总数。人教版沿用 378；北师大版 12 册 342 考点，暂只校验每册区间。
+const LIMITS = {
+  rj:  { total: 378, perBookMin: 23, perBookMax: 38 },
+  bsd: { total: 0,   perBookMin: 23, perBookMax: 38 },
+};
 
 // ---- 确定性工具：FNV-1a 32 位哈希（输出 8 位十六进制） ----
 function fnv1a(str) {
@@ -157,7 +182,7 @@ for (const book of BOOKS) {
     short: book.short,
     knowledgeCount: bookKnowledgeCount,
     pointCount: bookPointCount,
-    dataFile: `data/questions/${book.id}.json`,
+    dataFile: `${OUT.questionDir}/${book.id}.json`,
   });
 }
 
@@ -195,19 +220,23 @@ const out = {
 };
 
 fs.mkdirSync(path.join(root, 'data'), { recursive: true });
-fs.writeFileSync(path.join(root, 'data/tags.json'), JSON.stringify(out, null, 2), 'utf8');
+fs.writeFileSync(path.join(root, OUT.tagsJson), JSON.stringify(out, null, 2), 'utf8');
 fs.writeFileSync(
-  path.join(root, 'data/tags.js'),
-  '/* 自动生成，请勿手工修改。源文件：data/tags.json */\nwindow.__MATH_TAGS__ = ' + JSON.stringify(out) + ';\n',
+  path.join(root, OUT.tagsJs),
+  `/* 自动生成，请勿手工修改。源文件：${OUT.tagsJson} */\nwindow.${OUT.global} = ` + JSON.stringify(out) + ';\n',
   'utf8'
 );
 
-// 校验
-const bad = books.filter((b) => b.pointCount < 23 || b.pointCount > 38);
-console.log(`books=${books.length}  knowledge=${knowledge.length}  points=${points.length}`);
+// 校验（阈值见脚本顶部 LIMITS，可按版本调整）
+const lim = LIMITS[VERSION];
+const bad = books.filter((b) => b.pointCount < lim.perBookMin || b.pointCount > lim.perBookMax);
+console.log(`[${VERSION}] ${SRC.name}：books=${books.length}  knowledge=${knowledge.length}  points=${points.length}`);
 console.log('每册考点数：', books.map((b) => `${b.short}:${b.pointCount}`).join('  '));
 console.log('领域分布：', Object.entries(domainStat).map(([k, v]) => `${k}=${v.count}`).join('  '));
 console.log('类型分布：', Object.entries(typeStat).map(([k, v]) => `${k}=${v}`).join('  '));
-if (bad.length) { console.error('!! 越界：', bad.map((b) => b.short)); process.exit(1); }
-if (points.length !== 378) { console.error(`!! 考点总数 ${points.length} !== 378`); process.exit(1); }
+if (bad.length) {
+  console.error(`!! 每册考点数越界（${lim.perBookMin}~${lim.perBookMax}）：`, bad.map((b) => `${b.short}:${b.pointCount}`).join('  '));
+  process.exit(1);
+}
+if (lim.total && points.length !== lim.total) { console.error(`!! 考点总数 ${points.length} !== ${lim.total}`); process.exit(1); }
 console.log('OK');

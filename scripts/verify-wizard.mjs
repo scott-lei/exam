@@ -133,6 +133,11 @@ function createHarness(search) {
   ['js/core/loader.js', 'js/core/storage.js', 'js/core/tags.js', 'js/core/bank.js',
     'js/core/builder.js', 'js/ui/math.js'].forEach(load);
 
+  /* ---------- 固定教材版本为人教版 ---------- */
+  // 本脚本各场景均使用人教版册 id（gradeN-up 等）与人教版题库；
+  // 卡 8 起默认版本为北师大版（bsd），此处显式固定为 rj，避免取数跑到 questions-bsd/。
+  sandbox.localStorage.setItem(sandbox.MX.Version.KEY, 'rj');
+
   /* ---------- UI 层 stub（Shell / Toast / Render 只做记录） ---------- */
   const MX = sandbox.MX;
   MX.Shell = {
