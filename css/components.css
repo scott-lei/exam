@@ -577,3 +577,202 @@ textarea { resize: vertical; min-height: 76px; line-height: 1.7; }
 .acc.open .acc-body { display: block; }
 .acc-arrow { transition: transform .18s; color: var(--muted); }
 .acc.open .acc-arrow { transform: rotate(180deg); }
+
+/* ============================================================
+ * 卡 6 —— 组卷中心三步向导（仅追加，统一 wz- 前缀）
+ * 约定：可点击元素高度 ≥ 44px；移动端单列；步骤条吸顶
+ * ============================================================ */
+.wz .spacer { flex: 1 1 auto; min-width: 0; }
+.wz-h2 { font-size: 1.3em; font-weight: 800; color: var(--ink); margin: 0 0 4px; }
+.wz-pad { padding: 20px 22px; }
+
+/* 步骤条（吸顶，可点击回退） */
+.wz-steps {
+  position: sticky; top: var(--header-h); z-index: 40;
+  display: flex; gap: 8px; align-items: stretch;
+  padding: 10px 12px; margin-bottom: 16px;
+  background: rgba(255, 255, 255, .94); backdrop-filter: blur(10px);
+  border: 1px solid var(--line); border-radius: var(--r-lg);
+  box-shadow: var(--shadow-sm);
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+.wz-step {
+  flex: 1 1 0; min-width: 78px; min-height: 44px;
+  display: flex; align-items: center; justify-content: center; gap: 7px;
+  padding: 6px 12px; white-space: nowrap;
+  border: 1.5px solid var(--line); border-radius: var(--r-full);
+  background: #fff; color: var(--muted);
+  font-family: inherit; font-size: .92em; font-weight: 700;
+  cursor: pointer; transition: all .16s;
+}
+.wz-step-no {
+  width: 22px; height: 22px; border-radius: 50%; flex: 0 0 auto;
+  display: grid; place-items: center; font-size: .82em;
+  background: var(--bg-2); color: var(--muted);
+}
+.wz-step:hover:not(:disabled) { border-color: var(--blue-300); color: var(--blue-700); }
+.wz-step.done { border-color: var(--blue-300); color: var(--blue-700); background: var(--blue-50); }
+.wz-step.done .wz-step-no { background: var(--blue-500); color: #fff; }
+.wz-step.on { background: var(--blue-500); border-color: var(--blue-500); color: #fff; }
+.wz-step.on .wz-step-no { background: rgba(255, 255, 255, .26); color: #fff; }
+.wz-step:disabled { opacity: .45; cursor: not-allowed; }
+
+/* Step0 场景卡 */
+.wz-scenes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.wz-scene {
+  min-height: 112px; padding: 18px 16px; text-align: left;
+  display: flex; flex-direction: column; gap: 6px;
+  border: 1.5px solid var(--line); border-radius: var(--r-md);
+  background: #fff; cursor: pointer; font-family: inherit;
+  transition: all .16s;
+}
+.wz-scene:hover { border-color: var(--blue-300); box-shadow: var(--shadow-sm); transform: translateY(-2px); }
+.wz-scene-ico { font-size: 1.7em; line-height: 1.2; }
+.wz-scene-name { font-weight: 800; color: var(--ink); font-size: 1.02em; }
+.wz-scene-desc { font-size: .84em; color: var(--muted); line-height: 1.5; }
+.wz-scene-extra { margin-top: 14px; }
+.wz-scene-link { min-height: 44px; flex-direction: row; align-items: center; gap: 10px; padding: 10px 16px; background: var(--card-2); }
+.wz-scene-link .wz-scene-ico { font-size: 1.2em; }
+.wz-scene-link .wz-scene-desc { margin-left: auto; text-align: right; }
+
+/* 大按钮网格（年级 / 上下册 / 题量 / 难度） */
+.wz-grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.wz-grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.wz-big-btn {
+  min-height: 56px; padding: 12px 10px;
+  border: 1.5px solid var(--line); border-radius: var(--r-md);
+  background: #fff; color: var(--ink-2);
+  font-family: inherit; font-size: 1em; font-weight: 700;
+  cursor: pointer; transition: all .16s;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+}
+.wz-big-btn small { font-weight: 400; font-size: .76em; color: var(--muted); }
+.wz-big-btn:hover { border-color: var(--blue-300); }
+.wz-big-btn.on { background: var(--blue-500); border-color: var(--blue-500); color: #fff; box-shadow: 0 6px 18px rgba(37, 99, 235, .26); }
+.wz-big-btn.on small { color: rgba(255, 255, 255, .85); }
+
+/* Step1 单元卡片 */
+.wz-q { font-size: 1.02em; font-weight: 800; color: var(--ink); margin: 4px 0 10px; }
+.wz-q-sub { font-size: .8em; font-weight: 400; color: var(--muted); margin-left: 8px; }
+.wz-mt { margin-top: 22px; }
+.wz-unit-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; }
+.wz-unit {
+  min-height: 48px; padding: 10px 14px; text-align: left;
+  border: 1.5px solid var(--line); border-radius: var(--r-sm);
+  background: #fff; cursor: pointer; font-family: inherit; font-size: .94em;
+  display: flex; align-items: center; gap: 8px; transition: all .16s;
+  color: var(--ink-2); font-weight: 600;
+}
+.wz-unit:hover { border-color: var(--blue-300); }
+.wz-unit-n { margin-left: auto; font-size: .76em; color: var(--muted); font-weight: 400; white-space: nowrap; }
+.wz-unit.on { background: var(--blue-50); border-color: var(--blue-500); color: var(--blue-700); }
+.wz-unit.on .wz-unit-n { color: var(--blue-600); }
+.wz-unit-all { background: linear-gradient(135deg, var(--blue-50), #fff); font-weight: 800; }
+
+/* 底部实时计数条 */
+.wz-countbar {
+  position: sticky; bottom: 12px; z-index: 30;
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  margin-top: 16px; padding: 12px 18px;
+  background: rgba(255, 255, 255, .96); backdrop-filter: blur(10px);
+  border: 1px solid var(--line); border-radius: var(--r-lg);
+  box-shadow: var(--shadow);
+}
+.wz-avail { font-weight: 700; color: var(--ink-2); }
+.wz-avail b { color: var(--blue-600); font-size: 1.2em; font-family: var(--font-num); }
+.wz-avail-hint { font-size: .8em; color: var(--muted); margin-top: 2px; }
+
+/* Step2 开关 / 高级设置 */
+.wz-switch {
+  min-height: 44px; display: inline-flex; align-items: center; gap: 10px;
+  padding: 8px 16px; border: 1.5px solid var(--line); border-radius: var(--r-full);
+  background: #fff; cursor: pointer; font-family: inherit;
+  font-weight: 700; color: var(--ink-3); font-size: .92em; transition: all .16s;
+}
+.wz-switch:hover { border-color: var(--blue-300); }
+.wz-switch .dot {
+  width: 40px; height: 22px; border-radius: var(--r-full); flex: 0 0 auto;
+  background: var(--line); position: relative; transition: background .16s;
+}
+.wz-switch .dot::after {
+  content: ''; position: absolute; top: 2px; left: 2px;
+  width: 18px; height: 18px; border-radius: 50%;
+  background: #fff; box-shadow: var(--shadow-sm); transition: transform .16s;
+}
+.wz-switch[aria-checked="true"] { color: var(--blue-700); border-color: var(--blue-300); background: var(--blue-50); }
+.wz-switch[aria-checked="true"] .dot { background: var(--blue-500); }
+.wz-switch[aria-checked="true"] .dot::after { transform: translateX(18px); }
+
+.wz-adv { border: 1px solid var(--line); border-radius: var(--r-md); background: #fff; }
+.wz-adv > summary {
+  min-height: 44px; display: flex; align-items: center; gap: 8px;
+  padding: 10px 16px; cursor: pointer; font-weight: 700; color: var(--ink-3);
+  list-style: none;
+}
+.wz-adv > summary::-webkit-details-marker { display: none; }
+.wz-adv > summary::after { content: '▾'; margin-left: auto; color: var(--muted); transition: transform .18s; }
+.wz-adv[open] > summary::after { transform: rotate(180deg); }
+.wz-adv-body { padding: 4px 16px 16px; }
+.wz-type-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 8px 14px; }
+.wz-type-row { display: flex; align-items: center; gap: 8px; }
+.wz-type-row .check-pill { min-height: 44px; flex: 1 1 auto; }
+.wz-type-row input[type="number"] { width: 66px; flex: 0 0 auto; }
+
+/* Step3 卷头 */
+.wz-paper-head { margin-bottom: 14px; }
+.wz-paper-title { font-size: 1.08em; font-weight: 800; }
+.wz-paper-meta { display: flex; gap: 22px; flex-wrap: wrap; font-size: .9em; color: var(--muted); margin-top: 10px; }
+.wz-paper-meta b { color: var(--ink); }
+
+/* 黄条（题目不足 / 自动补齐说明） */
+.wz-notice {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  background: var(--amber-100); border: 1px solid #fde68a; color: #92400e;
+  border-radius: var(--r-md); padding: 12px 16px; margin-top: 14px;
+  font-size: .9em; font-weight: 600;
+}
+
+/* Step3 题目行 */
+.wz-qrow { border: 1px solid var(--line); border-radius: var(--r-md); background: #fff; margin-bottom: 12px; overflow: hidden; }
+.wz-qrow.locked { border-color: var(--amber-500); }
+.wz-qrow-head {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 10px 14px; border-bottom: 1px solid var(--line-2); background: var(--card-2);
+}
+.wz-qno {
+  width: 26px; height: 26px; border-radius: 50%; flex: 0 0 auto;
+  background: var(--blue-500); color: #fff;
+  display: grid; place-items: center; font-weight: 800; font-size: .85em;
+}
+.wz-qrow-head .btn { min-height: 44px; }
+.wz-qview { padding: 4px 14px 10px; }
+.wz-qview .q-card { border: none; box-shadow: none; padding: 8px 0; margin: 0; }
+
+/* Step3 操作区 */
+.wz-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 16px; }
+.wz-actions .btn { min-height: 44px; }
+.wz-tip { color: var(--muted); font-size: .86em; }
+
+/* 键盘焦点可见性 */
+.wz button:focus-visible, .wz input:focus-visible, .wz summary:focus-visible {
+  outline: 3px solid var(--blue-400); outline-offset: 2px;
+}
+
+/* 移动端：单列、无横向滚动 */
+@media (max-width: 860px) {
+  .wz-scenes { grid-template-columns: 1fr; }
+  .wz-grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .wz-unit-grid { grid-template-columns: 1fr; }
+  .wz-type-grid { grid-template-columns: 1fr; }
+  .wz-scene-link { flex-wrap: wrap; }
+  .wz-scene-link .wz-scene-desc { margin-left: 0; text-align: left; }
+  .wz-paper-meta { gap: 12px; }
+  .wz-countbar { bottom: 8px; padding: 10px 14px; }
+  .wz-countbar .btn { flex: 1 1 auto; }
+}
+@media (max-width: 520px) {
+  .wz-grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .wz-pad { padding: 16px 14px; }
+  .wz-steps { padding: 8px; gap: 6px; }
+  .wz-step { min-width: 70px; font-size: .86em; padding: 6px 8px; }
+}
