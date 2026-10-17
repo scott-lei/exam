@@ -2296,7 +2296,8 @@
       "suitableTypes": [
         "calculation",
         "fill",
-        "application"
+        "application",
+        "judge"
       ],
       "difficultyRange": [
         2,
@@ -2361,7 +2362,8 @@
       "type": "PROCEDURAL",
       "suitableTypes": [
         "calculation",
-        "fill"
+        "fill",
+        "judge"
       ],
       "difficultyRange": [
         2,
@@ -2497,7 +2499,8 @@
       "suitableTypes": [
         "figure",
         "reading",
-        "application"
+        "application",
+        "judge"
       ],
       "difficultyRange": [
         2,
@@ -2703,7 +2706,8 @@
       "suitableTypes": [
         "figure",
         "draw",
-        "choice"
+        "choice",
+        "figure-interactive"
       ],
       "difficultyRange": [
         2,
@@ -2835,7 +2839,8 @@
       "suitableTypes": [
         "calculation",
         "fill",
-        "application"
+        "application",
+        "judge"
       ],
       "difficultyRange": [
         2,
@@ -2969,7 +2974,8 @@
       "suitableTypes": [
         "calculation",
         "fill",
-        "application"
+        "application",
+        "choice"
       ],
       "difficultyRange": [
         2,
@@ -3002,7 +3008,8 @@
       "type": "PROCEDURAL",
       "suitableTypes": [
         "calculation",
-        "fill"
+        "fill",
+        "figure"
       ],
       "difficultyRange": [
         3,
@@ -3133,7 +3140,8 @@
       "type": "PROCEDURAL",
       "suitableTypes": [
         "application",
-        "reading"
+        "reading",
+        "fill"
       ],
       "difficultyRange": [
         2,
@@ -3165,7 +3173,8 @@
       "type": "PROCEDURAL",
       "suitableTypes": [
         "calculation",
-        "fill"
+        "fill",
+        "choice"
       ],
       "difficultyRange": [
         2,
@@ -3197,7 +3206,8 @@
       "type": "PROCEDURAL",
       "suitableTypes": [
         "calculation",
-        "fill"
+        "fill",
+        "judge"
       ],
       "difficultyRange": [
         2,
@@ -3460,7 +3470,8 @@
       "type": "PROCEDURAL",
       "suitableTypes": [
         "application",
-        "reading"
+        "reading",
+        "choice"
       ],
       "difficultyRange": [
         2,
@@ -3526,7 +3537,9 @@
       "suitableTypes": [
         "figure",
         "draw",
-        "choice"
+        "choice",
+        "figure-interactive",
+        "fill"
       ],
       "difficultyRange": [
         2,
@@ -3657,7 +3670,8 @@
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
         "calculation",
-        "fill"
+        "fill",
+        "judge"
       ],
       "difficultyRange": [
         1,
@@ -3857,7 +3871,8 @@
       "suitableTypes": [
         "choice",
         "fill",
-        "figure"
+        "figure",
+        "judge"
       ],
       "difficultyRange": [
         1,
@@ -4085,7 +4100,8 @@
       "type": "REPRESENTATIONAL",
       "suitableTypes": [
         "calculation",
-        "fill"
+        "fill",
+        "judge"
       ],
       "difficultyRange": [
         2,
