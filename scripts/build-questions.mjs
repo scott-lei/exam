@@ -35,12 +35,22 @@ const tags = JSON.parse(fs.readFileSync(path.join(root, tagsFile), 'utf8'));
 
 const ALL = { ...LOWER, ...MIDDLE, ...UPPER };
 // ---- 北师大版题库源（卡 10）：按册增量建设，未建册自动走占位 ----
+// 结构：questions-bsd.mjs 手写源（每册 50 题，卡 10 起）+ questions-bsd-ext.mjs 生成扩充（补足至每册 100 题）。
+// 合并顺序：手写题在前（id 001–050），扩充题在后（051 起），保证手写题 id 稳定。
 let BSD_SOURCE = {};
 if (VERSION === 'bsd') {
   try {
     BSD_SOURCE = (await import('./data/questions-bsd.mjs')).BSD || {};
   } catch (e) {
     BSD_SOURCE = {}; // 源文件不存在：维持占位行为
+  }
+  try {
+    const EXT = (await import('./data/questions-bsd-ext.mjs')).BSD_EXT || {};
+    for (const k of Object.keys(EXT)) {
+      BSD_SOURCE[k] = (BSD_SOURCE[k] || []).concat(EXT[k]);
+    }
+  } catch (e) {
+    // 扩充文件不存在：仅用手写源（维持原有行为）
   }
 }
 const pointById = new Map(tags.points.map((p) => [p.id, p]));

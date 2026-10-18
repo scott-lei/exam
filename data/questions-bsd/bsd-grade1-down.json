@@ -4,15 +4,15 @@
   "bookName": "一年级下册（北师大版）",
   "grade": 1,
   "term": "down",
-  "count": 50,
+  "count": 100,
   "typeStat": {
-    "calculation": 8,
-    "judge": 6,
-    "fill": 10,
-    "application": 6,
-    "choice": 12,
+    "calculation": 22,
+    "judge": 8,
+    "fill": 26,
+    "application": 13,
+    "choice": 21,
     "figure": 4,
-    "reading": 2,
+    "reading": 4,
     "figure-interactive": 1,
     "draw": 1
   },
@@ -2395,6 +2395,2283 @@
       },
       "extend": {
         "source": "自编",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-20yndtwjfsjj9-051",
+      "legacyId": "b1d-Q051",
+      "slug": "bsd-b1d-NA-20yndtwjfsjj9-051",
+      "contentHash": "bb2983f7",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-20yndtwjfsjj9",
+      "pointName": "20以内的退位减法（十几减9）",
+      "topics": [
+        "bsd-b1d-NA-20yndtwjfsjj9"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "17 - 9 =",
+      "options": null,
+      "answer": {
+        "value": 8
+      },
+      "analysis": "想：9 和 8 合成 17，所以 17 - 9 = 8。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "20以内的退位减法（十几减9）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-sjj876-052",
+      "legacyId": "b1d-Q052",
+      "slug": "bsd-b1d-NA-sjj876-052",
+      "contentHash": "97683181",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-sjj876",
+      "pointName": "十几减8、7、6",
+      "topics": [
+        "bsd-b1d-NA-sjj876"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "16 - 9 =",
+      "options": null,
+      "answer": {
+        "value": 7
+      },
+      "analysis": "想：9 和 7 合成 16，所以 16 - 9 = 7。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "十几减8、7、6"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-sjj5432-053",
+      "legacyId": "b1d-Q053",
+      "slug": "bsd-b1d-NA-sjj5432-053",
+      "contentHash": "36ba20c9",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-sjj5432",
+      "pointName": "十几减5、4、3、2",
+      "topics": [
+        "bsd-b1d-NA-sjj5432"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "14 - 9 =",
+      "options": null,
+      "answer": {
+        "value": 5
+      },
+      "analysis": "想：9 和 5 合成 14，所以 14 - 9 = 5。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "十几减5、4、3、2"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883-054",
+      "legacyId": "b1d-Q054",
+      "slug": "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883-054",
+      "contentHash": "06fe1cb7",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883",
+      "pointName": "用加减法解决实际问题（图文情境）",
+      "topics": [
+        "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "12 - 7 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 5
+          }
+        ]
+      },
+      "analysis": "用“破十法”：把 12 分成 10 和 2，10 - 7 = 3，2 + 3 = 5。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "用加减法解决实际问题（图文情境）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-cbtwzgctygwt-055",
+      "legacyId": "b1d-Q055",
+      "slug": "bsd-b1d-GG-cbtwzgctygwt-055",
+      "contentHash": "224b26fb",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-02",
+      "knowledgeName": "观察物体",
+      "point": "bsd-b1d-GG-cbtwzgctygwt",
+      "pointName": "从不同位置观察同一个物体",
+      "topics": [
+        "bsd-b1d-GG-cbtwzgctygwt"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "从正面观察一个长方体纸箱，看到的是（ ）。",
+      "options": [
+        "圆",
+        "长方形",
+        "球",
+        "三角形"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "长方体的面都是长方形（有时有两个相对的面是正方形），从正面看是长方形。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "观察物体",
+        "从不同位置观察同一个物体"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-lgwtdxdwzsxqhzy-056",
+      "legacyId": "b1d-Q056",
+      "slug": "bsd-b1d-GG-lgwtdxdwzsxqhzy-056",
+      "contentHash": "ca8798f9",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-02",
+      "knowledgeName": "观察物体",
+      "point": "bsd-b1d-GG-lgwtdxdwzsxqhzy",
+      "pointName": "两个物体的相对位置（上下、前后、左右）",
+      "topics": [
+        "bsd-b1d-GG-lgwtdxdwzsxqhzy"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "三个小朋友观察一个正方体纸箱：小亮从正面看，看到的是正方形；小丽从侧面看，看到的也是正方形；小刚从上面看，看到的是正方形。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "三人看到的形状相同吗？",
+            "answer": {
+              "value": "相同"
+            }
+          }
+        ]
+      },
+      "analysis": "正方体从任何方向看，看到的都是同样大的正方形。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "观察物体",
+        "两个物体的相对位置（上下、前后、左右）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-u6839jgcju679cpdybu8fbe-057",
+      "legacyId": "b1d-Q057",
+      "slug": "bsd-b1d-GG-u6839jgcju679cpdybu8fbe-057",
+      "contentHash": "ad0537d5",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-02",
+      "knowledgeName": "观察物体",
+      "point": "bsd-b1d-GG-u6839jgcju679cpdybu8fbe",
+      "pointName": "根据观察结果判断与表达",
+      "topics": [
+        "bsd-b1d-GG-u6839jgcju679cpdybu8fbe"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "judge",
+      "difficulty": 2,
+      "score": 1,
+      "stem": "从不同的位置观察同一个物体，看到的形状可能不同。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "观察方向不同，看到的形状往往不同，如从侧面和上面看到的形状就不一样。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "观察物体",
+        "根据观察结果判断与表达"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100ynsdsssgsgu5730s-058",
+      "legacyId": "b1d-Q058",
+      "slug": "bsd-b1d-NA-100ynsdsssgsgu5730s-058",
+      "contentHash": "9bb949ae",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-100ynsdsssgsgu5730s",
+      "pointName": "100以内数的数数（十个十个地数）",
+      "topics": [
+        "bsd-b1d-NA-100ynsdsssgsgu5730s"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "10 个十是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 100
+          }
+        ]
+      },
+      "analysis": "10 个十就是一百，写作 100。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "100以内数的数数（十个十个地数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100ynsdzcdxsw-059",
+      "legacyId": "b1d-Q059",
+      "slug": "bsd-b1d-NA-100ynsdzcdxsw-059",
+      "contentHash": "44c837ec",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-100ynsdzcdxsw",
+      "pointName": "100以内数的组成、读写（数位）",
+      "topics": [
+        "bsd-b1d-NA-100ynsdzcdxsw"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "43 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          4,
+          3
+        ]
+      },
+      "analysis": "43 的十位是 4，个位是 3。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "100以内数的组成、读写（数位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100ynsddxbj-060",
+      "legacyId": "b1d-Q060",
+      "slug": "bsd-b1d-NA-100ynsddxbj-060",
+      "contentHash": "b9754310",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-100ynsddxbj",
+      "pointName": "100以内数的大小比较",
+      "topics": [
+        "bsd-b1d-NA-100ynsddxbj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "24 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          2,
+          4
+        ]
+      },
+      "analysis": "24 的十位是 2，个位是 4。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "100以内数的大小比较"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms-061",
+      "legacyId": "b1d-Q061",
+      "slug": "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms-061",
+      "contentHash": "c0ae4496",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms",
+      "pointName": "多一些、少一些、多得多、少得多的描述",
+      "topics": [
+        "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "78 和 68 比，（ ）大。",
+      "options": [
+        "68",
+        "同样大",
+        "78"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "比较两位数先看十位：78 的十位是 7，68 的十位是 6。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "多一些、少一些、多得多、少得多的描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-rspmtxcfxzfxsjxy-062",
+      "legacyId": "b1d-Q062",
+      "slug": "bsd-b1d-GG-rspmtxcfxzfxsjxy-062",
+      "contentHash": "80a921d7",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-04",
+      "knowledgeName": "有趣的图形",
+      "point": "bsd-b1d-GG-rspmtxcfxzfxsjxy",
+      "pointName": "认识平面图形（长方形、正方形、三角形、圆）",
+      "topics": [
+        "bsd-b1d-GG-rspmtxcfxzfxsjxy"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 1,
+      "score": 1,
+      "stem": "正方形和长方形都有 4 条边、4 个直角。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "正方形是特殊的长方形，四条边都相等；它们都有 4 个直角。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "有趣的图形",
+        "认识平面图形（长方形、正方形、三角形、圆）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-txdpzyu4e03u5de7u677f-063",
+      "legacyId": "b1d-Q063",
+      "slug": "bsd-b1d-GG-txdpzyu4e03u5de7u677f-063",
+      "contentHash": "d1396182",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-04",
+      "knowledgeName": "有趣的图形",
+      "point": "bsd-b1d-GG-txdpzyu4e03u5de7u677f",
+      "pointName": "图形的拼组与七巧板",
+      "topics": [
+        "bsd-b1d-GG-txdpzyu4e03u5de7u677f"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "七巧板是由 ( ) 块板组成的。",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "8"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "七巧板由 5 个三角形、1 个正方形和 1 个平行四边形共 7 块组成。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "有趣的图形",
+        "图形的拼组与七巧板"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-txdu6b23u8d4fysj-064",
+      "legacyId": "b1d-Q064",
+      "slug": "bsd-b1d-GG-txdu6b23u8d4fysj-064",
+      "contentHash": "98fe4e72",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-04",
+      "knowledgeName": "有趣的图形",
+      "point": "bsd-b1d-GG-txdu6b23u8d4fysj",
+      "pointName": "图形的欣赏与设计",
+      "topics": [
+        "bsd-b1d-GG-txdu6b23u8d4fysj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用两个完全一样的直角三角形，可以拼成一个（ ）。",
+      "options": [
+        "球",
+        "扇形",
+        "长方形",
+        "圆"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "两个完全一样的直角三角形沿一条直角边拼起来就得到一个长方形。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "有趣的图形",
+        "图形的欣赏与设计"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-zssjjzss-065",
+      "legacyId": "b1d-Q065",
+      "slug": "bsd-b1d-NA-zssjjzss-065",
+      "contentHash": "c73dd73d",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-zssjjzss",
+      "pointName": "整十数加、减整十数",
+      "topics": [
+        "bsd-b1d-NA-zssjjzss"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "50 + 60 =",
+      "options": null,
+      "answer": {
+        "value": 110
+      },
+      "analysis": "整十数相加，只要把十位上的数相加，再在末尾添 0：50 + 60 = 110。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "整十数加、减整十数"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-lwsjlwsbjw-066",
+      "legacyId": "b1d-Q066",
+      "slug": "bsd-b1d-NA-lwsjlwsbjw-066",
+      "contentHash": "dd6a5b3a",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-lwsjlwsbjw",
+      "pointName": "两位数加两位数（不进位）",
+      "topics": [
+        "bsd-b1d-NA-lwsjlwsbjw"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "30 + 20 =",
+      "options": null,
+      "answer": {
+        "value": 50
+      },
+      "analysis": "整十数相加，只要把十位上的数相加，再在末尾添 0：30 + 20 = 50。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "两位数加两位数（不进位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-lwsjywsjw-067",
+      "legacyId": "b1d-Q067",
+      "slug": "bsd-b1d-NA-lwsjywsjw-067",
+      "contentHash": "7b3a9a58",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-lwsjywsjw",
+      "pointName": "两位数加一位数（进位）",
+      "topics": [
+        "bsd-b1d-NA-lwsjywsjw"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "60 + 30 =",
+      "options": null,
+      "answer": {
+        "value": 90
+      },
+      "analysis": "整十数相加，只要把十位上的数相加，再在末尾添 0：60 + 30 = 90。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "两位数加一位数（进位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-lwsjywszss-068",
+      "legacyId": "b1d-Q068",
+      "slug": "bsd-b1d-NA-lwsjywszss-068",
+      "contentHash": "c86c7e22",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-lwsjywszss",
+      "pointName": "两位数减一位数、整十数",
+      "topics": [
+        "bsd-b1d-NA-lwsjywszss"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "20 + 40 =",
+      "options": null,
+      "answer": {
+        "value": 60
+      },
+      "analysis": "整十数相加，只要把十位上的数相加，再在末尾添 0：20 + 40 = 60。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "两位数减一位数、整十数"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndjwjflwsjyws-069",
+      "legacyId": "b1d-Q069",
+      "slug": "bsd-b1d-NA-100yndjwjflwsjyws-069",
+      "contentHash": "6a7e8b84",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndjwjflwsjyws",
+      "pointName": "100以内的进位加法（两位数加一位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndjwjflwsjyws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "61 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          6,
+          1
+        ]
+      },
+      "analysis": "61 的十位是 6，个位是 1。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的进位加法（两位数加一位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndjwjflwsjlws-070",
+      "legacyId": "b1d-Q070",
+      "slug": "bsd-b1d-NA-100yndjwjflwsjlws-070",
+      "contentHash": "5f13f8fe",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndjwjflwsjlws",
+      "pointName": "100以内的进位加法（两位数加两位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndjwjflwsjlws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "50 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          5,
+          0
+        ]
+      },
+      "analysis": "50 的十位是 5，个位是 0。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的进位加法（两位数加两位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndtwjflwsjyws-071",
+      "legacyId": "b1d-Q071",
+      "slug": "bsd-b1d-NA-100yndtwjflwsjyws-071",
+      "contentHash": "dd4a5827",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndtwjflwsjyws",
+      "pointName": "100以内的退位减法（两位数减一位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndtwjflwsjyws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "16 - 8 =",
+      "options": null,
+      "answer": {
+        "value": 8
+      },
+      "analysis": "想：8 和 8 合成 16，所以 16 - 8 = 8。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的退位减法（两位数减一位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndtwjflwsjlws-072",
+      "legacyId": "b1d-Q072",
+      "slug": "bsd-b1d-NA-100yndtwjflwsjlws-072",
+      "contentHash": "44e95a7d",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndtwjflwsjlws",
+      "pointName": "100以内的退位减法（两位数减两位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndtwjflwsjlws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "15 - 8 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 7
+          }
+        ]
+      },
+      "analysis": "用“破十法”：把 15 分成 10 和 5，10 - 8 = 2，5 + 2 = 7。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的退位减法（两位数减两位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-yjjfjjlbsjwt-073",
+      "legacyId": "b1d-Q073",
+      "slug": "bsd-b1d-NA-yjjfjjlbsjwt-073",
+      "contentHash": "de670404",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-yjjfjjlbsjwt",
+      "pointName": "用加减法解决两步实际问题",
+      "topics": [
+        "bsd-b1d-NA-yjjfjjlbsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "有 16 个气球，飞走了 8 个，还剩 ( ) 个。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 8,
+            "unit": "个"
+          }
+        ]
+      },
+      "analysis": "求还剩多少，用减法：16 - 8 = 8。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "用加减法解决两步实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs-074",
+      "legacyId": "b1d-Q074",
+      "slug": "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs-074",
+      "contentHash": "2147dde0",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b1d-CP-07",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs",
+      "pointName": "填数游戏（数表中按规律填数）",
+      "topics": [
+        "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "按规律填数：5、7、9、11、( )。",
+      "options": [
+        "13",
+        "15",
+        "11",
+        "14"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "后一个数比前一个数多 2，所以括号里是 13。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "填数游戏（数表中按规律填数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-CP-sxu6e38u620fzdjdtl-075",
+      "legacyId": "b1d-Q075",
+      "slug": "bsd-b1d-CP-sxu6e38u620fzdjdtl-075",
+      "contentHash": "c46dcac1",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b1d-CP-07",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b1d-CP-sxu6e38u620fzdjdtl",
+      "pointName": "数学游戏中的简单推理",
+      "topics": [
+        "bsd-b1d-CP-sxu6e38u620fzdjdtl"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "按规律填数：1、4、7、10、( )。",
+      "options": [
+        "10",
+        "13",
+        "16",
+        "14"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "后一个数比前一个数多 3，所以括号里是 13。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "数学游戏中的简单推理"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-CP-shzdsxwt-076",
+      "legacyId": "b1d-Q076",
+      "slug": "bsd-b1d-CP-shzdsxwt-076",
+      "contentHash": "9039f4d5",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b1d-CP-07",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b1d-CP-shzdsxwt",
+      "pointName": "生活中的数学问题",
+      "topics": [
+        "bsd-b1d-CP-shzdsxwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小明有 6 张贴纸，小红比小明多 3 张，两人一共有 ( ) 张。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 15,
+            "unit": "张"
+          }
+        ]
+      },
+      "analysis": "小红有 6 + 3 = 9 张，一共 6 + 9 = 15 张。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "生活中的数学问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-20yndtwjfsjj9-077",
+      "legacyId": "b1d-Q077",
+      "slug": "bsd-b1d-NA-20yndtwjfsjj9-077",
+      "contentHash": "b1377472",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-20yndtwjfsjj9",
+      "pointName": "20以内的退位减法（十几减9）",
+      "topics": [
+        "bsd-b1d-NA-20yndtwjfsjj9"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "15 - 5 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 10
+          }
+        ]
+      },
+      "analysis": "用“破十法”：把 15 分成 10 和 5，10 - 5 = 5，5 + 5 = 10。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "20以内的退位减法（十几减9）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-sjj876-078",
+      "legacyId": "b1d-Q078",
+      "slug": "bsd-b1d-NA-sjj876-078",
+      "contentHash": "602b6f17",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-sjj876",
+      "pointName": "十几减8、7、6",
+      "topics": [
+        "bsd-b1d-NA-sjj876"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "14 - 6 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 8
+          }
+        ]
+      },
+      "analysis": "用“破十法”：把 14 分成 10 和 4，10 - 6 = 4，4 + 4 = 8。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "十几减8、7、6"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-sjj5432-079",
+      "legacyId": "b1d-Q079",
+      "slug": "bsd-b1d-NA-sjj5432-079",
+      "contentHash": "5cc5d467",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-sjj5432",
+      "pointName": "十几减5、4、3、2",
+      "topics": [
+        "bsd-b1d-NA-sjj5432"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "16 - 7 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 9
+          }
+        ]
+      },
+      "analysis": "用“破十法”：把 16 分成 10 和 6，10 - 7 = 3，6 + 3 = 9。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "十几减5、4、3、2"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883-080",
+      "legacyId": "b1d-Q080",
+      "slug": "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883-080",
+      "contentHash": "e4b76c31",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883",
+      "pointName": "用加减法解决实际问题（图文情境）",
+      "topics": [
+        "bsd-b1d-NA-yjjfjjsjwttwu60c5u5883"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "13 - 8 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 5
+          }
+        ]
+      },
+      "analysis": "用“破十法”：把 13 分成 10 和 3，10 - 8 = 2，3 + 2 = 5。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "用加减法解决实际问题（图文情境）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-lgwtdxdwzsxqhzy-081",
+      "legacyId": "b1d-Q081",
+      "slug": "bsd-b1d-GG-lgwtdxdwzsxqhzy-081",
+      "contentHash": "92c60243",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-02",
+      "knowledgeName": "观察物体",
+      "point": "bsd-b1d-GG-lgwtdxdwzsxqhzy",
+      "pointName": "两个物体的相对位置（上下、前后、左右）",
+      "topics": [
+        "bsd-b1d-GG-lgwtdxdwzsxqhzy"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "reading",
+      "difficulty": 2,
+      "score": 6,
+      "stem": "小明的文具盒在书包的下面，课本在文具盒的上面。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "课本在文具盒的哪一面？",
+            "answer": {
+              "value": "上面",
+              "unit": ""
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "书包在文具盒的哪一面？",
+            "answer": {
+              "value": "上面",
+              "unit": ""
+            }
+          }
+        ]
+      },
+      "analysis": "确定位置要先选定一个标准物体，再看另一个物体在它的上、下、左、右、前、后哪一面。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "观察物体",
+        "两个物体的相对位置（上下、前后、左右）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100ynsdsssgsgu5730s-082",
+      "legacyId": "b1d-Q082",
+      "slug": "bsd-b1d-NA-100ynsdsssgsgu5730s-082",
+      "contentHash": "edd72c5c",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-100ynsdsssgsgu5730s",
+      "pointName": "100以内数的数数（十个十个地数）",
+      "topics": [
+        "bsd-b1d-NA-100ynsdsssgsgu5730s"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "47 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          4,
+          7
+        ]
+      },
+      "analysis": "47 的十位是 4，个位是 7。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "100以内数的数数（十个十个地数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100ynsdzcdxsw-083",
+      "legacyId": "b1d-Q083",
+      "slug": "bsd-b1d-NA-100ynsdzcdxsw-083",
+      "contentHash": "146be4e0",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-100ynsdzcdxsw",
+      "pointName": "100以内数的组成、读写（数位）",
+      "topics": [
+        "bsd-b1d-NA-100ynsdzcdxsw"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "41 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          4,
+          1
+        ]
+      },
+      "analysis": "41 的十位是 4，个位是 1。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "100以内数的组成、读写（数位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100ynsddxbj-084",
+      "legacyId": "b1d-Q084",
+      "slug": "bsd-b1d-NA-100ynsddxbj-084",
+      "contentHash": "e60542c8",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-100ynsddxbj",
+      "pointName": "100以内数的大小比较",
+      "topics": [
+        "bsd-b1d-NA-100ynsddxbj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "23 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          2,
+          3
+        ]
+      },
+      "analysis": "23 的十位是 2，个位是 3。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "100以内数的大小比较"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms-085",
+      "legacyId": "b1d-Q085",
+      "slug": "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms-085",
+      "contentHash": "fa097214",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-03",
+      "knowledgeName": "生活中的数",
+      "point": "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms",
+      "pointName": "多一些、少一些、多得多、少得多的描述",
+      "topics": [
+        "bsd-b1d-NA-dyu4e9bsyu4e9bdu5f97dsu5f97ddms"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "65 比 56 少 了 1，可以说 65 比 56 ( )。",
+      "options": [
+        "同样多",
+        "多得多",
+        "少一些",
+        "少得多"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "两个数只差 1，差距很小，用“一些”描述。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "生活中的数",
+        "多一些、少一些、多得多、少得多的描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-rspmtxcfxzfxsjxy-086",
+      "legacyId": "b1d-Q086",
+      "slug": "bsd-b1d-GG-rspmtxcfxzfxsjxy-086",
+      "contentHash": "f8da8735",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-04",
+      "knowledgeName": "有趣的图形",
+      "point": "bsd-b1d-GG-rspmtxcfxzfxsjxy",
+      "pointName": "认识平面图形（长方形、正方形、三角形、圆）",
+      "topics": [
+        "bsd-b1d-GG-rspmtxcfxzfxsjxy"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "硬币的面是（ ）形。",
+      "options": [
+        "正方",
+        "圆",
+        "长方",
+        "三角"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "硬币的面是圆圆的，没有角，是圆形。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "有趣的图形",
+        "认识平面图形（长方形、正方形、三角形、圆）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-GG-txdu6b23u8d4fysj-087",
+      "legacyId": "b1d-Q087",
+      "slug": "bsd-b1d-GG-txdu6b23u8d4fysj-087",
+      "contentHash": "4392b928",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b1d-GG-04",
+      "knowledgeName": "有趣的图形",
+      "point": "bsd-b1d-GG-txdu6b23u8d4fysj",
+      "pointName": "图形的欣赏与设计",
+      "topics": [
+        "bsd-b1d-GG-txdu6b23u8d4fysj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "风车转动时，风车的叶片属于（ ）现象。",
+      "options": [
+        "平移",
+        "对称",
+        "旋转",
+        "滑动"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "风车叶片绕中心转动，属于旋转现象。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "图形与几何",
+        "有趣的图形",
+        "图形的欣赏与设计"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-zssjjzss-088",
+      "legacyId": "b1d-Q088",
+      "slug": "bsd-b1d-NA-zssjjzss-088",
+      "contentHash": "5be583a7",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-zssjjzss",
+      "pointName": "整十数加、减整十数",
+      "topics": [
+        "bsd-b1d-NA-zssjjzss"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "47 + 35 =",
+      "options": null,
+      "answer": {
+        "value": 82
+      },
+      "analysis": "个位相加满十要向十位进 1：7 + 5 = 12，47 + 35 = 82。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "整十数加、减整十数"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-lwsjlwsbjw-089",
+      "legacyId": "b1d-Q089",
+      "slug": "bsd-b1d-NA-lwsjlwsbjw-089",
+      "contentHash": "8e68309f",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-lwsjlwsbjw",
+      "pointName": "两位数加两位数（不进位）",
+      "topics": [
+        "bsd-b1d-NA-lwsjlwsbjw"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "43 + 38 =",
+      "options": null,
+      "answer": {
+        "value": 81
+      },
+      "analysis": "个位相加满十要向十位进 1：3 + 8 = 11，43 + 38 = 81。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "两位数加两位数（不进位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-lwsjywsjw-090",
+      "legacyId": "b1d-Q090",
+      "slug": "bsd-b1d-NA-lwsjywsjw-090",
+      "contentHash": "e4d17b17",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-lwsjywsjw",
+      "pointName": "两位数加一位数（进位）",
+      "topics": [
+        "bsd-b1d-NA-lwsjywsjw"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "43 + 19 =",
+      "options": null,
+      "answer": {
+        "value": 62
+      },
+      "analysis": "个位相加满十要向十位进 1：3 + 9 = 12，43 + 19 = 62。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "两位数加一位数（进位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-lwsjywszss-091",
+      "legacyId": "b1d-Q091",
+      "slug": "bsd-b1d-NA-lwsjywszss-091",
+      "contentHash": "1daaf3d2",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-05",
+      "knowledgeName": "加与减（二）",
+      "point": "bsd-b1d-NA-lwsjywszss",
+      "pointName": "两位数减一位数、整十数",
+      "topics": [
+        "bsd-b1d-NA-lwsjywszss"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "24 + 24 =",
+      "options": null,
+      "answer": {
+        "value": 48
+      },
+      "analysis": "个位相加满十要向十位进 1：4 + 4 = 8，24 + 24 = 48。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（二）",
+        "两位数减一位数、整十数"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndjwjflwsjyws-092",
+      "legacyId": "b1d-Q092",
+      "slug": "bsd-b1d-NA-100yndjwjflwsjyws-092",
+      "contentHash": "e8b8e06a",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndjwjflwsjyws",
+      "pointName": "100以内的进位加法（两位数加一位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndjwjflwsjyws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "75 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          7,
+          5
+        ]
+      },
+      "analysis": "75 的十位是 7，个位是 5。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的进位加法（两位数加一位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndjwjflwsjlws-093",
+      "legacyId": "b1d-Q093",
+      "slug": "bsd-b1d-NA-100yndjwjflwsjlws-093",
+      "contentHash": "49ecc82a",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndjwjflwsjlws",
+      "pointName": "100以内的进位加法（两位数加两位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndjwjflwsjlws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "50 + 20 =",
+      "options": null,
+      "answer": {
+        "value": 70
+      },
+      "analysis": "整十数相加，只要把十位上的数相加，再在末尾添 0：50 + 20 = 70。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的进位加法（两位数加两位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndtwjflwsjyws-094",
+      "legacyId": "b1d-Q094",
+      "slug": "bsd-b1d-NA-100yndtwjflwsjyws-094",
+      "contentHash": "3d6579f0",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndtwjflwsjyws",
+      "pointName": "100以内的退位减法（两位数减一位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndtwjflwsjyws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "有 14 个气球，飞走了 8 个，还剩 ( ) 个。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 6,
+            "unit": "个"
+          }
+        ]
+      },
+      "analysis": "求还剩多少，用减法：14 - 8 = 6。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的退位减法（两位数减一位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-100yndtwjflwsjlws-095",
+      "legacyId": "b1d-Q095",
+      "slug": "bsd-b1d-NA-100yndtwjflwsjlws-095",
+      "contentHash": "c04733d2",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-100yndtwjflwsjlws",
+      "pointName": "100以内的退位减法（两位数减两位数）",
+      "topics": [
+        "bsd-b1d-NA-100yndtwjflwsjlws"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "36 里面有 ( ) 个十和 ( ) 个一。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          3,
+          6
+        ]
+      },
+      "analysis": "36 的十位是 3，个位是 6。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "100以内的退位减法（两位数减两位数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-yjjfjjlbsjwt-096",
+      "legacyId": "b1d-Q096",
+      "slug": "bsd-b1d-NA-yjjfjjlbsjwt-096",
+      "contentHash": "a524626c",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-06",
+      "knowledgeName": "加与减（三）",
+      "point": "bsd-b1d-NA-yjjfjjlbsjwt",
+      "pointName": "用加减法解决两步实际问题",
+      "topics": [
+        "bsd-b1d-NA-yjjfjjlbsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "有 13 个气球，飞走了 9 个，还剩 ( ) 个。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 4,
+            "unit": "个"
+          }
+        ]
+      },
+      "analysis": "求还剩多少，用减法：13 - 9 = 4。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（三）",
+        "用加减法解决两步实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs-097",
+      "legacyId": "b1d-Q097",
+      "slug": "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs-097",
+      "contentHash": "bfd91743",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b1d-CP-07",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs",
+      "pointName": "填数游戏（数表中按规律填数）",
+      "topics": [
+        "bsd-b1d-CP-u586bsu6e38u620fsbzaglu586bs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小明有 4 张贴纸，小红比小明多 3 张，两人一共有 ( ) 张。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 11,
+            "unit": "张"
+          }
+        ]
+      },
+      "analysis": "小红有 4 + 3 = 7 张，一共 4 + 7 = 11 张。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "填数游戏（数表中按规律填数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-CP-sxu6e38u620fzdjdtl-098",
+      "legacyId": "b1d-Q098",
+      "slug": "bsd-b1d-CP-sxu6e38u620fzdjdtl-098",
+      "contentHash": "6ce8f20f",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b1d-CP-07",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b1d-CP-sxu6e38u620fzdjdtl",
+      "pointName": "数学游戏中的简单推理",
+      "topics": [
+        "bsd-b1d-CP-sxu6e38u620fzdjdtl"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小明有 8 张贴纸，小红比小明多 3 张，两人一共有 ( ) 张。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 19,
+            "unit": "张"
+          }
+        ]
+      },
+      "analysis": "小红有 8 + 3 = 11 张，一共 8 + 11 = 19 张。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "数学游戏中的简单推理"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-CP-shzdsxwt-099",
+      "legacyId": "b1d-Q099",
+      "slug": "bsd-b1d-CP-shzdsxwt-099",
+      "contentHash": "5409da4a",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b1d-CP-07",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b1d-CP-shzdsxwt",
+      "pointName": "生活中的数学问题",
+      "topics": [
+        "bsd-b1d-CP-shzdsxwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小明有 5 张贴纸，小红比小明多 3 张，两人一共有 ( ) 张。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 13,
+            "unit": "张"
+          }
+        ]
+      },
+      "analysis": "小红有 5 + 3 = 8 张，一共 5 + 8 = 13 张。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "生活中的数学问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b1d-NA-sjj876-100",
+      "legacyId": "b1d-Q100",
+      "slug": "bsd-b1d-NA-sjj876-100",
+      "contentHash": "a29f90fb",
+      "grade": 1,
+      "book": "bsd-grade1-down",
+      "bookName": "一年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b1d-NA-01",
+      "knowledgeName": "加与减（一）",
+      "point": "bsd-b1d-NA-sjj876",
+      "pointName": "十几减8、7、6",
+      "topics": [
+        "bsd-b1d-NA-sjj876"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "13 - 8 =",
+      "options": null,
+      "answer": {
+        "value": 5
+      },
+      "analysis": "想：8 和 5 合成 13，所以 13 - 8 = 5。",
+      "tags": [
+        "一年级下册（北师大版）",
+        "数与代数",
+        "加与减（一）",
+        "十几减8、7、6"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
         "autoGraded": true,
         "tolerance": 0
       }

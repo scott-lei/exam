@@ -4,9 +4,4685 @@
   "bookName": "四年级上册（北师大版）",
   "grade": 4,
   "term": "up",
-  "count": 0,
-  "typeStat": {},
-  "questions": [],
-  "placeholder": true,
-  "note": "北师大版题库尚未建设，此文件为构建占位；补充题目后重跑 VERSION=bsd node scripts/build-questions.mjs。"
+  "count": 100,
+  "typeStat": {
+    "choice": 38,
+    "fill": 24,
+    "judge": 5,
+    "figure": 1,
+    "calculation": 22,
+    "reading": 4,
+    "application": 6
+  },
+  "questions": [
+    {
+      "id": "bsd-b4u-NA-yynsdrsswyjsdw-001",
+      "legacyId": "b4u-Q001",
+      "slug": "bsd-b4u-NA-yynsdrsswyjsdw-001",
+      "contentHash": "3c347cfc",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yynsdrsswyjsdw",
+      "pointName": "亿以内数的认识（数位与计数单位）",
+      "topics": [
+        "bsd-b4u-NA-yynsdrsswyjsdw"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "下面哪个数读作“四千零一”？",
+      "options": [
+        "1004",
+        "40010",
+        "5001",
+        "4001"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "读数从高位读起，末尾的 0 不读。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以内数的认识（数位与计数单位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddfhxf-002",
+      "legacyId": "b4u-Q002",
+      "slug": "bsd-b4u-NA-dsddfhxf-002",
+      "contentHash": "76ffe57c",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddfhxf",
+      "pointName": "大数的读法和写法",
+      "topics": [
+        "bsd-b4u-NA-dsddfhxf"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "下面哪个数读作“六千零四”？",
+      "options": [
+        "6204",
+        "4026",
+        "62040",
+        "7204"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "读数从高位读起，末尾的 0 不读。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的读法和写法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddxbj-003",
+      "legacyId": "b4u-Q003",
+      "slug": "bsd-b4u-NA-dsddxbj-003",
+      "contentHash": "681ff097",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddxbj",
+      "pointName": "大数的大小比较",
+      "topics": [
+        "bsd-b4u-NA-dsddxbj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "374329 和 844970 比，（ ）大。",
+      "options": [
+        "844970",
+        "374329",
+        "同样大"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "位数相同，从最高位起依次比较。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的大小比较"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-qjsssswrf-004",
+      "legacyId": "b4u-Q004",
+      "slug": "bsd-b4u-NA-qjsssswrf-004",
+      "contentHash": "daf696ee",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-qjsssswrf",
+      "pointName": "求近似数（四舍五入法）",
+      "topics": [
+        "bsd-b4u-NA-qjsssswrf"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "把 9147 四舍五入到千位，约是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 9000
+          }
+        ]
+      },
+      "analysis": "看百位：9147 的百位是 1，小于 5 舍去，约是 9000。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "求近似数（四舍五入法）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yyssdrsyjsf-005",
+      "legacyId": "b4u-Q005",
+      "slug": "bsd-b4u-NA-yyssdrsyjsf-005",
+      "contentHash": "6cfd0e3e",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yyssdrsyjsf",
+      "pointName": "亿以上数的认识与计数法",
+      "topics": [
+        "bsd-b4u-NA-yyssdrsyjsf"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "下面哪个数读作“七千零四”？",
+      "options": [
+        "7704",
+        "77040",
+        "8704",
+        "4077"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "读数从高位读起，末尾的 0 不读。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以上数的认识与计数法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-xdrszxsxxd-006",
+      "legacyId": "b4u-Q006",
+      "slug": "bsd-b4u-GG-xdrszxsxxd-006",
+      "contentHash": "7006f63c",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-xdrszxsxxd",
+      "pointName": "线的认识（直线、射线、线段）",
+      "topics": [
+        "bsd-b4u-GG-xdrszxsxxd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "一条线段有 ( ) 个端点。",
+      "options": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "线段是直的，有两个端点，可以量出长度。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "线的认识（直线、射线、线段）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-xjycz-007",
+      "legacyId": "b4u-Q007",
+      "slug": "bsd-b4u-GG-xjycz-007",
+      "contentHash": "00449282",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-xjycz",
+      "pointName": "相交与垂直",
+      "topics": [
+        "bsd-b4u-GG-xjycz"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "两条直线相交成直角时，这两条直线（ ）。",
+      "options": [
+        "长度相等",
+        "互相垂直",
+        "互相平行",
+        "没有关系"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "两条直线相交成直角，就说这两条直线互相垂直，其中一条叫另一条的垂线。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "相交与垂直"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-pyypx-008",
+      "legacyId": "b4u-Q008",
+      "slug": "bsd-b4u-GG-pyypx-008",
+      "contentHash": "380364b6",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-pyypx",
+      "pointName": "平移与平行",
+      "topics": [
+        "bsd-b4u-GG-pyypx"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 2,
+      "score": 1,
+      "stem": "同一平面内，不相交的两条直线互相平行。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "平行的前提是“同一平面内”且“不相交”。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "平移与平行"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-xzyj-009",
+      "legacyId": "b4u-Q009",
+      "slug": "bsd-b4u-GG-xzyj-009",
+      "contentHash": "c6b41189",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-xzyj",
+      "pointName": "旋转与角",
+      "topics": [
+        "bsd-b4u-GG-xzyj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "直角是 ( ) 度。",
+      "options": [
+        "90",
+        "180",
+        "60",
+        "45"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "直角是 90 度，1 个周角是 360 度。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "旋转与角"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-jddlyljq-010",
+      "legacyId": "b4u-Q010",
+      "slug": "bsd-b4u-GG-jddlyljq-010",
+      "contentHash": "2cb398ee",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-jddlyljq",
+      "pointName": "角的度量与量角器",
+      "topics": [
+        "bsd-b4u-GG-jddlyljq"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 3,
+      "stem": "下图中的角是多少度？用量角器量一量。",
+      "options": null,
+      "answer": {
+        "value": 46,
+        "unit": "度"
+      },
+      "analysis": "量角时把量角器的中心与角的顶点重合，0 刻度线与一条边重合，另一条边对着的刻度就是角的度数，是 46 度。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "角的度量与量角器"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 200,
+        "height": 150,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 150\" width=\"200\" height=\"150\" style=\"max-width:100%;height:auto\"><path d=\"M30,110 L170,110\" stroke=\"#1e293b\" stroke-width=\"3\"/><path d=\"M30,110 L30,40\" stroke=\"#1e293b\" stroke-width=\"3\"/><path d=\"M30,90 A20,20 0 0 0 50,110\" fill=\"none\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><text x=\"52\" y=\"100\" font-size=\"15\" fill=\"#ec4899\">?</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-swsclwsdbs-011",
+      "legacyId": "b4u-Q011",
+      "slug": "bsd-b4u-NA-swsclwsdbs-011",
+      "contentHash": "9cebf1f7",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-swsclwsdbs",
+      "pointName": "三位数乘两位数的笔算",
+      "topics": [
+        "bsd-b4u-NA-swsclwsdbs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "175 × 20 =",
+      "options": null,
+      "answer": {
+        "value": 3500
+      },
+      "analysis": "三位数乘两位数，用两位数个位和十位上的数分别去乘 175，再把两次积相加：175 × 20 = 3500。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "三位数乘两位数的笔算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dscfdgsyyy-012",
+      "legacyId": "b4u-Q012",
+      "slug": "bsd-b4u-NA-dscfdgsyyy-012",
+      "contentHash": "1423b524",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-dscfdgsyyy",
+      "pointName": "大数乘法的估算与应用",
+      "topics": [
+        "bsd-b4u-NA-dscfdgsyyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "估算 210 × 23，下面最接近的是 ( )",
+      "options": [
+        "4200",
+        "3700",
+        "5200",
+        "4830"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "把 210 看作 210，23 看作 20，积大约是 4200。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "大数乘法的估算与应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-jsgu5177dyy-013",
+      "legacyId": "b4u-Q013",
+      "slug": "bsd-b4u-NA-jsgu5177dyy-013",
+      "contentHash": "74792085",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-jsgu5177dyy",
+      "pointName": "计算工具的运用",
+      "topics": [
+        "bsd-b4u-NA-jsgu5177dyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用计算器计算 860 + 336 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 1196
+          }
+        ]
+      },
+      "analysis": "用计算器输入时注意核对数字，860 + 336 = 1196。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "计算工具的运用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yu8da3dsstsgl-014",
+      "legacyId": "b4u-Q014",
+      "slug": "bsd-b4u-NA-yu8da3dsstsgl-014",
+      "contentHash": "898ca6eb",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-yu8da3dsstsgl",
+      "pointName": "有趣的算式（探索规律）",
+      "topics": [
+        "bsd-b4u-NA-yu8da3dsstsgl"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用计算器计算 710 + 473 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 1183
+          }
+        ]
+      },
+      "analysis": "用计算器输入时注意核对数字，710 + 473 = 1183。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "有趣的算式（探索规律）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-jfjhlhjhl-015",
+      "legacyId": "b4u-Q015",
+      "slug": "bsd-b4u-NA-jfjhlhjhl-015",
+      "contentHash": "ea2dcf15",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-jfjhlhjhl",
+      "pointName": "加法交换律和结合律",
+      "topics": [
+        "bsd-b4u-NA-jfjhlhjhl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "3 × 2 × 2 =",
+      "options": null,
+      "answer": {
+        "value": 12
+      },
+      "analysis": "运用乘法交换律和结合律，先算 3 × 2 = 6（能凑整），再算 6 × 2 = 12。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "加法交换律和结合律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-cfjhlhjhl-016",
+      "legacyId": "b4u-Q016",
+      "slug": "bsd-b4u-NA-cfjhlhjhl-016",
+      "contentHash": "11efb695",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-cfjhlhjhl",
+      "pointName": "乘法交换律和结合律",
+      "topics": [
+        "bsd-b4u-NA-cfjhlhjhl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "6 × 9 × 8 =",
+      "options": null,
+      "answer": {
+        "value": 432
+      },
+      "analysis": "运用乘法交换律和结合律，先算 6 × 8 = 48（能凑整），再算 48 × 9 = 432。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "乘法交换律和结合律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-cffpl-017",
+      "legacyId": "b4u-Q017",
+      "slug": "bsd-b4u-NA-cffpl-017",
+      "contentHash": "f60ee1f0",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-cffpl",
+      "pointName": "乘法分配律",
+      "topics": [
+        "bsd-b4u-NA-cffpl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "8 × 2 × 7 =",
+      "options": null,
+      "answer": {
+        "value": 112
+      },
+      "analysis": "运用乘法交换律和结合律，先算 8 × 7 = 56（能凑整），再算 56 × 2 = 112。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "乘法分配律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yyysljxjbjs-018",
+      "legacyId": "b4u-Q018",
+      "slug": "bsd-b4u-NA-yyysljxjbjs-018",
+      "contentHash": "9f2bdca0",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-yyysljxjbjs",
+      "pointName": "运用运算律进行简便计算",
+      "topics": [
+        "bsd-b4u-NA-yyysljxjbjs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "5 × 2 × 7 =",
+      "options": null,
+      "answer": {
+        "value": 70
+      },
+      "analysis": "运用乘法交换律和结合律，先算 5 × 7 = 35（能凑整），再算 35 × 2 = 70。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "运用运算律进行简便计算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-ysdqdwz-019",
+      "legacyId": "b4u-Q019",
+      "slug": "bsd-b4u-GG-ysdqdwz-019",
+      "contentHash": "f68829cb",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-ysdqdwz",
+      "pointName": "用数对确定位置",
+      "topics": [
+        "bsd-b4u-GG-ysdqdwz"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "数对 (3, 4) 中的 3 表示第 ( ) 列，4 表示第 ( ) 行。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          3,
+          4
+        ]
+      },
+      "analysis": "数对中第一个数表示列，第二个数表示行。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "用数对确定位置"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-u6839jfxhjlqdwz-020",
+      "legacyId": "b4u-Q020",
+      "slug": "bsd-b4u-GG-u6839jfxhjlqdwz-020",
+      "contentHash": "7758ee25",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-u6839jfxhjlqdwz",
+      "pointName": "根据方向和距离确定位置",
+      "topics": [
+        "bsd-b4u-GG-u6839jfxhjlqdwz"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "以学校为观测点，小明家在学校的东面；那么以小明家为观测点，学校在小明家的（ ）面。",
+      "options": [
+        "南",
+        "西",
+        "东",
+        "北"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "观测点互换后方向相反：东的反方向是西，距离不变。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "根据方向和距离确定位置"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-msjddlxt-021",
+      "legacyId": "b4u-Q021",
+      "slug": "bsd-b4u-GG-msjddlxt-021",
+      "contentHash": "5099d5b6",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-msjddlxt",
+      "pointName": "描述简单的路线图",
+      "topics": [
+        "bsd-b4u-GG-msjddlxt"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "小明从家到学校的路线：从家出发向东走 200 米到书店，再向北走 300 米到学校。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "小明从家到学校一共要走多少米？",
+            "answer": {
+              "value": 500,
+              "unit": "米"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "学校在书店的什么方向？",
+            "answer": {
+              "value": "北",
+              "unit": ""
+            }
+          }
+        ]
+      },
+      "analysis": "描述路线要说清楚方向和各段的路程，再把各段路程合起来。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "描述简单的路线图"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csszssdcfks-022",
+      "legacyId": "b4u-Q022",
+      "slug": "bsd-b4u-NA-csszssdcfks-022",
+      "contentHash": "978c12fe",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csszssdcfks",
+      "pointName": "除数是整十数的除法（口算）",
+      "topics": [
+        "bsd-b4u-NA-csszssdcfks"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "口算：120 ÷ 40 =",
+      "options": null,
+      "answer": {
+        "value": 3
+      },
+      "analysis": "想：40 × 3 = 120，所以 120 ÷ 40 = 3。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是整十数的除法（口算）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csslwsdbsss-023",
+      "legacyId": "b4u-Q023",
+      "slug": "bsd-b4u-NA-csslwsdbsss-023",
+      "contentHash": "4fcc71b5",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csslwsdbsss",
+      "pointName": "除数是两位数的笔算（试商）",
+      "topics": [
+        "bsd-b4u-NA-csslwsdbsss"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "810 ÷ 90 =",
+      "options": null,
+      "answer": {
+        "value": 9
+      },
+      "analysis": "整十数除整十数，想 9 × 9 = 81，商 9。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是两位数的笔算（试商）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csslwsdbstsyys-024",
+      "legacyId": "b4u-Q024",
+      "slug": "bsd-b4u-NA-csslwsdbstsyys-024",
+      "contentHash": "d2511133",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csslwsdbstsyys",
+      "pointName": "除数是两位数的笔算（调商与验算）",
+      "topics": [
+        "bsd-b4u-NA-csslwsdbstsyys"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "240 ÷ 80 =",
+      "options": null,
+      "answer": {
+        "value": 3
+      },
+      "analysis": "整十数除整十数，想 8 × 3 = 24，商 3。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是两位数的笔算（调商与验算）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-sbbdgl-025",
+      "legacyId": "b4u-Q025",
+      "slug": "bsd-b4u-NA-sbbdgl-025",
+      "contentHash": "713865ae",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-sbbdgl",
+      "pointName": "商不变的规律",
+      "topics": [
+        "bsd-b4u-NA-sbbdgl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "480 ÷ 20 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 24
+          }
+        ]
+      },
+      "analysis": "试商时如果把初商写大了要及时调小：480 ÷ 20 = 24。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "商不变的规律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-lcsjysddslgx-026",
+      "legacyId": "b4u-Q026",
+      "slug": "bsd-b4u-NA-lcsjysddslgx-026",
+      "contentHash": "02501796",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-lcsjysddslgx",
+      "pointName": "路程、时间与速度的数量关系",
+      "topics": [
+        "bsd-b4u-NA-lcsjysddslgx"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一辆汽车每小时行 89 千米，5 小时能行 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 445,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "路程 = 速度 × 时间：89 × 5 = 445 千米。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "路程、时间与速度的数量关系"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-fsdrsu6e29dzdfs-027",
+      "legacyId": "b4u-Q027",
+      "slug": "bsd-b4u-NA-fsdrsu6e29dzdfs-027",
+      "contentHash": "f8c987ba",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-fsdrsu6e29dzdfs",
+      "pointName": "负数的认识（温度中的负数）",
+      "topics": [
+        "bsd-b4u-NA-fsdrsu6e29dzdfs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "零下 5 ℃ 记作 ( ) ℃。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": -5
+          }
+        ]
+      },
+      "analysis": "零下温度在数字前加“-”号。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "负数的认识（温度中的负数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-zfsdyyybs-028",
+      "legacyId": "b4u-Q028",
+      "slug": "bsd-b4u-NA-zfsdyyybs-028",
+      "contentHash": "40438be1",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-zfsdyyybs",
+      "pointName": "正负数的意义与表示",
+      "topics": [
+        "bsd-b4u-NA-zfsdyyybs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "-5 ℃ 和 -13 ℃ 比，( ) 温度高。",
+      "options": [
+        "同样高",
+        "-5",
+        "-13"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "负数比较大小，负号后面的数越小，温度越高。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "正负数的意义与表示"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-fsddxbjysjyy-029",
+      "legacyId": "b4u-Q029",
+      "slug": "bsd-b4u-NA-fsddxbjysjyy-029",
+      "contentHash": "b29f423e",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-fsddxbjysjyy",
+      "pointName": "负数的大小比较与实际应用",
+      "topics": [
+        "bsd-b4u-NA-fsddxbjysjyy"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "194481 和 329723 比，（ ）大。",
+      "options": [
+        "329723",
+        "194481",
+        "同样大"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "位数相同，从最高位起依次比较。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "负数的大小比较与实际应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-SP-sjfsdbqdx-030",
+      "legacyId": "b4u-Q030",
+      "slug": "bsd-b4u-SP-sjfsdbqdx-030",
+      "contentHash": "5ced8f4b",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-b4u-SP-08",
+      "knowledgeName": "可能性",
+      "point": "bsd-b4u-SP-sjfsdbqdx",
+      "pointName": "事件发生的不确定性",
+      "topics": [
+        "bsd-b4u-SP-sjfsdbqdx"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "明天（ ）下雨。",
+      "options": [
+        "必须",
+        "可能",
+        "不可能",
+        "一定"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "天气变化不确定，只能说可能下雨。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "统计与概率",
+        "可能性",
+        "事件发生的不确定性"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-SP-knxddx-031",
+      "legacyId": "b4u-Q031",
+      "slug": "bsd-b4u-SP-knxddx-031",
+      "contentHash": "adcdcce0",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-b4u-SP-08",
+      "knowledgeName": "可能性",
+      "point": "bsd-b4u-SP-knxddx",
+      "pointName": "可能性的大小",
+      "topics": [
+        "bsd-b4u-SP-knxddx"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 2,
+      "score": 1,
+      "stem": "太阳从西边升起。",
+      "options": null,
+      "answer": {
+        "value": false
+      },
+      "analysis": "太阳从东边升起，这是确定的事实。判断题要先找出题目中的关键信息，再对照学过的概念逐条分析。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "统计与概率",
+        "可能性",
+        "可能性的大小"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-SP-knxdxdmsyyy-032",
+      "legacyId": "b4u-Q032",
+      "slug": "bsd-b4u-SP-knxdxdmsyyy-032",
+      "contentHash": "359b12d2",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-b4u-SP-08",
+      "knowledgeName": "可能性",
+      "point": "bsd-b4u-SP-knxdxdmsyyy",
+      "pointName": "可能性大小的描述与应用",
+      "topics": [
+        "bsd-b4u-SP-knxdxdmsyyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "盒子里有 7 个红球和 1 个白球，任意摸一个球。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "可能摸到什么球？",
+            "answer": {
+              "value": "红球或白球",
+              "alts": [
+                "红球、白球"
+              ],
+              "mode": "text"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "摸到什么球的可能性大？",
+            "answer": {
+              "value": "红球",
+              "mode": "text"
+            }
+          }
+        ]
+      },
+      "analysis": "数量多的那种球被摸到的可能性大，另一种可能性小。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "统计与概率",
+        "可能性",
+        "可能性大小的描述与应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yynsdrsswyjsdw-033",
+      "legacyId": "b4u-Q033",
+      "slug": "bsd-b4u-NA-yynsdrsswyjsdw-033",
+      "contentHash": "2da8b674",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yynsdrsswyjsdw",
+      "pointName": "亿以内数的认识（数位与计数单位）",
+      "topics": [
+        "bsd-b4u-NA-yynsdrsswyjsdw"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "由 8 个千万、5 个万和 2 个一组成的数是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 80050002
+          }
+        ]
+      },
+      "analysis": "按数位顺序写：8 在千万位，5 在万位，2 在个位，中间空位补 0。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以内数的认识（数位与计数单位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddfhxf-034",
+      "legacyId": "b4u-Q034",
+      "slug": "bsd-b4u-NA-dsddfhxf-034",
+      "contentHash": "a85d7028",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddfhxf",
+      "pointName": "大数的读法和写法",
+      "topics": [
+        "bsd-b4u-NA-dsddfhxf"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "由 4 个千万、7 个万和 6 个一组成的数是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 40070006
+          }
+        ]
+      },
+      "analysis": "按数位顺序写：4 在千万位，7 在万位，6 在个位，中间空位补 0。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的读法和写法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddxbj-035",
+      "legacyId": "b4u-Q035",
+      "slug": "bsd-b4u-NA-dsddxbj-035",
+      "contentHash": "f93a95f0",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddxbj",
+      "pointName": "大数的大小比较",
+      "topics": [
+        "bsd-b4u-NA-dsddxbj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "725144 和 801907 比，（ ）大。",
+      "options": [
+        "725144",
+        "801907",
+        "同样大"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "位数相同，从最高位起依次比较。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的大小比较"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-qjsssswrf-036",
+      "legacyId": "b4u-Q036",
+      "slug": "bsd-b4u-NA-qjsssswrf-036",
+      "contentHash": "a54a4e5d",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-qjsssswrf",
+      "pointName": "求近似数（四舍五入法）",
+      "topics": [
+        "bsd-b4u-NA-qjsssswrf"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "把 7794 四舍五入到千位，约是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 8000
+          }
+        ]
+      },
+      "analysis": "看百位：7794 的百位是 7，大于 5 向前一位进 1，约是 8000。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "求近似数（四舍五入法）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yyssdrsyjsf-037",
+      "legacyId": "b4u-Q037",
+      "slug": "bsd-b4u-NA-yyssdrsyjsf-037",
+      "contentHash": "f65503d2",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yyssdrsyjsf",
+      "pointName": "亿以上数的认识与计数法",
+      "topics": [
+        "bsd-b4u-NA-yyssdrsyjsf"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "由 4 个千万、5 个万和 5 个一组成的数是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 40050005
+          }
+        ]
+      },
+      "analysis": "按数位顺序写：4 在千万位，5 在万位，5 在个位，中间空位补 0。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以上数的认识与计数法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-xjycz-038",
+      "legacyId": "b4u-Q038",
+      "slug": "bsd-b4u-GG-xjycz-038",
+      "contentHash": "6c8eacae",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-xjycz",
+      "pointName": "相交与垂直",
+      "topics": [
+        "bsd-b4u-GG-xjycz"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 2,
+      "score": 1,
+      "stem": "从直线外一点到这条直线的所有线段中，垂直线段最短。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "这点到直线的垂直线段的长度，就是点到直线的距离，它最短。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "相交与垂直"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-pyypx-039",
+      "legacyId": "b4u-Q039",
+      "slug": "bsd-b4u-GG-pyypx-039",
+      "contentHash": "17dd1b59",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-pyypx",
+      "pointName": "平移与平行",
+      "topics": [
+        "bsd-b4u-GG-pyypx"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "在同一平面内，不相交的两条直线（ ）。",
+      "options": [
+        "会相交",
+        "一定垂直",
+        "互相平行",
+        "长度相等"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "同一平面内不相交的两条直线互相平行，平行的两条线永远不会相交。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "平移与平行"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-xzyj-040",
+      "legacyId": "b4u-Q040",
+      "slug": "bsd-b4u-GG-xzyj-040",
+      "contentHash": "8ce5293e",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-xzyj",
+      "pointName": "旋转与角",
+      "topics": [
+        "bsd-b4u-GG-xzyj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "一条射线绕它的端点旋转一周形成的角是（ ）。",
+      "options": [
+        "周角",
+        "直角",
+        "平角",
+        "锐角"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "射线旋转一周是 360 度，形成周角；旋转半周是平角，旋转 90 度是直角。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "旋转与角"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-jddlyljq-041",
+      "legacyId": "b4u-Q041",
+      "slug": "bsd-b4u-GG-jddlyljq-041",
+      "contentHash": "25108d28",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-jddlyljq",
+      "pointName": "角的度量与量角器",
+      "topics": [
+        "bsd-b4u-GG-jddlyljq"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "度量角的大小的单位是（ ）。",
+      "options": [
+        "度",
+        "厘米",
+        "米",
+        "千克"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "计量角的大小用度作单位，用符号“°”表示。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "角的度量与量角器"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-swsclwsdbs-042",
+      "legacyId": "b4u-Q042",
+      "slug": "bsd-b4u-NA-swsclwsdbs-042",
+      "contentHash": "cc1860f2",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-swsclwsdbs",
+      "pointName": "三位数乘两位数的笔算",
+      "topics": [
+        "bsd-b4u-NA-swsclwsdbs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "142 × 70 =",
+      "options": null,
+      "answer": {
+        "value": 9940
+      },
+      "analysis": "先用 142 × 7 = 994，再在末尾添 1 个 0，得 9940。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "三位数乘两位数的笔算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dscfdgsyyy-043",
+      "legacyId": "b4u-Q043",
+      "slug": "bsd-b4u-NA-dscfdgsyyy-043",
+      "contentHash": "cf64375a",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-dscfdgsyyy",
+      "pointName": "大数乘法的估算与应用",
+      "topics": [
+        "bsd-b4u-NA-dscfdgsyyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "估算 246 × 28，下面最接近的是 ( )",
+      "options": [
+        "6888",
+        "7000",
+        "7500",
+        "8500"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "把 246 看作 250，28 看作 30，积大约是 7500。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "大数乘法的估算与应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-jsgu5177dyy-044",
+      "legacyId": "b4u-Q044",
+      "slug": "bsd-b4u-NA-jsgu5177dyy-044",
+      "contentHash": "a7cce3ba",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-jsgu5177dyy",
+      "pointName": "计算工具的运用",
+      "topics": [
+        "bsd-b4u-NA-jsgu5177dyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用计算器计算 425 + 104 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 529
+          }
+        ]
+      },
+      "analysis": "用计算器输入时注意核对数字，425 + 104 = 529。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "计算工具的运用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yu8da3dsstsgl-045",
+      "legacyId": "b4u-Q045",
+      "slug": "bsd-b4u-NA-yu8da3dsstsgl-045",
+      "contentHash": "47782255",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-yu8da3dsstsgl",
+      "pointName": "有趣的算式（探索规律）",
+      "topics": [
+        "bsd-b4u-NA-yu8da3dsstsgl"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "找规律：1 × 1 = 1，11 × 11 = 121，111 × 111 = ( )",
+      "options": [
+        "1211",
+        "12321",
+        "111",
+        "11111"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "结果依次是 1、121、12321，呈回文数规律。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "有趣的算式（探索规律）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-jfjhlhjhl-046",
+      "legacyId": "b4u-Q046",
+      "slug": "bsd-b4u-NA-jfjhlhjhl-046",
+      "contentHash": "8c07b162",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-jfjhlhjhl",
+      "pointName": "加法交换律和结合律",
+      "topics": [
+        "bsd-b4u-NA-jfjhlhjhl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "18 × 22 + 18 =",
+      "options": null,
+      "answer": {
+        "value": 414
+      },
+      "analysis": "把后一个 18 看作 18 × 1，逆用乘法分配律：18 × (22 + 1) = 414。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "加法交换律和结合律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-cfjhlhjhl-047",
+      "legacyId": "b4u-Q047",
+      "slug": "bsd-b4u-NA-cfjhlhjhl-047",
+      "contentHash": "41dbf5c8",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-cfjhlhjhl",
+      "pointName": "乘法交换律和结合律",
+      "topics": [
+        "bsd-b4u-NA-cfjhlhjhl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "41 × 77 + 41 =",
+      "options": null,
+      "answer": {
+        "value": 3198
+      },
+      "analysis": "把后一个 41 看作 41 × 1，逆用乘法分配律：41 × (77 + 1) = 3198。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "乘法交换律和结合律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-cffpl-048",
+      "legacyId": "b4u-Q048",
+      "slug": "bsd-b4u-NA-cffpl-048",
+      "contentHash": "4c5e19e7",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-cffpl",
+      "pointName": "乘法分配律",
+      "topics": [
+        "bsd-b4u-NA-cffpl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "45 × 20 + 45 =",
+      "options": null,
+      "answer": {
+        "value": 945
+      },
+      "analysis": "把后一个 45 看作 45 × 1，逆用乘法分配律：45 × (20 + 1) = 945。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "乘法分配律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yyysljxjbjs-049",
+      "legacyId": "b4u-Q049",
+      "slug": "bsd-b4u-NA-yyysljxjbjs-049",
+      "contentHash": "9327f0aa",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-yyysljxjbjs",
+      "pointName": "运用运算律进行简便计算",
+      "topics": [
+        "bsd-b4u-NA-yyysljxjbjs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "28 × 37 + 28 =",
+      "options": null,
+      "answer": {
+        "value": 1064
+      },
+      "analysis": "把后一个 28 看作 28 × 1，逆用乘法分配律：28 × (37 + 1) = 1064。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "运用运算律进行简便计算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-ysdqdwz-050",
+      "legacyId": "b4u-Q050",
+      "slug": "bsd-b4u-GG-ysdqdwz-050",
+      "contentHash": "416c1352",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-ysdqdwz",
+      "pointName": "用数对确定位置",
+      "topics": [
+        "bsd-b4u-GG-ysdqdwz"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "小明的位置是 (5, 3)，他坐在第 ( ) 排。",
+      "options": [
+        "3",
+        "8",
+        "2",
+        "5"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "数对中第二个数表示行，也就是第几排。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "用数对确定位置"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-u6839jfxhjlqdwz-051",
+      "legacyId": "b4u-Q051",
+      "slug": "bsd-b4u-GG-u6839jfxhjlqdwz-051",
+      "contentHash": "94feff33",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-u6839jfxhjlqdwz",
+      "pointName": "根据方向和距离确定位置",
+      "topics": [
+        "bsd-b4u-GG-u6839jfxhjlqdwz"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小明从家向东走 211 米到学校，从学校继续向东走 111 米到书店。书店在家的东面 ( ) 米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 322,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "方向和距离都相同，把两段路程相加：211 + 111 = 322 米。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "根据方向和距离确定位置"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-msjddlxt-052",
+      "legacyId": "b4u-Q052",
+      "slug": "bsd-b4u-GG-msjddlxt-052",
+      "contentHash": "d4c9547a",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-msjddlxt",
+      "pointName": "描述简单的路线图",
+      "topics": [
+        "bsd-b4u-GG-msjddlxt"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小红从家出发，先向东走 118 米，再向西走 192 米，这时她在家的 ( ) 面 74 米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "西",
+            "unit": ""
+          },
+          {
+            "value": 74,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "向东 118 米再向西 192 米，相当于向西走了 74 米。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "描述简单的路线图"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csszssdcfks-053",
+      "legacyId": "b4u-Q053",
+      "slug": "bsd-b4u-NA-csszssdcfks-053",
+      "contentHash": "2cc2d440",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csszssdcfks",
+      "pointName": "除数是整十数的除法（口算）",
+      "topics": [
+        "bsd-b4u-NA-csszssdcfks"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "口算：540 ÷ 90 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 6
+          }
+        ]
+      },
+      "analysis": "把 540 看作 9 个六十，90 是 9 个十，9 个六十里面有 6 个 9 个十，得 6。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是整十数的除法（口算）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csslwsdbsss-054",
+      "legacyId": "b4u-Q054",
+      "slug": "bsd-b4u-NA-csslwsdbsss-054",
+      "contentHash": "8febc04a",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csslwsdbsss",
+      "pointName": "除数是两位数的笔算（试商）",
+      "topics": [
+        "bsd-b4u-NA-csslwsdbsss"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "165 ÷ 11 =",
+      "options": null,
+      "answer": {
+        "value": 15
+      },
+      "analysis": "除数是两位数，先看被除数的前两位，想 11 和几相乘接近 165，商 15。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是两位数的笔算（试商）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csslwsdbstsyys-055",
+      "legacyId": "b4u-Q055",
+      "slug": "bsd-b4u-NA-csslwsdbstsyys-055",
+      "contentHash": "0dfd6842",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csslwsdbstsyys",
+      "pointName": "除数是两位数的笔算（调商与验算）",
+      "topics": [
+        "bsd-b4u-NA-csslwsdbstsyys"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "270 ÷ 15 =",
+      "options": null,
+      "answer": {
+        "value": 18
+      },
+      "analysis": "除数是两位数，先看被除数的前两位，想 15 和几相乘接近 270，商 18。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是两位数的笔算（调商与验算）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-sbbdgl-056",
+      "legacyId": "b4u-Q056",
+      "slug": "bsd-b4u-NA-sbbdgl-056",
+      "contentHash": "ae9376d8",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-sbbdgl",
+      "pointName": "商不变的规律",
+      "topics": [
+        "bsd-b4u-NA-sbbdgl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "702 ÷ 26 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 27
+          }
+        ]
+      },
+      "analysis": "试商时如果把初商写大了要及时调小：702 ÷ 26 = 27。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "商不变的规律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-lcsjysddslgx-057",
+      "legacyId": "b4u-Q057",
+      "slug": "bsd-b4u-NA-lcsjysddslgx-057",
+      "contentHash": "beaa4d79",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-lcsjysddslgx",
+      "pointName": "路程、时间与速度的数量关系",
+      "topics": [
+        "bsd-b4u-NA-lcsjysddslgx"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一辆自行车 3 小时行驶了 234 千米，它的速度是每小时 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 78,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "速度 = 路程 ÷ 时间：234 ÷ 3 = 78 千米/时。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "路程、时间与速度的数量关系"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-fsdrsu6e29dzdfs-058",
+      "legacyId": "b4u-Q058",
+      "slug": "bsd-b4u-NA-fsdrsu6e29dzdfs-058",
+      "contentHash": "3d6170d6",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-fsdrsu6e29dzdfs",
+      "pointName": "负数的认识（温度中的负数）",
+      "topics": [
+        "bsd-b4u-NA-fsdrsu6e29dzdfs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "-3 ℃ 和 -15 ℃ 比，( ) 温度高。",
+      "options": [
+        "-3",
+        "-15",
+        "同样高"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "负数比较大小，负号后面的数越小，温度越高。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "负数的认识（温度中的负数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-zfsdyyybs-059",
+      "legacyId": "b4u-Q059",
+      "slug": "bsd-b4u-NA-zfsdyyybs-059",
+      "contentHash": "0ae72c67",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-zfsdyyybs",
+      "pointName": "正负数的意义与表示",
+      "topics": [
+        "bsd-b4u-NA-zfsdyyybs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "-5 ℃ 和 -19 ℃ 比，( ) 温度高。",
+      "options": [
+        "-19",
+        "-5",
+        "同样高"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "负数比较大小，负号后面的数越小，温度越高。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "正负数的意义与表示"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-fsddxbjysjyy-060",
+      "legacyId": "b4u-Q060",
+      "slug": "bsd-b4u-NA-fsddxbjysjyy-060",
+      "contentHash": "c25fd17f",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-fsddxbjysjyy",
+      "pointName": "负数的大小比较与实际应用",
+      "topics": [
+        "bsd-b4u-NA-fsddxbjysjyy"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "-5 ℃ 和 -10 ℃ 比，( ) 温度高。",
+      "options": [
+        "-5",
+        "同样高",
+        "-10"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "负数比较大小，负号后面的数越小，温度越高。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "负数的大小比较与实际应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-SP-knxddx-061",
+      "legacyId": "b4u-Q061",
+      "slug": "bsd-b4u-SP-knxddx-061",
+      "contentHash": "bc9e0529",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-b4u-SP-08",
+      "knowledgeName": "可能性",
+      "point": "bsd-b4u-SP-knxddx",
+      "pointName": "可能性的大小",
+      "topics": [
+        "bsd-b4u-SP-knxddx"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "盒子里有 6 个红球、2 个白球，任意摸一个，摸到 ( ) 的可能性大。",
+      "options": [
+        "白球",
+        "一样大",
+        "红球"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "红球数量多，摸到红球的可能性大。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "统计与概率",
+        "可能性",
+        "可能性的大小"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-SP-knxdxdmsyyy-062",
+      "legacyId": "b4u-Q062",
+      "slug": "bsd-b4u-SP-knxdxdmsyyy-062",
+      "contentHash": "fe5a1f26",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-b4u-SP-08",
+      "knowledgeName": "可能性",
+      "point": "bsd-b4u-SP-knxdxdmsyyy",
+      "pointName": "可能性大小的描述与应用",
+      "topics": [
+        "bsd-b4u-SP-knxdxdmsyyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "盒子里有 5 个红球和 3 个白球，任意摸一个球。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "可能摸到什么球？",
+            "answer": {
+              "value": "红球或白球",
+              "alts": [
+                "红球、白球"
+              ],
+              "mode": "text"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "摸到什么球的可能性大？",
+            "answer": {
+              "value": "红球",
+              "mode": "text"
+            }
+          }
+        ]
+      },
+      "analysis": "数量多的那种球被摸到的可能性大，另一种可能性小。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "统计与概率",
+        "可能性",
+        "可能性大小的描述与应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yynsdrsswyjsdw-063",
+      "legacyId": "b4u-Q063",
+      "slug": "bsd-b4u-NA-yynsdrsswyjsdw-063",
+      "contentHash": "3ab6c30e",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yynsdrsswyjsdw",
+      "pointName": "亿以内数的认识（数位与计数单位）",
+      "topics": [
+        "bsd-b4u-NA-yynsdrsswyjsdw"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "下面哪个数读作“一千零一”？",
+      "options": [
+        "2201",
+        "12010",
+        "1201",
+        "1021"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "读数从高位读起，末尾的 0 不读。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以内数的认识（数位与计数单位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddfhxf-064",
+      "legacyId": "b4u-Q064",
+      "slug": "bsd-b4u-NA-dsddfhxf-064",
+      "contentHash": "1f8d6134",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddfhxf",
+      "pointName": "大数的读法和写法",
+      "topics": [
+        "bsd-b4u-NA-dsddfhxf"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "下面哪个数读作“五千零六”？",
+      "options": [
+        "58060",
+        "6085",
+        "6806",
+        "5806"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "读数从高位读起，末尾的 0 不读。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的读法和写法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddxbj-065",
+      "legacyId": "b4u-Q065",
+      "slug": "bsd-b4u-NA-dsddxbj-065",
+      "contentHash": "ef1db236",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddxbj",
+      "pointName": "大数的大小比较",
+      "topics": [
+        "bsd-b4u-NA-dsddxbj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "401766 和 308778 比，（ ）大。",
+      "options": [
+        "401766",
+        "308778",
+        "同样大"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "位数相同，从最高位起依次比较。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的大小比较"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-qjsssswrf-066",
+      "legacyId": "b4u-Q066",
+      "slug": "bsd-b4u-NA-qjsssswrf-066",
+      "contentHash": "34518a4e",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-qjsssswrf",
+      "pointName": "求近似数（四舍五入法）",
+      "topics": [
+        "bsd-b4u-NA-qjsssswrf"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "把 5073 四舍五入到千位，约是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 5000
+          }
+        ]
+      },
+      "analysis": "看百位：5073 的百位是 0，小于 5 舍去，约是 5000。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "求近似数（四舍五入法）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yyssdrsyjsf-067",
+      "legacyId": "b4u-Q067",
+      "slug": "bsd-b4u-NA-yyssdrsyjsf-067",
+      "contentHash": "bea41ab0",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yyssdrsyjsf",
+      "pointName": "亿以上数的认识与计数法",
+      "topics": [
+        "bsd-b4u-NA-yyssdrsyjsf"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "下面哪个数读作“六千零六”？",
+      "options": [
+        "7606",
+        "66060",
+        "6606",
+        "6066"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "读数从高位读起，末尾的 0 不读。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以上数的认识与计数法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-pyypx-068",
+      "legacyId": "b4u-Q068",
+      "slug": "bsd-b4u-GG-pyypx-068",
+      "contentHash": "596e1b64",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-pyypx",
+      "pointName": "平移与平行",
+      "topics": [
+        "bsd-b4u-GG-pyypx"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 2,
+      "score": 1,
+      "stem": "平行四边形有两组对边分别平行。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "平行四边形的两组对边分别平行并且相等。判断题要先找出题目中的关键信息，再对照学过的概念逐条分析。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "平移与平行"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-xzyj-069",
+      "legacyId": "b4u-Q069",
+      "slug": "bsd-b4u-GG-xzyj-069",
+      "contentHash": "20f1e2cd",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-xzyj",
+      "pointName": "旋转与角",
+      "topics": [
+        "bsd-b4u-GG-xzyj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "360 度的角是（ ）。",
+      "options": [
+        "钝角",
+        "锐角",
+        "直角",
+        "周角",
+        "平角"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "360 度是周角。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "旋转与角"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-swsclwsdbs-070",
+      "legacyId": "b4u-Q070",
+      "slug": "bsd-b4u-NA-swsclwsdbs-070",
+      "contentHash": "7ebadc1a",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-swsclwsdbs",
+      "pointName": "三位数乘两位数的笔算",
+      "topics": [
+        "bsd-b4u-NA-swsclwsdbs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "221 × 23 =",
+      "options": null,
+      "answer": {
+        "value": 5083
+      },
+      "analysis": "三位数乘两位数，用两位数个位和十位上的数分别去乘 221，再把两次积相加：221 × 23 = 5083。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "三位数乘两位数的笔算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dscfdgsyyy-071",
+      "legacyId": "b4u-Q071",
+      "slug": "bsd-b4u-NA-dscfdgsyyy-071",
+      "contentHash": "6d3cc084",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-dscfdgsyyy",
+      "pointName": "大数乘法的估算与应用",
+      "topics": [
+        "bsd-b4u-NA-dscfdgsyyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "估算 297 × 39，下面最接近的是 ( )",
+      "options": [
+        "12000",
+        "11583",
+        "11500",
+        "13000"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "把 297 看作 300，39 看作 40，积大约是 12000。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "大数乘法的估算与应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-jsgu5177dyy-072",
+      "legacyId": "b4u-Q072",
+      "slug": "bsd-b4u-NA-jsgu5177dyy-072",
+      "contentHash": "fc08b84d",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-jsgu5177dyy",
+      "pointName": "计算工具的运用",
+      "topics": [
+        "bsd-b4u-NA-jsgu5177dyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用计算器计算 839 + 288 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 1127
+          }
+        ]
+      },
+      "analysis": "用计算器输入时注意核对数字，839 + 288 = 1127。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "计算工具的运用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yu8da3dsstsgl-073",
+      "legacyId": "b4u-Q073",
+      "slug": "bsd-b4u-NA-yu8da3dsstsgl-073",
+      "contentHash": "8fe0f85d",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-yu8da3dsstsgl",
+      "pointName": "有趣的算式（探索规律）",
+      "topics": [
+        "bsd-b4u-NA-yu8da3dsstsgl"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用计算器计算 678 + 203 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 881
+          }
+        ]
+      },
+      "analysis": "用计算器输入时注意核对数字，678 + 203 = 881。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "有趣的算式（探索规律）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-jfjhlhjhl-074",
+      "legacyId": "b4u-Q074",
+      "slug": "bsd-b4u-NA-jfjhlhjhl-074",
+      "contentHash": "1e80de69",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-jfjhlhjhl",
+      "pointName": "加法交换律和结合律",
+      "topics": [
+        "bsd-b4u-NA-jfjhlhjhl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下面哪个算式运用了乘法分配律？",
+      "options": [
+        "2 × 9 × 5 = 2 × 5 × 9",
+        "(4 + 8) × 5 = 4 × 5 + 8 × 5",
+        "25 × 4 = 100",
+        "3 + 5 = 5 + 3"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "乘法分配律：两个数的和与一个数相乘，可以先把它们与这个数分别相乘，再相加。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "加法交换律和结合律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-cfjhlhjhl-075",
+      "legacyId": "b4u-Q075",
+      "slug": "bsd-b4u-NA-cfjhlhjhl-075",
+      "contentHash": "e8e09cc5",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-cfjhlhjhl",
+      "pointName": "乘法交换律和结合律",
+      "topics": [
+        "bsd-b4u-NA-cfjhlhjhl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "3 × 4 × 8 =",
+      "options": null,
+      "answer": {
+        "value": 96
+      },
+      "analysis": "运用乘法交换律和结合律，先算 3 × 8 = 24（能凑整），再算 24 × 4 = 96。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "乘法交换律和结合律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-cffpl-076",
+      "legacyId": "b4u-Q076",
+      "slug": "bsd-b4u-NA-cffpl-076",
+      "contentHash": "8018eca1",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-cffpl",
+      "pointName": "乘法分配律",
+      "topics": [
+        "bsd-b4u-NA-cffpl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "3 × 3 × 3 =",
+      "options": null,
+      "answer": {
+        "value": 27
+      },
+      "analysis": "运用乘法交换律和结合律，先算 3 × 3 = 9（能凑整），再算 9 × 3 = 27。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "乘法分配律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yyysljxjbjs-077",
+      "legacyId": "b4u-Q077",
+      "slug": "bsd-b4u-NA-yyysljxjbjs-077",
+      "contentHash": "b9132239",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-04",
+      "knowledgeName": "运算律",
+      "point": "bsd-b4u-NA-yyysljxjbjs",
+      "pointName": "运用运算律进行简便计算",
+      "topics": [
+        "bsd-b4u-NA-yyysljxjbjs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "4 × 6 × 2 =",
+      "options": null,
+      "answer": {
+        "value": 48
+      },
+      "analysis": "运用乘法交换律和结合律，先算 4 × 2 = 8（能凑整），再算 8 × 6 = 48。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "运算律",
+        "运用运算律进行简便计算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-ysdqdwz-078",
+      "legacyId": "b4u-Q078",
+      "slug": "bsd-b4u-GG-ysdqdwz-078",
+      "contentHash": "c4d294d3",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-ysdqdwz",
+      "pointName": "用数对确定位置",
+      "topics": [
+        "bsd-b4u-GG-ysdqdwz"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "小明的位置是 (2, 6)，他坐在第 ( ) 排。",
+      "options": [
+        "5",
+        "8",
+        "2",
+        "6"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "数对中第二个数表示行，也就是第几排。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "用数对确定位置"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-u6839jfxhjlqdwz-079",
+      "legacyId": "b4u-Q079",
+      "slug": "bsd-b4u-GG-u6839jfxhjlqdwz-079",
+      "contentHash": "e21582e9",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-u6839jfxhjlqdwz",
+      "pointName": "根据方向和距离确定位置",
+      "topics": [
+        "bsd-b4u-GG-u6839jfxhjlqdwz"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "要准确确定一个物体的位置，必须知道（ ）。",
+      "options": [
+        "只看距离",
+        "方向和距离",
+        "物体的颜色",
+        "只看方向"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "只知方向或只知距离都无法唯一确定位置，必须同时知道方向和距离。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "根据方向和距离确定位置"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-msjddlxt-080",
+      "legacyId": "b4u-Q080",
+      "slug": "bsd-b4u-GG-msjddlxt-080",
+      "contentHash": "cc53dd84",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-05",
+      "knowledgeName": "方向与位置",
+      "point": "bsd-b4u-GG-msjddlxt",
+      "pointName": "描述简单的路线图",
+      "topics": [
+        "bsd-b4u-GG-msjddlxt"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小红从家出发，先向东走 352 米，再向西走 223 米，这时她在家的 ( ) 面 129 米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "东",
+            "unit": ""
+          },
+          {
+            "value": 129,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "向东 352 米再向西 223 米，相当于向东走了 129 米。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "方向与位置",
+        "描述简单的路线图"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csszssdcfks-081",
+      "legacyId": "b4u-Q081",
+      "slug": "bsd-b4u-NA-csszssdcfks-081",
+      "contentHash": "0f8359d6",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csszssdcfks",
+      "pointName": "除数是整十数的除法（口算）",
+      "topics": [
+        "bsd-b4u-NA-csszssdcfks"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "口算：140 ÷ 20 =",
+      "options": null,
+      "answer": {
+        "value": 7
+      },
+      "analysis": "想：20 × 7 = 140，所以 140 ÷ 20 = 7。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是整十数的除法（口算）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csslwsdbsss-082",
+      "legacyId": "b4u-Q082",
+      "slug": "bsd-b4u-NA-csslwsdbsss-082",
+      "contentHash": "f11bb565",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csslwsdbsss",
+      "pointName": "除数是两位数的笔算（试商）",
+      "topics": [
+        "bsd-b4u-NA-csslwsdbsss"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "280 ÷ 70 =",
+      "options": null,
+      "answer": {
+        "value": 4
+      },
+      "analysis": "整十数除整十数，想 7 × 4 = 28，商 4。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是两位数的笔算（试商）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-csslwsdbstsyys-083",
+      "legacyId": "b4u-Q083",
+      "slug": "bsd-b4u-NA-csslwsdbstsyys-083",
+      "contentHash": "1b3b1913",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-csslwsdbstsyys",
+      "pointName": "除数是两位数的笔算（调商与验算）",
+      "topics": [
+        "bsd-b4u-NA-csslwsdbstsyys"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "648 ÷ 24 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 27
+          }
+        ]
+      },
+      "analysis": "试商时如果把初商写大了要及时调小：648 ÷ 24 = 27。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "除数是两位数的笔算（调商与验算）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-sbbdgl-084",
+      "legacyId": "b4u-Q084",
+      "slug": "bsd-b4u-NA-sbbdgl-084",
+      "contentHash": "02ecfbf3",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-sbbdgl",
+      "pointName": "商不变的规律",
+      "topics": [
+        "bsd-b4u-NA-sbbdgl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "851 ÷ 23 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 37
+          }
+        ]
+      },
+      "analysis": "试商时如果把初商写大了要及时调小：851 ÷ 23 = 37。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "商不变的规律"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-lcsjysddslgx-085",
+      "legacyId": "b4u-Q085",
+      "slug": "bsd-b4u-NA-lcsjysddslgx-085",
+      "contentHash": "0551197b",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-06",
+      "knowledgeName": "除法",
+      "point": "bsd-b4u-NA-lcsjysddslgx",
+      "pointName": "路程、时间与速度的数量关系",
+      "topics": [
+        "bsd-b4u-NA-lcsjysddslgx"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一辆汽车每小时行 75 千米，3 小时能行 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 225,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "路程 = 速度 × 时间：75 × 3 = 225 千米。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "除法",
+        "路程、时间与速度的数量关系"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-fsdrsu6e29dzdfs-086",
+      "legacyId": "b4u-Q086",
+      "slug": "bsd-b4u-NA-fsdrsu6e29dzdfs-086",
+      "contentHash": "d38e5e79",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-fsdrsu6e29dzdfs",
+      "pointName": "负数的认识（温度中的负数）",
+      "topics": [
+        "bsd-b4u-NA-fsdrsu6e29dzdfs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "-8 ℃ 和 -11 ℃ 比，( ) 温度高。",
+      "options": [
+        "同样高",
+        "-11",
+        "-8"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "负数比较大小，负号后面的数越小，温度越高。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "负数的认识（温度中的负数）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-zfsdyyybs-087",
+      "legacyId": "b4u-Q087",
+      "slug": "bsd-b4u-NA-zfsdyyybs-087",
+      "contentHash": "95c8c404",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-zfsdyyybs",
+      "pointName": "正负数的意义与表示",
+      "topics": [
+        "bsd-b4u-NA-zfsdyyybs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 2,
+      "score": 1,
+      "stem": "0 既是正数也不是负数。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "0 是正数和负数的分界，0 既不是正数也不是负数。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "正负数的意义与表示"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-fsddxbjysjyy-088",
+      "legacyId": "b4u-Q088",
+      "slug": "bsd-b4u-NA-fsddxbjysjyy-088",
+      "contentHash": "7cf72f9a",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-07",
+      "knowledgeName": "生活中的负数",
+      "point": "bsd-b4u-NA-fsddxbjysjyy",
+      "pointName": "负数的大小比较与实际应用",
+      "topics": [
+        "bsd-b4u-NA-fsddxbjysjyy"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "-7 ℃ 和 -14 ℃ 比，( ) 温度高。",
+      "options": [
+        "-14",
+        "-7",
+        "同样高"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "负数比较大小，负号后面的数越小，温度越高。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "生活中的负数",
+        "负数的大小比较与实际应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-SP-knxddx-089",
+      "legacyId": "b4u-Q089",
+      "slug": "bsd-b4u-SP-knxddx-089",
+      "contentHash": "87048ae3",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-b4u-SP-08",
+      "knowledgeName": "可能性",
+      "point": "bsd-b4u-SP-knxddx",
+      "pointName": "可能性的大小",
+      "topics": [
+        "bsd-b4u-SP-knxddx"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "盒子里有 8 个红球、3 个白球，任意摸一个，摸到 ( ) 的可能性大。",
+      "options": [
+        "一样大",
+        "红球",
+        "白球"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "红球数量多，摸到红球的可能性大。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "统计与概率",
+        "可能性",
+        "可能性的大小"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-SP-knxdxdmsyyy-090",
+      "legacyId": "b4u-Q090",
+      "slug": "bsd-b4u-SP-knxdxdmsyyy-090",
+      "contentHash": "a57f2344",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "SP",
+      "domainName": "统计与概率",
+      "knowledge": "k-b4u-SP-08",
+      "knowledgeName": "可能性",
+      "point": "bsd-b4u-SP-knxdxdmsyyy",
+      "pointName": "可能性大小的描述与应用",
+      "topics": [
+        "bsd-b4u-SP-knxdxdmsyyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "盒子里有 8 个红球和 2 个白球，任意摸一个球。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "可能摸到什么球？",
+            "answer": {
+              "value": "红球或白球",
+              "alts": [
+                "红球、白球"
+              ],
+              "mode": "text"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "摸到什么球的可能性大？",
+            "answer": {
+              "value": "红球",
+              "mode": "text"
+            }
+          }
+        ]
+      },
+      "analysis": "数量多的那种球被摸到的可能性大，另一种可能性小。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "统计与概率",
+        "可能性",
+        "可能性大小的描述与应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yynsdrsswyjsdw-091",
+      "legacyId": "b4u-Q091",
+      "slug": "bsd-b4u-NA-yynsdrsswyjsdw-091",
+      "contentHash": "afe8aee2",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yynsdrsswyjsdw",
+      "pointName": "亿以内数的认识（数位与计数单位）",
+      "topics": [
+        "bsd-b4u-NA-yynsdrsswyjsdw"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "由 3 个千万、4 个万和 8 个一组成的数是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 30040008
+          }
+        ]
+      },
+      "analysis": "按数位顺序写：3 在千万位，4 在万位，8 在个位，中间空位补 0。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以内数的认识（数位与计数单位）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddfhxf-092",
+      "legacyId": "b4u-Q092",
+      "slug": "bsd-b4u-NA-dsddfhxf-092",
+      "contentHash": "97deddae",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddfhxf",
+      "pointName": "大数的读法和写法",
+      "topics": [
+        "bsd-b4u-NA-dsddfhxf"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "由 6 个千万、4 个万和 2 个一组成的数是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 60040002
+          }
+        ]
+      },
+      "analysis": "按数位顺序写：6 在千万位，4 在万位，2 在个位，中间空位补 0。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的读法和写法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dsddxbj-093",
+      "legacyId": "b4u-Q093",
+      "slug": "bsd-b4u-NA-dsddxbj-093",
+      "contentHash": "c80273b4",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-dsddxbj",
+      "pointName": "大数的大小比较",
+      "topics": [
+        "bsd-b4u-NA-dsddxbj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "357987 和 385561 比，（ ）大。",
+      "options": [
+        "385561",
+        "同样大",
+        "357987"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "位数相同，从最高位起依次比较。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "大数的大小比较"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-qjsssswrf-094",
+      "legacyId": "b4u-Q094",
+      "slug": "bsd-b4u-NA-qjsssswrf-094",
+      "contentHash": "7f724f9f",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-qjsssswrf",
+      "pointName": "求近似数（四舍五入法）",
+      "topics": [
+        "bsd-b4u-NA-qjsssswrf"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "把 3230 四舍五入到千位，约是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 3000
+          }
+        ]
+      },
+      "analysis": "看百位：3230 的百位是 2，小于 5 舍去，约是 3000。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "求近似数（四舍五入法）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yyssdrsyjsf-095",
+      "legacyId": "b4u-Q095",
+      "slug": "bsd-b4u-NA-yyssdrsyjsf-095",
+      "contentHash": "694fbb72",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-01",
+      "knowledgeName": "认识更大的数",
+      "point": "bsd-b4u-NA-yyssdrsyjsf",
+      "pointName": "亿以上数的认识与计数法",
+      "topics": [
+        "bsd-b4u-NA-yyssdrsyjsf"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "由 7 个千万、7 个万和 5 个一组成的数是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 70070005
+          }
+        ]
+      },
+      "analysis": "按数位顺序写：7 在千万位，7 在万位，5 在个位，中间空位补 0。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "认识更大的数",
+        "亿以上数的认识与计数法"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-GG-xzyj-096",
+      "legacyId": "b4u-Q096",
+      "slug": "bsd-b4u-GG-xzyj-096",
+      "contentHash": "c5526e6f",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b4u-GG-02",
+      "knowledgeName": "线与角",
+      "point": "bsd-b4u-GG-xzyj",
+      "pointName": "旋转与角",
+      "topics": [
+        "bsd-b4u-GG-xzyj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "135 度的角是（ ）。",
+      "options": [
+        "平角",
+        "钝角",
+        "直角",
+        "周角",
+        "锐角"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "135 度比直角大比平角小，是钝角。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "图形与几何",
+        "线与角",
+        "旋转与角"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-swsclwsdbs-097",
+      "legacyId": "b4u-Q097",
+      "slug": "bsd-b4u-NA-swsclwsdbs-097",
+      "contentHash": "663d8a2b",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-swsclwsdbs",
+      "pointName": "三位数乘两位数的笔算",
+      "topics": [
+        "bsd-b4u-NA-swsclwsdbs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "143 × 70 =",
+      "options": null,
+      "answer": {
+        "value": 10010
+      },
+      "analysis": "先用 143 × 7 = 1001，再在末尾添 1 个 0，得 10010。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "三位数乘两位数的笔算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-dscfdgsyyy-098",
+      "legacyId": "b4u-Q098",
+      "slug": "bsd-b4u-NA-dscfdgsyyy-098",
+      "contentHash": "b52dcc6f",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-dscfdgsyyy",
+      "pointName": "大数乘法的估算与应用",
+      "topics": [
+        "bsd-b4u-NA-dscfdgsyyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "估算 218 × 22，下面最接近的是 ( )",
+      "options": [
+        "3900",
+        "4796",
+        "4400",
+        "5400"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "把 218 看作 220，22 看作 20，积大约是 4400。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "大数乘法的估算与应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-jsgu5177dyy-099",
+      "legacyId": "b4u-Q099",
+      "slug": "bsd-b4u-NA-jsgu5177dyy-099",
+      "contentHash": "7c553d42",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-jsgu5177dyy",
+      "pointName": "计算工具的运用",
+      "topics": [
+        "bsd-b4u-NA-jsgu5177dyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用计算器计算 882 + 263 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 1145
+          }
+        ]
+      },
+      "analysis": "用计算器输入时注意核对数字，882 + 263 = 1145。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "计算工具的运用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b4u-NA-yu8da3dsstsgl-100",
+      "legacyId": "b4u-Q100",
+      "slug": "bsd-b4u-NA-yu8da3dsstsgl-100",
+      "contentHash": "484a246f",
+      "grade": 4,
+      "book": "bsd-grade4-up",
+      "bookName": "四年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b4u-NA-03",
+      "knowledgeName": "乘法",
+      "point": "bsd-b4u-NA-yu8da3dsstsgl",
+      "pointName": "有趣的算式（探索规律）",
+      "topics": [
+        "bsd-b4u-NA-yu8da3dsstsgl"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用计算器计算 193 + 363 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 556
+          }
+        ]
+      },
+      "analysis": "用计算器输入时注意核对数字，193 + 363 = 556。",
+      "tags": [
+        "四年级上册（北师大版）",
+        "数与代数",
+        "乘法",
+        "有趣的算式（探索规律）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    }
+  ]
 }

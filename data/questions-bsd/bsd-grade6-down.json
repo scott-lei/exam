@@ -4,9 +4,4762 @@
   "bookName": "六年级下册（北师大版）",
   "grade": 6,
   "term": "down",
-  "count": 0,
-  "typeStat": {},
-  "questions": [],
-  "placeholder": true,
-  "note": "北师大版题库尚未建设，此文件为构建占位；补充题目后重跑 VERSION=bsd node scripts/build-questions.mjs。"
+  "count": 100,
+  "typeStat": {
+    "choice": 18,
+    "calculation": 14,
+    "application": 41,
+    "fill": 13,
+    "figure": 6,
+    "reading": 4,
+    "judge": 4
+  },
+  "questions": [
+    {
+      "id": "bsd-b6d-GG-yzdrsmdxz-001",
+      "legacyId": "b6d-Q001",
+      "slug": "bsd-b6d-GG-yzdrsmdxz-001",
+      "contentHash": "b5536dd8",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsmdxz",
+      "pointName": "圆柱的认识（面的旋转）",
+      "topics": [
+        "bsd-b6d-GG-yzdrsmdxz"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "圆柱的侧面展开图一般是（ ）。",
+      "options": [
+        "梯形",
+        "圆",
+        "长方形",
+        "三角形"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "沿高剪开圆柱侧面，展开图是长方形，长是底面周长，宽是高。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的认识（面的旋转）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdbmj-002",
+      "legacyId": "b6d-Q002",
+      "slug": "bsd-b6d-GG-yzdbmj-002",
+      "contentHash": "c05cf5af",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdbmj",
+      "pointName": "圆柱的表面积",
+      "topics": [
+        "bsd-b6d-GG-yzdbmj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面半径是 3 厘米、高是 7 厘米，侧面积是 ( ) 平方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 131.88,
+        "unit": "平方厘米"
+      },
+      "analysis": "圆柱侧面积 = 底面周长 × 高 = 2πr × h = 2 × 3.14 × 3 × 7 = 131.88。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的表面积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdtj-003",
+      "legacyId": "b6d-Q003",
+      "slug": "bsd-b6d-GG-yzdtj-003",
+      "contentHash": "4a90d9a3",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdtj",
+      "pointName": "圆柱的体积",
+      "topics": [
+        "bsd-b6d-GG-yzdtj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面直径是 4 厘米、高是 5 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 62.8,
+        "unit": "立方厘米"
+      },
+      "analysis": "圆柱体积 = πr²h = 3.14 × 2² × 5 = 62.800000000000004。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdrsytj-004",
+      "legacyId": "b6d-Q004",
+      "slug": "bsd-b6d-GG-yzdrsytj-004",
+      "contentHash": "852644fb",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsytj",
+      "pointName": "圆锥的认识与体积",
+      "topics": [
+        "bsd-b6d-GG-yzdrsytj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个圆锥的底面半径是 2 厘米、高是 6 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 25.12,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "圆锥体积 = 1/3 πr²h = 3.14 × 2² × 6 ÷ 3 = 25.12。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆锥的认识与体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-bgzlttxdtjtu7a76-005",
+      "legacyId": "b6d-Q005",
+      "slug": "bsd-b6d-GG-bgzlttxdtjtu7a76-005",
+      "contentHash": "0db208aa",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-bgzlttxdtjtu7a76",
+      "pointName": "不规则立体图形的体积（探究）",
+      "topics": [
+        "bsd-b6d-GG-bgzlttxdtjtu7a76"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方体容器从里面量长 6 厘米、宽 5 厘米、高 20 厘米，放入一块石头后水面上升了 2 厘米，石头的体积是 ( ) 立方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 60,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "水面上升的体积就是石头的体积：6 × 5 × 2 = 60。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "不规则立体图形的体积（探究）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyygbfmc-006",
+      "legacyId": "b6d-Q006",
+      "slug": "bsd-b6d-NA-bldyyygbfmc-006",
+      "contentHash": "b1c095e8",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyygbfmc",
+      "pointName": "比例的意义与各部分名称",
+      "topics": [
+        "bsd-b6d-NA-bldyyygbfmc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "32 : 72 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：32 : 72 = 20 : x，32x = 72 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的意义与各部分名称"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldjbxzyjbl-007",
+      "legacyId": "b6d-Q007",
+      "slug": "bsd-b6d-NA-bldjbxzyjbl-007",
+      "contentHash": "e4f82290",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldjbxzyjbl",
+      "pointName": "比例的基本性质与解比例",
+      "topics": [
+        "bsd-b6d-NA-bldjbxzyjbl"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "解比例：4 : 12 = 9 : x，x = ( )",
+      "options": null,
+      "answer": {
+        "value": 27
+      },
+      "analysis": "根据比例的基本性质，内项之积等于外项之积：12 × 9 = 4 × x，x = 108 ÷ 4 = 27。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的基本性质与解比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyabfp-008",
+      "legacyId": "b6d-Q008",
+      "slug": "bsd-b6d-NA-bldyyabfp-008",
+      "contentHash": "04bbf276",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyabfp",
+      "pointName": "比例的应用（按比分配）",
+      "topics": [
+        "bsd-b6d-NA-bldyyabfp"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "把 30 本图书按 2 : 3 分给甲、乙两个班，甲班分得 ( ) 本。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 12,
+            "unit": "本"
+          }
+        ]
+      },
+      "analysis": "总份数是 2 + 3 = 5 份，每份 30 ÷ 5 = 6 本，甲班 2 份是 12 本。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的应用（按比分配）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-blc-009",
+      "legacyId": "b6d-Q009",
+      "slug": "bsd-b6d-NA-blc-009",
+      "contentHash": "ab4cff29",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-blc",
+      "pointName": "比例尺",
+      "topics": [
+        "bsd-b6d-NA-blc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一幅图的比例尺是 1 : 1000，图上 4 厘米表示实际 ( ) 米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 40,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "实际距离 = 图上距离 × 1000 = 4 × 1000 = 4000 厘米 = 40 米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例尺"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-txdfdysx-010",
+      "legacyId": "b6d-Q010",
+      "slug": "bsd-b6d-NA-txdfdysx-010",
+      "contentHash": "76d9e39a",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-txdfdysx",
+      "pointName": "图形的放大与缩小",
+      "topics": [
+        "bsd-b6d-NA-txdfdysx"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "图形的放大与缩小，改变的是图形的（ ），不改变形状。",
+      "options": [
+        "形状",
+        "位置",
+        "颜色",
+        "大小"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "按比放大或缩小只改变大小，形状不变。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "图形的放大与缩小"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txdxzrsyms-011",
+      "legacyId": "b6d-Q011",
+      "slug": "bsd-b6d-GG-txdxzrsyms-011",
+      "contentHash": "fa4e11a2",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txdxzrsyms",
+      "pointName": "图形的旋转（认识与描述）",
+      "topics": [
+        "bsd-b6d-GG-txdxzrsyms"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 3,
+      "stem": "下图红色小旗绕点 O 顺时针旋转到绿色小旗的位置，旋转了 ( ) 度。",
+      "options": null,
+      "answer": {
+        "value": 90,
+        "unit": "度"
+      },
+      "analysis": "红色小旗绕 O 点顺时针转 90° 后正好到绿色小旗的位置。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形的旋转（认识与描述）"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 200\" width=\"240\" height=\"200\" style=\"max-width:100%;height:auto\"><circle cx=\"100\" cy=\"120\" r=\"6\" fill=\"#1e293b\"/><text x=\"112\" y=\"118\" font-size=\"14\" fill=\"#1e293b\" font-family=\"system-ui\">O</text><polygon points=\"100,40 140,105 60,105\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><polygon points=\"180,120 180,160 140,160\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><path d=\"M100,75 A45,45 0 0 1 145,120\" fill=\"none\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><text x=\"152\" y=\"78\" font-size=\"16\" font-weight=\"700\" fill=\"#ec4899\" font-family=\"system-ui\">90°</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txxzdhf-012",
+      "legacyId": "b6d-Q012",
+      "slug": "bsd-b6d-GG-txxzdhf-012",
+      "contentHash": "e0c13daa",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txxzdhf",
+      "pointName": "图形旋转的画法",
+      "topics": [
+        "bsd-b6d-GG-txxzdhf"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 3,
+      "stem": "下图红色小旗绕点 O 顺时针旋转 90° 后，应该转到绿色小旗的位置，旋转了 ( ) 度。",
+      "options": null,
+      "answer": {
+        "value": 90,
+        "unit": "度"
+      },
+      "analysis": "绕定点旋转 90°，图形的形状和大小不变，红色小旗正好转到绿色小旗的位置。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形旋转的画法"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 200\" width=\"240\" height=\"200\" style=\"max-width:100%;height:auto\"><circle cx=\"100\" cy=\"120\" r=\"6\" fill=\"#1e293b\"/><text x=\"112\" y=\"118\" font-size=\"14\" fill=\"#1e293b\" font-family=\"system-ui\">O</text><polygon points=\"100,40 140,105 60,105\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><polygon points=\"180,120 180,160 140,160\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><path d=\"M100,75 A45,45 0 0 1 145,120\" fill=\"none\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><text x=\"152\" y=\"78\" font-size=\"16\" font-weight=\"700\" fill=\"#ec4899\" font-family=\"system-ui\">90°</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txdydpyxzzh-013",
+      "legacyId": "b6d-Q013",
+      "slug": "bsd-b6d-GG-txdydpyxzzh-013",
+      "contentHash": "a5cebf1b",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txdydpyxzzh",
+      "pointName": "图形的运动（平移、旋转综合）",
+      "topics": [
+        "bsd-b6d-GG-txdydpyxzzh"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "钟面上分针从 12 顺时针旋转到 3，旋转了 ( )",
+      "options": [
+        "90",
+        "60",
+        "30",
+        "120"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "每个大格是 30 度，从 12 到 3 有 3 个大格：3 × 30 = 90 度。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形的运动（平移、旋转综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-u6b23u8d4fysj-014",
+      "legacyId": "b6d-Q014",
+      "slug": "bsd-b6d-GG-u6b23u8d4fysj-014",
+      "contentHash": "e6801907",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-u6b23u8d4fysj",
+      "pointName": "欣赏与设计",
+      "topics": [
+        "bsd-b6d-GG-u6b23u8d4fysj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "图案设计中常常用到的图形运动方式有（ ）。",
+      "options": [
+        "只有平移",
+        "只有旋转",
+        "平移、旋转和轴对称",
+        "只数一数"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "平移、旋转和轴对称是图案设计的基本手段。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "欣赏与设计"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txydywzms-015",
+      "legacyId": "b6d-Q015",
+      "slug": "bsd-b6d-GG-txydywzms-015",
+      "contentHash": "52932f5c",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txydywzms",
+      "pointName": "图形运动与位置描述",
+      "topics": [
+        "bsd-b6d-GG-txydywzms"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "小红从家出发，向东走 100 米到邮局，再向东走 150 米到学校。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "邮局在小家的什么方向？",
+            "answer": {
+              "value": "东",
+              "unit": ""
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "小红从家到学校一共走了多少米？",
+            "answer": {
+              "value": 250,
+              "unit": "米"
+            }
+          }
+        ]
+      },
+      "analysis": "描述路线要说清楚每一段的方向和距离，同方向的路程可以合起来算。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形运动与位置描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bhdl-016",
+      "legacyId": "b6d-Q016",
+      "slug": "bsd-b6d-NA-bhdl-016",
+      "contentHash": "3c718535",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-bhdl",
+      "pointName": "变化的量",
+      "topics": [
+        "bsd-b6d-NA-bhdl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "小明买《数学故事》，每本 3 元，买的本数和总价如下表。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "买 3 本要多少元？",
+            "answer": {
+              "value": 9,
+              "unit": "元"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "总价随着买的本数怎样变化？",
+            "answer": {
+              "value": "增加而增加",
+              "unit": ""
+            }
+          }
+        ]
+      },
+      "analysis": "单价一定时，买的本数增加，总价也随着增加，本数和总价是两个变化的量。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "变化的量"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldyyypd-017",
+      "legacyId": "b6d-Q017",
+      "slug": "bsd-b6d-NA-zbldyyypd-017",
+      "contentHash": "6da89bb8",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldyyypd",
+      "pointName": "正比例的意义与判断",
+      "topics": [
+        "bsd-b6d-NA-zbldyyypd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "12 : 27 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：12 : 27 = 20 : x，12x = 27 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的意义与判断"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldtu50cfhyh-018",
+      "legacyId": "b6d-Q018",
+      "slug": "bsd-b6d-NA-zbldtu50cfhyh-018",
+      "contentHash": "b9ca62e9",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldtu50cfhyh",
+      "pointName": "正比例的图像（画一画）",
+      "topics": [
+        "bsd-b6d-NA-zbldtu50cfhyh"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "正比例关系的图像是一条 ( )",
+      "options": [
+        "直线",
+        "曲线",
+        "折线",
+        "不能确定"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "正比例的图像是过原点的一条直线。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的图像（画一画）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-fbldyyypd-019",
+      "legacyId": "b6d-Q019",
+      "slug": "bsd-b6d-NA-fbldyyypd-019",
+      "contentHash": "33caa4ee",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-fbldyyypd",
+      "pointName": "反比例的意义与判断",
+      "topics": [
+        "bsd-b6d-NA-fbldyyypd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "16 : 36 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：16 : 36 = 20 : x，16x = 36 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "反比例的意义与判断"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zblyfbldyy-020",
+      "legacyId": "b6d-Q020",
+      "slug": "bsd-b6d-NA-zblyfbldyy-020",
+      "contentHash": "44cb3919",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zblyfbldyy",
+      "pointName": "正比例与反比例的应用",
+      "topics": [
+        "bsd-b6d-NA-zblyfbldyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一列火车 3 小时行驶 138 千米，照这样的速度，7 小时行驶 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 322,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "速度一定，路程和时间成正比例：138 ÷ 3 = 46 千米/时，46 × 7 = 322 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例与反比例的应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-021",
+      "legacyId": "b6d-Q021",
+      "slug": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-021",
+      "contentHash": "721bf619",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh",
+      "pointName": "绘制校园平面图（比例尺综合）",
+      "topics": [
+        "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一幅图的比例尺是 1 : 1000，图上 2 厘米表示实际 ( ) 米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 20,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "实际距离 = 图上距离 × 1000 = 2 × 1000 = 2000 厘米 = 20 米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "绘制校园平面图（比例尺综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd-022",
+      "legacyId": "b6d-Q022",
+      "slug": "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd-022",
+      "contentHash": "fb048811",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd",
+      "pointName": "神奇的莫比乌斯带",
+      "topics": [
+        "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "莫比乌斯带沿着中线剪开，得到的是 ( )",
+      "options": [
+        "两个纸环",
+        "一段纸条",
+        "一个更长的纸环",
+        "两个结"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "莫比乌斯带只有一个面，沿中线剪开会得到一个更长的纸环。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "神奇的莫比乌斯带"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-ku7231dxu732bsdytxbh-023",
+      "legacyId": "b6d-Q023",
+      "slug": "bsd-b6d-CP-ku7231dxu732bsdytxbh-023",
+      "contentHash": "c9740e93",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-ku7231dxu732bsdytxbh",
+      "pointName": "可爱的小猫（数对与图形变化）",
+      "topics": [
+        "bsd-b6d-CP-ku7231dxu732bsdytxbh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一只小猫在 ( 4, 5 ) 的位置，它向右跳了 2 格，现在的位置用数对表示是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "(6, 5)",
+            "alts": [
+              "6,5",
+              "第6列第5行"
+            ],
+            "mode": "text"
+          }
+        ]
+      },
+      "analysis": "向右跳列数加：4 + 2 = 6，行不变，还是第 5 行。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "可爱的小猫（数对与图形变化）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdrsmdxz-024",
+      "legacyId": "b6d-Q024",
+      "slug": "bsd-b6d-GG-yzdrsmdxz-024",
+      "contentHash": "c0b7a0d5",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsmdxz",
+      "pointName": "圆柱的认识（面的旋转）",
+      "topics": [
+        "bsd-b6d-GG-yzdrsmdxz"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 2,
+      "score": 1,
+      "stem": "把一个长方形绕它的一条边旋转一周，可以得到一个圆柱。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "长方形绕一条边旋转一周，扫过的空间正好是一个圆柱。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的认识（面的旋转）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdbmj-025",
+      "legacyId": "b6d-Q025",
+      "slug": "bsd-b6d-GG-yzdbmj-025",
+      "contentHash": "984412a6",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdbmj",
+      "pointName": "圆柱的表面积",
+      "topics": [
+        "bsd-b6d-GG-yzdbmj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面半径是 5 厘米、高是 6 厘米，侧面积是 ( ) 平方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 188.4,
+        "unit": "平方厘米"
+      },
+      "analysis": "圆柱侧面积 = 底面周长 × 高 = 2πr × h = 2 × 3.14 × 5 × 6 = 188.4。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的表面积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdtj-026",
+      "legacyId": "b6d-Q026",
+      "slug": "bsd-b6d-GG-yzdtj-026",
+      "contentHash": "588e3d0f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdtj",
+      "pointName": "圆柱的体积",
+      "topics": [
+        "bsd-b6d-GG-yzdtj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面直径是 6 厘米、高是 4 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 113.04,
+        "unit": "立方厘米"
+      },
+      "analysis": "圆柱体积 = πr²h = 3.14 × 3² × 4 = 113.03999999999999。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdrsytj-027",
+      "legacyId": "b6d-Q027",
+      "slug": "bsd-b6d-GG-yzdrsytj-027",
+      "contentHash": "7047a958",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsytj",
+      "pointName": "圆锥的认识与体积",
+      "topics": [
+        "bsd-b6d-GG-yzdrsytj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个圆锥的底面半径是 4 厘米、高是 6 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 100.48,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "圆锥体积 = 1/3 πr²h = 3.14 × 4² × 6 ÷ 3 = 100.48。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆锥的认识与体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-bgzlttxdtjtu7a76-028",
+      "legacyId": "b6d-Q028",
+      "slug": "bsd-b6d-GG-bgzlttxdtjtu7a76-028",
+      "contentHash": "47aa656f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-bgzlttxdtjtu7a76",
+      "pointName": "不规则立体图形的体积（探究）",
+      "topics": [
+        "bsd-b6d-GG-bgzlttxdtjtu7a76"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方体容器从里面量长 5 厘米、宽 10 厘米、高 20 厘米，放入一块石头后水面上升了 4 厘米，石头的体积是 ( ) 立方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 200,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "水面上升的体积就是石头的体积：5 × 10 × 4 = 200。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "不规则立体图形的体积（探究）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyygbfmc-029",
+      "legacyId": "b6d-Q029",
+      "slug": "bsd-b6d-NA-bldyyygbfmc-029",
+      "contentHash": "55c0bf5f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyygbfmc",
+      "pointName": "比例的意义与各部分名称",
+      "topics": [
+        "bsd-b6d-NA-bldyyygbfmc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下面哪个是比例？",
+      "options": [
+        "4 + 9 = 13",
+        "4 - 9 = -5",
+        "4 : 9 = 8 : 18",
+        "4 × 9 = 36"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "表示两个比相等的式子叫比例。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的意义与各部分名称"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldjbxzyjbl-030",
+      "legacyId": "b6d-Q030",
+      "slug": "bsd-b6d-NA-bldjbxzyjbl-030",
+      "contentHash": "3592fad7",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldjbxzyjbl",
+      "pointName": "比例的基本性质与解比例",
+      "topics": [
+        "bsd-b6d-NA-bldjbxzyjbl"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "28 : 63 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：28 : 63 = 20 : x，28x = 63 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的基本性质与解比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyabfp-031",
+      "legacyId": "b6d-Q031",
+      "slug": "bsd-b6d-NA-bldyyabfp-031",
+      "contentHash": "957916e5",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyabfp",
+      "pointName": "比例的应用（按比分配）",
+      "topics": [
+        "bsd-b6d-NA-bldyyabfp"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一种混凝土由水泥、沙子、石子按 2 : 3 : 5 配制。要配制 70 千克这样的混凝土，需要水泥 ( ) 千克。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 14,
+            "unit": "千克"
+          }
+        ]
+      },
+      "analysis": "总份数 2 + 3 + 5 = 10 份，每份 70 ÷ 10 = 7 千克，水泥占 2 份是 14 千克。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的应用（按比分配）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-blc-032",
+      "legacyId": "b6d-Q032",
+      "slug": "bsd-b6d-NA-blc-032",
+      "contentHash": "9fe30b8c",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-blc",
+      "pointName": "比例尺",
+      "topics": [
+        "bsd-b6d-NA-blc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "实际距离 700 米，画在比例尺 1 : 20000 的图上，应画 ( ) 厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 3.5
+          }
+        ]
+      },
+      "analysis": "图上距离 = 实际距离 ÷ 20000 = 70000 ÷ 20000 = 3.5 厘米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例尺"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-txdfdysx-033",
+      "legacyId": "b6d-Q033",
+      "slug": "bsd-b6d-NA-txdfdysx-033",
+      "contentHash": "e84a1e8a",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-txdfdysx",
+      "pointName": "图形的放大与缩小",
+      "topics": [
+        "bsd-b6d-NA-txdfdysx"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "把一个图形按 2 : 1 放大，放大后图形与原图形的面积比是（ ）。",
+      "options": [
+        "2 : 1",
+        "4 : 1",
+        "8 : 1",
+        "1 : 2"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "对应边长扩大到原来的 2 倍，面积扩大到 2 × 2 = 4 倍，所以面积比是 4 : 1。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "图形的放大与缩小"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txdxzrsyms-034",
+      "legacyId": "b6d-Q034",
+      "slug": "bsd-b6d-GG-txdxzrsyms-034",
+      "contentHash": "eb92cf21",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txdxzrsyms",
+      "pointName": "图形的旋转（认识与描述）",
+      "topics": [
+        "bsd-b6d-GG-txdxzrsyms"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 3,
+      "score": 1,
+      "stem": "旋转不改变图形的形状和大小。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "旋转只改变图形的方向，形状和大小都不变。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形的旋转（认识与描述）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txxzdhf-035",
+      "legacyId": "b6d-Q035",
+      "slug": "bsd-b6d-GG-txxzdhf-035",
+      "contentHash": "957a334b",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txxzdhf",
+      "pointName": "图形旋转的画法",
+      "topics": [
+        "bsd-b6d-GG-txxzdhf"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 3,
+      "stem": "画出图形绕 O 点顺时针旋转 4 格后得到的图形，旋转前后图形的面积 ( )。",
+      "options": null,
+      "answer": {
+        "value": "不变",
+        "unit": ""
+      },
+      "analysis": "旋转不改变图形的形状和大小，所以面积不变。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形旋转的画法"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 200\" width=\"240\" height=\"200\" style=\"max-width:100%;height:auto\"><circle cx=\"100\" cy=\"120\" r=\"6\" fill=\"#1e293b\"/><text x=\"112\" y=\"118\" font-size=\"14\" fill=\"#1e293b\" font-family=\"system-ui\">O</text><polygon points=\"100,40 140,105 60,105\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><polygon points=\"180,120 180,160 140,160\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><path d=\"M100,75 A45,45 0 0 1 145,120\" fill=\"none\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><text x=\"152\" y=\"78\" font-size=\"16\" font-weight=\"700\" fill=\"#ec4899\" font-family=\"system-ui\">90°</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txdydpyxzzh-036",
+      "legacyId": "b6d-Q036",
+      "slug": "bsd-b6d-GG-txdydpyxzzh-036",
+      "contentHash": "ed986093",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txdydpyxzzh",
+      "pointName": "图形的运动（平移、旋转综合）",
+      "topics": [
+        "bsd-b6d-GG-txdydpyxzzh"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "一个图案既平移到新位置又旋转了一定角度，这个过程中（ ）。",
+      "options": [
+        "形状变了",
+        "形状和大小不变",
+        "边变长了",
+        "面积变大了"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "平移和旋转都只改变位置和方向，不改变图形的形状和大小。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形的运动（平移、旋转综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-u6b23u8d4fysj-037",
+      "legacyId": "b6d-Q037",
+      "slug": "bsd-b6d-GG-u6b23u8d4fysj-037",
+      "contentHash": "e6e9e8d9",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-u6b23u8d4fysj",
+      "pointName": "欣赏与设计",
+      "topics": [
+        "bsd-b6d-GG-u6b23u8d4fysj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "把一个基本图形连续平移，得到的图案（ ）。",
+      "options": [
+        "形状变大",
+        "形状改变",
+        "大小改变",
+        "形状和大小都不变"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "平移只改变图形的位置，不改变形状和大小。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "欣赏与设计"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txydywzms-038",
+      "legacyId": "b6d-Q038",
+      "slug": "bsd-b6d-GG-txydywzms-038",
+      "contentHash": "cb323338",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txydywzms",
+      "pointName": "图形运动与位置描述",
+      "topics": [
+        "bsd-b6d-GG-txydywzms"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小船从 A 处出发，先向北航行 20 千米，再向南航行 60 千米，此时小船在 A 处的 ( ) 面 40 千米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "南",
+            "unit": ""
+          },
+          {
+            "value": 40,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "向北 20 千米再向南 60 千米，相当于向南走了 40 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形运动与位置描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bhdl-039",
+      "legacyId": "b6d-Q039",
+      "slug": "bsd-b6d-NA-bhdl-039",
+      "contentHash": "9104810c",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-bhdl",
+      "pointName": "变化的量",
+      "topics": [
+        "bsd-b6d-NA-bhdl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "小明买《数学故事》，每本 4 元，买的本数和总价如下表。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "买 3 本要多少元？",
+            "answer": {
+              "value": 12,
+              "unit": "元"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "总价随着买的本数怎样变化？",
+            "answer": {
+              "value": "增加而增加",
+              "unit": ""
+            }
+          }
+        ]
+      },
+      "analysis": "单价一定时，买的本数增加，总价也随着增加，本数和总价是两个变化的量。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "变化的量"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldyyypd-040",
+      "legacyId": "b6d-Q040",
+      "slug": "bsd-b6d-NA-zbldyyypd-040",
+      "contentHash": "5ac23883",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldyyypd",
+      "pointName": "正比例的意义与判断",
+      "topics": [
+        "bsd-b6d-NA-zbldyyypd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 3,
+      "score": 1,
+      "stem": "圆的周长与直径成正比例。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "周长 ÷ 直径 = π（一定），比值一定，成正比例。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的意义与判断"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldtu50cfhyh-041",
+      "legacyId": "b6d-Q041",
+      "slug": "bsd-b6d-NA-zbldtu50cfhyh-041",
+      "contentHash": "e3fef048",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldtu50cfhyh",
+      "pointName": "正比例的图像（画一画）",
+      "topics": [
+        "bsd-b6d-NA-zbldtu50cfhyh"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下图是单价一定时总价与数量的关系图像，买 6 元对应的数量是 ( )。",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "总价与数量的比值是单价（一定），图像是过原点的直线；6 元正好是 3 份的价钱。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的图像（画一画）"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 210,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 210\" width=\"240\" height=\"210\" style=\"max-width:100%;height:auto\"><line x1=\"40\" y1=\"180\" x2=\"220\" y2=\"180\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"180\" x2=\"40\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"215\" y=\"198\" font-size=\"13\" fill=\"#1e293b\">数量</text><text x=\"14\" y=\"36\" font-size=\"13\" fill=\"#1e293b\">总价</text><line x1=\"40\" y1=\"180\" x2=\"220\" y2=\"40\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><circle cx=\"85\" cy=\"145\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"130\" cy=\"110\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"175\" cy=\"75\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"220\" cy=\"40\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-fbldyyypd-042",
+      "legacyId": "b6d-Q042",
+      "slug": "bsd-b6d-NA-fbldyyypd-042",
+      "contentHash": "15995ffa",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-fbldyyypd",
+      "pointName": "反比例的意义与判断",
+      "topics": [
+        "bsd-b6d-NA-fbldyyypd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "36 : 81 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：36 : 81 = 20 : x，36x = 81 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "反比例的意义与判断"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zblyfbldyy-043",
+      "legacyId": "b6d-Q043",
+      "slug": "bsd-b6d-NA-zblyfbldyy-043",
+      "contentHash": "6a9ee2c1",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zblyfbldyy",
+      "pointName": "正比例与反比例的应用",
+      "topics": [
+        "bsd-b6d-NA-zblyfbldyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一列火车 2 小时行驶 130 千米，照这样的速度，8 小时行驶 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 520,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "速度一定，路程和时间成正比例：130 ÷ 2 = 65 千米/时，65 × 8 = 520 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例与反比例的应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-044",
+      "legacyId": "b6d-Q044",
+      "slug": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-044",
+      "contentHash": "936be902",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh",
+      "pointName": "绘制校园平面图（比例尺综合）",
+      "topics": [
+        "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "绘制校园平面图的比例尺是 1 : 2000，图上教室长 8 厘米，实际长 ( ) 米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 160,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "实际距离 = 8 × 2000 = 16000 厘米 = 160 米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "绘制校园平面图（比例尺综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd-045",
+      "legacyId": "b6d-Q045",
+      "slug": "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd-045",
+      "contentHash": "201a409f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd",
+      "pointName": "神奇的莫比乌斯带",
+      "topics": [
+        "bsd-b6d-CP-u795eqdu83abbu4e4cu65afd"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "莫比乌斯带一共有 ( ) 个面。",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "无数"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "莫比乌斯带只有一个面，小虫不翻过边缘就能爬遍整个纸带。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "神奇的莫比乌斯带"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-ku7231dxu732bsdytxbh-046",
+      "legacyId": "b6d-Q046",
+      "slug": "bsd-b6d-CP-ku7231dxu732bsdytxbh-046",
+      "contentHash": "b796f125",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-ku7231dxu732bsdytxbh",
+      "pointName": "可爱的小猫（数对与图形变化）",
+      "topics": [
+        "bsd-b6d-CP-ku7231dxu732bsdytxbh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一只小猫在 ( 5, 2 ) 的位置，它向右跳了 2 格，现在的位置用数对表示是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "(7, 2)",
+            "alts": [
+              "7,2",
+              "第7列第2行"
+            ],
+            "mode": "text"
+          }
+        ]
+      },
+      "analysis": "向右跳列数加：5 + 2 = 7，行不变，还是第 2 行。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "可爱的小猫（数对与图形变化）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdbmj-047",
+      "legacyId": "b6d-Q047",
+      "slug": "bsd-b6d-GG-yzdbmj-047",
+      "contentHash": "dca06e35",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdbmj",
+      "pointName": "圆柱的表面积",
+      "topics": [
+        "bsd-b6d-GG-yzdbmj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面半径是 2 厘米、高是 7 厘米，侧面积是 ( ) 平方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 87.92,
+        "unit": "平方厘米"
+      },
+      "analysis": "圆柱侧面积 = 底面周长 × 高 = 2πr × h = 2 × 3.14 × 2 × 7 = 87.92。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的表面积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdtj-048",
+      "legacyId": "b6d-Q048",
+      "slug": "bsd-b6d-GG-yzdtj-048",
+      "contentHash": "83ee4431",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdtj",
+      "pointName": "圆柱的体积",
+      "topics": [
+        "bsd-b6d-GG-yzdtj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面直径是 10 厘米、高是 4 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 314,
+        "unit": "立方厘米"
+      },
+      "analysis": "圆柱体积 = πr²h = 3.14 × 5² × 4 = 314。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdrsytj-049",
+      "legacyId": "b6d-Q049",
+      "slug": "bsd-b6d-GG-yzdrsytj-049",
+      "contentHash": "0dc3fbba",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsytj",
+      "pointName": "圆锥的认识与体积",
+      "topics": [
+        "bsd-b6d-GG-yzdrsytj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个圆锥的底面半径是 4 厘米、高是 7 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 117.23,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "圆锥体积 = 1/3 πr²h = 3.14 × 4² × 7 ÷ 3 = 117.22666666666667。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆锥的认识与体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-bgzlttxdtjtu7a76-050",
+      "legacyId": "b6d-Q050",
+      "slug": "bsd-b6d-GG-bgzlttxdtjtu7a76-050",
+      "contentHash": "f2fd1bd7",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-bgzlttxdtjtu7a76",
+      "pointName": "不规则立体图形的体积（探究）",
+      "topics": [
+        "bsd-b6d-GG-bgzlttxdtjtu7a76"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方体容器从里面量长 6 厘米、宽 6 厘米、高 20 厘米，放入一块石头后水面上升了 3 厘米，石头的体积是 ( ) 立方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 108,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "水面上升的体积就是石头的体积：6 × 6 × 3 = 108。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "不规则立体图形的体积（探究）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyabfp-051",
+      "legacyId": "b6d-Q051",
+      "slug": "bsd-b6d-NA-bldyyabfp-051",
+      "contentHash": "bc93c9d1",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyabfp",
+      "pointName": "比例的应用（按比分配）",
+      "topics": [
+        "bsd-b6d-NA-bldyyabfp"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "把 40 本图书按 2 : 3 分给甲、乙两个班，甲班分得 ( ) 本。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 16,
+            "unit": "本"
+          }
+        ]
+      },
+      "analysis": "总份数是 2 + 3 = 5 份，每份 40 ÷ 5 = 8 本，甲班 2 份是 16 本。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的应用（按比分配）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txxzdhf-052",
+      "legacyId": "b6d-Q052",
+      "slug": "bsd-b6d-GG-txxzdhf-052",
+      "contentHash": "7cb88980",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txxzdhf",
+      "pointName": "图形旋转的画法",
+      "topics": [
+        "bsd-b6d-GG-txxzdhf"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 3,
+      "stem": "画出图形绕 O 点顺时针旋转 3 格后得到的图形，旋转前后图形的面积 ( )。",
+      "options": null,
+      "answer": {
+        "value": "不变",
+        "unit": ""
+      },
+      "analysis": "旋转不改变图形的形状和大小，所以面积不变。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形旋转的画法"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 200,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 200\" width=\"240\" height=\"200\" style=\"max-width:100%;height:auto\"><circle cx=\"100\" cy=\"120\" r=\"6\" fill=\"#1e293b\"/><text x=\"112\" y=\"118\" font-size=\"14\" fill=\"#1e293b\" font-family=\"system-ui\">O</text><polygon points=\"100,40 140,105 60,105\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2.5\"/><polygon points=\"180,120 180,160 140,160\" fill=\"#dcfce7\" stroke=\"#22c55e\" stroke-width=\"2.5\"/><path d=\"M100,75 A45,45 0 0 1 145,120\" fill=\"none\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><text x=\"152\" y=\"78\" font-size=\"16\" font-weight=\"700\" fill=\"#ec4899\" font-family=\"system-ui\">90°</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txdydpyxzzh-053",
+      "legacyId": "b6d-Q053",
+      "slug": "bsd-b6d-GG-txdydpyxzzh-053",
+      "contentHash": "1c9f0a73",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txdydpyxzzh",
+      "pointName": "图形的运动（平移、旋转综合）",
+      "topics": [
+        "bsd-b6d-GG-txdydpyxzzh"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方形长 8 厘米、宽 5 厘米，先向右平移 3 格，再绕右下角旋转 90°，图形的面积是 ( ) 平方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 40,
+            "unit": "平方厘米"
+          }
+        ]
+      },
+      "analysis": "平移和旋转都不改变图形的形状和大小，面积仍是 8 × 5 = 40 平方厘米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形的运动（平移、旋转综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txydywzms-054",
+      "legacyId": "b6d-Q054",
+      "slug": "bsd-b6d-GG-txydywzms-054",
+      "contentHash": "0cfe9bb9",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txydywzms",
+      "pointName": "图形运动与位置描述",
+      "topics": [
+        "bsd-b6d-GG-txydywzms"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小船从 A 处出发，先向北航行 40 千米，再向南航行 50 千米，此时小船在 A 处的 ( ) 面 10 千米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "南",
+            "unit": ""
+          },
+          {
+            "value": 10,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "向北 40 千米再向南 50 千米，相当于向南走了 10 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形运动与位置描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bhdl-055",
+      "legacyId": "b6d-Q055",
+      "slug": "bsd-b6d-NA-bhdl-055",
+      "contentHash": "2bf4045f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-bhdl",
+      "pointName": "变化的量",
+      "topics": [
+        "bsd-b6d-NA-bhdl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下面两个量中，一个量随着另一个量增加而增加的是（ ）。",
+      "options": [
+        "单价一定时总价与数量",
+        "正方形的边长与面积（单位不同不可比）",
+        "人的身高与体重"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "单价一定时，数量增加，总价也随着增加，总价是随着数量变化而变化的量。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "变化的量"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldyyypd-056",
+      "legacyId": "b6d-Q056",
+      "slug": "bsd-b6d-NA-zbldyyypd-056",
+      "contentHash": "ad0f069a",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldyyypd",
+      "pointName": "正比例的意义与判断",
+      "topics": [
+        "bsd-b6d-NA-zbldyyypd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下面成正比例的是 ( )",
+      "options": [
+        "人的身高与年龄",
+        "减法中被减数与差",
+        "正方形的周长与边长",
+        "圆的面积与半径"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "正方形周长 ÷ 边长 = 4（一定），比值一定，成正比例。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的意义与判断"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldtu50cfhyh-057",
+      "legacyId": "b6d-Q057",
+      "slug": "bsd-b6d-NA-zbldtu50cfhyh-057",
+      "contentHash": "0c52301e",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldtu50cfhyh",
+      "pointName": "正比例的图像（画一画）",
+      "topics": [
+        "bsd-b6d-NA-zbldtu50cfhyh"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "正比例关系的图像是（ ）。",
+      "options": [
+        "一条折线",
+        "一条曲线",
+        "一条过原点的直线",
+        "一个圆"
+      ],
+      "answer": {
+        "index": [
+          2
+        ]
+      },
+      "analysis": "两种相关联的量成正比例时，画出的图像是一条过原点的直线。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的图像（画一画）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-fbldyyypd-058",
+      "legacyId": "b6d-Q058",
+      "slug": "bsd-b6d-NA-fbldyyypd-058",
+      "contentHash": "8c942265",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-fbldyyypd",
+      "pointName": "反比例的意义与判断",
+      "topics": [
+        "bsd-b6d-NA-fbldyyypd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "judge",
+      "difficulty": 3,
+      "score": 1,
+      "stem": "路程一定时，速度和时间成反比例。",
+      "options": null,
+      "answer": {
+        "value": true
+      },
+      "analysis": "速度 × 时间 = 路程（一定），乘积一定，成反比例。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "反比例的意义与判断"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zblyfbldyy-059",
+      "legacyId": "b6d-Q059",
+      "slug": "bsd-b6d-NA-zblyfbldyy-059",
+      "contentHash": "f966402e",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zblyfbldyy",
+      "pointName": "正比例与反比例的应用",
+      "topics": [
+        "bsd-b6d-NA-zblyfbldyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一列火车 2 小时行驶 134 千米，照这样的速度，7 小时行驶 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 469,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "速度一定，路程和时间成正比例：134 ÷ 2 = 67 千米/时，67 × 7 = 469 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例与反比例的应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-060",
+      "legacyId": "b6d-Q060",
+      "slug": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-060",
+      "contentHash": "c55d6c50",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh",
+      "pointName": "绘制校园平面图（比例尺综合）",
+      "topics": [
+        "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "绘制校园平面图的比例尺是 1 : 2000，图上教室长 6 厘米，实际长 ( ) 米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 120,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "实际距离 = 6 × 2000 = 12000 厘米 = 120 米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "绘制校园平面图（比例尺综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-ku7231dxu732bsdytxbh-061",
+      "legacyId": "b6d-Q061",
+      "slug": "bsd-b6d-CP-ku7231dxu732bsdytxbh-061",
+      "contentHash": "dde341c9",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-ku7231dxu732bsdytxbh",
+      "pointName": "可爱的小猫（数对与图形变化）",
+      "topics": [
+        "bsd-b6d-CP-ku7231dxu732bsdytxbh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 3,
+      "stem": "下图中“小猫”在 ( 2, 3 ) 的位置，如果它向上走 1 格，新位置是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "(2, 2)",
+            "alts": [
+              "2,2",
+              "第2列第2行"
+            ],
+            "mode": "text"
+          }
+        ]
+      },
+      "analysis": "向上走行数减 1：3 - 1 = 2，列不变。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "可爱的小猫（数对与图形变化）"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 280,
+        "height": 230,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 230\" width=\"280\" height=\"230\" style=\"max-width:100%;height:auto\"><rect x=\"40\" y=\"30\" width=\"240\" height=\"200\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><circle cx=\"100\" cy=\"130\" r=\"12\" fill=\"#ec4899\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"86\" y=\"135\" font-size=\"14\" fill=\"#fff\">猫</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdbmj-062",
+      "legacyId": "b6d-Q062",
+      "slug": "bsd-b6d-GG-yzdbmj-062",
+      "contentHash": "fa74000d",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdbmj",
+      "pointName": "圆柱的表面积",
+      "topics": [
+        "bsd-b6d-GG-yzdbmj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面半径是 2 厘米、高是 4 厘米，侧面积是 ( ) 平方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 50.24,
+        "unit": "平方厘米"
+      },
+      "analysis": "圆柱侧面积 = 底面周长 × 高 = 2πr × h = 2 × 3.14 × 2 × 4 = 50.24。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的表面积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdrsytj-063",
+      "legacyId": "b6d-Q063",
+      "slug": "bsd-b6d-GG-yzdrsytj-063",
+      "contentHash": "77cbd37d",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsytj",
+      "pointName": "圆锥的认识与体积",
+      "topics": [
+        "bsd-b6d-GG-yzdrsytj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个圆锥的底面半径是 4 厘米、高是 5 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 83.73,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "圆锥体积 = 1/3 πr²h = 3.14 × 4² × 5 ÷ 3 = 83.73333333333333。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆锥的认识与体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-bgzlttxdtjtu7a76-064",
+      "legacyId": "b6d-Q064",
+      "slug": "bsd-b6d-GG-bgzlttxdtjtu7a76-064",
+      "contentHash": "0d569bc9",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-bgzlttxdtjtu7a76",
+      "pointName": "不规则立体图形的体积（探究）",
+      "topics": [
+        "bsd-b6d-GG-bgzlttxdtjtu7a76"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方体容器从里面量长 10 厘米、宽 10 厘米、高 20 厘米，放入一块石头后水面上升了 4 厘米，石头的体积是 ( ) 立方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 400,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "水面上升的体积就是石头的体积：10 × 10 × 4 = 400。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "不规则立体图形的体积（探究）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyygbfmc-065",
+      "legacyId": "b6d-Q065",
+      "slug": "bsd-b6d-NA-bldyyygbfmc-065",
+      "contentHash": "183a8143",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyygbfmc",
+      "pointName": "比例的意义与各部分名称",
+      "topics": [
+        "bsd-b6d-NA-bldyyygbfmc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "20 : 45 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：20 : 45 = 20 : x，20x = 45 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的意义与各部分名称"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldjbxzyjbl-066",
+      "legacyId": "b6d-Q066",
+      "slug": "bsd-b6d-NA-bldjbxzyjbl-066",
+      "contentHash": "2412c236",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldjbxzyjbl",
+      "pointName": "比例的基本性质与解比例",
+      "topics": [
+        "bsd-b6d-NA-bldjbxzyjbl"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "解比例：2 : 8 = 12 : x，x = ( )",
+      "options": null,
+      "answer": {
+        "value": 48
+      },
+      "analysis": "根据比例的基本性质，内项之积等于外项之积：8 × 12 = 2 × x，x = 96 ÷ 2 = 48。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的基本性质与解比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyabfp-067",
+      "legacyId": "b6d-Q067",
+      "slug": "bsd-b6d-NA-bldyyabfp-067",
+      "contentHash": "6c67fa4e",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyabfp",
+      "pointName": "比例的应用（按比分配）",
+      "topics": [
+        "bsd-b6d-NA-bldyyabfp"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一种混凝土由水泥、沙子、石子按 2 : 3 : 5 配制。要配制 100 千克这样的混凝土，需要水泥 ( ) 千克。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 20,
+            "unit": "千克"
+          }
+        ]
+      },
+      "analysis": "总份数 2 + 3 + 5 = 10 份，每份 100 ÷ 10 = 10 千克，水泥占 2 份是 20 千克。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的应用（按比分配）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-blc-068",
+      "legacyId": "b6d-Q068",
+      "slug": "bsd-b6d-NA-blc-068",
+      "contentHash": "1a8db72d",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-blc",
+      "pointName": "比例尺",
+      "topics": [
+        "bsd-b6d-NA-blc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "实际距离 400 米，画在比例尺 1 : 20000 的图上，应画 ( ) 厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 2
+          }
+        ]
+      },
+      "analysis": "图上距离 = 实际距离 ÷ 20000 = 40000 ÷ 20000 = 2 厘米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例尺"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txydywzms-069",
+      "legacyId": "b6d-Q069",
+      "slug": "bsd-b6d-GG-txydywzms-069",
+      "contentHash": "b6c66889",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txydywzms",
+      "pointName": "图形运动与位置描述",
+      "topics": [
+        "bsd-b6d-GG-txydywzms"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小船从 A 处出发，先向北航行 50 千米，再向南航行 40 千米，此时小船在 A 处的 ( ) 面 10 千米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "北",
+            "unit": ""
+          },
+          {
+            "value": 10,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "向北 50 千米再向南 40 千米，相当于向北走了 10 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形运动与位置描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bhdl-070",
+      "legacyId": "b6d-Q070",
+      "slug": "bsd-b6d-NA-bhdl-070",
+      "contentHash": "e0a01e9c",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-bhdl",
+      "pointName": "变化的量",
+      "topics": [
+        "bsd-b6d-NA-bhdl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "路程 = 速度 × 时间，当速度一定时，路程随着时间的增加而 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "增加"
+          }
+        ]
+      },
+      "analysis": "速度一定，时间越长，走过的路程越长，路程随着时间增加而增加。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "变化的量"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldtu50cfhyh-071",
+      "legacyId": "b6d-Q071",
+      "slug": "bsd-b6d-NA-zbldtu50cfhyh-071",
+      "contentHash": "905b9c5a",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldtu50cfhyh",
+      "pointName": "正比例的图像（画一画）",
+      "topics": [
+        "bsd-b6d-NA-zbldtu50cfhyh"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下图是单价一定时总价与数量的关系图像，买 12 元对应的数量是 ( )。",
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "总价与数量的比值是单价（一定），图像是过原点的直线；12 元正好是 3 份的价钱。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的图像（画一画）"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 210,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 210\" width=\"240\" height=\"210\" style=\"max-width:100%;height:auto\"><line x1=\"40\" y1=\"180\" x2=\"220\" y2=\"180\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"180\" x2=\"40\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"215\" y=\"198\" font-size=\"13\" fill=\"#1e293b\">数量</text><text x=\"14\" y=\"36\" font-size=\"13\" fill=\"#1e293b\">总价</text><line x1=\"40\" y1=\"180\" x2=\"220\" y2=\"40\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><circle cx=\"85\" cy=\"145\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"130\" cy=\"110\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"175\" cy=\"75\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"220\" cy=\"40\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-fbldyyypd-072",
+      "legacyId": "b6d-Q072",
+      "slug": "bsd-b6d-NA-fbldyyypd-072",
+      "contentHash": "1a94b06a",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-fbldyyypd",
+      "pointName": "反比例的意义与判断",
+      "topics": [
+        "bsd-b6d-NA-fbldyyypd"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下面成反比例的是 ( )",
+      "options": [
+        "路程一定时，速度与时间",
+        "正方形周长与边长",
+        "单价一定时，总价与数量",
+        "圆的周长与直径"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "乘积一定的两个量成反比例。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "反比例的意义与判断"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zblyfbldyy-073",
+      "legacyId": "b6d-Q073",
+      "slug": "bsd-b6d-NA-zblyfbldyy-073",
+      "contentHash": "36d5b750",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zblyfbldyy",
+      "pointName": "正比例与反比例的应用",
+      "topics": [
+        "bsd-b6d-NA-zblyfbldyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一列火车 3 小时行驶 213 千米，照这样的速度，8 小时行驶 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 568,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "速度一定，路程和时间成正比例：213 ÷ 3 = 71 千米/时，71 × 8 = 568 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例与反比例的应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-ku7231dxu732bsdytxbh-074",
+      "legacyId": "b6d-Q074",
+      "slug": "bsd-b6d-CP-ku7231dxu732bsdytxbh-074",
+      "contentHash": "d5115661",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-ku7231dxu732bsdytxbh",
+      "pointName": "可爱的小猫（数对与图形变化）",
+      "topics": [
+        "bsd-b6d-CP-ku7231dxu732bsdytxbh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一只小猫在 ( 2, 4 ) 的位置，它向右跳了 2 格，现在的位置用数对表示是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "(4, 4)",
+            "alts": [
+              "4,4",
+              "第4列第4行"
+            ],
+            "mode": "text"
+          }
+        ]
+      },
+      "analysis": "向右跳列数加：2 + 2 = 4，行不变，还是第 4 行。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "可爱的小猫（数对与图形变化）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdbmj-075",
+      "legacyId": "b6d-Q075",
+      "slug": "bsd-b6d-GG-yzdbmj-075",
+      "contentHash": "ae5c7999",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdbmj",
+      "pointName": "圆柱的表面积",
+      "topics": [
+        "bsd-b6d-GG-yzdbmj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面半径是 5 厘米、高是 4 厘米，侧面积是 ( ) 平方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 125.6,
+        "unit": "平方厘米"
+      },
+      "analysis": "圆柱侧面积 = 底面周长 × 高 = 2πr × h = 2 × 3.14 × 5 × 4 = 125.60000000000001。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的表面积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdtj-076",
+      "legacyId": "b6d-Q076",
+      "slug": "bsd-b6d-GG-yzdtj-076",
+      "contentHash": "95a5ead5",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdtj",
+      "pointName": "圆柱的体积",
+      "topics": [
+        "bsd-b6d-GG-yzdtj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面直径是 6 厘米、高是 6 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 169.56,
+        "unit": "立方厘米"
+      },
+      "analysis": "圆柱体积 = πr²h = 3.14 × 3² × 6 = 169.56。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdrsytj-077",
+      "legacyId": "b6d-Q077",
+      "slug": "bsd-b6d-GG-yzdrsytj-077",
+      "contentHash": "2a2aab7f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsytj",
+      "pointName": "圆锥的认识与体积",
+      "topics": [
+        "bsd-b6d-GG-yzdrsytj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个圆锥的底面半径是 5 厘米、高是 3 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 78.5,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "圆锥体积 = 1/3 πr²h = 3.14 × 5² × 3 ÷ 3 = 78.5。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆锥的认识与体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-bgzlttxdtjtu7a76-078",
+      "legacyId": "b6d-Q078",
+      "slug": "bsd-b6d-GG-bgzlttxdtjtu7a76-078",
+      "contentHash": "45cc6241",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-bgzlttxdtjtu7a76",
+      "pointName": "不规则立体图形的体积（探究）",
+      "topics": [
+        "bsd-b6d-GG-bgzlttxdtjtu7a76"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方体容器从里面量长 6 厘米、宽 9 厘米、高 20 厘米，放入一块石头后水面上升了 2 厘米，石头的体积是 ( ) 立方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 108,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "水面上升的体积就是石头的体积：6 × 9 × 2 = 108。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "不规则立体图形的体积（探究）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyygbfmc-079",
+      "legacyId": "b6d-Q079",
+      "slug": "bsd-b6d-NA-bldyyygbfmc-079",
+      "contentHash": "61420945",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyygbfmc",
+      "pointName": "比例的意义与各部分名称",
+      "topics": [
+        "bsd-b6d-NA-bldyyygbfmc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "8 : 18 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：8 : 18 = 20 : x，8x = 18 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的意义与各部分名称"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyabfp-080",
+      "legacyId": "b6d-Q080",
+      "slug": "bsd-b6d-NA-bldyyabfp-080",
+      "contentHash": "5de4e66b",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyabfp",
+      "pointName": "比例的应用（按比分配）",
+      "topics": [
+        "bsd-b6d-NA-bldyyabfp"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一种混凝土由水泥、沙子、石子按 2 : 3 : 5 配制。要配制 110 千克这样的混凝土，需要水泥 ( ) 千克。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 22,
+            "unit": "千克"
+          }
+        ]
+      },
+      "analysis": "总份数 2 + 3 + 5 = 10 份，每份 110 ÷ 10 = 11 千克，水泥占 2 份是 22 千克。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的应用（按比分配）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-blc-081",
+      "legacyId": "b6d-Q081",
+      "slug": "bsd-b6d-NA-blc-081",
+      "contentHash": "d5996182",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-blc",
+      "pointName": "比例尺",
+      "topics": [
+        "bsd-b6d-NA-blc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "实际距离 300 米，画在比例尺 1 : 20000 的图上，应画 ( ) 厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 1.5
+          }
+        ]
+      },
+      "analysis": "图上距离 = 实际距离 ÷ 20000 = 30000 ÷ 20000 = 1.5 厘米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例尺"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txydywzms-082",
+      "legacyId": "b6d-Q082",
+      "slug": "bsd-b6d-GG-txydywzms-082",
+      "contentHash": "b218ddc3",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txydywzms",
+      "pointName": "图形运动与位置描述",
+      "topics": [
+        "bsd-b6d-GG-txydywzms"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小船从 A 处出发，先向北航行 50 千米，再向南航行 20 千米，此时小船在 A 处的 ( ) 面 30 千米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "北",
+            "unit": ""
+          },
+          {
+            "value": 30,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "向北 50 千米再向南 20 千米，相当于向北走了 30 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形运动与位置描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zblyfbldyy-083",
+      "legacyId": "b6d-Q083",
+      "slug": "bsd-b6d-NA-zblyfbldyy-083",
+      "contentHash": "990451bc",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zblyfbldyy",
+      "pointName": "正比例与反比例的应用",
+      "topics": [
+        "bsd-b6d-NA-zblyfbldyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一列火车 3 小时行驶 135 千米，照这样的速度，5 小时行驶 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 225,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "速度一定，路程和时间成正比例：135 ÷ 3 = 45 千米/时，45 × 5 = 225 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例与反比例的应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-084",
+      "legacyId": "b6d-Q084",
+      "slug": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-084",
+      "contentHash": "04e2f23e",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh",
+      "pointName": "绘制校园平面图（比例尺综合）",
+      "topics": [
+        "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "绘制校园平面图的比例尺是 1 : 2000，图上教室长 3 厘米，实际长 ( ) 米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 60,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "实际距离 = 3 × 2000 = 6000 厘米 = 60 米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "绘制校园平面图（比例尺综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-ku7231dxu732bsdytxbh-085",
+      "legacyId": "b6d-Q085",
+      "slug": "bsd-b6d-CP-ku7231dxu732bsdytxbh-085",
+      "contentHash": "e8e07add",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-ku7231dxu732bsdytxbh",
+      "pointName": "可爱的小猫（数对与图形变化）",
+      "topics": [
+        "bsd-b6d-CP-ku7231dxu732bsdytxbh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一只小猫在 ( 3, 4 ) 的位置，它向右跳了 2 格，现在的位置用数对表示是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "(5, 4)",
+            "alts": [
+              "5,4",
+              "第5列第4行"
+            ],
+            "mode": "text"
+          }
+        ]
+      },
+      "analysis": "向右跳列数加：3 + 2 = 5，行不变，还是第 4 行。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "可爱的小猫（数对与图形变化）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdbmj-086",
+      "legacyId": "b6d-Q086",
+      "slug": "bsd-b6d-GG-yzdbmj-086",
+      "contentHash": "7b86169e",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdbmj",
+      "pointName": "圆柱的表面积",
+      "topics": [
+        "bsd-b6d-GG-yzdbmj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面半径是 2 厘米、高是 9 厘米，侧面积是 ( ) 平方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 113.04,
+        "unit": "平方厘米"
+      },
+      "analysis": "圆柱侧面积 = 底面周长 × 高 = 2πr × h = 2 × 3.14 × 2 × 9 = 113.04。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的表面积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-bgzlttxdtjtu7a76-087",
+      "legacyId": "b6d-Q087",
+      "slug": "bsd-b6d-GG-bgzlttxdtjtu7a76-087",
+      "contentHash": "664c7f9b",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-bgzlttxdtjtu7a76",
+      "pointName": "不规则立体图形的体积（探究）",
+      "topics": [
+        "bsd-b6d-GG-bgzlttxdtjtu7a76"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方体容器从里面量长 9 厘米、宽 10 厘米、高 20 厘米，放入一块石头后水面上升了 3 厘米，石头的体积是 ( ) 立方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 270,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "水面上升的体积就是石头的体积：9 × 10 × 3 = 270。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "不规则立体图形的体积（探究）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldjbxzyjbl-088",
+      "legacyId": "b6d-Q088",
+      "slug": "bsd-b6d-NA-bldjbxzyjbl-088",
+      "contentHash": "611d1ff1",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldjbxzyjbl",
+      "pointName": "比例的基本性质与解比例",
+      "topics": [
+        "bsd-b6d-NA-bldjbxzyjbl"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "24 : 54 = 20 : ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 45
+          }
+        ]
+      },
+      "analysis": "先化简或直接用比例的基本性质：24 : 54 = 20 : x，24x = 54 × 20，x = 45。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的基本性质与解比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldyyabfp-089",
+      "legacyId": "b6d-Q089",
+      "slug": "bsd-b6d-NA-bldyyabfp-089",
+      "contentHash": "6c282d6f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldyyabfp",
+      "pointName": "比例的应用（按比分配）",
+      "topics": [
+        "bsd-b6d-NA-bldyyabfp"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一种混凝土由水泥、沙子、石子按 2 : 3 : 5 配制。要配制 90 千克这样的混凝土，需要水泥 ( ) 千克。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 18,
+            "unit": "千克"
+          }
+        ]
+      },
+      "analysis": "总份数 2 + 3 + 5 = 10 份，每份 90 ÷ 10 = 9 千克，水泥占 2 份是 18 千克。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的应用（按比分配）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-blc-090",
+      "legacyId": "b6d-Q090",
+      "slug": "bsd-b6d-NA-blc-090",
+      "contentHash": "79675336",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-blc",
+      "pointName": "比例尺",
+      "topics": [
+        "bsd-b6d-NA-blc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "实际距离 600 米，画在比例尺 1 : 20000 的图上，应画 ( ) 厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 3
+          }
+        ]
+      },
+      "analysis": "图上距离 = 实际距离 ÷ 20000 = 60000 ÷ 20000 = 3 厘米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例尺"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-txydywzms-091",
+      "legacyId": "b6d-Q091",
+      "slug": "bsd-b6d-GG-txydywzms-091",
+      "contentHash": "1bcde25e",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-03",
+      "knowledgeName": "图形的运动",
+      "point": "bsd-b6d-GG-txydywzms",
+      "pointName": "图形运动与位置描述",
+      "topics": [
+        "bsd-b6d-GG-txydywzms"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "小船从 A 处出发，先向北航行 30 千米，再向南航行 30 千米，此时小船在 A 处的 ( ) 面 0 千米处。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "南",
+            "unit": ""
+          },
+          {
+            "value": 0,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "向北 30 千米再向南 30 千米，相当于向南走了 0 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "图形的运动",
+        "图形运动与位置描述"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bhdl-092",
+      "legacyId": "b6d-Q092",
+      "slug": "bsd-b6d-NA-bhdl-092",
+      "contentHash": "8caf9d14",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-bhdl",
+      "pointName": "变化的量",
+      "topics": [
+        "bsd-b6d-NA-bhdl"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "reading",
+      "difficulty": 3,
+      "score": 6,
+      "stem": "小明买《数学故事》，每本 6 元，买的本数和总价如下表。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "买 3 本要多少元？",
+            "answer": {
+              "value": 18,
+              "unit": "元"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "总价随着买的本数怎样变化？",
+            "answer": {
+              "value": "增加而增加",
+              "unit": ""
+            }
+          }
+        ]
+      },
+      "analysis": "单价一定时，买的本数增加，总价也随着增加，本数和总价是两个变化的量。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "变化的量"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zbldtu50cfhyh-093",
+      "legacyId": "b6d-Q093",
+      "slug": "bsd-b6d-NA-zbldtu50cfhyh-093",
+      "contentHash": "81a57174",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zbldtu50cfhyh",
+      "pointName": "正比例的图像（画一画）",
+      "topics": [
+        "bsd-b6d-NA-zbldtu50cfhyh"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 3,
+      "score": 2,
+      "stem": "下图是单价一定时总价与数量的关系图像，买 15 元对应的数量是 ( )。",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "总价与数量的比值是单价（一定），图像是过原点的直线；15 元正好是 3 份的价钱。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例的图像（画一画）"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 240,
+        "height": 210,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 210\" width=\"240\" height=\"210\" style=\"max-width:100%;height:auto\"><line x1=\"40\" y1=\"180\" x2=\"220\" y2=\"180\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"180\" x2=\"40\" y2=\"30\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"215\" y=\"198\" font-size=\"13\" fill=\"#1e293b\">数量</text><text x=\"14\" y=\"36\" font-size=\"13\" fill=\"#1e293b\">总价</text><line x1=\"40\" y1=\"180\" x2=\"220\" y2=\"40\" stroke=\"#ec4899\" stroke-width=\"2.5\"/><circle cx=\"85\" cy=\"145\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"130\" cy=\"110\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"175\" cy=\"75\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"220\" cy=\"40\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-zblyfbldyy-094",
+      "legacyId": "b6d-Q094",
+      "slug": "bsd-b6d-NA-zblyfbldyy-094",
+      "contentHash": "4c9924b8",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-04",
+      "knowledgeName": "正比例与反比例",
+      "point": "bsd-b6d-NA-zblyfbldyy",
+      "pointName": "正比例与反比例的应用",
+      "topics": [
+        "bsd-b6d-NA-zblyfbldyy"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一列火车 4 小时行驶 220 千米，照这样的速度，6 小时行驶 ( ) 千米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 330,
+            "unit": "千米"
+          }
+        ]
+      },
+      "analysis": "速度一定，路程和时间成正比例：220 ÷ 4 = 55 千米/时，55 × 6 = 330 千米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "正比例与反比例",
+        "正比例与反比例的应用"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-095",
+      "legacyId": "b6d-Q095",
+      "slug": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh-095",
+      "contentHash": "1e228def",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh",
+      "pointName": "绘制校园平面图（比例尺综合）",
+      "topics": [
+        "bsd-b6d-CP-u7ed8zu6821u56edpmtblczh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "绘制校园平面图的比例尺是 1 : 2000，图上教室长 7 厘米，实际长 ( ) 米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 140,
+            "unit": "米"
+          }
+        ]
+      },
+      "analysis": "实际距离 = 7 × 2000 = 14000 厘米 = 140 米。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "绘制校园平面图（比例尺综合）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-CP-ku7231dxu732bsdytxbh-096",
+      "legacyId": "b6d-Q096",
+      "slug": "bsd-b6d-CP-ku7231dxu732bsdytxbh-096",
+      "contentHash": "6d4726bd",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "CP",
+      "domainName": "综合与实践",
+      "knowledge": "k-b6d-CP-05",
+      "knowledgeName": "数学好玩",
+      "point": "bsd-b6d-CP-ku7231dxu732bsdytxbh",
+      "pointName": "可爱的小猫（数对与图形变化）",
+      "topics": [
+        "bsd-b6d-CP-ku7231dxu732bsdytxbh"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "figure",
+      "difficulty": 3,
+      "score": 3,
+      "stem": "下图中“小猫”在 ( 3, 5 ) 的位置，如果它向上走 1 格，新位置是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": "(3, 4)",
+            "alts": [
+              "3,4",
+              "第3列第4行"
+            ],
+            "mode": "text"
+          }
+        ]
+      },
+      "analysis": "向上走行数减 1：5 - 1 = 4，列不变。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "综合与实践",
+        "数学好玩",
+        "可爱的小猫（数对与图形变化）"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 280,
+        "height": 230,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 230\" width=\"280\" height=\"230\" style=\"max-width:100%;height:auto\"><rect x=\"40\" y=\"30\" width=\"240\" height=\"200\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><circle cx=\"140\" cy=\"210\" r=\"12\" fill=\"#ec4899\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"126\" y=\"215\" font-size=\"14\" fill=\"#fff\">猫</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdtj-097",
+      "legacyId": "b6d-Q097",
+      "slug": "bsd-b6d-GG-yzdtj-097",
+      "contentHash": "d2708b2e",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdtj",
+      "pointName": "圆柱的体积",
+      "topics": [
+        "bsd-b6d-GG-yzdtj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "一个圆柱的底面直径是 6 厘米、高是 7 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "value": 197.82,
+        "unit": "立方厘米"
+      },
+      "analysis": "圆柱体积 = πr²h = 3.14 × 3² × 7 = 197.82。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆柱的体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-yzdrsytj-098",
+      "legacyId": "b6d-Q098",
+      "slug": "bsd-b6d-GG-yzdrsytj-098",
+      "contentHash": "f1576dca",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-yzdrsytj",
+      "pointName": "圆锥的认识与体积",
+      "topics": [
+        "bsd-b6d-GG-yzdrsytj"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个圆锥的底面半径是 2 厘米、高是 5 厘米，体积是 ( ) 立方厘米。（π 取 3.14）",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 20.93,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "圆锥体积 = 1/3 πr²h = 3.14 × 2² × 5 ÷ 3 = 20.933333333333334。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "圆锥的认识与体积"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-GG-bgzlttxdtjtu7a76-099",
+      "legacyId": "b6d-Q099",
+      "slug": "bsd-b6d-GG-bgzlttxdtjtu7a76-099",
+      "contentHash": "feb9909f",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b6d-GG-01",
+      "knowledgeName": "圆柱与圆锥",
+      "point": "bsd-b6d-GG-bgzlttxdtjtu7a76",
+      "pointName": "不规则立体图形的体积（探究）",
+      "topics": [
+        "bsd-b6d-GG-bgzlttxdtjtu7a76"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 3,
+      "score": 5,
+      "stem": "一个长方体容器从里面量长 10 厘米、宽 7 厘米、高 20 厘米，放入一块石头后水面上升了 3 厘米，石头的体积是 ( ) 立方厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 210,
+            "unit": "立方厘米"
+          }
+        ]
+      },
+      "analysis": "水面上升的体积就是石头的体积：10 × 7 × 3 = 210。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "图形与几何",
+        "圆柱与圆锥",
+        "不规则立体图形的体积（探究）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b6d-NA-bldjbxzyjbl-100",
+      "legacyId": "b6d-Q100",
+      "slug": "bsd-b6d-NA-bldjbxzyjbl-100",
+      "contentHash": "fd655639",
+      "grade": 6,
+      "book": "bsd-grade6-down",
+      "bookName": "六年级下册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b6d-NA-02",
+      "knowledgeName": "比例",
+      "point": "bsd-b6d-NA-bldjbxzyjbl",
+      "pointName": "比例的基本性质与解比例",
+      "topics": [
+        "bsd-b6d-NA-bldjbxzyjbl"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 3,
+      "score": 4,
+      "stem": "解比例：6 : 11 = 6 : x，x = ( )",
+      "options": null,
+      "answer": {
+        "value": 11
+      },
+      "analysis": "根据比例的基本性质，内项之积等于外项之积：11 × 6 = 6 × x，x = 66 ÷ 6 = 11。",
+      "tags": [
+        "六年级下册（北师大版）",
+        "数与代数",
+        "比例",
+        "比例的基本性质与解比例"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    }
+  ]
 }

@@ -4,15 +4,15 @@
   "bookName": "二年级上册（北师大版）",
   "grade": 2,
   "term": "up",
-  "count": 50,
+  "count": 100,
   "typeStat": {
-    "calculation": 8,
-    "fill": 10,
-    "choice": 12,
-    "application": 6,
+    "calculation": 17,
+    "fill": 28,
+    "choice": 22,
+    "application": 13,
     "judge": 6,
-    "reading": 2,
-    "figure": 4,
+    "reading": 6,
+    "figure": 6,
     "draw": 1,
     "figure-interactive": 1
   },
@@ -2410,6 +2410,2363 @@
       },
       "extend": {
         "source": "自编",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-100yndjjhhys-051",
+      "legacyId": "b2u-Q051",
+      "slug": "bsd-b2u-NA-100yndjjhhys-051",
+      "contentHash": "3dbf20f7",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-01",
+      "knowledgeName": "加与减",
+      "point": "bsd-b2u-NA-100yndjjhhys",
+      "pointName": "100以内的加减混合运算",
+      "topics": [
+        "bsd-b2u-NA-100yndjjhhys"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "35 + 22 - 17 =",
+      "options": null,
+      "answer": {
+        "value": 40
+      },
+      "analysis": "按从左到右的顺序：35 + 22 = 57，57 - 17 = 40。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "加与减",
+        "100以内的加减混合运算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-ljljys-052",
+      "legacyId": "b2u-Q052",
+      "slug": "bsd-b2u-NA-ljljys-052",
+      "contentHash": "45e75be8",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-01",
+      "knowledgeName": "加与减",
+      "point": "bsd-b2u-NA-ljljys",
+      "pointName": "连加、连减运算",
+      "topics": [
+        "bsd-b2u-NA-ljljys"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 2,
+      "score": 4,
+      "stem": "49 + 19 - 10 =",
+      "options": null,
+      "answer": {
+        "value": 58
+      },
+      "analysis": "按从左到右的顺序：49 + 19 = 68，68 - 10 = 58。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "加与减",
+        "连加、连减运算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-yjjfjjlbsjwt-053",
+      "legacyId": "b2u-Q053",
+      "slug": "bsd-b2u-NA-yjjfjjlbsjwt-053",
+      "contentHash": "5c85a9a0",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-01",
+      "knowledgeName": "加与减",
+      "point": "bsd-b2u-NA-yjjfjjlbsjwt",
+      "pointName": "用加减法解决两步实际问题",
+      "topics": [
+        "bsd-b2u-NA-yjjfjjlbsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "reading",
+      "difficulty": 2,
+      "score": 6,
+      "stem": "同学们把圆片摆在方格表里，每行摆 2 个，摆了 3 行。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "3 行一共摆了多少个？",
+            "answer": {
+              "value": 6,
+              "unit": "个"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "如果增加 1 行，一共是多少个？",
+            "answer": {
+              "value": 8,
+              "unit": "个"
+            }
+          }
+        ]
+      },
+      "analysis": "求几个几是多少用乘法。读懂题意是关键，可以先摘录题目中的条件，再分步列式解答。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "加与减",
+        "用加减法解决两步实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-rmbdrsydwhsyjf-054",
+      "legacyId": "b2u-Q054",
+      "slug": "bsd-b2u-NA-rmbdrsydwhsyjf-054",
+      "contentHash": "95075e46",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-02",
+      "knowledgeName": "购物",
+      "point": "bsd-b2u-NA-rmbdrsydwhsyjf",
+      "pointName": "人民币的认识与单位换算（元、角、分）",
+      "topics": [
+        "bsd-b2u-NA-rmbdrsydwhsyjf"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "1 元 = ( ) 角。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 10
+          }
+        ]
+      },
+      "analysis": "1 元等于 10 角，元角分之间的进率都是 10。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "购物",
+        "人民币的认识与单位换算（元、角、分）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de-055",
+      "legacyId": "b2u-Q055",
+      "slug": "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de-055",
+      "contentHash": "b754d825",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-02",
+      "knowledgeName": "购物",
+      "point": "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de",
+      "pointName": "购物的简单计算（应付与找回）",
+      "topics": [
+        "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "一支铅笔 2 元，一个练习本 6 元，买一本练习本比一支铅笔贵 ( ) 元。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 4,
+            "unit": "元"
+          }
+        ]
+      },
+      "analysis": "求贵多少用减法：6 - 2 = 4 元。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "购物",
+        "购物的简单计算（应付与找回）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-dsu989dgwygs-056",
+      "legacyId": "b2u-Q056",
+      "slug": "bsd-b2u-NA-dsu989dgwygs-056",
+      "contentHash": "f3482984",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-02",
+      "knowledgeName": "购物",
+      "point": "bsd-b2u-NA-dsu989dgwygs",
+      "pointName": "大数额购物与估算",
+      "topics": [
+        "bsd-b2u-NA-dsu989dgwygs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "买一个 7 元的面包，付 10 元，应找回 ( ) 元。",
+      "options": [
+        "3",
+        "7",
+        "10",
+        "17"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "找回的钱 = 付的钱 - 花的钱 = 10 - 7 = 3 元。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "购物",
+        "大数额购物与估算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-jgjgu5730sxtjslj-057",
+      "legacyId": "b2u-Q057",
+      "slug": "bsd-b2u-NA-jgjgu5730sxtjslj-057",
+      "contentHash": "3d9343fe",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-jgjgu5730sxtjslj",
+      "pointName": "几个几个地数（相同加数连加）",
+      "topics": [
+        "bsd-b2u-NA-jgjgu5730sxtjslj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "60 - 25 + 14 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 49
+          }
+        ]
+      },
+      "analysis": "先算 60 - 25 = 35，再算 35 + 14 = 49。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "几个几个地数（相同加数连加）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-cfdcbrsyyygbfmc-058",
+      "legacyId": "b2u-Q058",
+      "slug": "bsd-b2u-NA-cfdcbrsyyygbfmc-058",
+      "contentHash": "b2d8269c",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-cfdcbrsyyygbfmc",
+      "pointName": "乘法的初步认识（意义与各部分名称）",
+      "topics": [
+        "bsd-b2u-NA-cfdcbrsyyygbfmc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "4 × 9 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 36
+          }
+        ]
+      },
+      "analysis": "想口诀：四九36。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "乘法的初步认识（意义与各部分名称）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-cfyxtjsljdhh-059",
+      "legacyId": "b2u-Q059",
+      "slug": "bsd-b2u-NA-cfyxtjsljdhh-059",
+      "contentHash": "3d187a35",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-cfyxtjsljdhh",
+      "pointName": "乘法与相同加数连加的互化",
+      "topics": [
+        "bsd-b2u-NA-cfyxtjsljdhh"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "65 - 23 + 10 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 52
+          }
+        ]
+      },
+      "analysis": "先算 65 - 23 = 42，再算 42 + 10 = 52。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "乘法与相同加数连加的互化"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-ycfjjsjwt-060",
+      "legacyId": "b2u-Q060",
+      "slug": "bsd-b2u-NA-ycfjjsjwt-060",
+      "contentHash": "43b97f46",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-ycfjjsjwt",
+      "pointName": "用乘法解决实际问题",
+      "topics": [
+        "bsd-b2u-NA-ycfjjsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "“二七四十二”，写出乘法算式是( )。",
+      "options": [
+        "7 × 2 = 14",
+        "2 × 7 = 14",
+        "2 + 7 = 9",
+        "2 × 7 = 9"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "“二七四十二”表示 2 个 7 相加，算式是 2 × 7 = 14（交换因数位置也正确，这里按口诀顺序选择）。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "用乘法解决实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-bgfss-061",
+      "legacyId": "b2u-Q061",
+      "slug": "bsd-b2u-NA-bgfss-061",
+      "contentHash": "38d18c9a",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-bgfss",
+      "pointName": "表格法数数",
+      "topics": [
+        "bsd-b2u-NA-bgfss"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "reading",
+      "difficulty": 2,
+      "score": 6,
+      "stem": "同学们把圆片摆在方格表里，每行摆 5 个，摆了 2 行。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "2 行一共摆了多少个？",
+            "answer": {
+              "value": 10,
+              "unit": "个"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "如果增加 1 行，一共是多少个？",
+            "answer": {
+              "value": 15,
+              "unit": "个"
+            }
+          }
+        ]
+      },
+      "analysis": "求几个几是多少用乘法。读懂题意是关键，可以先摘录题目中的条件，再分步列式解答。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "表格法数数"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-GG-dzyzhdcdcbu611fz-062",
+      "legacyId": "b2u-Q062",
+      "slug": "bsd-b2u-GG-dzyzhdcdcbu611fz-062",
+      "contentHash": "ad34961e",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b2u-GG-04",
+      "knowledgeName": "图形的变化",
+      "point": "bsd-b2u-GG-dzyzhdcdcbu611fz",
+      "pointName": "对折与重合（对称的初步感知）",
+      "topics": [
+        "bsd-b2u-GG-dzyzhdcdcbu611fz"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "把一张正方形纸对折后，两边能（ ）。",
+      "options": [
+        "变成圆",
+        "完全重合",
+        "交换位置",
+        "变大一倍"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "轴对称图形沿对称轴对折后，两边能完全重合。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "图形与几何",
+        "图形的变化",
+        "对折与重合（对称的初步感知）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-GG-u526acdctx-063",
+      "legacyId": "b2u-Q063",
+      "slug": "bsd-b2u-GG-u526acdctx-063",
+      "contentHash": "6748052d",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b2u-GG-04",
+      "knowledgeName": "图形的变化",
+      "point": "bsd-b2u-GG-u526acdctx",
+      "pointName": "剪出对称图形",
+      "topics": [
+        "bsd-b2u-GG-u526acdctx"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "figure",
+      "difficulty": 2,
+      "score": 3,
+      "stem": "把一张长方形纸对折后，剪去图中所示的部分（虚线为折痕），展开后得到的图形有 ( ) 条对称轴。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 1,
+            "unit": "条"
+          }
+        ]
+      },
+      "analysis": "对折后剪出的图形展开一定是轴对称图形，折痕就是它的对称轴，所以有 1 条对称轴。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "图形与几何",
+        "图形的变化",
+        "剪出对称图形"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 200,
+        "height": 120,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 120\" width=\"200\" height=\"120\" style=\"max-width:100%;height:auto\"><rect x=\"20\" y=\"20\" width=\"80\" height=\"80\" fill=\"#dbeafe\" stroke=\"#3b82f6\" stroke-width=\"2\"/><line x1=\"100\" y1=\"10\" x2=\"100\" y2=\"110\" stroke=\"#1e293b\" stroke-dasharray=\"6 4\"/><path d=\"M60,60 A20,20 0 0 1 80,80\" fill=\"none\" stroke=\"#ec4899\" stroke-width=\"3\"/></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-GG-txdbhytasj-064",
+      "legacyId": "b2u-Q064",
+      "slug": "bsd-b2u-GG-txdbhytasj-064",
+      "contentHash": "aff1b555",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "GG",
+      "domainName": "图形与几何",
+      "knowledge": "k-b2u-GG-04",
+      "knowledgeName": "图形的变化",
+      "point": "bsd-b2u-GG-txdbhytasj",
+      "pointName": "图形的变化与图案设计",
+      "topics": [
+        "bsd-b2u-GG-txdbhytasj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "用长方形纸连续对折三次后剪出一个三角形，展开后一共能得到 ( ) 个三角形。",
+      "options": [
+        "4",
+        "8",
+        "6",
+        "2"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "每对折一次，剪出的图形数量就翻倍：对折三次是 2 × 2 × 2 = 8 个。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "图形与几何",
+        "图形的变化",
+        "图形的变化与图案设计"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-5dcfkj-065",
+      "legacyId": "b2u-Q065",
+      "slug": "bsd-b2u-NA-5dcfkj-065",
+      "contentHash": "e0abdd6d",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-5dcfkj",
+      "pointName": "5的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-5dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "calculation",
+      "difficulty": 1,
+      "score": 4,
+      "stem": "7 × 7 =",
+      "options": null,
+      "answer": {
+        "value": 49
+      },
+      "analysis": "根据乘法口诀“七七49”得出 7 × 7 = 49。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "5的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-23dcfkj-066",
+      "legacyId": "b2u-Q066",
+      "slug": "bsd-b2u-NA-23dcfkj-066",
+      "contentHash": "30389d3d",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-23dcfkj",
+      "pointName": "2、3的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-23dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "calculation",
+      "difficulty": 1,
+      "score": 4,
+      "stem": "4 × 4 =",
+      "options": null,
+      "answer": {
+        "value": 16
+      },
+      "analysis": "根据乘法口诀“四四16”得出 4 × 4 = 16。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "2、3的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-4dcfkj-067",
+      "legacyId": "b2u-Q067",
+      "slug": "bsd-b2u-NA-4dcfkj-067",
+      "contentHash": "8d7e561a",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-4dcfkj",
+      "pointName": "4的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-4dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "calculation",
+      "difficulty": 1,
+      "score": 4,
+      "stem": "6 × 9 =",
+      "options": null,
+      "answer": {
+        "value": 54
+      },
+      "analysis": "根据乘法口诀“六九54”得出 6 × 9 = 54。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "4的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-y25dcfkjjjsjwt-068",
+      "legacyId": "b2u-Q068",
+      "slug": "bsd-b2u-NA-y25dcfkjjjsjwt-068",
+      "contentHash": "1df64f62",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-y25dcfkjjjsjwt",
+      "pointName": "用2~5的乘法口诀解决实际问题",
+      "topics": [
+        "bsd-b2u-NA-y25dcfkjjjsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "二(1)班同学分成 5 组，每组 7 人，一共有 ( ) 人。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 35,
+            "unit": "人"
+          }
+        ]
+      },
+      "analysis": "求 5 个 7 是多少，用乘法：5 × 7 = 35。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "用2~5的乘法口诀解决实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-cldyyytydwdu5fc5u8981x-069",
+      "legacyId": "b2u-Q069",
+      "slug": "bsd-b2u-NA-cldyyytydwdu5fc5u8981x-069",
+      "contentHash": "24f0fab7",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-06",
+      "knowledgeName": "测量",
+      "point": "bsd-b2u-NA-cldyyytydwdu5fc5u8981x",
+      "pointName": "测量的意义与统一单位的必要性",
+      "topics": [
+        "bsd-b2u-NA-cldyyytydwdu5fc5u8981x"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "1 米 = ( ) 厘米。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 100
+          }
+        ]
+      },
+      "analysis": "米和厘米之间的进率是 100。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "测量",
+        "测量的意义与统一单位的必要性"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-rslmylml-070",
+      "legacyId": "b2u-Q070",
+      "slug": "bsd-b2u-NA-rslmylml-070",
+      "contentHash": "8bcb9a11",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-06",
+      "knowledgeName": "测量",
+      "point": "bsd-b2u-NA-rslmylml",
+      "pointName": "认识厘米、用厘米量",
+      "topics": [
+        "bsd-b2u-NA-rslmylml"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "figure",
+      "difficulty": 1,
+      "score": 3,
+      "stem": "下图铅笔的一端对准 0 刻度，另一端对准 4 刻度，铅笔长 ( ) 厘米。",
+      "options": null,
+      "answer": {
+        "value": 4,
+        "unit": "厘米"
+      },
+      "analysis": "物体的一端对准 0，另一端对准几就是几厘米。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "测量",
+        "认识厘米、用厘米量"
+      ],
+      "media": {
+        "type": "svg",
+        "width": 420,
+        "height": 130,
+        "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 130\" width=\"420\" height=\"130\" style=\"max-width:100%;height:auto\"><line x1=\"40\" y1=\"40\" x2=\"176\" y2=\"40\" stroke=\"#3b82f6\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"40\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"176\" cy=\"40\" r=\"4\" fill=\"#3b82f6\"/><rect x=\"40\" y=\"70\" width=\"340\" height=\"34\" rx=\"4\" fill=\"#fef3c7\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"70\" x2=\"40\" y2=\"82\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"40\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">0</text><line x1=\"74\" y1=\"70\" x2=\"74\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"74\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">1</text><line x1=\"108\" y1=\"70\" x2=\"108\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"108\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">2</text><line x1=\"142\" y1=\"70\" x2=\"142\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"142\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">3</text><line x1=\"176\" y1=\"70\" x2=\"176\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"176\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">4</text><line x1=\"210\" y1=\"70\" x2=\"210\" y2=\"82\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"210\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">5</text><line x1=\"244\" y1=\"70\" x2=\"244\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"244\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">6</text><line x1=\"278\" y1=\"70\" x2=\"278\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"278\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">7</text><line x1=\"312\" y1=\"70\" x2=\"312\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"312\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">8</text><line x1=\"346\" y1=\"70\" x2=\"346\" y2=\"76\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"346\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">9</text><line x1=\"380\" y1=\"70\" x2=\"380\" y2=\"82\" stroke=\"#1e293b\" stroke-width=\"1.6\"/><text x=\"380\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e293b\" font-family=\"system-ui\">10</text></svg>"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-rsmyml1mydc-071",
+      "legacyId": "b2u-Q071",
+      "slug": "bsd-b2u-NA-rsmyml1mydc-071",
+      "contentHash": "ab357cce",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-06",
+      "knowledgeName": "测量",
+      "point": "bsd-b2u-NA-rsmyml1mydc",
+      "pointName": "认识米、用米量（1米有多长）",
+      "topics": [
+        "bsd-b2u-NA-rsmyml1mydc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "测量教室黑板的长度，用（ ）作单位比较合适。",
+      "options": [
+        "分米",
+        "毫米",
+        "厘米",
+        "米"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "黑板的长度有几米长，用米作单位更合适。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "测量",
+        "认识米、用米量（1米有多长）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-pjfdyy-072",
+      "legacyId": "b2u-Q072",
+      "slug": "bsd-b2u-NA-pjfdyy-072",
+      "contentHash": "2a73dfe8",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-pjfdyy",
+      "pointName": "平均分的意义",
+      "topics": [
+        "bsd-b2u-NA-pjfdyy"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "把 18 平均分成 3 份，每份是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 6
+          }
+        ]
+      },
+      "analysis": "平均分用除法：18 ÷ 3 = 6。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "平均分的意义"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-cfdcbrspjfycfbs-073",
+      "legacyId": "b2u-Q073",
+      "slug": "bsd-b2u-NA-cfdcbrspjfycfbs-073",
+      "contentHash": "2b9db063",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-cfdcbrspjfycfbs",
+      "pointName": "除法的初步认识（平均分用除法表示）",
+      "topics": [
+        "bsd-b2u-NA-cfdcbrspjfycfbs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "把 42 平均分成 6 份，每份是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 7
+          }
+        ]
+      },
+      "analysis": "平均分用除法：42 ÷ 6 = 7。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "除法的初步认识（平均分用除法表示）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-y25dcfkjqs-074",
+      "legacyId": "b2u-Q074",
+      "slug": "bsd-b2u-NA-y25dcfkjqs-074",
+      "contentHash": "0ea76bd1",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-y25dcfkjqs",
+      "pointName": "用2~5的乘法口诀求商",
+      "topics": [
+        "bsd-b2u-NA-y25dcfkjqs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "calculation",
+      "difficulty": 1,
+      "score": 4,
+      "stem": "6 × 7 =",
+      "options": null,
+      "answer": {
+        "value": 42
+      },
+      "analysis": "根据乘法口诀“六七42”得出 6 × 7 = 42。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "用2~5的乘法口诀求商"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-ycfjjsjwt-2-075",
+      "legacyId": "b2u-Q075",
+      "slug": "bsd-b2u-NA-ycfjjsjwt-2-075",
+      "contentHash": "1ec1d27e",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-ycfjjsjwt-2",
+      "pointName": "用除法解决实际问题",
+      "topics": [
+        "bsd-b2u-NA-ycfjjsjwt-2"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "reading",
+      "difficulty": 2,
+      "score": 6,
+      "stem": "同学们把圆片摆在方格表里，每行摆 3 个，摆了 4 行。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "4 行一共摆了多少个？",
+            "answer": {
+              "value": 12,
+              "unit": "个"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "如果增加 1 行，一共是多少个？",
+            "answer": {
+              "value": 15,
+              "unit": "个"
+            }
+          }
+        ]
+      },
+      "analysis": "求几个几是多少用乘法。读懂题意是关键，可以先摘录题目中的条件，再分步列式解答。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "用除法解决实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-bdcbrs-076",
+      "legacyId": "b2u-Q076",
+      "slug": "bsd-b2u-NA-bdcbrs-076",
+      "contentHash": "e9788242",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-bdcbrs",
+      "pointName": "倍的初步认识",
+      "topics": [
+        "bsd-b2u-NA-bdcbrs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "公鸡有 2 只，母鸡的只数是公鸡的 5 倍，母鸡有 ( ) 只。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 10,
+            "unit": "只"
+          }
+        ]
+      },
+      "analysis": "求一个数的几倍是多少，用乘法：2 × 5 = 10 只。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "倍的初步认识"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-6dcfkj-077",
+      "legacyId": "b2u-Q077",
+      "slug": "bsd-b2u-NA-6dcfkj-077",
+      "contentHash": "dccfc6b8",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-08",
+      "knowledgeName": "6~9的乘法口诀",
+      "point": "bsd-b2u-NA-6dcfkj",
+      "pointName": "6的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-6dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "calculation",
+      "difficulty": 1,
+      "score": 4,
+      "stem": "5 × 6 =",
+      "options": null,
+      "answer": {
+        "value": 30
+      },
+      "analysis": "根据乘法口诀“五六30”得出 5 × 6 = 30。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "6~9的乘法口诀",
+        "6的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-7dcfkj-078",
+      "legacyId": "b2u-Q078",
+      "slug": "bsd-b2u-NA-7dcfkj-078",
+      "contentHash": "8d05c6ba",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-08",
+      "knowledgeName": "6~9的乘法口诀",
+      "point": "bsd-b2u-NA-7dcfkj",
+      "pointName": "7的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-7dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "calculation",
+      "difficulty": 1,
+      "score": 4,
+      "stem": "8 × 8 =",
+      "options": null,
+      "answer": {
+        "value": 64
+      },
+      "analysis": "根据乘法口诀“八八64”得出 8 × 8 = 64。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "6~9的乘法口诀",
+        "7的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-89dcfkj-079",
+      "legacyId": "b2u-Q079",
+      "slug": "bsd-b2u-NA-89dcfkj-079",
+      "contentHash": "9f7598cd",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-08",
+      "knowledgeName": "6~9的乘法口诀",
+      "point": "bsd-b2u-NA-89dcfkj",
+      "pointName": "8、9的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-89dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "calculation",
+      "difficulty": 1,
+      "score": 4,
+      "stem": "5 × 9 =",
+      "options": null,
+      "answer": {
+        "value": 45
+      },
+      "analysis": "根据乘法口诀“五九45”得出 5 × 9 = 45。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "6~9的乘法口诀",
+        "8、9的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-y69dcfkjjjsjwt-080",
+      "legacyId": "b2u-Q080",
+      "slug": "bsd-b2u-NA-y69dcfkjjjsjwt-080",
+      "contentHash": "a6ef8314",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-08",
+      "knowledgeName": "6~9的乘法口诀",
+      "point": "bsd-b2u-NA-y69dcfkjjjsjwt",
+      "pointName": "用6~9的乘法口诀解决实际问题",
+      "topics": [
+        "bsd-b2u-NA-y69dcfkjjjsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "二(1)班同学分成 3 组，每组 5 人，一共有 ( ) 人。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 15,
+            "unit": "人"
+          }
+        ]
+      },
+      "analysis": "求 3 个 5 是多少，用乘法：3 × 5 = 15。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "6~9的乘法口诀",
+        "用6~9的乘法口诀解决实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-100yndjjhhys-081",
+      "legacyId": "b2u-Q081",
+      "slug": "bsd-b2u-NA-100yndjjhhys-081",
+      "contentHash": "8145aefc",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-01",
+      "knowledgeName": "加与减",
+      "point": "bsd-b2u-NA-100yndjjhhys",
+      "pointName": "100以内的加减混合运算",
+      "topics": [
+        "bsd-b2u-NA-100yndjjhhys"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "69 - 20 + 5 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 54
+          }
+        ]
+      },
+      "analysis": "先算 69 - 20 = 49，再算 49 + 5 = 54。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "加与减",
+        "100以内的加减混合运算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-ljljys-082",
+      "legacyId": "b2u-Q082",
+      "slug": "bsd-b2u-NA-ljljys-082",
+      "contentHash": "bcf4507f",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-01",
+      "knowledgeName": "加与减",
+      "point": "bsd-b2u-NA-ljljys",
+      "pointName": "连加、连减运算",
+      "topics": [
+        "bsd-b2u-NA-ljljys"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "52 - 15 + 9 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 46
+          }
+        ]
+      },
+      "analysis": "先算 52 - 15 = 37，再算 37 + 9 = 46。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "加与减",
+        "连加、连减运算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-yjjfjjlbsjwt-083",
+      "legacyId": "b2u-Q083",
+      "slug": "bsd-b2u-NA-yjjfjjlbsjwt-083",
+      "contentHash": "a484cf2b",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-01",
+      "knowledgeName": "加与减",
+      "point": "bsd-b2u-NA-yjjfjjlbsjwt",
+      "pointName": "用加减法解决两步实际问题",
+      "topics": [
+        "bsd-b2u-NA-yjjfjjlbsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "二(1)班同学分成 6 组，每组 6 人，一共有 ( ) 人。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 36,
+            "unit": "人"
+          }
+        ]
+      },
+      "analysis": "求 6 个 6 是多少，用乘法：6 × 6 = 36。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "加与减",
+        "用加减法解决两步实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-rmbdrsydwhsyjf-084",
+      "legacyId": "b2u-Q084",
+      "slug": "bsd-b2u-NA-rmbdrsydwhsyjf-084",
+      "contentHash": "3b4a9f5f",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-02",
+      "knowledgeName": "购物",
+      "point": "bsd-b2u-NA-rmbdrsydwhsyjf",
+      "pointName": "人民币的认识与单位换算（元、角、分）",
+      "topics": [
+        "bsd-b2u-NA-rmbdrsydwhsyjf"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "7 角 + 8 角 = ( ) 角。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 15,
+            "unit": "角"
+          }
+        ]
+      },
+      "analysis": "7 + 8 = 15，所以是 15 角。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "购物",
+        "人民币的认识与单位换算（元、角、分）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de-085",
+      "legacyId": "b2u-Q085",
+      "slug": "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de-085",
+      "contentHash": "b64d7983",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-02",
+      "knowledgeName": "购物",
+      "point": "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de",
+      "pointName": "购物的简单计算（应付与找回）",
+      "topics": [
+        "bsd-b2u-NA-gwdjdjsyu4ed8yzu56de"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "一支铅笔 4 元，一个练习本 5 元，买一本练习本比一支铅笔贵 ( ) 元。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 1,
+            "unit": "元"
+          }
+        ]
+      },
+      "analysis": "求贵多少用减法：5 - 4 = 1 元。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "购物",
+        "购物的简单计算（应付与找回）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-dsu989dgwygs-086",
+      "legacyId": "b2u-Q086",
+      "slug": "bsd-b2u-NA-dsu989dgwygs-086",
+      "contentHash": "54ed65b0",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-02",
+      "knowledgeName": "购物",
+      "point": "bsd-b2u-NA-dsu989dgwygs",
+      "pointName": "大数额购物与估算",
+      "topics": [
+        "bsd-b2u-NA-dsu989dgwygs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "买一个 3 元的面包，付 10 元，应找回 ( ) 元。",
+      "options": [
+        "7",
+        "13",
+        "3",
+        "10"
+      ],
+      "answer": {
+        "index": [
+          0
+        ]
+      },
+      "analysis": "找回的钱 = 付的钱 - 花的钱 = 10 - 3 = 7 元。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "购物",
+        "大数额购物与估算"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-jgjgu5730sxtjslj-087",
+      "legacyId": "b2u-Q087",
+      "slug": "bsd-b2u-NA-jgjgu5730sxtjslj-087",
+      "contentHash": "f1886543",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-jgjgu5730sxtjslj",
+      "pointName": "几个几个地数（相同加数连加）",
+      "topics": [
+        "bsd-b2u-NA-jgjgu5730sxtjslj"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "65 - 29 + 6 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 42
+          }
+        ]
+      },
+      "analysis": "先算 65 - 29 = 36，再算 36 + 6 = 42。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "几个几个地数（相同加数连加）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-cfdcbrsyyygbfmc-088",
+      "legacyId": "b2u-Q088",
+      "slug": "bsd-b2u-NA-cfdcbrsyyygbfmc-088",
+      "contentHash": "b4844918",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-cfdcbrsyyygbfmc",
+      "pointName": "乘法的初步认识（意义与各部分名称）",
+      "topics": [
+        "bsd-b2u-NA-cfdcbrsyyygbfmc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "6 × 3 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 18
+          }
+        ]
+      },
+      "analysis": "想口诀：六三18。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "乘法的初步认识（意义与各部分名称）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-cfyxtjsljdhh-089",
+      "legacyId": "b2u-Q089",
+      "slug": "bsd-b2u-NA-cfyxtjsljdhh-089",
+      "contentHash": "345981f9",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-cfyxtjsljdhh",
+      "pointName": "乘法与相同加数连加的互化",
+      "topics": [
+        "bsd-b2u-NA-cfyxtjsljdhh"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "76 - 26 + 10 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 60
+          }
+        ]
+      },
+      "analysis": "先算 76 - 26 = 50，再算 50 + 10 = 60。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "乘法与相同加数连加的互化"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-ycfjjsjwt-090",
+      "legacyId": "b2u-Q090",
+      "slug": "bsd-b2u-NA-ycfjjsjwt-090",
+      "contentHash": "48392e6f",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-03",
+      "knowledgeName": "数一数与乘法",
+      "point": "bsd-b2u-NA-ycfjjsjwt",
+      "pointName": "用乘法解决实际问题",
+      "topics": [
+        "bsd-b2u-NA-ycfjjsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "“七七四十二”，写出乘法算式是( )。",
+      "options": [
+        "7 + 7 = 14",
+        "7 × 7 = 49",
+        "7 × 7 = 14"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "“七七四十二”表示 7 个 7 相加，算式是 7 × 7 = 49（交换因数位置也正确，这里按口诀顺序选择）。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "数一数与乘法",
+        "用乘法解决实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-5dcfkj-091",
+      "legacyId": "b2u-Q091",
+      "slug": "bsd-b2u-NA-5dcfkj-091",
+      "contentHash": "1d93a067",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-5dcfkj",
+      "pointName": "5的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-5dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "9 × 9 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 81
+          }
+        ]
+      },
+      "analysis": "想口诀：九九81。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "5的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-23dcfkj-092",
+      "legacyId": "b2u-Q092",
+      "slug": "bsd-b2u-NA-23dcfkj-092",
+      "contentHash": "7416ead8",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-23dcfkj",
+      "pointName": "2、3的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-23dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "3 × 6 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 18
+          }
+        ]
+      },
+      "analysis": "想口诀：三六18。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "2、3的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-4dcfkj-093",
+      "legacyId": "b2u-Q093",
+      "slug": "bsd-b2u-NA-4dcfkj-093",
+      "contentHash": "6f100f48",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-4dcfkj",
+      "pointName": "4的乘法口诀",
+      "topics": [
+        "bsd-b2u-NA-4dcfkj"
+      ],
+      "pointType": "REPRESENTATIONAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "6 × 5 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 30
+          }
+        ]
+      },
+      "analysis": "想口诀：六五30。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "4的乘法口诀"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-y25dcfkjjjsjwt-094",
+      "legacyId": "b2u-Q094",
+      "slug": "bsd-b2u-NA-y25dcfkjjjsjwt-094",
+      "contentHash": "298b7848",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-05",
+      "knowledgeName": "2~5的乘法口诀",
+      "point": "bsd-b2u-NA-y25dcfkjjjsjwt",
+      "pointName": "用2~5的乘法口诀解决实际问题",
+      "topics": [
+        "bsd-b2u-NA-y25dcfkjjjsjwt"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "application",
+      "difficulty": 2,
+      "score": 5,
+      "stem": "二(1)班同学分成 3 组，每组 4 人，一共有 ( ) 人。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 12,
+            "unit": "人"
+          }
+        ]
+      },
+      "analysis": "求 3 个 4 是多少，用乘法：3 × 4 = 12。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "2~5的乘法口诀",
+        "用2~5的乘法口诀解决实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-rsmyml1mydc-095",
+      "legacyId": "b2u-Q095",
+      "slug": "bsd-b2u-NA-rsmyml1mydc-095",
+      "contentHash": "e6b24f4c",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-06",
+      "knowledgeName": "测量",
+      "point": "bsd-b2u-NA-rsmyml1mydc",
+      "pointName": "认识米、用米量（1米有多长）",
+      "topics": [
+        "bsd-b2u-NA-rsmyml1mydc"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "量教室的长和宽，用（ ）作单位比较合适。",
+      "options": [
+        "厘米",
+        "毫米",
+        "千米",
+        "米"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "教室的长和宽有几米长，用米作单位合适；厘米用来量较短的物体。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "测量",
+        "认识米、用米量（1米有多长）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-pjfdyy-096",
+      "legacyId": "b2u-Q096",
+      "slug": "bsd-b2u-NA-pjfdyy-096",
+      "contentHash": "7daa2c2f",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-pjfdyy",
+      "pointName": "平均分的意义",
+      "topics": [
+        "bsd-b2u-NA-pjfdyy"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "除法的初步认识：把一些物品平均分，下面哪种分法是平均分？",
+      "options": [
+        "分成大小不同的两堆",
+        "有的多有的少",
+        "只分给一个小朋友",
+        "每份分得同样多"
+      ],
+      "answer": {
+        "index": [
+          3
+        ]
+      },
+      "analysis": "平均分要求每份分得同样多。选择题要逐项分析，排除不符合题意的选项，再确定答案。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "平均分的意义"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-cfdcbrspjfycfbs-097",
+      "legacyId": "b2u-Q097",
+      "slug": "bsd-b2u-NA-cfdcbrspjfycfbs-097",
+      "contentHash": "570f21c0",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-cfdcbrspjfycfbs",
+      "pointName": "除法的初步认识（平均分用除法表示）",
+      "topics": [
+        "bsd-b2u-NA-cfdcbrspjfycfbs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "fill",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "把 18 平均分成 6 份，每份是 ( )。",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 3
+          }
+        ]
+      },
+      "analysis": "平均分用除法：18 ÷ 6 = 3。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "除法的初步认识（平均分用除法表示）"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-y25dcfkjqs-098",
+      "legacyId": "b2u-Q098",
+      "slug": "bsd-b2u-NA-y25dcfkjqs-098",
+      "contentHash": "f159208a",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-y25dcfkjqs",
+      "pointName": "用2~5的乘法口诀求商",
+      "topics": [
+        "bsd-b2u-NA-y25dcfkjqs"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "fill",
+      "difficulty": 1,
+      "score": 2,
+      "stem": "3 × 5 = ( )",
+      "options": null,
+      "answer": {
+        "blanks": [
+          {
+            "value": 15
+          }
+        ]
+      },
+      "analysis": "想口诀：三五15。填空时要看清题目要求，填完后把答案代回原题检查是否合理。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "用2~5的乘法口诀求商"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-ycfjjsjwt-2-099",
+      "legacyId": "b2u-Q099",
+      "slug": "bsd-b2u-NA-ycfjjsjwt-2-099",
+      "contentHash": "2954e905",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-ycfjjsjwt-2",
+      "pointName": "用除法解决实际问题",
+      "topics": [
+        "bsd-b2u-NA-ycfjjsjwt-2"
+      ],
+      "pointType": "PROCEDURAL",
+      "type": "reading",
+      "difficulty": 2,
+      "score": 6,
+      "stem": "同学们把圆片摆在方格表里，每行摆 5 个，摆了 5 行。",
+      "options": null,
+      "answer": {
+        "subs": [
+          {
+            "label": "(1)",
+            "text": "5 行一共摆了多少个？",
+            "answer": {
+              "value": 25,
+              "unit": "个"
+            }
+          },
+          {
+            "label": "(2)",
+            "text": "如果增加 1 行，一共是多少个？",
+            "answer": {
+              "value": 30,
+              "unit": "个"
+            }
+          }
+        ]
+      },
+      "analysis": "求几个几是多少用乘法。读懂题意是关键，可以先摘录题目中的条件，再分步列式解答。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "用除法解决实际问题"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
+        "autoGraded": true,
+        "tolerance": 0
+      }
+    },
+    {
+      "id": "bsd-b2u-NA-bdcbrs-100",
+      "legacyId": "b2u-Q100",
+      "slug": "bsd-b2u-NA-bdcbrs-100",
+      "contentHash": "11e1126b",
+      "grade": 2,
+      "book": "bsd-grade2-up",
+      "bookName": "二年级上册（北师大版）",
+      "domain": "NA",
+      "domainName": "数与代数",
+      "knowledge": "k-b2u-NA-07",
+      "knowledgeName": "分一分与除法",
+      "point": "bsd-b2u-NA-bdcbrs",
+      "pointName": "倍的初步认识",
+      "topics": [
+        "bsd-b2u-NA-bdcbrs"
+      ],
+      "pointType": "CONCEPTUAL",
+      "type": "choice",
+      "difficulty": 2,
+      "score": 2,
+      "stem": "4 的 2 倍是 ( )。",
+      "options": [
+        "12",
+        "8",
+        "4",
+        "6"
+      ],
+      "answer": {
+        "index": [
+          1
+        ]
+      },
+      "analysis": "2 倍就是 2 个 4：4 × 2 = 8。",
+      "tags": [
+        "二年级上册（北师大版）",
+        "数与代数",
+        "分一分与除法",
+        "倍的初步认识"
+      ],
+      "media": {
+        "type": "none"
+      },
+      "extend": {
+        "source": "内置示例题库",
         "autoGraded": true,
         "tolerance": 0
       }
